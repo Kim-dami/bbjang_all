@@ -1,0 +1,33 @@
+@charset "utf-8";
+@font-face{
+	font-family:"bbj-Regular";
+	src:url('bbj_font/bbj-Regular.eot');
+	src:url('bbj_font/bbj-Regular.eot?#iefix') format('embedded-opentype'),
+	url('bbj_font/bbj-Regular.woff') format('woff'),
+	url('bbj_font/bbj-Regular.ttf') format('truetype');
+	src:local(※),url('bbj_font/bbj-Regular.woff') format('woff')
+	font-weight:normal;
+	font-style:normal
+}
+@font-face{
+	font-family:"bbj-Bold";
+	src:url('bbj_font/bbj-Bold.eot');
+	src:url('bbj_font/bbj-Bold.eot?#iefix') format('embedded-opentype'),
+	url('bbj_font/bbj-Bold.woff') format('woff'),
+	url('bbj_font/bbj-Bold.ttf') format('truetype');
+	src:local(※),url('bbj_font/bbj-Bold.woff') format('woff')
+	font-weight:normal;
+	font-style:normal
+}
+@font-face{
+	font-family:"bbj-Thin";
+	src:url('bbj_font/bbj-Thin.eot');
+	src:url('bbj_font/bbj-Thin.eot?#iefix') format('embedded-opentype'),
+	url('bbj_font/bbj-Thin.woff') format('woff'),
+	url('bbj_font/bbj-Thin.ttf') format('truetype');
+	src:local(※),url('bbj_font/bbj-Thin.woff') format('woff')
+	font-weight:normal;
+	font-style:normal
+}
+
+

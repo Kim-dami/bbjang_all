@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>방부장</title>
+<link href="css/bbj_font.css" rel="stylesheet" type="text/css">
+<link href="css/bbj_default.css" rel="stylesheet" type="text/css">
+<link href="css/Bbj_write.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script async type="text/javascript" src="http://devm-yupitereu.ilhaeyo.com/_global/assets/js/jquery-mobile.event.min.js"></script>
+<script src="js/bbj_design.js"></script>
+</head>
+<body ontouchstart="">
+<div class="pop_pic_slct full_page">
+	<!-- 헤더 -->
+	<div class="header_pic_slct">
+		<h1 class="header_slct_txt font_r">이미지를 선택해주세요</h1>
+		<div class="slct_set">
+			<img src="http://image.club5678.com/imgs/bbjang/img01/ico_camera.png" width="18" height="15" alt="사진선택아이콘"/>
+			<select class="pic_album" style="width:82px;">
+				<option>모든이미지</option>
+				<option>최근앨범</option>
+				<option>방부장에 등록할 아파트 전경 사진모음</option>
+			</select>
+			<select id="width_tmp_select">
+				<option id="width_tmp_option"></option>
+			</select>
+		</div>
+	</div>
+	<!-- // 헤더 -->
+	<div class="pic_layout">
+		<ul class="pic_line1">
+			<li class="pic_one mg_05 pic_thumb_1">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			</li>
+			<li class="pic_one mg_all pic_thumb_2">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			</li>
+			<li class="pic_one mg_05 pic_thumb_3">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			<li class="pic_one mg_05 pic_thumb_4">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			</li>
+			<li class="pic_one mg_all pic_thumb_5">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			</li>
+			<li class="pic_one mg_05 pic_thumb_1">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			<li class="pic_one mg_05 pic_thumb_2">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			</li>
+			<li class="pic_one mg_all pic_thumb_3">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			</li>
+			<li class="pic_one mg_05 pic_thumb_4">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			<li class="pic_one mg_05 pic_thumb_1">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			</li>
+			<li class="pic_one mg_all pic_thumb_2">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			</li>
+			<li class="pic_one mg_05 pic_thumb_3">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			</li>
+			<li class="pic_one mg_05 pic_thumb_1">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			</li>
+			<li class="pic_one mg_all pic_thumb_2">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			</li>
+			<li class="pic_one mg_05 pic_thumb_3">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			<li class="pic_one mg_05 pic_thumb_1">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			</li>
+			<li class="pic_one mg_all pic_thumb_2">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			</li>
+			<li class="pic_one mg_05 pic_thumb_3">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			<li class="pic_one mg_05 pic_thumb_1">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			</li>
+			<li class="pic_one mg_all pic_thumb_2">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+			</li>
+			<li class="pic_one mg_05 pic_thumb_3">
+			<div class="chk_gallery">
+				<input type="checkbox" ic="chk2" class="chk_pic">
+				<label class="chk_lb2" for="chk2"></label>
+			</div>
+		</ul>
+	</div>
+	<div class="bottom_pic_set2">
+		<div class="btn_pic_cncl">
+			<a href="#">취소</a>
+		</div>
+		<div class="btn_pic_ok">
+			<a href="#">확인</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>

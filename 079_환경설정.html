@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>방부장</title>
+<link href="css/bbj_font.css" rel="stylesheet" type="text/css">
+<link href="css/bbj_default.css" rel="stylesheet" type="text/css">
+<link href="css/bbj_my.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/bbj_design.js"></script>
+</head>
+<body ontouchstart="">
+<!---------------------------------------- 환경설정 ---------------------------------------->
+<div id="wrap" class="">
+	<!-- 메인  헤더 -->
+	<div id="header" class="ht_45 bg_blue header_f">
+		<div class="btn_back">
+			<a href="#">뒤로</a>
+		</div>
+		<h1 class="header_txt font_b">환경설정</h1>
+	</div>
+	<!-- // 메인  헤더 -->
+	<!-- 그룹1 - 알림 설정 -->
+	<div id="settings_pushmsgs_wrap" class="my_mt_45">
+		<p class="head font_b">
+			알림설정<span class="supplement font_r">※ V 체크를 하면 알림을 받게 됩니다.</span>
+		</p>
+		<div class="choice_area">
+			<div class="settings_chk_wrap">
+				<input type="checkbox" class="settings_chk_input" id="settings_pushmsgs_choice1" checked/><span class="settings_label">신규메시지 알림</span><label for="settings_pushmsgs_choice1" class="settings_chk_lb"></label>
+			</div>
+			<div class="settings_chk_wrap coord1">
+				<input type="checkbox" class="settings_chk_input" id="settings_pushmsgs_choice2"/><span class="settings_label">공지사항 알림</span><label for="settings_pushmsgs_choice2" class="settings_chk_lb"></label>
+			</div>
+			<span class="betweenline"></span>
+		</div>
+	</div>
+	<!-- // 그룹1 - 알림 설정 -->
+	<!-- 그룹2 - 상담 설정 -->
+	<div id="settings_counselling_wrap">
+		<p class="head font_b">
+			상담설정
+		</p>
+		<div class="choice_area">
+			<ul class="element-in">
+				<li class="grouping1">
+				<span class="font_b"><img src="http://image.club5678.com/imgs/bbjang/img_my/my_settings_counselling_ico_vchat.png" width="18" height="10" class="ico">영상상담</span>
+				<div class="settings_rdo_wrap coord1">
+					<input type="radio" class="settings_rdo_input" name="settings_counselling" id="settings_counselling_vchat_always" checked>
+					<label for="settings_counselling_vchat_always" class="settings_rdo_lb lb_wrap1">항상</label>
+				</div>
+				<div class="settings_rdo_wrap coord2">
+					<input type="radio" class="settings_rdo_input" name="settings_counselling" id="settings_counselling_vchat_reject">
+					<label for="settings_counselling_vchat_reject" class="settings_rdo_lb lb_wrap1">거부</label>
+				</div>
+				</li>
+				<li class="grouping2">
+				<div class="settings_rdo_wrap coord3">
+					<input type="radio" class="settings_rdo_input" name="settings_counselling" id="settings_counselling_vchat_custum">
+					<label for="settings_counselling_vchat_custum" class="settings_rdo_lb lb_wrap2">시간설정</label>
+				</div>
+				<!-- 시간설정 off -->
+				<p>
+					<select class="selectbox1 sb_off">
+						<img src="http://image.club5678.com/imgs/bbjang/img_my/my_settings_counselling_selectbox_arrow.png">
+						<option selected>9시</option>
+						<option>10시</option>
+						<option>11시</option>
+						<option>12시</option>
+						<option>13시</option>
+						<option>14시</option>
+						<option>15시</option>
+						<option>16시</option>
+						<option>17시</option>
+						<option>18시</option>
+					</select>
+					<span class="straight">~</span>
+					<select class="selectbox2 sb_off">
+						<option>9시</option>
+						<option>10시</option>
+						<option>11시</option>
+						<option>12시</option>
+						<option>13시</option>
+						<option>14시</option>
+						<option>15시</option>
+						<option>16시</option>
+						<option>17시</option>
+						<option selected>18시</option>
+					</select>
+				</p>
+				<!-- 시간설정 off -->
+				<!-- 시간설정 on --
+				<p>
+				<select class="selectbox1 sb_on"><img src="http://image.club5678.com/imgs/bbjang/img_my/my_settings_counselling_selectbox_arrow.png">
+					<option selected>9시</option>
+					<option>10시</option>
+					<option>11시</option>
+					<option>12시</option>
+					<option>13시</option>
+					<option>14시</option>
+					<option>15시</option>
+					<option>16시</option>
+					<option>17시</option>
+					<option>18시</option>
+				</select>
+				<span class="straight">~</span>
+				<select class="selectbox2 sb_on">
+					<option>9시</option>
+					<option>10시</option>
+					<option>11시</option>
+					<option>12시</option>
+					<option>13시</option>
+					<option>14시</option>
+					<option>15시</option>
+					<option>16시</option>
+					<option>17시</option>
+					<option selected>18시</option>
+				</select>
+				</p>
+				<!-- 시간설정 on -->
+				</li>
+			</ul>
+		</div>
+		<p class="supplement">
+			채팅상담은 항상 상담이 가능하며, ‘알림설정’에서 알림여부 설정이 가능합니다.
+		</p>
+	</div>
+	<!-- // 그룹2 - 상담 설정 -->
+	<!-- 그룹3 - 로그아웃, 탈퇴하기 -->
+	<div id="settings_out_wrap">
+		<p class="links font_b">
+			<a href="#" class="link1">로그아웃</a><a href="#" class="link2">탈퇴하기</a>
+		</p>
+	</div>
+	<!-- // 그룹3 - 로그아웃, 탈퇴하기 -->
+</div>
+</body>
+</html>

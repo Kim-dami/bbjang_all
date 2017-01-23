@@ -1,0 +1,86 @@
+@charset "utf-8";#header .btn_back {position:absolute; z-index:1; top:0; left:0; width:40px; height:100%;}
+#header .btn_back a {display:block; width:100%; height:100%; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_back_msg.png) no-repeat center center; background-size:17px 14px; text-indent:-9999px;}
+#header .btn_back a:active {background:rgba(0,0,0,0.05) url(../login_img/btn_back_lg2.png) no-repeat center center; background-size:17px 14px;}
+#header .header_txt {position:relative; width:100%; height:100%; padding-left:45px; color:#4d5356; font-size:19px; line-height:45px; box-sizing:border-box;}
+.bg_white {background-color:#fff;}
+#header .btn_report_msg {position:absolute; top:0; right:0; width:50px; height:100%;}
+#header .btn_report_msg a {display:inline-block; position:absolute; top:6px; right:6px; padding:8px; border:1px solid #ccc; font-size:14px;}
+#header .btn_report_msg a:active {background:rgba(0,0,0,.1);}
+
+#container .msg_btn_wrap {width:100%; height:38px; background:#0b9de6;}
+#container .msg_btn_wrap ul li {float:left; height:100%; padding:10px 11px; border-right:1px solid #30a5e0; color:#fff; font-size:16px; text-align:center; letter-spacing:-1px;}
+#container .msg_btn_wrap ul li:active {background:#30a5e0; color:#fff;}
+#container .msg_btn_wrap ul li:nth-child(3) {float:right; border-right:none; border-left:1px solid #30a5e0;}
+
+#msg_content_warp {width:100%; height:100%; overflow:hidden; background:#7abadd;}
+#msg_content_warp .msg_day_wrap {width:95%; height:auto; margin:0 auto; margin-top:8px;}
+#msg_content_warp .msg_day_wrap .msg_day_line {display:block; margin:0 auto; margin-bottom:8px; text-align:center;}
+#msg_content_warp .msg_day_wrap .msg_day_line p {display:inline-block; padding:7px 12px; border-radius:15px; background:#5d8ea8; color:#fff; letter-spacing:-1px;}
+#msg_content_warp .msg_day_wrap .msg_bubble_wrap {position:relative; clear:both; width:100%; height:auto; margin-bottom:8px; overflow:hidden;}
+#msg_content_warp .msg_day_wrap .msg_bubble_wrap .photo_ptn {position:absolute; top:0; left:0; width:37px; height:37px; border-radius:50%;}
+#msg_content_warp .msg_day_wrap .msg_bubble_wrap .photo_ptn img {width:37px; height:37px; border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%;}
+#msg_content_warp .msg_day_wrap .msg_bubble_wrap .talkbubble_wrap {position:relative; max-width:55%;}
+#msg_contents .msg_day_wrap .msg_bubble_wrap .talkbubble_wrap img {display:block; width:100px; height:auto; border-radius:10px;}
+
+#ptn_msg .ptn_txt_line {position:absolute; top:0px; left:55px;}
+#ptn_msg .ptn_txt {color:#4d5356; font-size:13px;}
+#ptn_msg .ptn_bubble_wrap {top:17px; left:55px; float:left; margin-bottom:17px;}
+#ptn_msg .ptn_bubble_wrap .ptn_talkbubble {position:relative; padding:9px 10px 9px 10px; border-radius:5px; background-color:#fff; color:#222; font-size:15px; line-height:17px; word-break:break-all;}
+#ptn_msg .ptn_bubble_wrap .ptn_talkbubble:after {position:absolute; top:9px; left:-8px; width:8px; height:9px; background:url(http://image.club5678.com/imgs/bbjang/img01/img_ptn_talkarrow.png) no-repeat; background-size:8px 9px; content:"";}
+#ptn_msg .ptn_bubble_wrap .ptn_talk_time {display:block; position:absolute; right:-65px; bottom:2px; color:#5d6366; font-size:13px;}
+
+#ptn_msg .talkbubble_wrap .ptn_talkbubble .sell_ptn {display:inline-block; width:142px; height:auto; padding:2px; border:1px solid #d3d3d3;}
+#ptn_msg .talkbubble_wrap .ptn_talkbubble .sell_ptn li:nth-child(1) {display:inline-block; position:relative; width:100%; height:111px; background-color:#e8ebeb; text-align:center;}
+#ptn_msg .talkbubble_wrap .ptn_talkbubble .sell_ptn li:nth-child(2) {width:98%; padding:7px 3px; overflow:hidden; color:#0a6fb5; font-size:16px; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal;}
+#ptn_msg .talkbubble_wrap .ptn_talkbubble .sell_ptn li:nth-child(3) {width:98%; padding:0 3px; overflow:hidden; color:#4d5356; font-size:16px; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal;}
+#ptn_msg .talkbubble_wrap .ptn_talkbubble .sell_ptn li:nth-child(4) {width:98%; height:38px; color:#148fe5; font-size:16px; text-align:right; line-height:38px;}
+#ptn_msg .talkbubble_wrap .ptn_talkbubble .sell_ptn li:nth-child(4):active {background:rgba(0,0,0,.1);}
+
+#my_msg .my_bubble_warp {top:3px; right:8px; float:right; margin-bottom:8px;}
+#my_msg .my_bubble_warp .my_talkbubble {position:relative; padding:9px 10px 9px 10px; border-radius:5px; background-color:#fff959; color:#222; font-size:15px; line-height:17px; word-break:break-all;}
+#my_msg .my_bubble_warp .my_talkbubble:after {position:absolute; top:9px; right:-8px; width:8px; height:9px; background:url(http://image.club5678.com/imgs/bbjang/img01/img_my_talkarrow.png) no-repeat; background-size:8px 9px; content:"";}
+#my_msg .my_bubble_warp .my_talk_time {display:block; position:absolute; left:-65px; bottom:2px; color:#5d6366; font-size:13px;}
+#my_msg .my_bubble_warp .my_talk_time:before {position:absolute; left:23px; bottom:15px; content:"안읽음"; color:#135a87;}
+
+#my_msg .my_bubble_warp .my_talkbubble .sell_ptn {display:inline-block; width:142px; height:auto; padding:2px; border:1px solid #d3d3d3; background:#fff;}
+#my_msg .my_bubble_warp .my_talkbubble .sell_ptn li:nth-child(1) {display:inline-block; position:relative; width:100%; height:111px; background-color:#e8ebeb; text-align:center;}
+#my_msg .my_bubble_warp .my_talkbubble .sell_ptn li:nth-child(2) {width:142px; padding:7px 3px; overflow:hidden; color:#0a6fb5; font-size:16px; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal;}
+#my_msg .my_bubble_warp .my_talkbubble .sell_ptn li:nth-child(3) {width:98%; padding:0 3px; overflow:hidden; color:#4d5356; font-size:16px; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal;}
+#my_msg .my_bubble_warp .my_talkbubble .sell_ptn li:nth-child(4) {width:98%; height:38px; color:#148fe5; font-size:16px; text-align:right; line-height:38px;}
+#my_msg .my_bubble_warp .my_talkbubble .sell_ptn li:nth-child(4):active {background:rgba(0,0,0,.1);}
+
+.call_video_on {display:inline-block; padding:8px 0 8px 40px; background:url(http://image.club5678.com/imgs/bbjang/img01/ico_msg_video_on.png) no-repeat left center; background-size:31px 31px; color:#4d5356;}
+.call_video_off {display:inline-block; padding:8px 0 8px 40px; background:url(http://image.club5678.com/imgs/bbjang/img01/ico_msg_video_off.png) no-repeat left center; background-size:31px 31px; color:#9d9d9d;}
+.msg_img {width:100px; height:auto;}
+.user_photo {position:absolute; top:0; left:0; width:142px; height:111px;}
+.bbj_logo {position:absolute; top:38px; left:29px;}
+/* 메시지 입력창 */
+.msg_input_wrap {position:fixed; z-index:999; bottom:0px; width:100%; height:40px; background:#fff;}
+.msg_input_wrap .msg_bar {display:block; width:100%; height:100%; margin:0 auto;}
+.msg_input_wrap .msg_bar .msg_text_box {width:100%; height:100%; background:#fff;}
+.msg_input_wrap .msg_bar .msg_text_box li {float:left;}
+.msg_input_wrap .msg_bar .msg_text_box li:nth-child(1) {width:40px; height:40px;}
+.msg_input_wrap .msg_bar .msg_text_box li:nth-child(2) {width:68%;}
+.msg_input_wrap .msg_bar .msg_text_box li:nth-child(3) {float:right; width:53px;}
+.msg_input_wrap .msg_bar .msg_text_box li:nth-child(3) a:active {background:#099ce6;}
+.msg_input_wrap .msg_bar .btn_camera {display:block; height:40px; background:#f5f5f5;}
+.msg_input_wrap .msg_bar .btn_camera img {display:block; padding:11px 9px;}
+.msg_input_wrap .msg_bar .textarea {width:97%; height:25px; margin:8px; border:none; border:none; outline:none; color:#292929; font-size:14px;}
+.msg_input_wrap .msg_bar .btn_send {display:block; height:13px; margin:4px 4px 0 0; padding:10px; border-radius:3px; background:#0aa5f2; color:#fff; font-size:13px; text-align:center; line-height:13px;}
+@media (min-width:360px) {
+.msg_input_wrap .msg_bar .textarea {width:100%}
+}
+@media (min-width:375px) {
+.msg_input_wrap .msg_bar .textarea {width:100%}
+}
+@media (min-width:414px) {
+.msg_input_wrap .msg_bar .textarea {width:106%}
+}
+@media (min-width:768px) {
+.msg_input_wrap .msg_bar .textarea {width:125%}
+}
+@media (min-width:1600px) {
+.msg_input_wrap .msg_bar .textarea {width:138%}
+}
+.mg_top45 {margin-top:45px;}
+.mg_top83 {margin-top:83px; }

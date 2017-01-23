@@ -1,0 +1,168 @@
+@charset "utf-8";/*
+ ** 초기화 **
+          */
+html {width:100%; height:100%; margin:0; padding:0; border:0; outline:0; background:transparent; color:#4d5356; font-size:14px; font-family:'bbj-Regular'; vertical-align:baseline; letter-spacing:-0.5px;-webkit-text-size-adjust:100%; -webkit-overflow-scrolling:touch; -ms-text-size-adjust:100%;}
+body {width:100%; height:100%; margin:0; padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {display:block;}
+audio,canvas,progress,video {display:inline-block; vertical-align:baseline;}
+audio, canvas, video {display:inline-block; display:inline; **zoom:1;}
+audio:not([controls]) {display:none; height:0;}
+[hidden],template {display:none;}
+a {display:block; margin:0; padding:0; background:transparent; color:inherit; font-size:100%; text-decoration:none; vertical-align:baseline; cursor:pointer; -webkit-tap-highlight-color:rgba(255, 255, 255, 0);}
+a:link, a:hover, a:active. a:visited {display:block; margin:0; padding:0; background:transparent; color:inherit; font-size:100%; text-decoration:none; vertical-align:baseline;}
+b,strong {font-weight:bold;}
+dfn {font-style:italic;}
+mark {background:#ff0; color:#000;}
+small {font-size:0.8em;}
+sub,sup {position:relative; font-size:0.75em; vertical-align:baseline;}
+sup {top:-0.5em;}
+sub {bottom:-0.25em;}
+img {border:0; -ms-interpolation-mode:bicubic;}
+svg:not(:root) {overflow:hidden;}
+hr {height:0; box-sizing:content-box;-moz-box-sizing:content-box;}
+pre {overflow:auto; white-space:pre; white-space:pre-wrap; word-wrap:break-word;}
+code,kbd,pre,samp {font-size:1em; font-family:monospace, monospace;}
+q {quotes:none;}
+q:before, q:after {content:''; content:none;}
+dl, menu, ol, ul {margin:0; padding:0;}
+ol,ul,li {list-style:none;}
+nav ul, nav ol {list-style:none; list-style-image:none;}
+button, input, select, textarea {margin:0; font-size:1em; font-family:'bbj-Regular'; vertical-align:middle; appearance:none;-webkit-appearance:none; -webkit-tap-highlight-color:rgba(255, 255, 255, 0); -o-appearance:none; -moz-appearance:none; -ms-appearance:none;}
+input::-ms-clear {display:none;}
+select::-ms-expand {display:none;}
+button {overflow:visible; -webkit-tap-highlight-color:rgba(255, 255, 255, 0);}
+button,select {text-transform:none;}
+button,html input[type="button"],input[type="reset"],input[type="submit"] {overflow:visible; vertical-align:middle; cursor:pointer; *-webkit-appearance:button;}
+button[disabled],html input[disabled] {cursor:default;}
+button::-moz-focus-inner,input::-moz-focus-inner {padding:0; border:0;}
+input {line-height:normal;}
+input[type="search"] {box-sizing:content-box;-webkit-appearance:textfield; -webkit-box-sizing:content-box; -moz-box-sizing:content-box;}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration {-webkit-appearance:none;}
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button {height:auto;}
+fieldset {margin:0; padding:0; border:none; outline:none;}
+legend {margin:0; padding:0; border:0;}
+textarea {overflow:auto; vertical-align:baseline;}
+optgroup {font-weight:bold;}
+table {border-collapse:collapse; border-spacing:0;}
+td,th {padding:0;}
+* {margin:0; padding:0;}
+
+/*
+ ** 폰트 **
+          */
+.font_t {font-weight:400; font-family:"bbj-Thin";}
+.font_r {font-weight:400; font-family:"bbj-Regular";}
+.font_b {font-weight:400; font-family:"bbj-Bold";}
+
+/*
+ ** 컬러 **
+          */
+.bg_blue {background-color:#0ca2ed;}
+      /* 메인 블루 배경 */
+.bg_gray {background-color:#d9dddd;}
+      /* 메인 그레이 배경 */
+.bg_white {background-color:#fff;}
+       /* 메인 화이트 배경 */
+.ft_blue {color:#0b7fd0;}
+      /* 블루 텍스트 */
+.ft_navy {color:#004c80;}
+      /* 네이비 텍스트 */
+/*
+ ** 뱃지 **
+          */
+.month_badge {display:inline-block; width:40px; height:15px; background-color:#33a381; color:#fff; font-size:12px; text-align:center; line-height:16px; vertical-align:top;}
+.rent_badge {display:inline-block; width:40px; height:15px; background-color:#92992a; color:#fff; font-size:12px; text-align:center; line-height:16px; vertical-align:top;}
+.sell_badge {display:inline-block; width:40px; height:15px; background-color:#257ba1; color:#fff; font-size:12px; text-align:center; line-height:16px; vertical-align:top;}
+.buy_badge {display:inline-block; width:40px; height:15px; background-color:#70369d; color:#fff; font-size:12px; text-align:center; line-height:16px; vertical-align:top;}
+.option_badge {display:inline-block; width:auto; height:15px; padding:0 5px; border-radius:1px; background-color:#8abbd3; color:#fff; font-size:12px; text-align:center; line-height:16px; vertical-align:top;}
+
+/*
+ ** 체크박스**
+             */
+/* 기본 체크박스(회색배경 > 파란배경 하얀체크) */
+.chk_wrap {position:relative;}
+.chk_wrap .chk_input {display:block; position:absolute; z-index:1; top:0; left:0; width:100%; height:100%; opacity:0; cursor:pointer;}
+.chk_wrap .chk_lb {display:inline-block; position:relative; width:auto; height:22px; padding-left:30px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_chk_off.png) no-repeat left center; background-size:22px 22px; line-height:23px; vertical-align:middle;}
+.chk_wrap .chk_input:checked ~ .chk_lb {background:url(http://image.club5678.com/imgs/bbjang/img01/btn_chk_on.png) no-repeat left center; background-size:22px 22px;}
+
+/* 기본 체크박스(하얀배경 > 파란배경 하얀체크) */
+.chk_wrap02 {position:relative;}
+.chk_wrap02 .chk_input02 {display:block; position:absolute; z-index:1; top:0; left:0; width:100%; height:100%; opacity:0; cursor:pointer;}
+.chk_wrap02 .chk_lb02 {display:block; position:relative; width:auto; height:14px; padding-left:20px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_chk02_off.png) no-repeat left center; background-size:14px 14px; line-height:15px; vertical-align:middle;}
+.chk_wrap02 .chk_input02:checked ~ .chk_lb02 {background:url(http://image.club5678.com/imgs/bbjang/img01/btn_chk02_on.png) no-repeat left center; background-size:14px 14px;}
+
+/* 기본 라디오버튼(회색배경 > 흰배경 파란원) */
+.rdo_wrap {position:relative;}
+.rdo_wrap .rdo_input {display:block; position:absolute; z-index:1; top:0; left:0; width:100%; height:100%; opacity:0; cursor:pointer;}
+.rdo_wrap .rdo_lb {display:inline-block; position:relative; width:auto; height:23px; padding-left:30px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_rdo_off.png) no-repeat left center; background-size:23px 23px; line-height:24px; vertical-align:middle;}
+.rdo_wrap .rdo_input:checked ~ .rdo_lb {background:url(http://image.club5678.com/imgs/bbjang/img01/btn_rdo_on.png) no-repeat left center; background-size:23px 23px;}
+
+/*
+ ** 방부장 기본 css **
+          */
+#wrap {position:relative; top:0; left:0; right:0; width:100%; height:auto; overflow-x:hidden;}
+.pd_50 {padding-bottom:50px;}
+.full_page {width:100%;}
+
+#header {display:block; z-index:1000; top:0; left:0; width:100%;}
+.header_r {position:relative;}
+.header_f {position:fixed;}
+.ht_50 {height:50px;}
+.ht_45 {height:45px;}
+#header .btn_back {position:absolute; z-index:1; top:0; left:0; width:40px; height:100%;}
+#header .btn_back a {display:block; width:100%; height:100%; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_back.png) no-repeat center center; background-size:17px 14px; text-indent:-9999px;}
+#header .btn_back a:active {background:rgba(0,0,0,0.05) url(http://image.club5678.com/imgs/bbjang/img01/btn_back.png) no-repeat center center; background-size:17px 14px;}
+#header .header_txt {position:relative; width:100%; height:100%; padding-left:45px; color:#fff; font-size:19px; line-height:45px; box-sizing:border-box;}
+
+#container {position:relative; z-index:700; top:0; left:0; right:0; width:100%; height:auto;}
+.hidden {display:none;}
+.a_active {background:rgba(0,0,0,0.05);}
+.ui-select span {display:none;}
+
+/*
+ ** 방부장 공통 리스트
+          */
+.content_list {position:relative; width:100%; height:auto; padding:0 3px; box-sizing:border-box;}
+.list_card {position:relative; width:100%; height:auto; margin:0 auto; box-shadow:0px 10px 10px #d7d7d7;}
+
+/* 사진터치 구분 영역 */
+.list_card .list_photo_wrap {position:absolute; top:10px; left:8px; width:95px; height:70px; overflow:hidden;}
+.list_card .list_photo_wrap a {display:block; position:relative; width:100%; height:100%; overflow:hidden;}
+.list_card .list_photo_wrap .sold_out {background:url(http://image.club5678.com/imgs/bbjang/img01/list_sold_out.png) no-repeat center center; background-size:cover;}
+.list_card .list_photo_wrap img {position:relative; z-index:-1; width:100%; height:100%;}
+
+/* 리스트 정보 */
+.list_card .list_intro {position:relative; width:100%; height:auto;}
+.list_card .list_intro a {display:block; position:relative; width:100%; height:100%; padding:10px 8px 0 8px; box-sizing:border-box;}
+.list_card .list_intro a:active {background:rgba(0,0,0,0.05);}
+.list_card .list_intro .top_line {width:100%; height:15px; overflow:hidden; text-overflow:ellipsis; line-height:15px; white-space:nowrap;}
+.list_card .list_intro .top_line .intro_price {margin-left:8px; font-size:15px;}
+.list_card .list_intro .top_line .comple_badge {display:inline-block; position:absolute; top:10px; right:-3px; width:60px; height:20px; padding-left:8px; border-bottom:1px solid #66abcd; border-radius:25px 0 0 25px; background-color:#6cb5d9; color:#fff; font-size:12px; line-height:20px; box-sizing:border-box;}
+.list_card .list_intro .comple_pr {padding-right:50px; box-sizing:border-box;}
+/* 거래완료뱃지가 있을 경우 top_line에 클래스 추가 */
+.list_card .list_intro .mid_line {width:100%; height:55px;}
+.list_card .list_intro .mid_line .intro_title {width:100%; height:23px; overflow:hidden; color:#596063; font-size:15px; text-overflow:ellipsis; line-height:23px; white-space:nowrap;}
+.list_card .list_intro .mid_line .intro_txt {display:-webkit-box; width:100%; overflow:hidden; font-size:14px; text-overflow:ellipsis; line-height:16px; word-wrap:break-word;-webkit-box-orient:vertical; -webkit-line-clamp:2;}
+.list_card .list_intro .photo_pl {padding-left:105px; box-sizing:border-box;}
+/* 사진이 있을 경우 top_line과 mid_line에 클래스 추가 */
+.list_card .list_intro .bot_line {width:100%; height:auto;}
+.list_card .list_intro .bot_line:after {display:block; clear:both; content:"";}
+.list_card .list_intro .bot_line .intro_option {clear:both; width:100%; height:15px; padding-top:5px; overflow:hidden;}
+.list_card .list_intro .bot_line .intro_time {float:left; width:60px; height:27px; color:#5b636b; font-size:13px; text-align:center; line-height:27px;}
+.list_card .list_intro .bot_line .intro_roca {float:left; width:auto; height:27px; padding-left:20px; background:url(http://image.club5678.com/imgs/bbjang/img01/ico_rocation.png) no-repeat 5px center; background-size:9px 11px; color:#5b636b; font-size:13px; line-height:27px;}
+
+/* 관리 버튼 */
+.list_card .list_intro .admin {position:absolute; right:5px; bottom:5px; width:auto; height:auto;}
+.list_card .list_intro .admin:after {display:block; clear:both; content:"";}
+.list_card .list_intro .admin a {float:left; width:auto; height:100%; padding:0 3px; font-size:13px;}
+
+/* 내글 버튼 */
+.list_card .my_line {width:100%; height:auto; border-top:1px solid #dfdfdf;}
+.list_card .my_line:after {display:block; clear:both; content:"";}
+.list_card .my_line div {float:left; width:33.3333%; height:30px; border-right:1px solid #dfdfdf; background-color:#fcfcfc; line-height:30px; box-sizing:border-box;}
+.list_card .my_line div:last-of-type {border-right:none;}
+.list_card .my_line div a {display:block; width:100%; height:100%; color:#858585; font-size:12px; text-align:center;}
+.list_card .my_line div a:active {background:rgba(0,0,0,0.05);}
+
+/* 광고영역 */
+#ad_zone {display:block; position:fixed; z-index:1000; left:0; right:0; bottom:0; width:100%; height:50px; background-color:#989898; line-height:50px;}

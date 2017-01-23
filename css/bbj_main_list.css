@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* 메인 헤더 */
+.header_r{padding:0 5px; box-sizing:border-box;}
+.header_bar{position:relative; top:5px; width:100%; height:40px; line-height:40px; background-color:#fff; border-radius:3px 3px 3px 3px; box-shadow:0px 3px 3px #00679b; overflow:hidden; padding:0 43px; box-sizing:border-box;}
+.header_bar .header_btn{position:absolute; top:0; width:40px; height:40px;}
+.header_bar .header_btn a{position:absolute;top:0; display:block; width:100%; height:100%; text-indent:-9999px;}
+.header_bar .header_btn a:active{background:rgba(0,0,0,0.05);}
+
+.header_bar .btn_my{left:0;}
+.header_bar .btn_my a{left:0; z-index:1;}
+.header_bar .btn_my .link_my{display:block;}
+.header_bar .btn_my .link_reset{display:none;}
+.header_bar .btn_my .toggle_ico{position:relative; width:100%; height:100%; transform-origin:center; -webkit-transform-origin:center; -ms-transform-origin:center; -moz-transform-origin:center; -o-transform-origin:center; transition:all 0.25s ease-in-out; -webkit-transition:all 0.25s ease-in-out; -ms-transition:all 0.25s ease-in-out; -moz-transition:all 0.25s ease-in-out; -o-transition:all 0.25s ease-in-out;}
+.header_bar .btn_my .toggle_ico span{position:absolute; display:inline-block; left:12px; width:17px; height:2px; background-color:#0ca2ed; border-radius:3px; transition:all 0.25s ease-in-out; -webkit-transition:all 0.25s ease-in-out; -ms-transition:all 0.25s ease-in-out; -moz-transition:all 0.25s ease-in-out; -o-transition:all 0.25s ease-in-out;}
+.header_bar .btn_my .toggle_ico span:nth-of-type(1){top:14px;}
+.header_bar .btn_my .toggle_ico span:nth-of-type(2){top:19px;}
+.header_bar .btn_my .toggle_ico span:nth-of-type(3){top:24px;}
+
+.header_bar .btn_reset .link_my{display:none;}
+.header_bar .btn_reset .link_reset{display:block;}
+.header_bar .btn_reset .toggle_ico{transform: rotate(-180deg); -webkit-transform: rotate(-180deg); -ms-transform: rotate(-180deg); -moz-transform: rotate(-180deg); -o-transform: rotate(-180deg);}
+.header_bar .btn_reset .toggle_ico span:nth-of-type(1){width:10px; top:16px; left:20.5px; transform:rotate(45deg); -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg);}
+.header_bar .btn_reset .toggle_ico span:nth-of-type(3){width:10px; top:22px; left:20.5px; transform:rotate(-45deg); -webkit-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg);}
+
+.header_bar .header_srch{position:relative; width:100%; height:100%; margin:0 auto; padding-right:30px; box-sizing:border-box;}
+.header_bar .header_srch .header_logo{position:absolute; top:0; left:0; width:100%; height:100%; text-indent:-9999px; background:url(http://image.club5678.com/imgs/bbjang/img01/img_srch_logo.png) no-repeat left 8px; background-size:63px 21px;}
+.header_bar .header_srch label{display:none; position:absolute; top:0; left:0; width:100%; height:100%; line-height:40px; font-size:16px; color:#9d9fa2;}
+.header_bar .header_srch input[type="text"]{position:relative; display:block; width:100%; height:100%; padding:12px 0; box-sizing:border-box; line-height:16px; font-size:16px; border:none; outline:none; background-color:transparent;}
+.header_bar .header_srch .srch_del{display:none; position:absolute; top:0; right:0; width:30px; height:100%; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_srch_del.png) no-repeat right center; background-size:12px 12px;}
+.header_bar .header_srch .srch_del a{display:block; width:100%; height:100%; text-indent:-9999px;}
+
+.header_bar .btn_voice{right:0; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_srch_voice.png) no-repeat center center; background-size:13px 17px;}
+.header_bar .btn_voice a{right:0;}
+
+.header_bar .btn_shrch{display:none; right:0; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_srch_on.png) no-repeat center center; background-size:19px 21px;}
+.header_bar .btn_shrch a{right:0;}
+
+/* 최근검색 및 추천검색 */
+.srch_drop{display:none; position:absolute; top:45px; left:0px; z-index:1000; width:100%; height:auto; padding:0 5px; box-sizing:border-box;}
+.srch_drop ul{position:relative; width:100%; height:auto; background-color:#fff; border-radius:0 0 3px 3px; box-shadow:1px 3px 5px #d7d7d7; overflow:hidden;}
+.srch_drop ul li{position:relative; width:100%; height:40px; line-height:40px; font-size:14px;}
+.srch_drop ul .srch_history{background:url(http://image.club5678.com/imgs/bbjang/img01/ico_srch_history.png) no-repeat 10px center; background-size:18px 18px;}
+.srch_drop ul .history_go:active, .srch_drop ul .srch_go:active{background:rgba(0,0,0,0.05);}
+.srch_drop ul .history_go{position:relative; width:100%; height:100%; padding:0 40px; box-sizing:border-box;}
+.srch_drop ul .history_del{position:absolute; top:0; right:0; width:40px; height:40px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_history_del.png) no-repeat center center; background-size:17px 17px;}
+.srch_drop ul .history_del a{position:relative; width:100%; height:100%; text-indent:-9999px;}
+.srch_drop ul .srch_rel{display:none;}
+.srch_drop ul .srch_go{position:relative; width:100%; height:100%; padding:0 10px; box-sizing:border-box;}
+
+/* 상단 필터 */
+.filter_wrap{position:absolute; z-index:900; width:100%; height:35px; border-top:1px solid #17191a; border-bottom:1px solid #17191a; background-color:#323638;}
+.filter_wrap ul{position:relative; width:100%; height:100%;}
+.filter_wrap ul:after{content:""; display:block; clear:both;}
+.filter_wrap ul li{position:relative; width:20%; height:100%; float:left; border-right:1px solid #4d5153; box-sizing:border-box;}
+.filter_wrap ul li:last-of-type{border-right:none;}
+.filter_wrap ul select{position:relative; display:block; width:100%; height:100%; line-height:35px; padding-left:7px; box-sizing:border-box; font-size:13px; color:#ebeff2; border:none; outline:none; background:#323638 url(http://image.club5678.com/imgs/bbjang/img01/ico_slct_drop.png) no-repeat 95% center; background-size:7px 4px;}
+
+/* 상단 결과 */
+.result_wrap{position:relative; z-index:800; padding-top:37px; width:100%; height:30px; border-bottom:1px solid #c9c9c9; background-color:#f5f5f5}
+.result_wrap:after{content:""; display:block; clear:both;}
+
+.result_wrap .align_wrap{position:relative; float:left; width:90px; height:100%;}
+.result_wrap .align_wrap select{position:relative; display:block; width:100%; height:100%; line-height:30px; padding-left:7px; box-sizing:border-box; font-size:14px; color:#4d5356; border:none; outline:none; background:#f5f5f5 url(http://image.club5678.com/imgs/bbjang/img01/ico_slct_drop02.png) no-repeat 95% center; background-size:10px 6px;}
+
+.result_wrap .result_container{position:relative; float:right; width:auto; height:100%;}
+.result_wrap .result_container:after{content:""; display:block; clear:both;}
+.result_wrap .result_container div{position:relative; float:left;}
+.result_wrap .result_container .result_txt{width:auto; height:100%; line-height:30px;}
+.result_wrap .result_container .result_rfsh{width:30px; height:30px; margin-right:7px;}
+.result_wrap .result_container .result_rfsh a{position:relative; width:100%; height:100%;}
+.result_wrap .result_container .result_rfsh .circle_svg{position:relative; width:30px; height:30px; transform:rotate(-60deg); -webkit-transform:rotate(-60deg); -ms-transform:rotate(-60deg); -moz-transform:rotate(-60deg); -o-transform:rotate(-60deg); transform-origin:50% 50%; -webkit-transform-origin:50% 50%; -ms-transform-origin:50% 50%; -moz-transform-origin:50% 50%; -o-transform-origin:50% 50%;}
+.result_wrap .result_container .result_rfsh .circle_inner{stroke-dashoffset:0; stroke-dasharray:180; stroke-width:11; stroke-miterlimit:10; stroke-linecap:round; stroke:#4d5356; fill:transparent;}
+.result_wrap .result_container .result_rfsh .arrow_span{position:absolute; top:5px; right:13px; display:inline-block; width:0; height:0; border-left:4px solid transparent; border-right:4px solid transparent; border-bottom:6px solid #4d5356; transform:rotate(45deg) scale(1.0);; -webkit-transform:rotate(45deg) scale(1.0); -ms-transform:rotate(45deg) scale(1.0); -moz-transform:rotate(45deg) scale(1.0); -o-transform:rotate(45deg) scale(1.0); transform-origin:50% 50%; -webkit-transform-origin:50% 50%; -ms-transform-origin:50% 50%; -moz-transform-origin:50% 50%; -o-transform-origin:50% 50%; transition:all 0.1s ease-in-out; -webkit-transition:all 0.1s ease-in-out; -ms-transition:all 0.1s ease-in-out; -moz-transition:all 0.1s ease-in-out; -o-transition:all 0.1s ease-in-out;}
+@keyframes loading {
+	0% {transform:rotate(-60deg); }
+	100% {transform:rotate(300deg);}
+}
+@keyframes loading-circle {
+	0% {stroke-dashoffset:0;}
+	50% {stroke-dashoffset:-180;}
+	100% {stroke-dashoffset:-360}
+}
+.result_wrap .result_container .result_rfsh_on .circle_svg{animation:loading 0.6s ease-in-out 1; -webkit-animation:loading 0.6s ease-in-out 1; -ms-animation:loading 0.6s ease-in-out 1; -moz-animation:loading 0.6s ease-in-out 1; -o-animation:loading 0.6s ease-in-out 1;}
+.result_wrap .result_container .result_rfsh_on .circle_inner{animation:loading-circle 0.6s ease-in-out 1; -webkit-animation:loading-circle 0.6s ease-in-out 1; -ms-animation:loading-circle 0.6s ease-in-out 1; -moz-animation:loading-circle 0.6s ease-in-out 1; -o-animation:loading-circle 0.6s ease-in-out 1;}
+.result_wrap .result_container .result_rfsh .arrow_span_on{transform:rotate(45deg) scale(0.0); -webkit-transform:rotate(45deg) scale(0.0); -ms-transform:rotate(45deg) scale(0.0); -moz-transform:rotate(45deg) scale(0.0); -o-transform:rotate(45deg) scale(0.0);}
+
+.btn_write{position:fixed; z-index:800; right:10px; bottom:70px; width:50px; height:50px; background:#13a8f2 url(http://image.club5678.com/imgs/bbjang/img01/ico_pencil.png) no-repeat center center; background-size:27px 28px; border-radius:100%; box-shadow:1px 3px 5px #d7d7d7;}
+.btn_write a{position:relative; display:block; width:100%; height:100%; text-indent:-9999px;}
+.btn_write a .ripple{position:absolute; top:0; left:0; width:50px; height:50px; border:1px solid #89d3f8; border-radius:100%; box-sizing:border-box; background: transparent; opacity:0;}
+@keyframes rippling {
+    25% {transform: scale(1.2); opacity: 1;}
+    100% {transform: scale(1.4); opacity: 0;}
+}
+.btn_write a:active .ripple{animation:rippling 0.25s linear 1; -webkit-animation:rippling 0.25s linear 1; -ms-animation:rippling 0.25s linear 1; -moz-animation:rippling 0.25s linear 1; -o-animation:rippling 0.25s linear 1;}
+.btn_write a .ripple_active{animation:rippling 0.25s linear 1; -webkit-animation:rippling 0.25s linear 1; -ms-animation:rippling 0.25s linear 1; -moz-animation:rippling 0.25s linear 1; -o-animation:rippling 0.25s linear 1;}
+
+/*--------------------------------------------------- 마이메뉴 ---------------------------------------------------*/
+/* 마이메뉴 */
+.full_bg_modal{position:fixed; top:0; bottom:0; left:0; right:0; z-index:1100; background:rgba(0,0,0,0.4);}
+#my_wrap{position:fixed; top:0; left:0; z-index:1200; width:260px; height:100%; background-color:#f5f7f7; overflow-y:auto;-webkit-overflow-scrolling:touch; -webkit-overflow-scrolling:touch;}
+
+/* 마이메뉴 상단 */
+.my_top{position:relative; width:100%; height:120px; background:url(http://image.club5678.com/imgs/bbjang/img01/bg_my_menu.png) no-repeat center center; background-size:cover;}
+.my_top h2{position:relative; width:100%; height:60px; text-indent:-9999px; background:url(http://image.club5678.com/imgs/bbjang/img01/img_my_logo.png) no-repeat center center; background-size:74px 27px;}
+.my_top .info_wrap{position:relative; width:100%; height:60px;}
+.my_top .info_wrap .before_login{display:none; width:100%; height:100%;}
+.my_top .info_wrap .before_login .btn_login{width:165px; height:40px; line-height:40px; margin:0 auto; background:rgba(255,255,255,0.58); border:1px solid #fff; border-radius:3px; box-shadow:0px 0px 6px #dfdfdf;}
+.my_top .info_wrap .before_login .btn_login a{display:block; width:100%; height:100%; text-align:center; color:#34383a; font-size:15px;}
+.my_top .info_wrap .after_login{width:100%; height:100%; padding:6px 80px 6px 10px; box-sizing:border-box; background-color:#fff;}
+.my_top .info_wrap .after_login .login_name{width:100%; height:22px; line-height:22px; text-align:left; font-size:17px;}
+.my_top .info_wrap .after_login .agent_name{color:#7e8386; font-size:14px;}
+.my_top .info_wrap .after_login .login_num{width:100%; height:22px; line-height:22px; text-align:left; font-size:15px;}
+.my_top .info_wrap .after_login .photo_clip{position:absolute; top:-15px; right:10px; width:65px; height:65px; border:2px solid #fff; border-radius:100%; box-shadow:1px 3px 5px #dfdfdf; background:url(http://image.club5678.com/imgs/bbjang/img01/img_my_default.png) no-repeat center center; background-size:cover; overflow:hidden;}
+.my_top .info_wrap .after_login .photo_clip img{width:100%; height:100%;}
+.my_top .info_wrap .after_login .btn_my_set{position:absolute; top:-55px; right:10px; width:25px; height:25px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_my_set.png) no-repeat center center; background-size:20px 20px;}
+.my_top .info_wrap .after_login .btn_my_set a{display:block; width:100%; height:100%; text-indent:-9999px;}
+
+/* 마이메뉴 리스트 */
+.my_mid{position:relative; width:100%; height:auto; background-color:#fff;}
+.my_mid ul{width:100%; height:auto;}
+.my_mid .my_more{position:relative; width:100%; height:40px; line-height:40px; background:url(http://image.club5678.com/imgs/bbjang/img01/ico_my_more.png) no-repeat 95% center; background-size:5px 8px; border-bottom:1px solid #ededed;}
+.my_mid .my_more:nth-of-type(5){border-bottom:none;}
+.my_mid .my_more a{display:block; width:100%; height:100%; padding-left:10px; box-sizing:border-box;}
+.my_mid .my_more a:active{background:rgba(0,0,0,0.05);}
+.my_mid .my_write{position:relative; width:100%; height:40px; line-height:40px; background-color:#129de3;}
+.my_mid .my_write a{width:100%; height:100%; margin:0 auto; padding:0 80px 0 110px; box-sizing:border-box; font-size:15px; text-align:left; color:#fff; background:url(http://image.club5678.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 80px center; background-size:21px 22px;}
+.my_mid .my_write a:active{background:#1195d7 url(http://image.club5678.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 80px center; background-size:21px 22px;}
+
+/* 마이메뉴 초대 */
+.my_bot{position:relative; width:100%; height:auto; background-color:#f5f7f7; padding:10px; box-sizing:border-box;}
+.my_bot:after{content:""; display:block; clear:both;}
+.my_bot .btn_kko, .btn_sms{width:110px; height:35px; line-height:35px; border:1px solid #e3e7e8; border-radius:5px;}
+.my_bot .btn_kko{float:left; background:#fff url(http://image.club5678.com/imgs/bbjang/img01/ico_kko.png) no-repeat 7px center; background-size:29px 27px;}
+.my_bot .btn_sms{float:right; background:#fff url(http://image.club5678.com/imgs/bbjang/img01/ico_sms.png) no-repeat 7px center; background-size:27px 26px;}
+.my_bot .btn_kko a, .btn_sms a{display:block; width:100%; height:100%; padding-left:42px; box-sizing:border-box; font-size:15px;}
+.my_bot .btn_kko a:active, .btn_sms a:active{background:rgba(0,0,0,0.05);}

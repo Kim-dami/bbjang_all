@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>방부장</title>
+<link href="css/bbj_font.css" rel="stylesheet" type="text/css">
+<link href="css/bbj_default.css" rel="stylesheet" type="text/css">
+<link href="css/bbj_my.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/bbj_design.js"></script>
+<style>
+/* 배경색 별도 지정 */
+body{background:#f5f7f7}
+</style>
+</head>
+<body ontouchstart="">
+<!---------------------------------------- 1:1 문의하기 ---------------------------------------->
+<div id="wrap" class="">
+	<!-- 메인  헤더 -->
+	<div id="header" class="ht_45 bg_blue header_f">
+		<div class="btn_back">
+			<a href="#">뒤로</a>
+		</div>
+		<h1 class="header_txt font_b">1:1 문의하기</h1>
+	</div>
+	<!-- // 메인  헤더 -->
+	<!-- 탭메뉴 -->
+	<div id="inquiries-desk_tabmenu_wrap" class="my_mt_45">
+		<a href="#" class="tabmenu1 font_b on">1:1 문의하기</a>
+		<!--<a href="#" class="tabmenu1 font_b off">1:1 문의하기</a>-->
+		<!--<a href="#" class="tabmenu2 font_b on">내 문의내역</a>-->
+		<a href="#" class="tabmenu2 font_b off">내 문의내역</a>
+	</div>
+	<!-- // 탭메뉴 -->
+	<!-- 에디터 -->
+	<div id="inquiries-desk_editor_wrap" class="my_mt_45">
+		<!-- 문의종류 선택 and 이미지 첨부 -->
+		<div class="sort-and-image">
+			<!-- 문의종류 선택 -->
+			<div class="inquiry-about">
+				<select class="selectbox font_t">
+					<option selected>문의종류를 선택하세요</option>
+					<option>문의종류1</option>
+					<option>문의종류2</option>
+					<option>문의종류3</option>
+					<option>and more</option>
+				</select>
+			</div>
+			<!-- // 문의종류 선택 -->
+			<!-- 이미지 첨부 전 -->
+			<div class="frame">
+				<span class="image-in"><a href="#" class="cue_attach"></a></span>
+			</div>
+			<!-- // 이미지 첨부 전 -->
+			<!-- 이미지 첨부 후 --
+			<div class="frame">
+				<span class="image-in"><button type="image" class="cue_delete"></button><img src="http://image.club5678.com/imgs/bbjang/img_my/my_inquiries-desk_example-image.png" width="136" height="102"></span>
+			</div>
+			<!-- // 이미지 첨부 후 -->
+			<p class="guide">
+				장애 및 이용에 대한 문의 시 관련 이미지를 함께 등록하시면 보다 빠르고 정확한 답변을 받아보실 수 있습니다.
+			</p>
+		</div>
+		<!-- // 문의종류 선택 and 이미지 첨부 -->
+		<!-- 텍스트내용 작성 -->
+		<div class="textbox">
+			<textarea placeholder="문의주신 내용은 최대한 빠른 시간 내에 답변 드리도록 하겠습니다.&#40;※ 주말/휴일문의에 늦어질 수 있습니다.&#41;" class="text-in"></textarea>
+		</div>
+		<!-- // 텍스트내용 작성 -->
+		<!-- 문의내용 전송 (문의하기 버튼) -->
+		<div class="sending-in">
+			<button type="button" class="sending font_t">문의하기</button>
+		</div>
+		<!-- // 문의내용 전송 (문의하기 버튼) -->
+	</div>
+	<!-- // 에디터 -->
+</div>
+</body>
+</html>

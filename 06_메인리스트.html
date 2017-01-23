@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>방부장</title>
+<link href="css/bb_font.css" rel="stylesheet" type="text/css">
+<link href="css/bb_default.css" rel="stylesheet" type="text/css">
+<link href="css/bb_main_list.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script async type="text/javascript" src="http://devm-yupitereu.ilhaeyo.com/_global/assets/js/jquery-mobile.event.min.js"></script>
+<script src="js/bb_design.js"></script>
+</head>
+<body ontouchstart="">
+<!---------------------------------------- 메인리스트 ---------------------------------------->
+<div id="wrap" class="pd_50">
+	<!-- 메인 헤더 -->
+	<div id="header" class="ht_50 bg_blue header_r">
+		<div class="header_bar">
+			<div class="header_btn btn_my">
+				<a href="#" class="link_my">마이메뉴</a>
+				<a href="#" class="link_reset">검색 초기화</a>
+				<div class="toggle_ico">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<div class="header_srch">
+				<h1 class="header_logo">방부장</h1>
+				<label for="header_srch">방부장에서 빠르게 구하세요!</label>
+				<input type="text" id="header_srch">
+				<div class="srch_del">
+					<a href="#">검색어 삭제</a>
+				</div>
+			</div>
+			<div class="header_btn btn_voice">
+				<a href="#">음성검색</a>
+			</div>
+			<div class="header_btn btn_shrch">
+				<a href="#">검색</a>
+			</div>
+		</div>
+	</div>
+	<!-- // 메인 헤더 -->
+	<!-- 최근검색 및 추천검색 -->
+	<div class="srch_drop">
+		<ul>
+			<li class="srch_history">
+			<a href="#" class="history_go">원룸</a>
+			<div class="history_del">
+				<a href="#">검색기록 삭제</a>
+			</div>
+			</li>
+			<li class="srch_history">
+			<a href="#" class="history_go">원룸 4500만</a>
+			<div class="history_del">
+				<a href="#">검색기록삭제</a>
+			</div>
+			</li>
+			<li class="srch_rel">
+			<a href="#" class="srch_go">원룸 예쁜 집</a>
+			</li>
+			<li class="srch_rel">
+			<a href="#" class="srch_go">원룸 풀옵션</a>
+			</li>
+			<li class="srch_rel">
+			<a href="#" class="srch_go">원룸 직거래</a>
+			</li>
+		</ul>
+	</div>
+	<!-- // 최근검색 및 추천검색 -->
+	<!-- 상단 필터 -->
+	<div class="filter_wrap">
+		<ul>
+			<li>
+			<select>
+				<option>종류</option>
+				<option>토지</option>
+				<option>건물</option>
+				<option>기타</option>
+			</select>
+			</li>
+			<li>
+			<select>
+				<option>유형</option>
+				<option>매매</option>
+				<option>전세</option>
+				<option>월세</option>
+				<option>구해요</option>
+			</select>
+			</li>
+			<li>
+			<select>
+				<option>시/도</option>
+				<option>전체</option>
+				<option>서울</option>
+				<option>경기</option>
+				<option>인천</option>
+				<option>대전</option>
+				<option>대구</option>
+				<option>부산</option>
+				<option>광주</option>
+				<option>세종</option>
+				<option>울산</option>
+				<option>충북</option>
+				<option>충남</option>
+				<option>전북</option>
+				<option>전남</option>
+				<option>경북</option>
+				<option>경남</option>
+				<option>강원</option>
+				<option>제주</option>
+				<option>해외</option>
+			</select>
+			</li>
+			<li>
+			<select>
+				<option>시/군/구</option>
+				<option>광산구</option>
+				<option>남구</option>
+				<option>동구</option>
+				<option>북구</option>
+				<option>서구</option>
+			</select>
+			</li>
+			<li>
+			<select>
+				<option>읍/면/동</option>
+				<option>각화동</option>
+				<option>금곡동</option>
+				<option>누문동</option>
+				<option>대촌동</option>
+				<option>덕의동</option>
+				<option>동림동</option>
+				<option>두암동</option>
+				<option>망월동</option>
+				<option>매곡동</option>
+				<option>문흥동</option>
+			</select>
+			</li>
+		</ul>
+	</div>
+	<!-- // 상단 필터 -->
+	<!-- 상단 결과 -->
+	<div class="result_wrap">
+		<div class="align_wrap">
+			<select>
+				<option>최신등록순</option>
+				<option>가격높은순</option>
+				<option>가격낮은순</option>
+				<option>면적넓은순</option>
+				<option>면적좁은순</option>
+			</select>
+		</div>
+		<div class="result_container">
+			<div class="result_txt">
+				총 <span class="ft_blue font_b">10,000</span> 건
+			</div>
+			<div class="result_rfsh">
+				<a href="#">
+				<svg class="circle_svg" x="0px" y="0px" viewbox="0 0 150 150">
+				<circle class="circle_inner" cx="75" cy="75" r="35"/>
+				</svg>
+				<span class="arrow_span"></span>
+				</a>
+			</div>
+		</div>
+        <div class="srch_result hidden">
+        	<span class="ft_blue font_small">검색결과</span> 총 <span class="ft_blue font_b">100</span> 건
+        </div>
+	</div>
+	<!-- // 상단 결과 -->
+    <!-- 검색 결과 없음 -->
+    <div class="list_none">
+        <p class="list_none_row1">
+            <img src="http://image.club5678.com/imgs/bbjang/img_my/my_list_empty_sign1.png" width="75" height="82">
+        </p>
+        <p class="list_none_row2">
+            검색 결과가 없습니다.
+        </p>
+    </div>
+    <!-- // 검색 결과 없음 -->
+	<!-- 메인리스트 -->
+	<div id="container">
+		<ul class="content_list">
+			<li class="list_card">
+			<!-- 사진터치 구분 영역 -->
+			<div class="list_photo_wrap">
+				<a href="#">
+				<img src="http://image.club5678.com/imgs/bbjang/img01/photo01.jpg" alt="용봉동 꿈에 그린">
+				</a>
+			</div>
+			<!-- // 사진터치 구분 영역 -->
+			<div class="list_intro">
+				<a href="#">
+				<!-- 종류 및 가격 -->
+				<div class="top_line photo_pl">
+					<span class="month_badge">월세</span><span class="intro_price font_b ft_navy">5000만 / 50만</span>
+				</div>
+				<!-- // 종류 및 가격 -->
+				<!-- 내용 -->
+				<div class="mid_line photo_pl">
+					<p class="intro_title font_b">
+						용봉동 꿈에그린
+					</p>
+					<p class="intro_txt">
+						베란다 확장형이며, 깨끗이 수리 완료하였습니다. 보시고 결정하세요
+					</p>
+				</div>
+				<!-- // 내용 -->
+				<!-- 정보 -->
+				<div class="bot_line">
+					<p class="intro_time">
+						7초전
+					</p>
+					<p class="intro_roca">
+						광주 > 북구 > 용봉동
+					</p>
+				</div>
+				<!-- // 정보 -->
+				</a>
+				<!-- 관리 버튼 -->
+				<div class="admin">
+					<a href="#">[X]</a>
+					<a href="#">[관리]</a>
+					<a href="#">[수정]</a>
+				</div>
+				<!-- // 관리 버튼 -->
+			</div>
+			</li>
+			<li class="list_card">
+			<!-- 사진터치 구분 영역 -->
+			<div class="list_photo_wrap">
+				<a href="#" class="sold_out">
+				<img src="http://image.club5678.com/imgs/bbjang/img01/photo01.jpg" alt="용봉동 꿈에 그린">
+				</a>
+			</div>
+			<!-- // 사진터치 구분 영역 -->
+			<div class="list_intro">
+				<a href="#">
+				<!-- 종류 및 가격 -->
+				<div class="top_line photo_pl comple_pr">
+					<span class="sell_badge">매매</span><span class="intro_price font_b ft_navy">5000만 / 50만</span>
+					<span class="comple_badge">거래완료!</span>
+				</div>
+				<!-- // 종류 및 가격 -->
+				<!-- 내용 -->
+				<div class="mid_line photo_pl">
+					<p class="intro_title font_b">
+						용봉동 꿈에그린
+					</p>
+					<p class="intro_txt">
+						베란다 확장형이며, 깨끗이 수리 완료하였습니다. 보시고 결정하세요 보시고 결정하세요
+					</p>
+				</div>
+				<!-- // 내용 -->
+				<!-- 정보 -->
+				<div class="bot_line">
+					<div class="intro_option">
+                        <div class="option_list pr_15">
+                            <span class="option_badge">에어컨</span>
+                            <span class="option_badge">무선인터넷</span>
+                            <span class="option_badge">세탁기</span>
+                            <span class="option_badge">책상</span>
+                            <span class="option_badge">붙박이장</span>
+                            <span class="option_badge">주차</span>
+                        </div>
+                        <div class="option_dot">                         
+                        </div>
+					</div>
+					<p class="intro_time">
+						7초전
+					</p>
+					<p class="intro_roca">
+						광주 > 북구 > 용봉동
+					</p>
+				</div>
+				<!-- // 정보 -->
+				</a>
+				<!-- 관리 버튼 -->
+				<div class="admin">
+					<a href="#">[X]</a>
+					<a href="#">[관리]</a>
+					<a href="#">[수정]</a>
+				</div>
+				<!-- // 관리 버튼 -->
+			</div>
+			<!-- 내글 버튼 -->
+			<div class="my_line">
+				<div>
+					<a href="#" class="font_b">위로 올리기</a>
+				</div>
+				<div>
+					<a href="#" class="font_b">수정</a>
+				</div>
+				<div>
+					<a href="#" class="font_b">삭제</a>
+				</div>
+			</div>
+			<!-- // 내글 버튼 -->
+			</li>
+            <li class="list_card">
+			<!-- 사진터치 구분 영역 -->
+			<div class="list_photo_wrap">
+				<a href="#" class="expira">
+				<img src="http://image.club5678.com/imgs/bbjang/img01/photo01.jpg" alt="용봉동 꿈에 그린">
+				</a>
+			</div>
+			<!-- // 사진터치 구분 영역 -->
+			<div class="list_intro">
+				<a href="#">
+				<!-- 종류 및 가격 -->
+				<div class="top_line photo_pl comple_pr">
+					<span class="sell_badge">매매</span><span class="intro_price font_b ft_navy">5000만 / 50만</span>
+					<span class="comple_badge">거래완료!</span>
+				</div>
+				<!-- // 종류 및 가격 -->
+				<!-- 내용 -->
+				<div class="mid_line photo_pl">
+					<p class="intro_title font_b">
+						용봉동 꿈에그린
+					</p>
+					<p class="intro_txt">
+						베란다 확장형이며, 깨끗이 수리 완료하였습니다. 보시고 결정하세요 보시고 결정하세요
+					</p>
+				</div>
+				<!-- // 내용 -->
+				<!-- 정보 -->
+				<div class="bot_line">
+					<div class="intro_option">
+                        <div class="option_list">
+                            <span class="option_badge">붙박이장</span>
+                            <span class="option_badge">무선인터넷</span>
+                            <span class="option_badge">붙박이장</span>
+                            <span class="option_badge">무선인터넷</span>
+                            <span class="option_badge">붙박이장</span>
+                            <span class="option_badge">무선인터넷</span>
+                        </div>
+                        <div class="option_dot hidden">                         
+                        </div>
+					</div>
+					<p class="intro_time">
+						7초전
+					</p>
+					<p class="intro_roca">
+						광주 > 북구 > 용봉동
+					</p>
+				</div>
+				<!-- // 정보 -->
+				</a>
+				<!-- 관리 버튼 -->
+				<div class="admin">
+					<a href="#">[X]</a>
+					<a href="#">[관리]</a>
+					<a href="#">[수정]</a>
+				</div>
+				<!-- // 관리 버튼 -->
+			</div>
+			</li>
+			<li class="list_card">
+			<div class="list_intro">
+				<a href="#">
+				<!-- 종류 및 가격 -->
+				<div class="top_line comple_pr">
+					<span class="buy_badge">구해요</span><span class="intro_price font_b ft_navy">5000만 / 50만</span>
+					<span class="comple_badge">거래완료!</span>
+				</div>
+				<!-- // 종류 및 가격 -->
+				<!-- 내용 -->
+				<div class="mid_line">
+					<p class="intro_title font_b">
+						용봉동 꿈에그린
+					</p>
+					<p class="intro_txt">
+						베란다 확장형이며, 깨끗이 수리 완료하였습니다. 보시고 결정하세요 보시고 결정하세요
+					</p>
+				</div>
+				<!-- // 내용 -->
+				<!-- 정보 -->
+				<div class="bot_line">
+					<p class="intro_time">
+						7초전
+					</p>
+					<p class="intro_roca">
+						광주 > 북구 > 용봉동
+					</p>
+				</div>
+				<!-- // 정보 -->
+				</a>
+				<!-- 관리 버튼 -->
+				<div class="admin">
+					<a href="#">[X]</a>
+					<a href="#">[관리]</a>
+					<a href="#">[수정]</a>
+				</div>
+				<!-- // 관리 버튼 -->
+			</div>
+			</li>
+			<li class="list_card">
+			<div class="list_intro">
+				<a href="#">
+				<!-- 종류 및 가격 -->
+				<div class="top_line">
+					<span class="rent_badge">전세</span><span class="intro_price font_b ft_navy">5000만 / 50만</span>
+				</div>
+				<!-- // 종류 및 가격 -->
+				<!-- 내용 -->
+				<div class="mid_line">
+					<p class="intro_title font_b">
+						용봉동 꿈에그린
+					</p>
+					<p class="intro_txt">
+						베란다 확장형이며, 깨끗이 수리 완료하였습니다. 보시고 결정하세요 보시고 결정하세요
+					</p>
+				</div>
+				<!-- // 내용 -->
+				<!-- 정보 -->
+				<div class="bot_line">
+					<p class="intro_time">
+						7초전
+					</p>
+					<p class="intro_roca">
+						광주 > 북구 > 용봉동
+					</p>
+				</div>
+				<!-- // 정보 -->
+				</a>
+				<!-- 관리 버튼 -->
+				<div class="admin">
+					<a href="#">[X]</a>
+					<a href="#">[관리]</a>
+					<a href="#">[수정]</a>
+				</div>
+				<!-- // 관리 버튼 -->
+			</div>
+			</li>
+			<li class="list_card">
+			<div class="list_intro">
+				<a href="#">
+				<!-- 종류 및 가격 -->
+				<div class="top_line">
+					<span class="rent_badge">전세</span><span class="intro_price font_b ft_navy">5000만 / 50만</span>
+				</div>
+				<!-- // 종류 및 가격 -->
+				<!-- 내용 -->
+				<div class="mid_line">
+					<p class="intro_title font_b">
+						용봉동 꿈에그린
+					</p>
+					<p class="intro_txt">
+						베란다 확장형이며, 깨끗이 수리 완료하였습니다. 보시고 결정하세요 보시고 결정하세요
+					</p>
+				</div>
+				<!-- // 내용 -->
+				<!-- 정보 -->
+				<div class="bot_line">
+					<p class="intro_time">
+						7초전
+					</p>
+					<p class="intro_roca">
+						광주 > 북구 > 용봉동
+					</p>
+				</div>
+				<!-- // 정보 -->
+				</a>
+				<!-- 관리 버튼 -->
+				<div class="admin">
+					<a href="#">[X]</a>
+					<a href="#">[관리]</a>
+					<a href="#">[수정]</a>
+				</div>
+				<!-- // 관리 버튼 -->
+			</div>
+			</li>
+			<li class="list_card">
+			<div class="list_intro">
+				<a href="#">
+				<!-- 종류 및 가격 -->
+				<div class="top_line">
+					<span class="rent_badge">전세</span><span class="intro_price font_b ft_navy">5000만 / 50만</span>
+				</div>
+				<!-- // 종류 및 가격 -->
+				<!-- 내용 -->
+				<div class="mid_line">
+					<p class="intro_title font_b">
+						용봉동 꿈에그린
+					</p>
+					<p class="intro_txt">
+						베란다 확장형이며, 깨끗이 수리 완료하였습니다. 보시고 결정하세요 보시고 결정하세요
+					</p>
+				</div>
+				<!-- // 내용 -->
+				<!-- 정보 -->
+				<div class="bot_line">
+					<p class="intro_time">
+						7초전
+					</p>
+					<p class="intro_roca">
+						광주 > 북구 > 용봉동
+					</p>
+				</div>
+				<!-- // 정보 -->
+				</a>
+				<!-- 관리 버튼 -->
+				<div class="admin">
+					<a href="#">[X]</a>
+					<a href="#">[관리]</a>
+					<a href="#">[수정]</a>
+				</div>
+				<!-- // 관리 버튼 -->
+			</div>
+			</li>
+			<li class="list_card">
+			<div class="list_intro">
+				<a href="#">
+				<!-- 종류 및 가격 -->
+				<div class="top_line">
+					<span class="rent_badge">전세</span><span class="intro_price font_b ft_navy">5000만 / 50만</span>
+				</div>
+				<!-- // 종류 및 가격 -->
+				<!-- 내용 -->
+				<div class="mid_line">
+					<p class="intro_title font_b">
+						용봉동 꿈에그린
+					</p>
+					<p class="intro_txt">
+						베란다 확장형이며, 깨끗이 수리 완료하였습니다. 보시고 결정하세요 보시고 결정하세요
+					</p>
+				</div>
+				<!-- // 내용 -->
+				<!-- 정보 -->
+				<div class="bot_line">
+					<p class="intro_time">
+						7초전
+					</p>
+					<p class="intro_roca">
+						광주 > 북구 > 용봉동
+					</p>
+				</div>
+				<!-- // 정보 -->
+				</a>
+				<!-- 관리 버튼 -->
+				<div class="admin">
+					<a href="#">[X]</a>
+					<a href="#">[관리]</a>
+					<a href="#">[수정]</a>
+				</div>
+				<!-- // 관리 버튼 -->
+			</div>
+			</li>
+			<li class="list_card">
+			<div class="list_intro">
+				<a href="#">
+				<!-- 종류 및 가격 -->
+				<div class="top_line">
+					<span class="rent_badge">전세</span><span class="intro_price font_b ft_navy">5000만 / 50만</span>
+				</div>
+				<!-- // 종류 및 가격 -->
+				<!-- 내용 -->
+				<div class="mid_line">
+					<p class="intro_title font_b">
+						용봉동 꿈에그린
+					</p>
+					<p class="intro_txt">
+						베란다 확장형이며, 깨끗이 수리 완료하였습니다. 보시고 결정하세요 보시고 결정하세요
+					</p>
+				</div>
+				<!-- // 내용 -->
+				<!-- 정보 -->
+				<div class="bot_line">
+					<p class="intro_time">
+						7초전
+					</p>
+					<p class="intro_roca">
+						광주 > 북구 > 용봉동
+					</p>
+				</div>
+				<!-- // 정보 -->
+				</a>
+				<!-- 관리 버튼 -->
+				<div class="admin">
+					<a href="#">[X]</a>
+					<a href="#">[관리]</a>
+					<a href="#">[수정]</a>
+				</div>
+				<!-- // 관리 버튼 -->
+			</div>
+			</li>
+			<li class="list_card">
+			<div class="list_intro">
+				<a href="#">
+				<!-- 종류 및 가격 -->
+				<div class="top_line">
+					<span class="rent_badge">전세</span><span class="intro_price font_b ft_navy">5000만 / 50만</span>
+				</div>
+				<!-- // 종류 및 가격 -->
+				<!-- 내용 -->
+				<div class="mid_line">
+					<p class="intro_title font_b">
+						용봉동 꿈에그린
+					</p>
+					<p class="intro_txt">
+						베란다 확장형이며, 깨끗이 수리 완료하였습니다. 보시고 결정하세요 보시고 결정하세요
+					</p>
+				</div>
+				<!-- // 내용 -->
+				<!-- 정보 -->
+				<div class="bot_line">
+					<p class="intro_time">
+						7초전
+					</p>
+					<p class="intro_roca">
+						광주 > 북구 > 용봉동
+					</p>
+				</div>
+				<!-- // 정보 -->
+				</a>
+				<!-- 관리 버튼 -->
+				<div class="admin">
+					<a href="#">[X]</a>
+					<a href="#">[관리]</a>
+					<a href="#">[수정]</a>
+				</div>
+				<!-- // 관리 버튼 -->
+			</div>
+			</li>
+		</ul>
+	</div>
+	<!-- // 메인리스트 -->
+	<!-- 로딩 -->
+    <div class="load_wrap">
+        <img src="http://image.club5678.com/imgs/bbjang/img01/loading.gif" width="25px" height="25px" alt="로딩이미지" />
+        <span class="load_span">Loading</span>
+    </div>
+    <!-- //로딩 -->
+	<!-- 글쓰기 -->`
+	<div class="btn_write">
+		<a href="#">
+		글쓰기
+		<div class="ripple">
+		</div>
+		</a>
+	</div>
+	<!-- // 글쓰기 -->
+	<div class="full_bg_modal" style="display:none;">
+	</div>
+	<!-- 마이메뉴 배경 -->
+	<!-- 마이메뉴 -->
+	<div id="my_wrap" class="full_page" style="display:none;">
+		<!-- 마이메뉴 상단 -->
+		<div class="my_top">
+			<h2>방부장</h2>
+			<div class="info_wrap">
+				<div class="before_login">
+					<div class="btn_login">
+						<a href="#">회원가입 및 로그인</a>
+					</div>
+				</div>
+				<div class="after_login">
+					<p class="login_name">
+						<span>방사장</span><span class="agent_name">(베스트공인중개사)</span>
+					</p>
+					<p class="login_num font_t">
+						070-1234-5678
+					</p>
+					<div class="photo_clip">
+						<img src="http://image.club5678.com/imgs/bbjang/img01/photo02.jpg" alt="방사장">
+					</div>
+					<div class="btn_my_set">
+						<a href="#">내정보 설정</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- // 마이메뉴 상단 -->
+		<!-- 마이메뉴 리스트 -->
+		<div class="my_mid">
+			<ul>
+				<li class="my_more">
+				<a href="#" class="font_b">채팅상담함</a>
+				</li>
+				<li class="my_more">
+				<a href="#" class="font_b">등록중인 매물</a>
+				</li>
+				<li class="my_more">
+				<a href="#" class="font_b">최근 본 매물</a>
+				</li>
+				<li class="my_more">
+				<a href="#" class="font_b">관심 매물</a>
+				</li>
+				<li class="my_more">
+				<a href="#" class="font_b">설정</a>
+				</li>
+				<li class="my_write">
+				<a href="#">등록하기</a>
+				</li>
+				<li class="my_more">
+				<a href="#" class="font_b">공지사항</a>
+				</li>
+				<li class="my_more">
+				<a href="#" class="font_b">1:1 문의하기</a>
+				</li>
+				<li class="my_more">
+				<a href="#" class="font_b">고객센터</a>
+				</li>
+			</ul>
+		</div>
+		<!-- // 마이메뉴 리스트 -->
+		<!-- 마이메뉴 초대 -->
+		<div class="my_bot">
+			<div class="btn_kko">
+				<a href="#" class="font_t">카톡초대</a>
+			</div>
+			<div class="btn_sms">
+				<a href="#" class="font_t">문자초대</a>
+			</div>
+		</div>
+		<!-- // 마이메뉴 초대 -->
+	</div>
+	<!-- // 마이메뉴 -->
+</div>
+<!-- 광고 삽입 부분 -->
+<div id="ad_zone">
+	<a href="#">
+	<p style="font-size:18px; font-weight:700; color:#fff; text-align:center;">
+		광고영역
+	</p>
+	</a>
+</div>
+<!-- // 광고 삽입 부분 -->
+</body>
+</html>

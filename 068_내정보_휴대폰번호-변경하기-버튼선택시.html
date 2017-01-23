@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>방부장</title>
+<link href="css/bbj_font.css" rel="stylesheet" type="text/css">
+<link href="css/bbj_default.css" rel="stylesheet" type="text/css">
+<link href="css/bbj_my.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/bbj_design.js"></script>
+</head>
+<body ontouchstart="">
+<!---------------------------------------- 내정보 설정 ---------------------------------------->
+<div id="wrap" class="">
+	<!-- 메인  헤더 -->
+	<div id="header" class="ht_45 bg_blue header_f">
+		<div class="btn_back">
+			<a href="#">뒤로</a>
+		</div>
+		<h1 class="header_txt font_b">내정보</h1>
+	</div>
+	<!-- // 메인  헤더 -->
+	<!-- 그룹1 - 사진, 이름, 아이디 -->
+	<div id="settings_my_wrap" class="my_mt_45">
+		<!-- 사진 -->
+		<div class="area1">
+			<!-- 기본이미지 -->
+			<div class="my-profile-image">
+				<img src="http://image.club5678.com/imgs/bbjang/img_my/my_settings_my-profile-image_def.png">
+			</div>
+			<!-- 예시 사진       <div class="my-profile-image"><img src="http://image.club5678.com/imgs/bbjang/img_my/my_settings_my-profile-image_example-photo.jpg"></div> -->
+			<div class="upload-image">
+				<a href="#" class="upload"></a>
+			</div>
+		</div>
+		<!-- // 사진 -->
+		<!-- 이름, 아이디 _일반 가입회원's -->
+		<div class="area2">
+			<div class="element_style1">
+				<span class="label-in">
+				<p class="label">
+					이름
+				</p>
+				</span>
+				<p class="my-name font_t">
+					방대리
+				</p>
+			</div>
+			<div class="element_style2">
+				<span class="label-in">
+				<p class="label">
+					아이디
+				</p>
+				</span>
+				<p class="my-id">
+					bangbang82
+				</p>
+			</div>
+		</div>
+		<!-- // 이름, 아이디 _일반 가입회원's -->
+		<!-- 이름, 아이디, 성별 _네이버/카카오 로그인 회원's --
+		<div class="area2">
+			<div class="element_style1">
+				<span class="label-in"><p class="label">이름</p></span>
+				<p class="my-name font_t">방대리</p>
+			</div>
+			<div class="element_style2">
+				<span class="label-in"><p class="label">아이디</p></span>
+				<p class="my-id">NV100001<span class="n-or-k">&#40;네이버로그인 사용중&#41;</span></p>
+			</div>
+			<!-- 처음 진입시  성별 정보 보임 --
+			<div class="element_style2">
+				<span class="label-in"><p class="label">성별</p></span>
+				<!-- 성별 체크 전 
+				<p class="my-sex"><a href="#" class="check">남성</a><a href="#" class="check">여성</a></p>-->
+		<!-- 성별 체크 후 --
+				<p class="my-sex"><a href="#" class="checked">남성</a><a href="#" class="check">여성</a></p>
+			</div>
+			<!-- // 처음 진입시  성별 정보 보임 --
+		</div>
+		<!-- // 이름, 아이디, 성별 _네이버/카카오 로그인 회원's -->
+	</div>
+	<!-- // 그룹1 - 사진, 이름, 아이디 -->
+	<!-- 그룹2 - 비밀번호 변경 -->
+	<div id="settings_pw_wrap">
+		<p class="group-title font_b">
+			비밀번호 변경
+		</p>
+		<!-- 일반 가입회원 -->
+		<ul class="area1">
+			<li class="box1"><input type="password" placeholder="현재 비밀번호를 입력하세요" maxlength="12" class="text-in"></li>
+			<li class="box2"><input type="password" placeholder="새로운 비밀번호를 입력&#40;영문,숫자 6자~12자&#41;" maxlength="12" class="text-in"></li>
+			<li class="box3"><input type="password" placeholder="비밀번호 확인" maxlength="12" class="text-in"></li>
+		</ul>
+		<div class="area2">
+			<a href="#" class="changing">변경하기</a>
+		</div>
+		<!-- // 일반 가입회원 -->
+		<!-- 네이버/카카오 로그인 회원 --
+		<p class="n-or-k">네이버/카카오 로그인 시 비밀번호변경은 각각<br />
+		네이버/카카오에서 가능합니다.</p>
+		<!-- //네이버/카카오 로그인 회원 -->
+	</div>
+	<!-- // 그룹2 - 비밀번호 변경 -->
+	<!-- 그룹3 - 휴대폰번호 _인증전 -->
+	<div id="settings_phone-number_wrap">
+		<p class="group-title font_b">
+			휴대폰번호
+		</p>
+		<ul class="area">
+			<li class="box1"><input type="tel" placeholder="&quot;&#45;&quot;없이 숫자만 입력" maxlength="11" class="text-in"></li>
+			<a href="#" class="sending1">인증번호발송</a>
+			<li class="box2"><input type="text" placeholder="인증번호를 입력하세요" maxlength="4" class="text-in"></li>
+			<a href="#" class="confirming">확인</a>
+			<a href="#" class="sending2">재전송</a>
+		</ul>
+	</div>
+	<!-- // 그룹3 - 휴대폰번호 _인증전 -->
+	<!-- 그룹3 - 휴대폰번호 _인증후 --
+	<div id="settings_phone-number_wrap">
+		<p class="group-title font_b">휴대폰번호</p>
+		<div class="area_confirmed">
+			<p class="number">010-1234-5678</p>
+			<a href="#" class="changing">변경하기</a>
+		</div>
+	</div>
+	<!-- // 그룹3 - 휴대폰번호 _인증후 -->
+	<!-- 그룹4 - 로그아웃, 탈퇴하기 -->
+	<div id="settings_out_wrap">
+		<p class="links font_b">
+			<a href="#" class="link1">로그아웃</a><a href="#" class="link2">탈퇴하기</a>
+		</p>
+	</div>
+	<!-- // 그룹4 - 로그아웃, 탈퇴하기 -->
+</div>
+</body>
+</html>
