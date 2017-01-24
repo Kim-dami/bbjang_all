@@ -44,7 +44,6 @@
 .srch_drop ul .history_go{position:relative; width:100%; height:100%; padding:0 40px; box-sizing:border-box;}
 .srch_drop ul .history_del{position:absolute; top:0; right:0; width:40px; height:40px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_history_del.png) no-repeat center center; background-size:17px 17px;}
 .srch_drop ul .history_del a{position:relative; width:100%; height:100%; text-indent:-9999px;}
-.srch_drop ul .srch_rel{display:none;}
 .srch_drop ul .srch_go{position:relative; width:100%; height:100%; padding:0 10px; box-sizing:border-box;}
 
 /* 상단 필터 */
