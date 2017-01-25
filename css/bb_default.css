@@ -99,7 +99,7 @@ td,th {padding:0;}
 /*
  ** 방부장 기본 css **
           */
-#wrap {position:relative; top:0; left:0; right:0; width:100%; height:auto; overflow-x:hidden;}
+#wrap {position:relative; top:0; left:0; right:0; width:100%; height:auto;}
 .pd_50 {padding-bottom:50px;}
 .full_page {width:100%;}
 
