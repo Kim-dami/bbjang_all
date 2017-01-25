@@ -41,10 +41,10 @@
 .srch_drop ul li{position:relative; width:100%; height:40px; line-height:40px; font-size:14px;}
 .srch_drop ul .srch_history{background:url(http://image.club5678.com/imgs/bbjang/img01/ico_srch_history.png) no-repeat 10px center; background-size:18px 18px;}
 .srch_drop ul .history_go:active, .srch_drop ul .srch_go:active{background:rgba(0,0,0,0.05);}
-.srch_drop ul .history_go{position:relative; width:100%; height:100%; padding:0 40px; box-sizing:border-box;}
+.srch_drop ul .history_go{position:relative; width:100%; height:100%; padding:0 40px; box-sizing:border-box; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
 .srch_drop ul .history_del{position:absolute; top:0; right:0; width:40px; height:40px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_history_del.png) no-repeat center center; background-size:17px 17px;}
 .srch_drop ul .history_del a{position:relative; width:100%; height:100%; text-indent:-9999px;}
-.srch_drop ul .srch_go{position:relative; width:100%; height:100%; padding:0 10px; box-sizing:border-box;}
+.srch_drop ul .srch_go{position:relative; width:100%; height:100%; padding:0 10px; box-sizing:border-box; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
 
 /* 상단 필터 */
 .filter_wrap{position:absolute; z-index:900; width:100%; height:35px; border-top:1px solid #17191a; border-bottom:1px solid #17191a; background-color:#323638;}
@@ -135,10 +135,17 @@
 .my_mid .my_write a:active{background:#1195d7 url(http://image.club5678.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 80px center; background-size:21px 22px;}
 
 /* 마이메뉴 초대 */
-.my_bot{position:relative; width:100%; height:auto; background-color:#f5f7f7; padding:10px; box-sizing:border-box;}
+.my_bot{position:relative; width:100%; height:50px; line-height:50px; background-color:#fff; border-bottom:1px solid #ededed;}
 .my_bot:after{content:""; display:block; clear:both;}
-.my_bot .btn_kko, .btn_sms{width:110px; height:35px; line-height:35px; border:1px solid #e3e7e8; border-radius:5px;}
-.my_bot .btn_kko{float:left; background:#fff url(http://image.club5678.com/imgs/bbjang/img01/ico_kko.png) no-repeat 7px center; background-size:29px 27px;}
-.my_bot .btn_sms{float:right; background:#fff url(http://image.club5678.com/imgs/bbjang/img01/ico_sms.png) no-repeat 7px center; background-size:27px 26px;}
-.my_bot .btn_kko a, .btn_sms a{display:block; width:100%; height:100%; padding-left:42px; box-sizing:border-box; font-size:15px;}
-.my_bot .btn_kko a:active, .btn_sms a:active{background:rgba(0,0,0,0.05);}
+.my_bot .bot_txt{width:auto; height:100%; padding-left:10px; float:left; font-size:14px; color:#6c7275;}
+.my_bot .bot_list{width:auto; height:100%; padding-right:5px; float:right;}
+.my_bot .bot_list:after{content:""; display:block; clear:both;}
+.my_bot .bot_list li{width:28px; height:28px; padding:11px 7px; float:left; background:url(http://image.club5678.com/imgs/bbjang/img01/bg_bar02.png) no-repeat right center; background-size:1px 18px;}
+.my_bot .bot_list li:last-of-type{background:none;}
+.my_bot .bot_list li a{display:block; width:100%; height:100%; border-radius:100%; text-indent:-9999px;}
+.my_bot .btn_kko a{background:#3b1d1d url(http://image.club5678.com/imgs/bbjang/img01/txt_kko.png) no-repeat center center; background-size:22px 7px;}
+.my_bot .btn_kko a:active{background:#2e1616 url(http://image.club5678.com/imgs/bbjang/img01/txt_kko.png) no-repeat center center; background-size:22px 7px;}
+.my_bot .btn_sms a{background:#0b99e0 url(http://image.club5678.com/imgs/bbjang/img01/txt_sms.png) no-repeat center center; background-size:19px 8px;}
+.my_bot .btn_sms a:active{background:#0b91d4 url(http://image.club5678.com/imgs/bbjang/img01/txt_sms.png) no-repeat center center; background-size:19px 8px;}
+.my_bot .btn_etc a{background:#616c71 url(http://image.club5678.com/imgs/bbjang/img01/ico_etc.png) no-repeat center center; background-size:14px 3px;}
+.my_bot .btn_etc a:active{background:#565f63 url(http://image.club5678.com/imgs/bbjang/img01/ico_etc.png) no-repeat center center; background-size:14px 3px;}
