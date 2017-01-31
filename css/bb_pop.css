@@ -160,3 +160,7 @@ ul.pop_slct_mtd li.pop_mtd_lst {border-bottom:none;}
 .pop_cplt_bottom .pop_cplt_home a:active {background:#eaf5fa;}
 .pop_cplt_bottom .pop_cplt_home a_active {background:#eaf5fa;}
 /*--------------------------------- 등록완료알림팝업 ---------------------------------*/
+
+/* 추가 알림_버튼x 161226_주철만 */
+.alarm_nobtn {display:none; position:fixed; z-index:999; left:50%; bottom:100px; width:80%; height:auto; overflow:hidden; border-radius:20px; background:rgba(0,0,0,.85); margin-left:-40%; }
+.alarm_nobtn p {padding:15px; color:#fff; font-size:14px; line-height:18px; word-wrap:break-word; text-align:center;}
