@@ -68,16 +68,6 @@
 
 #container .dt_list .dt_intro {position:relative; width:100%; height:auto; padding:7px; border-top:1px solid #e8e8e8; font-size:14px; line-height:20px; box-sizing:border-box;}
 
-/* 주소/위치 */
-#container .dt_list .dt_address {position:relative; width:100%; height:auto; padding:7px; box-sizing:border-box;}
-#container .dt_list .dt_address li {width:100%; height:auto; padding-bottom:5px;}
-#container .dt_list .dt_address li:after {display:block; clear:both; content:"";}
-#container .dt_list .dt_address li:last-of-type {padding-bottom:0;}
-#container .dt_list .dt_address .dt_l {float:left; width:45px; height:20px; background-color:#e1e1e1; font-size:13px; text-align:center; line-height:20px; margin-right:10px;}
-#container .dt_list .dt_address .dt_r {float:left; width:auto; height:100%; font-size:15px; line-height:20px;}
-#container .dt_list .dt_address .dt_map_wrap {position:relative; width:100%; height:170px; border:1px solid #d2d7d9; border-radius:3px;}
-#container .dt_list .dt_address .dt_map_wrap #map {width:100%; height:100%;}
-
 /* 옵션정보 */
 #container .dt_list .dt_option {position:relative; width:100%; height:auto; padding:7px 7px 2px 7px; box-sizing:border-box;}
 #container .dt_list .dt_option_badge {display:inline-block; width:auto; height:22px; margin-right:3px; margin-bottom:5px; padding:0 7px; border-radius:3px; background-color:#65aedb; color:#fff; font-size:15px; line-height:22px;}
@@ -154,3 +144,19 @@
 .del_expira {width:100%; height:50px; border-radius:50px; overflow:hidden; margin-top:10px;}
 .del_expira  a{display:block; width:100%; height:100%; background:rgba(35,35,35,0.8); color:#999999; text-align:center; font-size:22px;}
 .del_expira a:active {background:rgba(35,35,35,1);}
+
+/****************************** 170206 김다미 ******************************/
+/* 주소/위치 */
+#container .dt_list .dt_address {position:relative; width:100%; height:auto; padding:7px; box-sizing:border-box;}
+#container .dt_list .dt_address li {width:100%; height:auto; padding-bottom:5px;}
+#container .dt_list .dt_address li:after {display:block; clear:both; content:"";}
+#container .dt_list .dt_address li:last-of-type {padding-bottom:0;}
+#container .dt_list .dt_address .dt_l {float:left; width:45px; height:20px; background-color:#e1e1e1; font-size:13px; text-align:center; line-height:20px; margin-right:10px;}
+#container .dt_list .dt_address .dt_r {float:left; width:auto; height:100%; font-size:15px; line-height:20px;}
+#container .dt_list .dt_address .dt_map_wrap {position:relative; width:100%; height:170px; border:1px solid #d2d7d9; border-radius:3px;}
+#container .dt_list .dt_address .dt_map_wrap #map {width:100%; height:100%;}
+#container .dt_list .dt_address .dt_secret{clear:both; width:100%; height:13px; line-height:13px; font-size:13px; padding-top:7px; color:#72787a;}
+
+/* 수수료 공지 */
+.dt_notice{position:relative; width:100%; height:auto; padding:9px 7px 5px 7px; box-sizing:border-box;}
+.dt_notice_bg{width:100%; height:25px; line-height:26px; border-radius:25px; background-color:#e8f3fa; color:#0568a1; font-size:13px; text-align:center;}

@@ -77,40 +77,9 @@
 .wt_build_wrap .wt_build:last-of-type {margin-bottom:0;}
 .wt_build_wrap .wt_buy_build {position:relative; width:100%; height:auto; padding-right:10px; box-sizing:border-box;}
 .wt_build_wrap input[type="text"] {display:block; width:100%; height:14px; padding:8px 5px; border:1px solid #d2d7d9; border-radius:3px; outline:none; background-color:#f5f7f7; font-size:14px; line-height:14px;}
-.wt_build_wrap .wt_build .wt_build_del {position:absolute; top:0; right:0; width:50px; height:30px; border:1px solid #0ca2ed; border-radius:3px; line-height:30px;}
+.wt_build_wrap .wt_build .wt_build_del {position:absolute; top:0; right:0; width:50px; height:30px; border:1px solid #0ca2ed; border-radius:3px; line-height:30px; overflow: hidden;}
 .wt_build_wrap .wt_build .wt_build_del a {display:block; background-color:#fff; font-size:13px; text-align:center;}
 .wt_build_wrap .wt_build .wt_build_del a:active {background-color:#0ca2ed; color:#fff;}
-
-/* 기본정보 */
-.wt_info_title {background:url(http://image.club5678.com/imgs/bbjang/img01/ico_info_title.png) no-repeat 8px 4px; background-size:22px 23px;}
-
-.wt_info_wrap {position:relative; width:100%; height:auto; padding:0 7px; box-sizing:border-box;}
-.wt_info_wrap li {position:relative; width:100%; height:auto; padding:7px 0; border-bottom:1px solid #d7d7d7;}
-.wt_info_wrap li:after {display:block; clear:both; content:"";}
-.wt_info_wrap li:last-of-type {border-bottom:none;}
-
-.wt_info_wrap .wt_hope_loca .wt_l {position:absolute; top:7px; left:0; width:80px; height:32px; line-height:32px;}
-.wt_info_wrap .wt_hope_loca .wt_r {width:100%; height:32px; line-height:32px; padding-left:80px; box-sizing:border-box;}
-.wt_info_wrap .wt_hope_loca .wt_r .wt_slct_30 {float:left; width:32.333333%; height:32px; margin-left:1%; padding:0 2%; border:1px solid #dce0e1; border-radius:3px; box-sizing:border-box; background:#f5f7f7 url(http://image.club5678.com/imgs/bbjang/img01/ico_slct_drop03.png) no-repeat 96% center; background-size:7px 4px; line-height:30px;}
-.wt_info_wrap .wt_hope_loca .wt_r .wt_slct_30 select {display:block; width:100%; padding:8px 0; border:none; outline:none; background-color:transparent; color:#4d5356; font-size:14px; line-height:14px;}
-
-.wt_info_wrap .wt_slct_50 {width:45%; height:30px; padding:0 5px; border:1px solid #dce0e1; border-radius:3px; background:#f5f7f7 url(http://image.club5678.com/imgs/bbjang/img01/ico_slct_drop03.png) no-repeat 96% center; background-size:7px 4px; line-height:30px;}
-.wt_info_wrap .wt_slct_50:first-of-type {float:left;}
-.wt_info_wrap .wt_slct_50:last-of-type {float:right;}
-.wt_info_wrap .wt_slct_50 a {display:block; width:100%; height:100%; font-size:14px; line-height:30px;}
-.wt_info_wrap .wt_slct_50 select {display:block; width:100%; padding:8px 0; border:none; outline:none; background-color:transparent; color:#4d5356; font-size:14px; line-height:14px;}
-
-.wt_info_wrap .wt_rent_price .wt_l {position:absolute; top:7px; left:0px; width:130px; height:32px; line-height:32px;}
-.wt_info_wrap .wt_rent_price .wt_r {width:100%; height:32px; line-height:32px; padding-left:130px; box-sizing:border-box;}
-.wt_info_wrap .wt_rent_price .wt_r .wt_num {width:calc(100% - 50px);}
-
-.wt_info_wrap .wt_month_price .wt_l {position:absolute; top:7px; left:0px; width:90px; height:32px; line-height:32px;}
-.wt_info_wrap .wt_month_price .wt_r {width:100%; height:32px; line-height:32px; padding-left:90px; box-sizing:border-box;}
-.wt_info_wrap .wt_month_price .wt_r .wt_num {width:calc(50% - 54px);}
-
-.wt_info_wrap .wt_area .wt_l {position:absolute; top:7px; left:0px; width:90px; height:32px; line-height:32px;}
-.wt_info_wrap .wt_area .wt_r {width:100%; height:32px; line-height:32px; padding-left:90px; box-sizing:border-box;}
-.wt_info_wrap .wt_area .wt_r .wt_num {width:calc(50% - 54px);}
 
 /* 위치입력 */
 .wt_loca_title {background:url(http://image.club5678.com/imgs/bbjang/img01/ico_loca_title.png) no-repeat 8px 4px; background-size:22px 23px;}
@@ -185,6 +154,38 @@
 .wt_bot_wrap .dt_btn_on a {display:block; width:100%; height:100%; color:#f3f3f3; font-size:16px; text-align:center;}
 .wt_bot_wrap .dt_btn_on a:active {background:rgba(0,0,0,0.1);}
 .wt_bot_wrap .wt_disable {background-color:#bdbdbd; color:#fff;}
+
+/****************************** 170206 김다미 ******************************/
+/* 기본정보 */
+.wt_info_title {background:url(http://image.club5678.com/imgs/bbjang/img01/ico_info_title.png) no-repeat 8px 4px; background-size:22px 23px;}
+
+.wt_info_wrap {position:relative; width:100%; height:auto; padding:0 7px; box-sizing:border-box;}
+.wt_info_wrap li {position:relative; width:100%; height:auto; padding:7px 0; border-bottom:1px solid #d7d7d7;}
+.wt_info_wrap li:after {display:block; clear:both; content:"";}
+.wt_info_wrap li:last-of-type {border-bottom:none;}
+
+.wt_info_wrap .wt_hope_loca .wt_l {position:absolute; top:7px; left:0; width:80px; height:32px; line-height:32px;}
+.wt_info_wrap .wt_hope_loca .wt_r {width:100%; height:32px; line-height:32px; padding-left:80px; box-sizing:border-box;}
+.wt_info_wrap .wt_hope_loca .wt_r .wt_slct_30 {float:left; width:32.333333%; height:32px; margin-left:1%; border:1px solid #dce0e1; border-radius:3px; box-sizing:border-box; background:#f5f7f7 url(http://image.club5678.com/imgs/bbjang/img01/ico_slct_drop03.png) no-repeat 97% center; background-size:7px 4px; line-height:30px;}
+.wt_info_wrap .wt_hope_loca .wt_r .wt_slct_30 select {display:block; width:90%; padding:8px 2%; box-sizing:border-box; border:none; outline:none; background-color:transparent; color:#4d5356; font-size:14px; line-height:14px; overflow:hidden;}
+
+.wt_info_wrap .wt_slct_50 {width:45%; height:30px; padding:0 5px; border:1px solid #dce0e1; border-radius:3px; background:#f5f7f7 url(http://image.club5678.com/imgs/bbjang/img01/ico_slct_drop03.png) no-repeat 96% center; background-size:7px 4px; line-height:30px;}
+.wt_info_wrap .wt_slct_50:first-of-type {float:left;}
+.wt_info_wrap .wt_slct_50:last-of-type {float:right;}
+.wt_info_wrap .wt_slct_50 a {display:block; width:100%; height:100%; font-size:14px; line-height:30px;}
+.wt_info_wrap .wt_slct_50 select {display:block; width:100%; padding:8px 0; border:none; outline:none; background-color:transparent; color:#4d5356; font-size:14px; line-height:14px;}
+
+.wt_info_wrap .wt_rent_price .wt_l {position:absolute; top:7px; left:0px; width:130px; height:32px; line-height:32px;}
+.wt_info_wrap .wt_rent_price .wt_r {width:100%; height:32px; line-height:32px; padding-left:130px; box-sizing:border-box;}
+.wt_info_wrap .wt_rent_price .wt_r .wt_num {width:calc(100% - 50px);}
+
+.wt_info_wrap .wt_month_price .wt_l {position:absolute; top:7px; left:0px; width:90px; height:32px; line-height:32px;}
+.wt_info_wrap .wt_month_price .wt_r {width:100%; height:32px; line-height:32px; padding-left:90px; box-sizing:border-box;}
+.wt_info_wrap .wt_month_price .wt_r .wt_num {width:calc(50% - 54px);}
+
+.wt_info_wrap .wt_area .wt_l {position:absolute; top:7px; left:0px; width:90px; height:32px; line-height:32px;}
+.wt_info_wrap .wt_area .wt_r {width:100%; height:32px; line-height:32px; padding-left:90px; box-sizing:border-box;}
+.wt_info_wrap .wt_area .wt_r .wt_num {width:calc(50% - 54px);}
 
 /*--------------------------------------------------- 상세 등록사진창 ---------------------------------------------------*/
 .bg_clear {background:-moz-linear-gradient(top, rgba(0,0,0,0.47) 0%, rgba(0,0,0,0) 100%); background:-webkit-linear-gradient(top, rgba(0,0,0,0.47) 0%,rgba(0,0,0,0) 100%); background:linear-gradient(to bottom, rgba(0,0,0,0.47) 0%,rgba(0,0,0,0) 100%); /* Permalink - use to edit and share this gradient:http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.5+0,0+100 */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#00000000',GradientType=0 );/* IE6-9 */}

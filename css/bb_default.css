@@ -73,7 +73,7 @@ td,th {padding:0;}
 .month_badge {display:inline-block; width:40px; height:15px; background-color:#33a381; color:#fff; font-size:12px; text-align:center; line-height:16px; vertical-align:top;}
 .rent_badge {display:inline-block; width:40px; height:15px; background-color:#92992a; color:#fff; font-size:12px; text-align:center; line-height:16px; vertical-align:top;}
 .sell_badge {display:inline-block; width:40px; height:15px; background-color:#257ba1; color:#fff; font-size:12px; text-align:center; line-height:16px; vertical-align:top;}
-.buy_badge {display:inline-block; width:40px; height:15px; background-color:#70369d; color:#fff; font-size:12px; text-align:center; line-height:16px; vertical-align:top;}
+.buy_badge {display:inline-block; width:62px; height:15px; background-color:#70369d; color:#fff; font-size:12px; text-align:center; line-height:16px; vertical-align:top;}
 
 /*
  ** 체크박스**
