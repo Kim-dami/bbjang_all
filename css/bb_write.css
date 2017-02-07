@@ -49,22 +49,6 @@
 .wt_num {display:inline-block; height:30px; margin-right:3px; padding:0 5px; border:1px solid #dce0e1; border-radius:3px; background-color:#f5f7f7; line-height:30px; vertical-align:middle;}
 .wt_num input[type="number"] {display:block; width:100%; height:14px; padding:8px 0; border:none; outline:none; background-color:transparent; font-size:14px; line-height:14px;}
 
-/* 사진등록 */
-.wt_photo_title {background:url(http://image.club5678.com/imgs/bbjang/img01/ico_photo_title.png) no-repeat 8px 4px; background-size:22px 23px;}
-
-.wt_photo_default {width:100%; height:80px; background:url(http://image.club5678.com/imgs/bbjang/img01/ico_photo_plus.png) no-repeat center center; background-size:41px 42px;}
-.wt_photo_default a{display:block; width: 100%; height: 100%; text-indent:-9999px;}
-
-.wt_photo_wrap {position:relative; width:100%; height:225px;}
-.wt_photo_wrap .wt_photo {position:relative; width:100%; height:100%;}
-.wt_photo_wrap .wt_photo a {display:block; width:100%; height:100%; background:url(http://image.club5678.com/imgs/bbjang/img01/photo04.jpg) no-repeat center center; background-size:cover;}
-.wt_photo_wrap .wt_photo_frac {position:absolute; left:50%; bottom:10px; width:50px; height:22px; margin-left:-25px; border-radius:25px; background:rgba(154,154,154,0.7); color:#fff; font-size:13px; text-align:center; line-height:22px;}
-.wt_photo_wrap .wt_buy_photo {background:#dadee2 url(http://image.club5678.com/imgs/bbjang/img01/bg_detail_buy.png) no-repeat center center; background-size:319px 225px; text-indent:-9999px;}
-.wt_photo_wrap .wt_btn_pre {position:absolute; top:95px; left:0; width:35px; height:35px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_photo_pre.png) no-repeat center center; background-size:17px 26px;}
-.wt_photo_wrap .wt_btn_next {position:absolute; top:95px; right:0; width:35px; height:35px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_photo_next.png) no-repeat center center; background-size:17px 26px;}
-.wt_photo_wrap .wt_btn_pre a, .wt_photo_wrap .wt_btn_next a {display:block; width:100%; height:100%; text-indent:-9999px;}
-.wt_photo_wrap .wt_main_photo {position:absolute; top:10px; left:10px; width:60px; height:20px; border:1px solid #d8d8d8; background-color:#fff; font-size:13px; text-align:center; line-height:20px;}
-
 /* 매물명 */
 .wt_build_title {background:url(http://image.club5678.com/imgs/bbjang/img01/ico_build_title.png) no-repeat 8px 4px; background-size:22px 23px;}
 
@@ -186,6 +170,31 @@
 .wt_info_wrap .wt_area .wt_l {position:absolute; top:7px; left:0px; width:90px; height:32px; line-height:32px;}
 .wt_info_wrap .wt_area .wt_r {width:100%; height:32px; line-height:32px; padding-left:90px; box-sizing:border-box;}
 .wt_info_wrap .wt_area .wt_r .wt_num {width:calc(50% - 54px);}
+
+/****************************** 170207 김다미 ******************************/
+/* 사진등록 */
+.wt_photo_title {background:url(http://image.club5678.com/imgs/bbjang/img01/ico_photo_title.png) no-repeat 8px 4px; background-size:22px 23px;}
+
+.wt_photo_default {width:100%; height:80px; background:url(http://image.club5678.com/imgs/bbjang/img01/ico_photo_plus.png) no-repeat center center; background-size:41px 42px;}
+.wt_photo_default a{display:block; width: 100%; height: 100%; text-indent:-9999px;}
+
+.wt_photo_wrap {position:relative; width:100%; height:225px;}
+.wt_photo_wrap .wt_photo {position:relative; width:100%; height:100%;}
+.wt_photo_wrap .wt_photo a {display:block; width:100%; height:100%; background:url(http://image.club5678.com/imgs/bbjang/img01/photo04.jpg) no-repeat center center; background-size:cover;}
+.wt_photo_wrap .wt_photo_frac {position:absolute; left:50%; bottom:12px; width:50px; height:22px; margin-left:-25px; border-radius:25px; background:rgba(154,154,154,0.7); color:#fff; font-size:13px; text-align:center; line-height:22px;}
+.wt_photo_wrap .wt_buy_photo {background:#dadee2 url(http://image.club5678.com/imgs/bbjang/img01/bg_detail_buy.png) no-repeat center center; background-size:319px 225px; text-indent:-9999px;}
+.wt_photo_wrap .wt_btn_pre {position:absolute; top:95px; left:0; width:35px; height:35px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_photo_pre.png) no-repeat center center; background-size:17px 26px;}
+.wt_photo_wrap .wt_btn_next {position:absolute; top:95px; right:0; width:35px; height:35px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_photo_next.png) no-repeat center center; background-size:17px 26px;}
+.wt_photo_wrap .wt_btn_pre a, .wt_photo_wrap .wt_btn_next a {display:block; width:100%; height:100%; text-indent:-9999px;}
+.wt_photo_wrap .wt_main_photo {position:absolute; top:10px; left:10px; width:60px; height:20px; border:1px solid #d8d8d8; background-color:#fff; font-size:13px; text-align:center; line-height:20px;}
+.wt_photo_wrap .wt_clear_photo, .wt_photo_wrap .wt_del_photo{position:absolute; bottom:10px; width:80px; height:25px; line-height:25px; border:1px solid #4d5356; border-radius:3px; overflow:hidden;}
+.wt_photo_wrap .wt_clear_photo{left:10px;}
+.wt_photo_wrap .wt_del_photo{right:10px;}
+.wt_photo_wrap .wt_clear_photo a, .wt_photo_wrap .wt_del_photo a{display:block; width:100%; height:100%; text-align:center; font-size:13px;}
+.wt_photo_wrap .wt_clear_photo a{background-color:#fff; color:#4d5356;}
+.wt_photo_wrap .wt_clear_photo a:active{background-color:#f7f9fa;}
+.wt_photo_wrap .wt_del_photo a{background-color:#888c8f; color:#fff;}
+.wt_photo_wrap .wt_del_photo a:active{background-color:#83878a}
 
 /*--------------------------------------------------- 상세 등록사진창 ---------------------------------------------------*/
 .bg_clear {background:-moz-linear-gradient(top, rgba(0,0,0,0.47) 0%, rgba(0,0,0,0) 100%); background:-webkit-linear-gradient(top, rgba(0,0,0,0.47) 0%,rgba(0,0,0,0) 100%); background:linear-gradient(to bottom, rgba(0,0,0,0.47) 0%,rgba(0,0,0,0) 100%); /* Permalink - use to edit and share this gradient:http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.5+0,0+100 */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#00000000',GradientType=0 );/* IE6-9 */}
