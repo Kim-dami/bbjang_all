@@ -62,13 +62,13 @@
 #container .dt_list .dt_option_badge:last-of-type {margin-right:0;}
 
 /* 등록자정보(로그인 전) */
-#container .dt_list .agent_login {display:none; position:relative; width:100%; height:auto; padding:20px 0; color:#949494; text-align:center; line-height:30px; box-sizing:border-box;}
+#container .dt_list .agent_login {position:relative; width:100%; height:auto; padding:20px 0; color:#949494; text-align:center; line-height:30px; box-sizing:border-box;}
 #container .dt_list .agent_login .btn_login {width:80px; height:30px; margin:0 auto; border:1px solid #b8bcbe; background-color:#f8f8f8; box-sizing:border-box;}
 #container .dt_list .agent_login .btn_login a {display:block; width:100%; height:100%; color:#4d5356; text-align:center;}
 #container .dt_list .agent_login .btn_login a:active {background:rgba(0,0,0,0.05);}
 
 /* 등록자정보(비공개 설정) */
-#container .dt_list .agent_closed {display:none; position:relative; width:100%; height:100px; color:#949494; text-align:center; line-height:100px;}
+#container .dt_list .agent_closed {position:relative; width:100%; height:100px; color:#949494; text-align:center; line-height:100px;}
 
 /* 등록자정보 */
 #container .dt_list .agent_info {position:relative; width:100%; height:auto; margin-bottom:3px; border-bottom:1px solid #d9d9d9; overflow:hidden;}
