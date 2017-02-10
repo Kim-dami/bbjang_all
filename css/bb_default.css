@@ -103,7 +103,7 @@ td,th {padding:0;}
 .pd_50 {padding-bottom:50px;}
 .full_page {width:100%;}
 
-#header {display:block; z-index:1000; top:0; left:0; width:100%;}
+#header {display:block; z-index:999; top:0; left:0; width:100%;}
 .header_r {position:relative;}
 .header_f {position:fixed;}
 .ht_50 {height:50px;}

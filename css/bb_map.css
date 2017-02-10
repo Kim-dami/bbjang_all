@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+html{width:100%; height:100%;}
+body{width:100%; height:100%; overflow:hidden;}
+.wrap_location_map{position:relative; width:100%; height:100%;}
+#map{position:fixed; width:100%;left:0; right:0; overflow:hidden;}
+.fix1{top:45px; bottom:0;}
+.fix2{top:85px; bottom:50px;}
+.fix3{top:105px; bottom:0;}
+
+/*----------------------------------------- 근무지위치, 근로자위치 출력박스 -----------------------------------------*/
+.location_info1{position:fixed; width:100%; height:auto; bottom:0; padding:10px 0; background:#fff; border-top:1px solid #d8deea; z-index:1;}
+.location_info1 p{margin-left:10px;}
+.location_info1 p.location_1{font-size:16px; line-height:24px;}
+.location_info1 p.location_2{font-size:14px; line-height:18px;}
+/*----------------------------------------- 근무지위치, 근로자위치 출력박스 -----------------------------------------*/
+
+/*----------------------------------------- 상세 위치 직접 지정 -----------------------------------------*/
+.top_mn{position:fixed; width:100%; height:auto; top:45px; z-index:1;}
+.top_mn .self_srch{position:relative; height:30px; background:#46526c; padding:5px;}
+.top_mn .self_srch .box_srch{height:30px; padding:0 10px 0 30px; border:none; background:#fff url('http://image.club5678.com/imgs/ilheayo_job/img01/ico_srch03.png') 5px 50% no-repeat; background-size:17px 13px;}
+.top_mn .self_srch input{width:100%; margin-top:1px; padding:7px 0 6px 0; border:none; font-size:13px; line-height:13px; outline:none;}
+.top_mn .srch_info{width:100%; height:20px; padding:5px 0; background:rgba(0,0,0,0.68); font-size:13px; color:#fff; text-align:center;}
+
+.location_info2{position:fixed; width:100%; height:auto; bottom:50px; padding:10px 0; background:#fff; border-top:1px solid #d8deea; z-index:1;}
+.location_info2 p{margin-left:10px;}
+.location_info2 p.location_1{font-size:16px; line-height:24px;}
+.location_info2 p.location_2{font-size:14px; line-height:18px;}
+
+.btn_register{position:fixed; width:100%; bottom:0; padding:16px 0; background:#ffbb37; font-size:18px; line-height:18px; color:#2a2a2a; font-weight:900; text-align:center; z-index:1;}
+
+/* 검색결과레이어창 */
+#srch_loca{position:fixed; width:100%; top:85px; bottom:0; left:0; right:0; overflow:auto; background:rgba(255,255,255,0.94); z-index:100;}
+#srch_loca .srch_top{position:fixed; width:100%; height:30px; background:#46526c; overflow:auto; z-index:100;}
+#srch_loca .srch_top p.srch_tit{float:left; padding-left:14px; font-size:14px; color:#d8deea; line-height:30px;}
+#srch_loca .srch_close{float:right; margin-right:6px; padding:8px}
+#srch_loca .srch_close:active{position:relative; background:rgba(0,0,0,0.05);}
+#srch_loca .srch_close_active{position:relative; background:rgba(0,0,0,0.05);}
+
+#srch_loca .srch_content{position:fixed; height:auto; top:115px; bottom:40px; left:0; right:0; overflow-y:scroll;}
+#srch_loca .srch_content span.srch_keyword{color:#04d464;}
+#srch_loca .srch_content ul.srch_list1{position:relative; height:auto; padding:13px 14px; border-bottom:1px solid #d8deea; overflow:auto;}
+#srch_loca .srch_content ul.srch_list1:active{background:rgba(0,0,0,0.03);}
+#srch_loca .srch_content ul.srch_list1_active{background:rgba(0,0,0,0.03);}
+#srch_loca .srch_content li.list_loca{float:left;}
+#srch_loca .srch_content li.list_loca p.list_loca_1{font-size:15px; line-height:15px;}
+#srch_loca .srch_content li.list_loca p.list_loca_2{font-size:13px; line-height:13px; margin-top:6px;}
+#srch_loca .srch_content li.list_btn{float:right;}
+#srch_loca .srch_content li.list_btn .loca_slct{width:52px; height:auto; margin:2px 0; padding:8px 0 7px 0; font-size:13px; line-height:13px; text-align:center;}
+#srch_loca .srch_content ul.srch_list_more{position:fixed; width:100%; bottom:0px; background:#eceff4; text-align:center;}
+#srch_loca .srch_content ul.srch_list_more a{display:block; width:100%; height:auto; padding:13px 0; font-size:14px; color:#909dad; line-height:14px;}
+#srch_loca .srch_content ul.srch_list_more a:active{color:#04d464;}
+/* 검색결과레이어창 */
+
+/*----------------------------------------- 상세 위치 직접 지정 -----------------------------------------*/
+
+/*----------------------------------------- 내주변 채용정보 -----------------------------------------*/
+.info_wrap{position:fixed; width:100%; height:30px; top:45px; z-index:10;}
+.info_wrap h2.info01{width:100%; height:30px; line-height:29px; background-color:#46526c; padding:0 10px; margin:0; border-bottom:1px solid #3d4964; box-sizing:border-box; font-size:15px; color:#fff; letter-spacing:-1px;}
+.info_wrap h2.info01 span{color:#fff844;}
+
+.slct_job{position:fixed; width:100%; top:75px; padding:7px 0;  font-size:15px; line-height:15px; border-bottom:1px solid #edeff3; z-index:10;}
+.slct_job .box_s{ margin:0 10px; background:url(http://image.club5678.com/imgs/ilheayo_job/img01/ico_drop01.png) no-repeat right center; background-size:15px 9px;}
+
+.wrap_location_map img.location_m{position:fixed; top:115px; left:10px; z-index:2;}
+.wrap_location_map .zoom_control{position:fixed; top:115px; right:5px; width:30px; height:60px; overflow:hidden; background-color:#f5f5f5; border:1px solid #bfbfbf; border-radius:5px; z-index:2;}
+.wrap_location_map .zoom_control span{display:block; width:30px; height:30px; cursor:pointer; text-indent:-9999px;}
+.wrap_location_map .zoom_control span:first-child{border-bottom:1px solid #bfbfbf; background:url(http://image.club5678.com/imgs/ilheayo_job/img01/ico_plus.png) no-repeat center center; background-size:12px 12px;}
+.wrap_location_map .zoom_control span:last-child{background:url(http://image.club5678.com/imgs/ilheayo_job/img01/ico_minus.png) no-repeat center center; background-size:12px 12px;}
+
+/* 채용정보선택 */
+#container{display:none; position:fixed; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:3;}
+#container .box_all_info{display:none; position:absolute; width:100%; height:auto; bottom:0;}
+#container .box_all_info .choice_info_1{position:relative; width:100%; height:26px; right:0; z-index:3;}
+#container .box_all_info .choice_info_1 img{float:right; border-bottom:1px solid #d8deea; z-index:3;}
+
+#container .box_all_info .content_list{position:relative; width:100%; height:auto; background:#fff;} /* 메인리스트 정보1 */
+
+/* 채용정보선택(여러정보겹침) */
+#container .box_all_info .info_txt{position:relative; font-size:12px; color:#fff; line-height:12px; padding:6px 10px; background:#46526c; text-align:center;}
+#container .box_all_info ul.info_list1{position:relative; background:#fff; padding:4px 0; height:26px; border-bottom:1px solid #d8deea;}
+#container .box_all_info ul.info_list1 li.info_tit{float:left; width:75%; font-size:13px; line-height:13px; padding:7px 0 6px 0; padding-left:10px;}
+#container .box_all_info ul.info_list1 li.info_tit span{color:#42af7c; padding-right:5px;}
+#container .box_all_info ul.info_list1 li.info_btn{float:right; width:70px;}
+#container .box_all_info ul.info_list1 li.info_btn .btn_more{width:60px; padding:7px 0 6px 0; border-radius:5px; font-size:13px; line-height:13px; color:#fff; text-align:center;}
+#container .box_all_info ul.list_p{padding:8px 0 14px 0; }
+#container .box_all_info ul.list_p img{position:relative; height:10px; line-height:14px; padding-top:2px;}
+#container .box_all_info ul.info_list1 li.prev_btn{float:left; width:50%;}
+#container .box_all_info ul.info_list1 li.prev_btn .btn_grd_white{float:right; margin-right:5px; width:65px; font-size:14px; line-height:14px; padding:8px 0; text-align:center;}
+#container .box_all_info ul.info_list1 li.next_btn{float:right; width:50%;}	
+#container .box_all_info ul.info_list1 li.next_btn .btn_grd_white{width:65px; margin-left:5px; font-size:14px; line-height:14px; padding:8px 0; text-align:center;}
+/* 채용정보선택(여러정보겹침) */
+
+/* 채용정보선택 */
+/*----------------------------------------- 내주변 채용정보 -----------------------------------------*/
+
+
+/* 커스텀오버레이 */
+.customoverlay {position:relative; float:left; right:26px; bottom:70px; z-index:100;
+border-radius:15px; -webkit-border-radius:15px;; -moz-border-radius:15px; -ms-border-radius:15px;}
+.customoverlay:nth-of-type(n) {border:1px solid #d8deea; 
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f7f5fe), color-stop(0.25, #ffffff)); 
+background:-moz-linear-gradient(top, #f7f5fe 5%, #ffffff 25%); background:-webkit-linear-gradient(top, #f7f5fe 5%, #ffffff 25%); 
+background:-o-linear-gradient(top, #f7f5fe 5%, #ffffff 25%); background:-ms-linear-gradient(top, #f7f5fe 5%, #ffffff 25%); 
+background:linear-gradient(to bottom, #f7f5fe 5%, #ffffff 25%); 
+background-color:#f7f5fe; 
+box-shadow:0px 1px 2px rgba(136,136,136,0.3);
+/*box-shadow:0px 3px 10px -4px #b3d0f1; 
+-webkit-box-shadow:0px 3px 10px -4px #b3d0f1;
+-moz-box-shadow:0px 3px 10px -4px #b3d0f1;*/}
+.customoverlay a {display:block; font-size:14px; font-weight:700; color:#525d76; text-align:center; overflow:hidden;
+border-radius:18px; -webkit-border-radius:15px; -moz-border-radius:15px; -ms-border-radius:15px;   
+background:#fff url('http://image.club5678.com/imgs/ilheayo_job/img01/btn_arrow_off.png') no-repeat right 8px center; background-size:22px 22px;}
+.customoverlay a:active{background:#fff url('http://image.club5678.com/imgs/ilheayo_job/img01/btn_arrow_on.png') no-repeat right 8px center; background-size:22px 22px;}
+.customoverlay a_active{background:#fff url('http://image.club5678.com/imgs/ilheayo_job/img01/btn_arrow_on.png') no-repeat right 8px center; background-size:22px 22px;}
+.customoverlay .title {display:block; text-align:center; background:#fff; margin-right:35px; padding:8px 4px 8px 10px; font-size:14px; line-height:14px; color:#525d76; font-weight:700;}
+.customoverlay:after {content:''; position:absolute; margin-left:-8px; left:50%; bottom:-12px ;width:22px; height:12px; background:url('http://image.club5678.com/imgs/ilheayo_job/img01/img_arrow.png') no-repeat; background-size:13px 8px;}
+/* 커스텀오버레이 */
+
+
+
+.wrap_pic_viewer{position:fixed; width:100%; height:100%; background:#000 url('http://image.club5678.com/imgs/ilheayo_job/img01/bg2.png') 50% 50% no-repeat; background-size:contain;}
+.wrap_pic_viewer .header_pic_viewer{position:fixed; width:100%; height:46px; background:rgba(70,82,108,0.86); z-index:1;}
+.wrap_pic_viewer .header_pic_viewer .pic_num{position:relative; width:58px; top:8px; padding:7px 0; margin:0 auto; font-size:16px; color:#fff; line-height:16px; border-radius:15px; -webkit-border-radius:15px; -moz-border-radius:15px; text-align:center;}
+
+.wrap_pic_viewer .header_pic_viewer a.pic_accuse{position:absolute; width:60px; height:30px; left:10px; top:8px; background:url('http://image.club5678.com/imgs/ilheayo_job/img01/btn_accuse.png') no-repeat; background-size:60px 30px;}
+@keyframes push02 {
+	50% {
+		transform:scale(0.9);
+	}
+	100% {
+		transform:scale(1);
+	}
+}
+@-webkit-keyframes push02 {
+	50% { -webkit-transform:scale(0.9); }
+	100% { -webkit-transform:scale(1); }
+}
+@-ms-keyframes push02 {
+	50% { -ms-transform:scale(0.9); }
+	100% { -ms-transform:scale(1); }
+}
+@-moz-keyframes push02 {
+	50% { -moz-transform:scale(0.9); }
+	100% { -moz-transform:scale(1); }
+}
+@-o-keyframes push02 {
+	50% { -o-transform:scale(0.9); }
+	100% { -o-transform:scale(1); }
+}
+.wrap_pic_viewer .header_pic_viewer a.pic_accuse:active{animation:push02 0.2s ease-in-out 1; -webkit-animation:push02 0.2s ease-in-out 1; -ms-animation:push02 0.2s ease-in-out 1; -moz-animation:push02 0.2s ease-in-out 1; -o-animation:push02 0.2s ease-in-out 1;}
+.wrap_pic_viewer .header_pic_viewer a.pic_accuse_active{animation:push02 0.2s ease-in-out 1; -webkit-animation:push02 0.2s ease-in-out 1; -ms-animation:push02 0.2s ease-in-out 1; -moz-animation:push02 0.2s ease-in-out 1; -o-animation:push02 0.2s ease-in-out 1;}
+
+.wrap_pic_viewer .prev{position:absolute; width:27px; height:40px; top:50%; left:15px; background:url('http://image.club5678.com/imgs/ilheayo_job/img01/btn_prev_img.png') no-repeat; background-size:27px 40px;}
+.wrap_pic_viewer .next{position:absolute; width:27px; height:40px; top:50%; right:15px; background:url('http://image.club5678.com/imgs/ilheayo_job/img01/btn_next_img.png') no-repeat; background-size:27px 40px;}

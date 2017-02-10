@@ -9,12 +9,9 @@
 .wid_290 {width:290px; margin-left:-145px;}
 .wid_300 {width:300px; margin-left:-150px;}
 
-.mt_plus6 {margin-top:6px;}
-.mt_plus8 {margin-top:8px;}
 .mt_55 {margin-top:-55px;}
 .mt_115 {margin-top:-115px;}
 .mt_100 {margin-top:-100px;}
-.mt_125 {margin-top:-125px;}
 .mt_160 {margin-top:-160px;}
 .mt_180 {margin-top:-180px;}
 .mt_200 {margin-top:-200px;}
@@ -161,10 +158,12 @@ ul.pop_slct_mtd li.pop_mtd_lst {border-bottom:none;}
 .pop_cplt_bottom .pop_cplt_home a_active {background:#eaf5fa;}
 /*--------------------------------- 등록완료알림팝업 ---------------------------------*/
 
+
 /* ================================= 방부장 개발팀 추가 css ================================= */
 .alarm_nobtn {display:none; position:fixed; z-index:999; left:50%; bottom:20px; width:80%; height:auto; overflow:hidden; border-radius:20px; background:rgba(0,0,0,.85); margin-left:-40%; }
 .alarm_nobtn p {padding:15px; color:#fff; font-size:14px; line-height:18px; word-wrap:break-word; text-align:center;}
 
+/* 매물종류 / 매물옵션 팝업창으로 띄우기 */
+#popDealClass, #popSlctOption { position:fixed; z-index:9999; top:0; left:0; width:100%; height:100%; }
 /* 모달류 bg */
 #main_bg_modal02 {position:fixed; z-index:900; top:0; left:0; right:0; bottom:0; width:100%; height:100%; background:rgba(0,0,0,.4);}
-#popDealClass, #popSlctOption { position:fixed; z-index:9999; top:0; left:0; width:100%; height:100%; }

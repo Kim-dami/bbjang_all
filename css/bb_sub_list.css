@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* 상단 정보 영역 */
+#info_wrap {position:relative; width:100%; height:auto;}
+#info_wrap .info01 {width:100%; height:30px; margin:0; padding:0 10px; border-bottom:1px solid #3d4964; background-color:#46526c; color:#fff; font-size:15px; line-height:29px; box-sizing:border-box;letter-spacing:-1px;}
+#info_wrap .info01 span {color:#fff844;}
+#info_wrap .info02 {width:100%; height:25px; margin:0; padding:0 10px; border-bottom:1px solid #8788aa; background-color:#9b98b9; color:#fff; font-size:13px; line-height:24px; box-sizing:border-box;letter-spacing:-1px;}
+#info_wrap .info03 {width:100%; height:25px; margin:0; padding:0 10px; border-bottom:1px solid #c3c3b8; background-color:#f4f4ec; color:#4d4d4d; font-size:13px; line-height:24px; box-sizing:border-box;letter-spacing:-1px;}
+#info_wrap .info03 span {position:relative; top:2px; margin-right:5px;}
+
+/* 필터 영역 */
+#filter_wrap {position:relative; z-index:700; width:100%; height:auto; padding:5px; background-color:#fff; color:#46526c; font-size:14px; box-sizing:border-box;}
+#filter_wrap .filter_container {position:relative; width:100%; height:auto; border:1px solid #c0c7d4; box-sizing:border-box;}
+#filter_wrap .filter_container li {width:100%; height:30px; margin:0; padding:0 10px; border-top:1px solid #c0c7d4; background:rgb(247,245,254); background:-moz-linear-gradient(top, rgba(247,245,254,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 100%); background:-webkit-linear-gradient(top, rgba(247,245,254,1) 0%,rgba(255,255,255,1) 45%,rgba(255,255,255,1) 100%); background:linear-gradient(to bottom, rgba(247,245,254,1) 0%,rgba(255,255,255,1) 45%,rgba(255,255,255,1) 100%); line-height:30px; box-sizing:border-box;filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f5fe', endColorstr='#ffffff',GradientType=0 );}
+#filter_wrap .filter_container li:first-of-type {border-top:0 none;}
+#filter_wrap .filter_container .filter {display:block; background:url(http://image.club5678.com/imgs/ilheayo_job/img01/ico_drop01.png) no-repeat right center; background-size:15px 9px;}
+#filter_wrap .filter_container .filter_active {color:#ff1e00;}
+#filter_wrap .btn_container {position:relative; width:100%; height:30px; margin-top:3px;}
+#filter_wrap .btn_container:after {display:block; clear:both; content:"";}
+#filter_wrap .btn_container .drop_btn_more {display:inline-block; position:relative; float:left; width:90px; height:100%; border:0 none; outline:0 none; background:#fff url(http://image.club5678.com/imgs/ilheayo_job/img01/ico_drop02.png) no-repeat right center; background-size:12px 7px; line-height:27px;}
+#filter_wrap .btn_container .btn_right_box {position:relative; float:right; width:auto; height:35px;}
+#filter_wrap .btn_container .btn_right_box:after {display:block; clear:both; content:"";}
+#filter_wrap .btn_container .btn_right_box li {display:table; float:left; width:auto; height:35px;}
+#filter_wrap .btn_container .btn_right_box li a {display:table-cell; position:relative; padding-left:5px; vertical-align:middle;}
+#filter_wrap .btn_container .btn_right_box li a .btn_rfsh {width:45px;}
+#filter_wrap .btn_container .btn_right_box li a .btn_rfsh span {display:block; width:100%; height:100%; background:url(http://image.club5678.com/imgs/ilheayo_job/img01/ico_refresh.png) no-repeat center center; background-size:15px 14px; text-indent:-9999px;}
+
+/* 필터 드롭메뉴 */
+#filter_drop {position:absolute; z-index:700; margin:4px 0 0 4px; overflow:hidden; border:1px solid #909dad; background:#fff;}
+#filter_drop .filter_drop_u {width:100px; height:auto; border:1px solid #fff; background:#fff;}
+#filter_drop .filter_drop_u .filter_drop_l {height:35px; border-bottom:1px solid #edeff3; font-size:13px; text-align:center; line-height:35px;}
+#filter_drop .filter_drop_u .filter_drop_l:last-child {border-bottom:none;}
+#filter_drop .filter_drop_u .filter_drop_l .filter_drop_a {display:inline-block; width:100%; height:100%; opacity:0; color:#46526c; transition:opacity 0.2s ease-in-out;-webkit-transition:opacity 0.2s ease-in-out; -o-transition:opacity 0.2s ease-in-out; -moz-transition:opacity 0.2s ease-in-out; -ms-transition:opacity 0.2s ease-in-out;}
+#filter_drop .filter_drop_u .filter_drop_l .filter_drop_a:active {outline:none; background:#f3f4f8; background:-moz-linear-gradient(top, #f3f4f8 0%, #e0e2ea 100%); background:-webkit-linear-gradient(top, #f3f4f8 0%,#e0e2ea 100%); background:linear-gradient(to bottom, #f3f4f8 0%,#e0e2ea 100%); color:#46526c !important; font-weight:900; filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f4f8', endColorstr='#e0e2ea',GradientType=0 ); -webkit-tap-highlight-color:rgba(255,255,255,0);}
+#filter_drop .filter_drop_u .filter_drop_l .filter_drop_a_active {outline:none; background:#f3f4f8; background:-moz-linear-gradient(top, #f3f4f8 0%, #e0e2ea 100%); background:-webkit-linear-gradient(top, #f3f4f8 0%,#e0e2ea 100%); background:linear-gradient(to bottom, #f3f4f8 0%,#e0e2ea 100%); color:#46526c !important; font-weight:900; filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f4f8', endColorstr='#e0e2ea',GradientType=0 ); -webkit-tap-highlight-color:rgba(255,255,255,0);}
+#filter_drop .filter_drop_u .filter_drop_l .filter_drop_fade {opacity:1;}
+#filter_drop .filter_drop_u .filter_drop_l:nth-of-type(1) .filter_drop_a {transition-delay:0.04s;-webkit-transition-delay:0.04s; -o-transition-delay:0.04s; -moz-transition-delay:0.04s; -ms-transition-delay:0.04s;}
+#filter_drop .filter_drop_u .filter_drop_l:nth-of-type(2) .filter_drop_a {transition-delay:0.08s;-webkit-transition-delay:0.08s; -o-transition-delay:0.08s; -moz-transition-delay:0.08s; -ms-transition-delay:0.08s;}
+#filter_drop .filter_drop_u .filter_drop_l:nth-of-type(3) .filter_drop_a {transition-delay:0.12s;-webkit-transition-delay:0.12s; -o-transition-delay:0.12s; -moz-transition-delay:0.12s; -ms-transition-delay:0.12s;}
+#filter_drop .filter_drop_u .filter_drop_l:nth-of-type(4) .filter_drop_a {transition-delay:0.16s;-webkit-transition-delay:0.16s; -o-transition-delay:0.16s; -moz-transition-delay:0.16s; -ms-transition-delay:0.16s;}
