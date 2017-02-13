@@ -113,9 +113,10 @@
 .my_top{position:relative; width:100%; height:120px; background:url(http://image.club5678.com/imgs/bbjang/img01/bg_my_menu.png) no-repeat center center; background-size:cover;}
 .my_top h2{position:relative; width:100%; height:60px; text-indent:-9999px; background:url(http://image.club5678.com/imgs/bbjang/img01/img_my_logo.png) no-repeat center center; background-size:74px 27px;}
 .my_top .info_wrap{position:relative; width:100%; height:60px;}
-.my_top .info_wrap .before_login{display:none; width:100%; height:100%;}
+.my_top .info_wrap .before_login{width:100%; height:100%;}
 .my_top .info_wrap .before_login .btn_login{width:165px; height:40px; line-height:40px; margin:0 auto; background:rgba(255,255,255,0.58); border:1px solid #fff; border-radius:3px; box-shadow:0px 0px 6px #dfdfdf;}
 .my_top .info_wrap .before_login .btn_login a{display:block; width:100%; height:100%; text-align:center; color:#34383a; font-size:15px;}
+.my_top .info_wrap .before_login .btn_login a:active{background:rgba(0,0,0,0.02);}
 .my_top .info_wrap .after_login{width:100%; height:100%; padding:6px 80px 6px 10px; box-sizing:border-box; background-color:#fff;}
 .my_top .info_wrap .after_login .login_name{width:100%; height:22px; line-height:22px; text-align:left; font-size:17px;}
 .my_top .info_wrap .after_login .agent_name{color:#7e8386; font-size:14px;}
