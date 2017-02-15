@@ -164,6 +164,6 @@ ul.pop_slct_mtd li.pop_mtd_lst {border-bottom:none;}
 .alarm_nobtn p {padding:15px; color:#fff; font-size:14px; line-height:18px; word-wrap:break-word; text-align:center;}
 
 /* 매물종류 / 매물옵션 팝업창으로 띄우기 */
-#popDealClass, #popSlctOption { position:fixed; z-index:9999; top:0; left:0; width:100%; height:100%; }
+#popDealClass, #popSlctOption { position:fixed; z-index:9999; top:0; left:0; width:100%; height:100%; overflow-y:auto;}
 /* 모달류 bg */
-#main_bg_modal02 {position:fixed; z-index:900; top:0; left:0; right:0; bottom:0; width:100%; height:100%; background:rgba(0,0,0,.4);}
+#main_bg_modal02 {position:fixed; z-index:999; top:0; left:0; right:0; bottom:0; width:100%; height:100%; background:rgba(0,0,0,.4);}
