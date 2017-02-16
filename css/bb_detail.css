@@ -157,6 +157,7 @@
 #container .dt_list .dt_sell li:last-of-type {padding-bottom:0;}
 #container .dt_list .dt_sell .dt_l {float:left; width:65px; height:100%; font-size:14px; line-height:20px; ;}
 #container .dt_list .dt_sell .dt_r {position:relative; float:left; width:auto; height:auto; font-size:16px; line-height:20px;}
+#container .dt_list .dt_sell .dt_ht20{height:20px;}
 #container .dt_list .dt_sell .unit_conver {position:absolute; left:60px; top:0; width:70px; height:20px; margin-left:5px; border:1px solid #484b4d; border-radius:3px; background-color:#545759; color:#f5f5f5; font-size:13px; text-align:center; box-sizing:border-box;}
 #container .dt_list .dt_sell .unit_active {color:#83c5f7; font-weight:bold; width:250px;}
 
