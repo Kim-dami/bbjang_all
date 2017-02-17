@@ -113,7 +113,7 @@
 .wt_add .wt_add_l {position:relative; width:100%; height:auto; padding-top:7px;}
 .wt_add .wt_add_l:after {display:block; clear:both; content:"";}
 .wt_add .wt_add_l .wt_add_num {display:inline-block; width:calc(30% - 35px); height:30px; margin:0 3px; padding:0 5px; border:1px solid #dce0e1; border-radius:3px; background-color:#f5f7f7; line-height:30px; vertical-align:middle;}
-.wt_add .wt_add_l .wt_add_num select {display:block; width:100%; padding:8px 0; border:none; outline:none; background:#f5f7f7 url(http://image.club5678.com/imgs/bbjang/img01/ico_slct_drop03.png) no-repeat right center; background-size:7px 4px; font-size:14px; line-height:14px;}
+.wt_add .wt_add_l .wt_add_num select {display:block; width:100%; padding:8px 0 7px 0; border:none; outline:none; background:#f5f7f7 url(http://image.club5678.com/imgs/bbjang/img01/ico_slct_drop03.png) no-repeat right center; background-size:7px 4px; font-size:14px; line-height:14px;}
 .wt_add .wt_add_l .wt_add_num input[type="number"] {display:block; width:100%; padding:8px 0; border:none; outline:none; background-color:transparent; font-size:14px; line-height:14px;}
 
 /* 하단 버튼 */
@@ -121,7 +121,7 @@
 
 /* 수정시 버튼 */
 .wt_bot_wrap .wt_bot_btn {position:relative; float:left; width:25%; height:100%; background:url(http://image.club5678.com/imgs/bbjang/img01/bg_bar.png) no-repeat left center; background-size:2px 25px;}
-.wt_bot_wrap .wt_bot_btn:first-of-child {background:none;}
+.wt_bot_wrap .wt_bot_btn:first-of-type {background:none;}
 .wt_bot_wrap .wt_bot_btn a {display:block; width:100%; height:100%; color:#f3f3f3; font-size:16px; text-align:center;}
 .wt_bot_wrap .wt_bot_btn a:active {background:rgba(0,0,0,0.1);}
 
@@ -144,9 +144,9 @@
 .wt_info_title {background:url(http://image.club5678.com/imgs/bbjang/img01/ico_info_title.png) no-repeat 8px 4px; background-size:22px 23px;}
 
 .wt_info_wrap {position:relative; width:100%; height:auto; padding:0 7px; box-sizing:border-box;}
-.wt_info_wrap li {position:relative; width:100%; height:auto; padding:7px 0; border-bottom:1px solid #d7d7d7;}
+.wt_info_wrap li {position:relative; width:100%; height:auto; padding:7px 0; border-top:1px solid #d7d7d7;}
 .wt_info_wrap li:after {display:block; clear:both; content:"";}
-.wt_info_wrap li:last-of-type {border-bottom:none;}
+.wt_info_wrap li:first-of-type {border-bottom:none;}
 
 .wt_info_wrap .wt_hope_loca .wt_l {position:absolute; top:7px; left:0; width:80px; height:32px; line-height:32px;}
 .wt_info_wrap .wt_hope_loca .wt_r {width:100%; height:32px; line-height:32px; padding-left:80px; box-sizing:border-box;}

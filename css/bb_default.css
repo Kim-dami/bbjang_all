@@ -99,7 +99,7 @@ td,th {padding:0;}
 /*
  ** 방부장 기본 css **
           */
-#wrap {position:relative; top:0; left:0; right:0; width:100%; height:100%;}
+#wrap {position:relative; top:0; left:0; right:0; width:100%; height:100%; overflow-y:auto;}
 .pd_50 {padding-bottom:50px;}
 .full_page {width:100%;}
 
@@ -122,7 +122,7 @@ td,th {padding:0;}
  ** 방부장 공통 리스트
           */
 .content_list {position:relative; width:100%; height:auto; padding:0 3px; box-sizing:border-box;}
-.list_card {position:relative; width:100%; height:auto; margin:0 auto; box-shadow:0px 10px 10px #d7d7d7;}
+.list_card {position:relative; width:100%; height:auto; margin:0 auto; box-shadow:0px 3px 7px #d7d7d7;}
 
 /* 사진터치 구분 영역 */
 .list_card .list_photo_wrap {position:absolute; top:10px; left:8px; z-index:10; width:95px; height:70px; overflow:hidden;}
@@ -165,8 +165,10 @@ td,th {padding:0;}
 .list_card .my_line:after {display:block; clear:both; content:"";}
 .list_card .my_line div {float:left; width:33.3333%; height:30px; border-right:1px solid #dfdfdf; background-color:#fcfcfc; line-height:30px; box-sizing:border-box;}
 .list_card .my_line div:last-of-type {border-right:none;}
-.list_card .my_line div a {display:block; width:100%; height:100%; color:#858585; font-size:12px; text-align:center;}
+.list_card .my_line div a {display:block; width:100%; height:100%; color:#636363; font-size:12px; text-align:center;}
 .list_card .my_line div a:active {background:rgba(0,0,0,0.05);}
+.list_card .my_line div:first-of-type a{background-color:#fffed4; color:#7e004a;}
+.list_card .my_line div:first-of-type a:active{background-color:#fffeb3;}
 
 /* 로딩 */
 .load_wrap {position:relative; width:100%; height:40px; line-height:40px; padding-top:20px; text-align:center;}
