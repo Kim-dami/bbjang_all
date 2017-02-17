@@ -9,9 +9,12 @@
 .wid_290 {width:290px; margin-left:-145px;}
 .wid_300 {width:300px; margin-left:-150px;}
 
+.mt_plus6 {margin-top:6px;}
+.mt_plus8 {margin-top:8px;}
 .mt_55 {margin-top:-55px;}
 .mt_115 {margin-top:-115px;}
 .mt_100 {margin-top:-100px;}
+.mt_125 {margin-top:-125px;}
 .mt_160 {margin-top:-160px;}
 .mt_180 {margin-top:-180px;}
 .mt_200 {margin-top:-200px;}
@@ -166,7 +169,7 @@ ul.pop_slct_mtd li.pop_mtd_lst {border-bottom:none;}
 /* 매물종류 / 매물옵션 팝업창으로 띄우기 */
 #popDealClass, #popSlctOption { position:fixed; z-index:9999; top:0; left:0; width:100%; height:100%; }
 /* 모달류 bg */
-#main_bg_modal02 {position:fixed; z-index:900; top:0; left:0; right:0; bottom:0; width:100%; height:100%; background:rgba(0,0,0,.4);}
+#main_bg_modal02 {position:fixed; z-index:999; top:0; left:0; right:0; bottom:0; width:100%; height:100%; background:rgba(0,0,0,.4);}
 
 /*---------------------------- 170216 무료영상팝업 닫기추가(김다솜) ----------------------------*/
 .btn_pop_clse {position:absolute; width:40px; height:40px; top:0; right:0;}

@@ -125,7 +125,7 @@ td,th {padding:0;}
 .list_card {position:relative; width:100%; height:auto; margin:0 auto; box-shadow:0px 10px 10px #d7d7d7;}
 
 /* 사진터치 구분 영역 */
-.list_card .list_photo_wrap {position:absolute; top:10px; left:8px; width:95px; height:70px; overflow:hidden;}
+.list_card .list_photo_wrap {position:absolute; top:10px; left:8px; z-index:10; width:95px; height:70px; overflow:hidden;}
 .list_card .list_photo_wrap a {display:block; position:relative; width:100%; height:100%; overflow:hidden;}
 .list_card .list_photo_wrap .sold_out {background:url(http://image.club5678.com/imgs/bbjang/img01/list_sold_out.png) no-repeat center center; background-size:cover;}
 .list_card .list_photo_wrap .expira{background:url(http://image.club5678.com/imgs/bbjang/img01/list_expira.png) no-repeat center center; background-size:cover;}
@@ -142,7 +142,7 @@ td,th {padding:0;}
 /* 거래완료뱃지가 있을 경우 top_line에 클래스 추가 */
 .list_card .list_intro .mid_line {width:100%; height:55px;}
 .list_card .list_intro .mid_line .intro_title {width:100%; height:23px; overflow:hidden; color:#596063; font-size:15px; text-overflow:ellipsis; line-height:23px; white-space:nowrap;}
-.list_card .list_intro .mid_line .intro_txt {display:-webkit-box; width:100%; overflow:hidden; font-size:14px; text-overflow:ellipsis; line-height:16px; word-wrap:break-word;-webkit-box-orient:vertical; -webkit-line-clamp:2;}
+.list_card .list_intro .mid_line .intro_txt {display:-webkit-box; width:100%; height:32px; line-height:16px; overflow:hidden!important; font-size:14px; text-overflow:ellipsis; word-wrap:break-word; -webkit-box-orient:vertical; -webkit-line-clamp:2;}
 .list_card .list_intro .photo_pl {padding-left:105px; box-sizing:border-box;}
 /* 사진이 있을 경우 top_line과 mid_line에 클래스 추가 */
 .list_card .list_intro .bot_line {width:100%; height:auto; white-space:nowrap;}
@@ -190,3 +190,19 @@ td,th {padding:0;}
 .nopg_btn .nopg_home{float:right; background-color:#0ca2ed;}
 .nopg_btn .nopg_back a, .nopg_btn .nopg_home a{display:block; width:100%; height:100%; text-align:center;}
 .nopg_btn .nopg_back a:active, .nopg_btn .nopg_home a:active{background:rgba(0,0,0,0.05);}
+
+/*--------------------------------------------------- 매물종류선택 ---------------------------------------------------*/
+.pop_slct_type {position:relative; width:100%; height:auto; overflow:auto;}
+
+.type_contents {position:relative; width:100%; height:auto; padding-bottom:20px; background:#fcfcfc;}
+.type_contents .type_tit {position:relative; padding:16px 0 10px 10px; border-bottom:1px solid #d8d8d8; color:#373b3d; font-size:15px; font-weight:bold;}
+
+ul.type_list {position:relative; overflow:auto; background:#fff;}
+ul.type_list li.type_1 {float:left; width:50%; border-bottom:1px solid #d8d8d8; color:#4d5356; font-size:15px; text-align:center; line-height:15px; box-sizing:border-box;}
+ul.type_list li.type_1 a {padding:12px 0;}
+ul.type_list li.type_1 a:active {display:block; background:#0ca2ed; color:#fff; font-weight:bold;}
+ul.type_list li.type_1 a_active {background:#0ca2ed; color:#fff; font-weight:bold;}
+ul.type_list li.type_none {height:40px;}
+ul.type_list li.type_100 {width:100%; border-right:none;}
+ul.type_list li:nth-child(odd) {border-right:1px solid #d8d8d8;}
+/*--------------------------------------------------- 매물종류선택 ---------------------------------------------------*/

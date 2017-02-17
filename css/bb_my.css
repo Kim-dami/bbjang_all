@@ -30,7 +30,7 @@ input{outline:none;}
 .list_card .list_intro .top_line .my_expira_badge {display:inline-block; position:absolute; top:10px; right:-3px; width:60px; height:20px; padding-left:8px; border-bottom:1px solid #999; border-radius:25px 0 0 25px; background-color:#a6a6a6; color:#fff; font-size:12px; line-height:20px; box-sizing:border-box;}
 
 /* 내정보 설정 */
-.between-groups-in-settings {display:block; width:100%; height:7px; background:#d3d6d7; -webkit-box-shadow:0 2px 2px #c5c8c9; -moz-box-shadow:inset 0 2px 2px #c5c8c9; -ms-box-shadow:inset 0 2px 2px #c5c8c9; -o-box-shadow:inset 0 2px 2px #c5c8c9; box-shadow:inset 0 2px 2px #c5c8c9;}
+.between-groups-in-settings {display:block; width:100%; height:7px; background:#d3d6d7; -webkit-box-shadow:inset 0 2px 2px #c5c8c9; -moz-box-shadow:inset 0 2px 2px #c5c8c9; -ms-box-shadow:inset 0 2px 2px #c5c8c9; -o-box-shadow:inset 0 2px 2px #c5c8c9; box-shadow:inset 0 2px 2px #c5c8c9;}
 .border-bt-in-settings {display:block; width:100%; border-bottom:1px solid #ccd0d2;}
 #settings_my_wrap {width:100%; height:auto; background:#fff;}
 #settings_my_wrap .area1 {position:relative; left:50%; width:82px; height:82px; margin-left:-41px; padding-top:18px;}
@@ -135,6 +135,7 @@ input{outline:none;}
 #settings_out_wrap .links a.link2 {display:inline-block; text-decoration:underline;}
 
 /* 환경설정 */
+.between-groups-in-settings_2 {display:block; width:100%; height:5px; background:#d3d6d7; -webkit-box-shadow:inset 0 1px 2px #b1b4b4; -moz-box-shadow:inset 0 1px 2px #b1b4b4; -ms-box-shadow:inset 0 1px 2px #b1b4b4; -o-box-shadow:inset 0 1px 2px #b1b4b4; box-shadow:inset 0 1px 2px #b1b4b4;}
 #settings_pushmsgs_wrap {width:100%; height:auto; padding:12px 0; background:#fff;}
 #settings_pushmsgs_wrap .head {position:relative; margin-left:15px; letter-spacing:0;}
 #settings_pushmsgs_wrap .head .supplement {margin-left:27px; letter-spacing:-0.5px;}
@@ -146,9 +147,10 @@ input{outline:none;}
 #settings_pushmsgs_wrap .choice_area .coord1 {left:162px;}
 #settings_pushmsgs_wrap .choice_area .settings_label {margin-right:8px; font-size:15px;}
 #settings_pushmsgs_wrap .choice_area .betweenline {position:absolute; top:50%; left:147px; width:1px; height:18px; margin-top:-9px; background:#e1e4e5;}
-#settings_counselling_wrap {width:100%; height:auto; padding:12px 0; border-top:1px solid #ccd0d2; background:#fff;}
-#settings_counselling_wrap .head {position:relative; margin-left:15px; letter-spacing:0;}
-#settings_counselling_wrap .choice_area {position:relative; margin:11px 13px 0 13px; border:1px solid #e1e4e5; border-radius:2px; background:#fff;}
+#settings_pushmsgs_wrap .supplement {font-size:13px;}
+#settings_counselling_wrap {width:100%; height:auto; padding:12px 0; background:#fff;}
+#settings_counselling_wrap .head {position:relative; margin-left:15px; padding-bottom:6px; letter-spacing:0;}
+#settings_counselling_wrap .choice_area {position:relative; margin:5px 13px 0 13px; border:1px solid #cacdce; border-radius:2px; background:#fff;}
 #settings_counselling_wrap .choice_area .element-in {position:relative; left:50%; width:294px; height:91px; margin-left:-147px;}
 @media all and (min-width:412px) {
 #settings_counselling_wrap .choice_area .element-in {width:340px; margin-left:-170px;}
@@ -175,7 +177,8 @@ input{outline:none;}
 #settings_counselling_wrap .choice_area .element-in .coord2 {top:0; left:178px;}
 #settings_counselling_wrap .choice_area .element-in .coord3 {top:3px;}
 #settings_counselling_wrap .choice_area .element-in .grouping1 {position:absolute; margin:9px 11px 11px 11px; font-size:15px; line-height:30px;}
-#settings_counselling_wrap .choice_area .element-in .grouping1 .ico {margin-right:6px; line-height:30px;}
+#settings_counselling_wrap .choice_area .element-in .grouping1 .ico {margin-right:6px; line-height:30px; vertical-align:middle;}
+#settings_counselling_wrap .choice_area .element-in .grouping1 span {color:#717578;}
 #settings_counselling_wrap .choice_area .element-in .grouping2 {position:absolute; top:46px; margin:0 11px 11px 11px; font-size:15px; line-height:30px;}
 #settings_counselling_wrap .choice_area .element-in .grouping2 select.selectbox1 {width:73px; height:30px; margin:3px 0 0 96px; border:1px solid #bdbdbd; border-radius:2px; background:url(http://image.club5678.com/imgs/bbjang/img_my/my_settings_counselling_selectbox_arrow.png) no-repeat 94% 50%; background-size:6px 5px; line-height:30px; text-indent:7px; -webkit-border-radius:2px; -o-border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px;}
 #settings_counselling_wrap .choice_area .element-in .grouping2 select.selectbox2 {width:73px; height:30px; border:1px solid #bdbdbd; border-radius:2px; background:url(http://image.club5678.com/imgs/bbjang/img_my/my_settings_counselling_selectbox_arrow.png) no-repeat 94% 50%; background-size:6px 5px; line-height:30px; text-indent:7px; -webkit-border-radius:2px; -o-border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px;}
@@ -199,14 +202,60 @@ input{outline:none;}
 #settings_counselling_wrap .choice_area .element-in .grouping2 select.selectbox1 {width:190px;}
 #settings_counselling_wrap .choice_area .element-in .grouping2 select.selectbox2 {width:190px;}
 }
-
-@media all and (min-width:412px) {
-#settings_counselling_wrap .choice_area .element-in .grouping2 select.selectbox2 {width:86px;}
-}
 #settings_counselling_wrap .choice_area .element-in .grouping2 select.sb_on {background:#fff url(http://image.club5678.com/imgs/bbjang/img_my/my_settings_counselling_selectbox_arrow.png) no-repeat 94% 50%; background-size:6px 5px;}
 #settings_counselling_wrap .choice_area .element-in .grouping2 select.sb_off {background:#bdbdbd url(http://image.club5678.com/imgs/bbjang/img_my/my_settings_counselling_selectbox_arrow.png) no-repeat 94% 50%; background-size:6px 5px; color:#888;}
 #settings_counselling_wrap .choice_area .element-in .grouping2 .straight {margin:0 8px; font-size:15px; line-height:30px;}
 #settings_counselling_wrap .supplement {margin:0 17px; padding-top:12px; font-size:13px; line-height:17px;}
+		/* ------- 기능추가 : 관심지역 알림설정 (201702) ------- */
+#settings_wish-location_wrap {width:100%; height:auto; padding:12px 0; background:#fff;}
+#settings_wish-location_wrap .head {position:relative; margin-left:15px; letter-spacing:0;}
+#settings_wish-location_wrap .switch_area {display:inline-block; position:absolute; top:9px; right:16px; width:66px; height:22px;}
+#settings_wish-location_wrap .switch_area .state_on {display:inline-block; position:relative; top:0; left:18px; width:48px; height:22px; background:url('http://image.club5678.com/imgs/bbjang/img_my/my_wish-location_switch_on.png') no-repeat 0 0; background-size:48px 22px;}
+#settings_wish-location_wrap .switch_area .state_on:active {background:url('http://image.club5678.com/imgs/bbjang/img_my/my_wish-location_switch_off.png') no-repeat 0 0; background-size:48px 22px; transition:all 0.3s linear;}
+#settings_wish-location_wrap .switch_area .state_off {display:inline-block; position:relative; top:0; left:18px; width:48px; height:22px; background:url('http://image.club5678.com/imgs/bbjang/img_my/my_wish-location_switch_off.png') no-repeat 0 0; background-size:48px 22px;}
+#settings_wish-location_wrap .switch_area .state_off:active {background:url('http://image.club5678.com/imgs/bbjang/img_my/my_wish-location_switch_on.png') no-repeat 0 0; background-size:48px 22px; transition:all 0.3s linear;}
+#settings_wish-location_wrap .choice_area {position:relative; margin:11px 13px 0 13px; border:1px solid #cacdce; -webkit-border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px; -o-border-radius:2px; border-radius:2px; background:#fff;}
+#settings_wish-location_wrap .choice_area .element-in {position:relative; left:50%; width:292px; height:44px; margin-left:-146px;}
+@media all and (min-width:412px) {
+#settings_wish-location_wrap .choice_area .element-in {width:340px; margin-left:-170px;}
+}
+@media all and (min-width:480px) {
+#settings_wish-location_wrap .choice_area .element-in {width:390px; margin-left:-195px;}
+}
+@media all and (min-width:600px) {
+#settings_wish-location_wrap .choice_area .element-in {width:460px; margin-left:-230px;}
+}
+@media all and (min-width:768px) {
+#settings_wish-location_wrap .choice_area .element-in {width:530px; margin-left:-265px;}
+}
+@media all and (min-width:1024px) {
+#settings_wish-location_wrap .choice_area .element-in {width:700px; margin-left:-350px;}
+}
+#settings_wish-location_wrap .choice_area .element-in .location {position:absolute; width:auto; height:30px; margin:7px 5px; line-height:30px;}
+#settings_wish-location_wrap .choice_area .element-in .location select.location-selectbox {display:inline; width:73px; height:30px; margin-right:3px; padding-right:15px; -webkit-border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px; -o-border-radius:2px; border-radius:2px; background:url(http://image.club5678.com/imgs/bbjang/img_my/my_settings_counselling_selectbox_arrow.png) no-repeat 94% 50%; background-size:6px 5px; line-height:30px; text-indent:4px;}
+@media all and (min-width:412px) {
+#settings_wish-location_wrap .choice_area .element-in .location select.location-selectbox {width:86px;}
+}
+@media all and (min-width:480px) {
+#settings_wish-location_wrap .choice_area .element-in .location select.location-selectbox {width:100px;}
+}
+@media all and (min-width:600px) {
+#settings_wish-location_wrap .choice_area .element-in .location select.location-selectbox {width:120px;}
+}
+@media all and (min-width:768px) {
+#settings_wish-location_wrap .choice_area .element-in .location select.location-selectbox {width:140px;}
+}
+@media all and (min-width:1024px) {
+#settings_wish-location_wrap .choice_area .element-in .location select.location-selectbox {width:176px;}
+}
+#settings_wish-location_wrap .choice_area .element-in .location select.l-sb_on {border:1px solid #c3c9cd; background:#f5f8fa url(http://image.club5678.com/imgs/bbjang/img_my/my_settings_counselling_selectbox_arrow.png) no-repeat 94% 50%; background-size:6px 5px;}
+#settings_wish-location_wrap .choice_area .element-in .location select.l-sb_off {border:1px solid #bdbdbd; background:#bdbdbd url(http://image.club5678.com/imgs/bbjang/img_my/my_settings_counselling_selectbox_arrow.png) no-repeat 94% 50%; background-size:6px 5px; color:#888;}
+#settings_wish-location_wrap .choice_area .element-in .location .btn_confirm {width:42px; height:30px; margin-left:3px; -webkit-border-radius:3px; -moz-border-radius:3px; -ms-border-radius:3px; -o-border-radius:3px; border-radius:3px; font-size:13px; text-align:center; line-height:30px;}
+#settings_wish-location_wrap .choice_area .element-in .location .btn_confirm_on {border:1px solid #0ca2ed; background:#fff; color:#0ca2ed;}
+#settings_wish-location_wrap .choice_area .element-in .location .btn_confirm_on:active {background:#e5f6ff;}
+#settings_wish-location_wrap .choice_area .element-in .location .btn_confirm_off {border:1px solid #d3d3d3; background:#d3d3d3; color:#b0b0b0;}
+#settings_wish-location_wrap .choice_area .element-in .location .btn_confirm_off:active {background:#d3d3d3;}
+#settings_wish-location_wrap .supplement {margin:0 17px; padding-top:9px; font-size:13px; line-height:17px;}
 
 /* 공지사항 */
 #notice-lists_wrap {width:100%; height:auto; padding-bottom:30px;}

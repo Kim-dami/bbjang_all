@@ -313,22 +313,6 @@
 .chk_gallery .chk_pic:checked ~ .chk_lb2 {display:inline-block; position:relative; width:auto; height:24px; padding-left:30px; background:url('http://image.club5678.com/imgs/bbjang/img01/chk_pic_on.png') no-repeat left center; background-size:24px 24px; line-height:24px; vertical-align:middle;}
 /* 체크박스 */
 /*--------------------------------------------------- 등록하기_이미지멀티선택업로드 ---------------------------------------------------*/
-
-/*--------------------------------------------------- 등록하기_매물종류선택 ---------------------------------------------------*/
-.pop_slct_type {position:relative; width:100%; height:auto; overflow:auto;}
-
-.type_contents {position:relative; width:100%; height:auto; padding-bottom:20px; background:#fcfcfc;}
-.type_contents .type_tit {position:relative; padding:16px 0 10px 10px; border-bottom:1px solid #d8d8d8; color:#373b3d; font-size:15px; font-weight:bold;}
-
-ul.type_list {position:relative; overflow:auto; background:#fff;}
-ul.type_list li.type_1 {float:left; width:50%; border-bottom:1px solid #d8d8d8; color:#4d5356; font-size:15px; text-align:center; line-height:15px; box-sizing:border-box;}
-ul.type_list li.type_1 a {padding:12px 0;}
-ul.type_list li.type_1 a:active {display:block; background:#0ca2ed; color:#fff; font-weight:bold;}
-ul.type_list li.type_1 a_active {background:#0ca2ed; color:#fff; font-weight:bold;}
-ul.type_list li.type_none {height:40px;}
-ul.type_list li.type_100 {width:100%; border-right:none;}
-ul.type_list li:nth-child(odd) {border-right:1px solid #d8d8d8;}
-/*--------------------------------------------------- 등록하기_매물종류선택 ---------------------------------------------------*/
 /*--------------------------------------------------- 등록하기_주소검색 ---------------------------------------------------*/
 .pop_find_adrs {position:fixed; width:100%; height:100%; background:#ececec;}
 /*--------------------------------------------------- 등록하기_주소검색 ---------------------------------------------------*/
