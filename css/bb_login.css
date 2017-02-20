@@ -39,7 +39,7 @@
 .form_1 input:focus ~ .line{opacity:1;}
 .form_1 input:focus ~ .txt_erase{opacity:1;}
 
-.form_1 .txt_erase{position:absolute; width:40px; height:40px; top:4px; right:0; background:url('http://image.club5678.com/imgs/bbjang/img_login/btn_erase.png') center center no-repeat; background-size:8px 8px; text-indent:-9999px; opacity:0; transition:all 0.5s ease-in-out;}
+.form_1 .txt_erase{position:absolute; width:40px; height:40px; top:4px; right:0; background:url('http://image.club5678.com/imgs/bbjang/img_login/btn_erase.png') center center no-repeat; background-size:10px 10px; text-indent:-9999px; opacity:0; transition:all 0.5s ease-in-out;}
 .form_1 .txt_erase_on{opacity:1;}
 .form_1 .txt_erase a{display:block; width:40px; height:40px;}
 .form_1 .txt_erase a:active{background:rgba(0,0,0,0.03);}
@@ -72,11 +72,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01a8d5', end
 .content_lg .lg_menu a.menu1{margin-right:10px;}
 .content_lg .lg_menu a.menu2{margin-left:10px;}
 
-.content_lg .lg_social{position:relative; width:90px; height:35px; margin:40px auto 0 auto;}
-.content_lg .lg_social .nv_lg{float:left; width:35px; height:35px;}
+.content_lg .lg_social{position:relative; width:100px; height:35px; margin:40px auto 0 auto;}
+.content_lg .lg_social .nv_lg{float:left; width:40px; height:40px;}
 .content_lg .lg_social .nv_lg:active{position:relative; top:1px;}
 .content_lg .lg_social .nv_lg_active{position:relative; top:1px;}
-.content_lg .lg_social .ko_lg{float:right;}
+.content_lg .lg_social .ko_lg{float:right; width:40px; height:40px;}
 .content_lg .lg_social .ko_lg:active{position:relative; top:1px;}
 .content_lg .lg_social .ko_lg:active{position:relative; top:1px;}
 /* login form */
@@ -87,7 +87,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01a8d5', end
 .header_lg img.img_lg{top:162px;}
 .content_lg .form_1{margin-bottom:8px;}		
 .content_lg{margin:34px auto 0 auto;}
-.content_lg .lg_social{width:94px; margin:50px auto  0 auto;}
+.content_lg .lg_social{width:106px; margin:50px auto  0 auto;}
 .content_lg .lg_btn{margin:28px auto 30px auto;}
 }
 
@@ -97,7 +97,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01a8d5', end
 .header_lg img.img_lg{top:212px;}
 .content_lg .form_1{margin-bottom:12px;}		
 .content_lg{margin:50px auto 0 auto;}
-.content_lg .lg_social{width:94px; margin:60px auto 0 auto;}
+.content_lg .lg_social{width:108px; margin:60px auto 0 auto;}
 .content_lg .lg_btn{width:190px; margin:36px auto 36px auto;}
 .content_lg .lg_btn a{padding:16px 0; border-radius:24.5px;}
 .content_lg .lg_menu{font-size:15px;}
@@ -109,7 +109,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01a8d5', end
 .header_lg img.img_lg{top:302px;}
 .content_lg .form_1{width:460px; margin:0 auto 20px auto;}		
 .content_lg{margin:80px auto 0 auto;}
-.content_lg .lg_social{width:110px; margin:110px auto 0 auto;}
+.content_lg .lg_social{width:118px; margin:110px auto 0 auto;}
 .content_lg .lg_btn{width:250px; margin:46px auto 50px auto;}
 .content_lg .lg_btn a{padding:20px 0; border-radius:28.5px;}
 .content_lg .lg_menu{font-size:17px;}

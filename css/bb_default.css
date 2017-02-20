@@ -198,7 +198,7 @@ td,th {padding:0;}
 /*--------------------------------------------------- 매물종류선택 ---------------------------------------------------*/
 .pop_slct_type {position:relative; width:100%; height:auto; overflow:auto;}
 
-.type_contents {position:relative; width:100%; height:auto; padding-bottom:20px; background:#fcfcfc;}
+.type_contents {position:relative; width:100%; height:auto; padding-bottom:20px; background:#f7f7f7;}
 .type_contents .type_tit {position:relative; padding:16px 0 10px 10px; border-bottom:1px solid #d8d8d8; color:#373b3d; font-size:15px; font-weight:bold;}
 
 ul.type_list {position:relative; overflow:auto; background:#fff;}
