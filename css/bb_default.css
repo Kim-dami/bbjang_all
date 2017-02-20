@@ -57,8 +57,10 @@ td,th {padding:0;}
 /*
  ** 컬러 **
           */
-.bg_blue {background-color:#0ca2ed;}
-      /* 메인 블루 배경 */
+.bg_blue {background-color:#0ca2ed; border-bottom:1px solid #0882c4; box-sizing:border-box;}
+      /* 메인 블루 배경(선 있음) */
+.bg_blue_none {background-color:#0ca2ed;}
+      /* 메인 블루 배경(선 없음) */
 .bg_gray {background-color:#d9dddd;}
       /* 메인 그레이 배경 */
 .bg_white {background-color:#fff;}
