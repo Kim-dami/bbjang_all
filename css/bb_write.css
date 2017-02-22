@@ -71,8 +71,8 @@
 .wt_address {position:relative; width:100%; height:auto; padding:10px 7px; box-sizing:border-box;}
 .wt_address li {position:relative; width:100%; height:auto; padding:0 7px 7px 7px; box-sizing:border-box;}
 .wt_address li:last-of-type {padding:0;}
-.wt_address li .wt_l {position:absolute; top:0px; left:7px; width:45px; height:20px; background-color:#e1e1e1; font-size:13px; text-align:center; line-height:20px; margin-right: 10px;}
-.wt_address li .wt_r {width:100%; height:auto; font-size:15px; line-height:21px; padding-left:55px; box-sizing:border-box;}
+.wt_address li .wt_l {position:absolute; top:0px; left:10px; width:45px; height:20px; background-color:#e1e1e1; font-size:13px; text-align:center; line-height:20px;}
+.wt_address li .wt_r {width:100%; height:auto; font-size:15px; line-height:21px; padding-left:53px; box-sizing:border-box;}
 .wt_address li .wt_address_add {width:100%; height:32px; padding:0 5px; border:1px solid #dadee0; border-radius:3px; box-sizing:border-box; background-color:#fff;}
 .wt_address li .wt_address_add input[type="text"] {display:block; width:100%; height:14px; padding:8px 0; border:none; outline:none; background-color:transparent; color:#0b7fd0; font-size:14px; line-height:14px;}
 .wt_address li .wt_map_wrap {position:relative; width:100%; height:170px; border:1px solid #d2d7d9; border-radius:3px;}
@@ -81,14 +81,14 @@
 /* 옵션정보 */
 .wt_opc_title {background:url(http://image.club5678.com/imgs/bbjang/img01/ico_opc_title.png) no-repeat 8px 4px; background-size:22px 23px;}
 
-.wt_opc {position:relative; width:100%; height:auto; padding:7px; color:#0b7fd0; font-size:15px; text-align:left; line-height:20px; box-sizing:border-box;}
+.wt_opc {position:relative; width:100%; height:auto; padding:7px 17px; color:#0b7fd0; font-size:15px; text-align:left; line-height:20px; box-sizing:border-box;}
 
 /* 상세설명 */
 .wt_expl_title {background:url(http://image.club5678.com/imgs/bbjang/img01/ico_expl_title.png) no-repeat 8px 4px; background-size:22px 23px;}
 
-.wt_expl_txt {position:relative; width:100%; height:auto; padding:7px; box-sizing:border-box;}
-.wt_expl_txt label {position:absolute; z-index:5; top:12px; left:0px; width:100%; height:auto; color:#9ea2a3; font-size:13px; line-height:18px; padding:0 12px; box-sizing:border-box;}
-.wt_expl_txt textarea {display:block; position:relative; width:100%; height:auto!important; padding:5px; border:none; outline:none; background-color:#fff; font-size:14px; font-family:'bbj-Regular'; line-height:20px; box-sizing:border-box;resize:none!important;}
+.wt_expl_txt {position:relative; width:100%; height:auto; padding:7px 17px;; box-sizing:border-box;}
+.wt_expl_txt label {position:absolute; z-index:5; top:10px; left:0px; width:100%; height:auto; color:#9ea2a3; font-size:13px; line-height:18px; padding:0 17px; box-sizing:border-box;}
+.wt_expl_txt textarea {display:block; position:relative; width:100%; height:auto!important; border:none; outline:none; background-color:#fff; font-size:14px; font-family:'bbj-Regular'; line-height:20px; box-sizing:border-box;resize:none!important;}
 
 /* 등록자정보 */
 .wt_agent_title {background:url(http://image.club5678.com/imgs/bbjang/img01/ico_agent_title.png) no-repeat 8px 4px; background-size:22px 23px;}
@@ -97,16 +97,16 @@
 
 .wt_agent_num {position:relative; width:100%; height:auto; padding:0 7px; box-sizing:border-box;}
 .wt_agent_num .wt_agent_line{position:relative; width:100%; height:100%; padding:7px 0; border-bottom:1px solid #d7d7d7;}
-.wt_agent_num .wt_l {position:absolute; top:7px; left:0px; width:80px; height:32px; line-height:32px;}
-.wt_agent_num .wt_r {width:100%; height:32px; color:#0b7fd0; line-height:32px; padding-left:85px; padding-right:57px; box-sizing:border-box;}
+.wt_agent_num .wt_l {position:absolute; top:7px; left:10px; width:75px; height:32px; line-height:32px;}
+.wt_agent_num .wt_r {width:100%; height:32px; color:#0b7fd0; line-height:32px; padding-left:90px; padding-right:57px; box-sizing:border-box;}
 
 .wt_agent_btn {position:absolute; top:7px; right:0px; width:50px; height:30px; border:1px solid #0ca2ed; border-radius:3px; line-height:30px;}
 .wt_agent_btn a {display:block; width:100%; height:100%; font-size:13px; text-align:center}
 .wt_agent_btn a:active {background-color:#0ca2ed; color:#fff;}
 
 .wt_add {position:relative; width:100%; height:auto; padding:7px; box-sizing:border-box;}
-.wt_add .wt_l {position:absolute; top:7px; left:7px; width:80px; height:32px; line-height:32px;}
-.wt_add .wt_r {width:100%; height:32px; line-height:32px; padding-left:80px; box-sizing:border-box;}
+.wt_add .wt_l {position:absolute; top:7px; left:17px; width:75px; height:32px; line-height:32px;}
+.wt_add .wt_r {width:100%; height:32px; line-height:32px; padding-left:85px; box-sizing:border-box;}
 .wt_add .wt_r a {display:block; width:100%; height:100%; border-radius:3px; background-color:#0ca2ed; color:#fff; font-size:15px; text-align:center;}
 .wt_add .wt_r a:active {position:relative; top:1px; background:#0b91d4;}
 .wt_add .wt_add_u {position:relative; clear:both; width:100%; height:auto;}
@@ -148,7 +148,7 @@
 .wt_info_wrap li:after {display:block; clear:both; content:"";}
 .wt_info_wrap li:first-of-type {border-top:none;}
 
-.wt_info_wrap .wt_hope_loca .wt_l {position:absolute; top:7px; left:0; width:80px; height:32px; line-height:32px;}
+.wt_info_wrap .wt_hope_loca .wt_l {position:absolute; top:7px; left:10px; width:70px; height:32px; line-height:32px;}
 .wt_info_wrap .wt_hope_loca .wt_r {width:100%; height:32px; line-height:32px; padding-left:80px; box-sizing:border-box;}
 .wt_info_wrap .wt_hope_loca .wt_r .wt_slct_30 {float:left; width:32.333333%; height:32px; margin-left:1%; border:1px solid #dce0e1; border-radius:3px; box-sizing:border-box; background:#f5f7f7 url(http://image.club5678.com/imgs/bbjang/img01/ico_slct_drop03.png) no-repeat 97% center; background-size:7px 4px; line-height:30px;}
 .wt_info_wrap .wt_hope_loca .wt_r .wt_slct_30 select {display:block; width:90%; padding:8px 2%; box-sizing:border-box; border:none; outline:none; background-color:transparent; color:#4d5356; font-size:14px; line-height:14px; overflow:hidden;}
@@ -159,15 +159,15 @@
 .wt_info_wrap .wt_slct_50 a {display:block; width:100%; height:100%; font-size:14px; line-height:30px;}
 .wt_info_wrap .wt_slct_50 select {display:block; width:100%; padding:8px 0; border:none; outline:none; background-color:transparent; color:#4d5356; font-size:14px; line-height:14px;}
 
-.wt_info_wrap .wt_rent_price .wt_l {position:absolute; top:7px; left:0px; width:130px; height:32px; line-height:32px;}
+.wt_info_wrap .wt_rent_price .wt_l {position:absolute; top:7px; left:10px; width:120px; height:32px; line-height:32px;}
 .wt_info_wrap .wt_rent_price .wt_r {width:100%; height:32px; line-height:32px; padding-left:130px; box-sizing:border-box;}
 .wt_info_wrap .wt_rent_price .wt_r .wt_num {width:calc(100% - 50px);}
 
-.wt_info_wrap .wt_month_price .wt_l {position:absolute; top:7px; left:0px; width:90px; height:32px; line-height:32px;}
+.wt_info_wrap .wt_month_price .wt_l {position:absolute; top:7px; left:10px; width:80px; height:32px; line-height:32px;}
 .wt_info_wrap .wt_month_price .wt_r {width:100%; height:32px; line-height:32px; padding-left:90px; box-sizing:border-box;}
 .wt_info_wrap .wt_month_price .wt_r .wt_num {width:calc(50% - 54px);}
 
-.wt_info_wrap .wt_area .wt_l {position:absolute; top:7px; left:0px; width:90px; height:32px; line-height:32px;}
+.wt_info_wrap .wt_area .wt_l {position:absolute; top:7px; left:10px; width:80px; height:32px; line-height:32px;}
 .wt_info_wrap .wt_area .wt_r {width:100%; height:32px; line-height:32px; padding-left:90px; box-sizing:border-box;}
 .wt_info_wrap .wt_area .wt_r .wt_num {width:calc(50% - 54px);}
 
@@ -319,7 +319,7 @@
 /*--------------------------------------------------- 등록하기_옵션정보선택 ---------------------------------------------------*/
 .pop_slct_option {position:fixed; width:100%; height:100%; background:#f7f7f7;}
 
-.option_contents {position:relative; width:100%; height:auto; margin-top:10px; border-top:1px solid #d8d8d8; background:#fcfcfc;}
+.option_contents {position:relative; width:100%; height:auto; margin-top:55px; border-top:1px solid #d8d8d8; background:#fcfcfc;}
 .option_contents ul.type_list li.type_1 {padding:8px 0; padding-left:10px; text-align:left;}
 /*
 @media(min-width:360px) {
