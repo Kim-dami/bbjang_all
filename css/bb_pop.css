@@ -198,3 +198,9 @@ ul.pop_slct_mtd li.pop_mtd_lst a{border-bottom:none;}
 .pop_txt_interest .interest_info_tit .info_rm_type{padding-right:8px;}
 .pop_txt_interest .interest_info_txt {display:-webkit-box; width:281px; max-height:19px; padding-top:9px; overflow:hidden; font-size:16px; color:#4d5356; text-overflow:ellipsis; line-height:18px; word-wrap:break-word; -webkit-box-orient:vertical; -webkit-line-clamp:1;}
 /*----------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------170224 상담메시지창 신고버튼추가 (김다솜)-------------------------*/
+.pop_msg_con .btn_bad_report{position:absolute; width:50px; height:40px; top:-2px; right:0;}
+.pop_msg_con .btn_bad_report a{width:50px; height:40px; background:url('http://image.club5678.com/imgs/bbjang/img01/btn_report_n.png') center center no-repeat; background-size:36px 20px; text-indent:-9999px;}
+.pop_msg_con .btn_bad_report a:active{background:url('http://image.club5678.com/imgs/bbjang/img01/btn_report_p.png') center center no-repeat; background-size:36px 20px;}
+/*----------------------------------------------------------------------------------------------------*/
