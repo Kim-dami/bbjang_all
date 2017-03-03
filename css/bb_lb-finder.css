@@ -1,0 +1,37 @@
+@charset "utf-8";
+input, button {outline:none;}
+#wrap {position:relative; top:0; left:0; right:0; width:100%; height:100%; overflow-y:auto;}
+#wrap .calc1 {width:-webkit-calc(100% - 50px); width:-moz-calc(100% - 50px); width:calc(100% - 50px);}
+
+#wrap #header .transfer-mode {position:absolute; top:0; right:0; width:39px; height:36px; margin:5px 9px 0 0;}
+#wrap #header .transfer-mode .list {width:43px; height:40px; border:1px solid #86d1f6; -webkit-border-radius:3px; -moz-border-radius:3px; -ms-border-radius:3px; border-radius:3px; background:#0ca2ed url(http://image.club5678.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-list-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
+#wrap #header .transfer-mode .list:active {background:#30b0f0 url(http://image.club5678.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-map-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
+#wrap #header .transfer-mode .map {width:43px; height:40px; border:1px solid #86d1f6; -webkit-border-radius:3px; -moz-border-radius:3px; -ms-border-radius:3px; border-radius:3px; background:#0ca2ed url(http://image.club5678.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-map-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
+#wrap #header .transfer-mode .map:active {background:#30b0f0 url(http://image.club5678.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-list-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
+
+#lb-finder_wrap {position:absolute; overflow-y:show; top:-87px; left:0; width:100%; height:100%; background-color:#fff;}
+#lb-finder_wrap #lb-finder {position:relative; overflow-y:auto; top:0; left:0; width:100%; height:100%; margin-top:87px; background-color:#eee;}
+#lb-finder_wrap #lb-finder .near-my-location {position:absolute; top:87px; left:0; width:29px; height:29px; margin:15px 0 0 12px; border:1px solid #808080; -webkit-border-radius:9px; -moz-border-radius:9px; -ms-border-radius:9px; -o-border-radius:9px; border-radius:9px; -webkit-box-shadow:0 0 4px rgba(0,0,0,.4); -moz-box-shadow:0 0 4px rgba(0,0,0,.4); -ms-box-shadow:0 0 4px rgba(0,0,0,.4); -o-box-shadow:0 0 4px rgba(0,0,0,.4); box-shadow:0 0 4px rgba(0,0,0,.4); background:rgba(255,255,255,.9) url(http://image.club5678.com/imgs/bbjang/img_lb-finder/lb-finder_btn_myLocation_icon-normal.png) no-repeat center; background-size:29px 29px;}
+#lb-finder_wrap #lb-finder .near-my-location:active {background:rgba(255,255,255,.9) url(http://image.club5678.com/imgs/bbjang/img_lb-finder/lb-finder_btn_myLocation_icon-press.png) no-repeat center; background-size:29px 29px;}
+#lb-finder_wrap #lb-finder .bundle-sign-in {position:relative; width:46px; height:46px; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; border-radius:50%; background-color:rgba(0,101,242,0);}
+#lb-finder_wrap #lb-finder .bundle-sign-in .sign {position:absolute; top:0; left:0; width:38px; height:38px; margin:4px 0 0 4px; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; border-radius:50%; background-color:rgba(0,101,242,1); font-family:"bb-Bold"; font-size:17px; color:#fff; line-height:38px; text-align:center;}
+#lb-finder_wrap #lb-finder .bundle-sign-in:active {background-color:rgba(255,255,255,.75);}
+#lb-finder_wrap #lb-finder .bundle-sign-in .sign:active {background-color:rgba(255,255,255,1); color:#0057d1;}
+#lb-finder_wrap #lb-finder .display-goods {position:absolute; overflow-y:auto; bottom:0; background:#fff; width:100%; height:auto; min-height:50px; max-height:320px; border-top:1px solid #d9d9d9;}
+@media all and (max-height:480px) {
+#lb-finder_wrap #lb-finder .display-goods {max-height:284px;}
+}
+@media all and (min-height:732px) {
+#lb-finder_wrap #lb-finder .display-goods {max-height:360px;}
+}
+@media all and (min-height:1024px) {
+#lb-finder_wrap #lb-finder .display-goods {max-height:500px;}
+}
+#lb-finder_wrap #lb-finder .display-goods .number-of-goods {position:relative; width:100%; height:50px; margin-bottom:-2px; border-bottom:2px solid #85d0f6; background-color:#fff;}
+#lb-finder_wrap #lb-finder .display-goods .number-of-goods .info {display:inline-block; position:absolute; width:-webkit-calc(55% - 12px); width:-moz-calc(55% - 12px); width:calc(55% - 12px); height:auto; margin:7px 12px 0 12px; font-size:14px; color:#222; line-height:18px; letter-spacing:0;}
+#lb-finder_wrap #lb-finder .display-goods .number-of-goods .info .tit {color:#5da3c9; letter-spacing:-0.5px;}
+#lb-finder_wrap #lb-finder .display-goods .number-of-goods .info .bigger {font-size:18px; margin-right:2px;}
+#lb-finder_wrap #lb-finder .display-goods .number-of-goods .list-all {display:inline-block; position:absolute; right:0; width:-webkit-calc(45% - 10px); width:-moz-calc(45% - 10px); width:calc(45% - 10px); height:34px; margin:7px 10px 0 0; border:1px solid #0b9de5; border-radius:17px; background:#0ca2ed url(http://image.club5678.com/imgs/bbjang/img_lb-finder/lb-finder_display_btn_list-all_arrow.png) no-repeat 100% 50%; background-size:36px 36px; font-size:18px; color:#fff; line-height:34px; letter-spacing:1px;}
+#lb-finder_wrap #lb-finder .display-goods .number-of-goods .list-all:active {border:1px solid #0b9be3; background-color:#0b9be3;}
+#lb-finder_wrap #lb-finder .display-goods .number-of-goods .list-all .ml_minus8 {margin-left:-8px;}
+#lb-finder_wrap #lb-finder .display-goods .bundle {display:block; width:100%; height:auto; margin-top:2px; background-color:#fff;}

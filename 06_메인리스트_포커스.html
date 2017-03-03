@@ -11,12 +11,18 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script async type="text/javascript" src="http://devm-yupitereu.ilhaeyo.com/_global/assets/js/jquery-mobile.event.min.js"></script>
 </head>
+<style>
+    .header_srch label{display:block!important;}
+    .btn_reset{display:block!important;}
+    .btn_srch_on{display:block!important;}
+    .btn_voice{display:none!important;}
+</style>
 <body ontouchstart="">
 <!---------------------------------------- 메인리스트 ---------------------------------------->
 <div id="wrap">
 	<!-- 메인 헤더 -->
 	<div id="header" class="ht_50 bg_blue header_r">
-        <div class="header_bar">
+        <div class="header_bar header_bar_on">
            <div class="header_srch">
                <div class="srch_btn btn_reset">
                    <a href="#">돌아가기</a>
@@ -54,7 +60,7 @@
 	</div>
 	<!-- // 메인 헤더 -->
 	<!-- 최근검색 및 추천검색 -->
-	<div class="srch_drop">
+	<div class="srch_drop srch_drop_on">
 		<ul>
 			<li class="srch_history">
 			<a href="#" class="history_go">원룸</a>

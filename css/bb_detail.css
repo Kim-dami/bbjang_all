@@ -160,3 +160,6 @@
 #container .dt_list .dt_sell .unit_active {color:#83c5f7; font-weight:bold; width:250px;}
 
 #container .dt_list .dt_intro {position:relative; width:100%; height:auto; padding:10px; border-top:1px solid #e8e8e8; font-size:14px; line-height:20px; box-sizing:border-box;}
+
+/****************************** 170302 김다미 ******************************/
+#wrap{overflow-x:hidden;}
