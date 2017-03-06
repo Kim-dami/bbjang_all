@@ -139,7 +139,7 @@ td,th {padding:0;}
 .list_card .list_intro a:active {background:rgba(0,0,0,0.05);}
 .list_card .list_intro .top_line {width:100%; height:15px; overflow:hidden; text-overflow:ellipsis; line-height:15px; white-space:nowrap;}
 .list_card .list_intro .top_line .intro_price {margin-left:8px; font-size:15px;}
-.list_card .list_intro .top_line .comple_badge {display:inline-block; position:absolute; top:10px; right:-3px; width:60px; height:20px; padding-left:8px; border-bottom:1px solid #66abcd; border-radius:25px 0 0 25px; background-color:#6cb5d9; color:#fff; font-size:12px; line-height:20px; box-sizing:border-box;}
+.list_card .list_intro .top_line .comple_badge {display:inline-block; position:absolute; top:6px; right:-3px; width:60px; height:20px; padding-left:8px; border-bottom:1px solid #66abcd; border-radius:25px 0 0 25px; background-color:#6cb5d9; color:#fff; font-size:12px; line-height:20px; box-sizing:border-box;}
 .list_card .list_intro .comple_pr {padding-right:50px; box-sizing:border-box;}
 /* 거래완료뱃지가 있을 경우 top_line에 클래스 추가 */
 .list_card .list_intro .mid_line {width:100%; height:55px;}
