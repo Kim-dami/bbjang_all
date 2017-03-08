@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* 최근검색 및 추천검색 */
-.srch_drop{display:none; position:absolute; top:45px; left:0px; z-index:1000; width:100%; height:auto; padding:0 50px 0 145px; box-sizing:border-box;transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out; -ms-transition:all 0.3s ease-in-out; -o-transition:all 0.3s ease-in-out; -moz-transition:all 0.3s ease-in-out; -webkit-backface-visibility:hidden; backface-visibility:hidden; -webkit-perspective:1000; perspective:1000;}
+.srch_drop{display:none; position:absolute; top:45px; left:0px; z-index:1000; width:100%; height:auto; padding:0 5px 0 145px; box-sizing:border-box;transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out; -ms-transition:all 0.3s ease-in-out; -o-transition:all 0.3s ease-in-out; -moz-transition:all 0.3s ease-in-out; -webkit-backface-visibility:hidden; backface-visibility:hidden; -webkit-perspective:1000; perspective:1000;}
 .srch_drop_on{display:block; padding:0 5px;}
 .srch_drop ul{position:relative; width:100%; height:auto; background-color:#fff; border-radius:0 0 3px 3px; box-shadow:1px 3px 5px #d7d7d7; overflow:hidden;}
 .srch_drop ul li{position:relative; width:100%; height:40px; line-height:40px; font-size:14px;}
@@ -97,6 +97,7 @@
 .my_mid .my_more:nth-of-type(5){border-bottom:none;}
 .my_mid .my_more a{display:block; width:100%; height:100%; padding-left:10px; box-sizing:border-box;}
 .my_mid .my_more a:active{background:rgba(0,0,0,0.05);}
+.my_mid .my_more .cue-badge{display:inline-block; position:absolute; top:50%; right:29px; width:26px; height:26px; margin-top:-13px; border:none; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; border-radius:50%; background-color:#ff002a; background:-webkit-linear-gradient(to bottom,#ff3300,#ff002a); background:linear-gradient(to bottom,#ff3300,#ff002a); outline:0; font-size:13px; color:#fff; letter-spacing:-1px; line-height:26px; text-align:center;}
 .my_mid .my_write{position:relative; width:100%; height:40px; line-height:40px; background-color:#129de3;}
 .my_mid .my_write a{width:100%; height:100%; margin:0 auto; padding:0 80px 0 110px; box-sizing:border-box; font-size:15px; text-align:left; color:#fff; background:url(http://image.club5678.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 80px center; background-size:21px 22px;}
 .my_mid .my_write a:active{background:#1195d7 url(http://image.club5678.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 80px center; background-size:21px 22px;}
@@ -133,7 +134,8 @@
 .header_srch .srch_btn a{display:block; width:100%; height:100%; text-indent:-9999px;}
 .header_srch  input[type="text"]{position:relative; display:block; width:100%; height:100%; line-height:16px; font-size:16px; border:none; outline:none; background-color:transparent;}
 .header_srch label{display:none; position:absolute; left:41px; top:13px; width:200%; line-height:16px; font-size:16px; color:#9d9fa2;}
-.header_srch .btn_reset{display:none; left:0; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_reset.png) no-repeat center center; background-size:17px 14px;}
+.header_srch .btn_reset{opacity:0; left:0; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_reset.png) no-repeat center center; background-size:17px 14px; transition:all 0.2s ease-in-out; -webkit-transition:all 0.2s ease-in-out; -ms-transition:all 0.2s ease-in-out; -o-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out;}
+.header_bar_on .btn_reset{opacity:1;}
 .header_srch .btn_srch_del{display:none; right:40px; width:30px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_srch_del.png) no-repeat right center; background-size:12px 12px;}
 .header_srch .btn_srch_on{display:none; right:0; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_srch_on.png) no-repeat center center; background-size:19px 21px;}
 .header_srch .btn_voice{right:0; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_srch_voice.png) no-repeat center center; background-size:13px 17px;}
@@ -143,8 +145,9 @@
 #header .btn_my{left:0; width:50px; height:50px;}
 #header .btn_my a{background:url(http://image.club5678.com/imgs/bbjang/img01/btn_aside.png) no-repeat center center; background-size:22px 16px;}
 #header .btn_my a:active{background:rgba(0,0,0,0.05) url(http://image.club5678.com/imgs/bbjang/img01/btn_aside.png) no-repeat center center; background-size:22px 16px;}
-#header .btn_home{left:50px; width:95px; height:50px; padding-left:2px; box-sizing:border-box; background:url(http://image.club5678.com/imgs/bbjang/img01/bg_bar03.png) no-repeat left center; background-size:2px 38px;}
-#header .btn_home a{background:url(http://image.club5678.com/imgs/bbjang/img01/img_srch_logo02.png) no-repeat center 10px; background-size:74px 26px;}
+#header .btn_logo_home{left:50px; width:95px; height:50px; padding-left:2px; box-sizing:border-box; background:url(http://image.club5678.com/imgs/bbjang/img01/bg_bar03.png) no-repeat left center; background-size:2px 38px;}
+#header .btn_logo_home a{background:url(http://image.club5678.com/imgs/bbjang/img01/img_srch_logo02.png) no-repeat center 10px; background-size:74px 26px;}
 #header .btn_map{right:5px; top:5px; width:40px; height:40px; border:1px solid #86d1f6; border-radius:3px; box-sizing:border-box;}
 #header .btn_map a{background:url(http://image.club5678.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-map-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
 #header .btn_map a:active{background:#30b0f0 url(http://image.club5678.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-map-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
+#header .cue-badge{display:inline-block; position:absolute; top:0; left:0; width:26px; height:26px; margin:2px 0 0 22px; border:1px solid #fff; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; border-radius:50%; -webkit-box-shadow:1px 1px 2px rgba(0,0,0,.23); -moz-box-shadow:1px 1px 2px rgba(0,0,0,.23); -ms-box-shadow:1px 1px 2px rgba(0,0,0,.23); -o-box-shadow:1px 1px 2px rgba(0,0,0,.23); box-shadow:1px 1px 2px rgba(0,0,0,.23); background-color:#ff0c08; background:-webkit-linear-gradient(to bottom,#ff5b45,#ff0c08); background:linear-gradient(to bottom,#ff5b45,#ff0c08); outline:0; font-size:13px; color:#fff; letter-spacing:-1px; line-height:26px; text-align:center;}
