@@ -214,7 +214,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01a8d5', end
 
 /*----------------------------------------------------- 가입완료페이지 -----------------------------------------------------*/
 #wrap_jn_c{position:relative; width:100%; text-align:center;}
-#wrap_jn_c .content_jn_c{position:relative; width:82%; height:auto; margin:54px auto 0 auto;}
+#wrap_jn_c .content_jn_c{position:relative; width:82%; height:auto; margin:74px auto 0 auto;}
 
 .content_jn_c .user_info{font-size:24px; color:#5f676b;}
 .content_jn_c .user_info span.user_name{margin-right:5px; font-size:30px; color:#5f676b;}
@@ -223,16 +223,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01a8d5', end
 .content_jn_c .ico_go a{background:url('http://image.club5678.com/imgs/bbjang/img_login/ico_go.png') 90% 50% no-repeat; background-size:17px 14px; border:1px solid #0ca2ed; border-radius:21px; font-size:18px; color:#0ca2ed; line-height:18px; padding:12.5px 0 11.5px 0;}
 .content_jn_c .ico_go a:active{position:relative; top:1px;}
 .content_jn_c .ico_go a_active{position:relative; top:1px;}
-.content_jn_c .go_write{margin-top:12px;}
 
 @media(min-width:360px){
-#wrap_login .content_jn_c{margin:74px auto 0 auto;}
-.content_jn_c .jn_c_txt{margin:10px 0 26px 0;}
-.content_jn_c .go_write{margin-top:16px;}
+#wrap_jn_c  .content_jn_c{margin:110px auto 0 auto;}
+.content_jn_c .jn_c_txt{margin:10px 0 40px 0;}
 }
 
 @media(min-width:768px){
-#wrap_login .content_jn_c{margin:160px auto 0 auto;}
+#wrap_jn_c  .content_jn_c{margin:160px auto 0 auto;}
 }
 /*----------------------------------------------------- 가입완료페이지 -----------------------------------------------------*/
 
