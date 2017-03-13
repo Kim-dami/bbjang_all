@@ -1,4 +1,10 @@
-@charset "utf-8";#header .btn_back {position:absolute; z-index:1; top:0; left:0; width:40px; height:100%;}
+@charset "utf-8";
+body{overflow:hidden;}
+.header_f{position:absolute;}
+.pd_50{padding-bottom:40px;}
+.full_page_msg{width:100%; box-sizing:border-box;}
+
+#header .btn_back {position:absolute; z-index:1; top:0; left:0; width:40px; height:100%;}
 #header .btn_back a {display:block; width:100%; height:100%; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_back_msg.png) no-repeat center center; background-size:17px 14px; text-indent:-9999px;}
 #header .btn_back a:active {background:rgba(0,0,0,0.05) url(http://image.bbjang.com/imgs/bbjang/img01/btn_back_msg.png) no-repeat center center; background-size:17px 14px;}
 #header .header_txt {position:relative; width:100%; height:100%; padding-left:45px; color:#4d5356; font-size:19px; line-height:45px; box-sizing:border-box;}
@@ -8,11 +14,12 @@
 #header .btn_report_msg a:active {background:rgba(0,0,0,.1);}
 
 #container .msg_btn_wrap {width:100%; max-height:34px; background:#0b9de6; border-bottom:1px solid #0972ab;}
+#container .msg_btn_wrap:after{content:""; display:block; clear:both;}
 #container .msg_btn_wrap ul li {float:left; max-height:34px; margin:0; padding:0 11px; border-right:1px solid #30a5e0; color:#fff; font-size:16px; text-align:center; letter-spacing:-1px; line-height:34px;}
 #container .msg_btn_wrap ul li:active {background:#30a5e0; color:#fff;}
 #container .msg_btn_wrap ul li:nth-child(3) {float:right; border-right:none; border-left:1px solid #30a5e0;}
 
-#msg_content_warp {width:100%; height:100%; overflow:hidden; background:#7abadd;}
+#msg_content_warp {width:100%; height:100%; overflow-y:auto; background:#7abadd; box-sizing:border-box;}
 #msg_content_warp .msg_day_wrap {width:95%; height:auto; margin:0 auto; margin-top:8px;}
 #msg_content_warp .msg_day_wrap .msg_day_line {display:block; margin:0 auto; margin-bottom:8px; text-align:center;}
 #msg_content_warp .msg_day_wrap .msg_day_line p {display:inline-block; padding:7px 12px; border-radius:15px; background:#5d8ea8; color:#fff; letter-spacing:-0.5px;}
@@ -55,7 +62,7 @@
 .user_photo {position:absolute; top:0; left:0; width:142px; height:111px;}
 .bbj_logo {position:absolute; top:38px; left:29px;}
 /* 메시지 입력창 */
-.msg_input_wrap {position:fixed; z-index:999; bottom:0px; width:100%; height:40px; background:#fff;}
+.msg_input_wrap {position:absolute; z-index:999; bottom:0px; width:100%; height:40px; background:#fff;}
 .msg_input_wrap .msg_bar {display:block; width:100%; height:100%; margin:0 auto; border-top:1px solid #626d73;}
 .msg_input_wrap .msg_bar .msg_text_box {width:100%; height:100%; background:#fff;}
 .msg_input_wrap .msg_bar .msg_text_box li {float:left;}
