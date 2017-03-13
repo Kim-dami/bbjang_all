@@ -5,18 +5,18 @@
 /* 상세페이지 사진 */
 .dt_photo_wrap {position:relative; width:100%; height:225px; background-color:#ccc; margin-top:45px;}
 .dt_photo_wrap .dt_photo {position:relative; width:100%; height:100%;}
-.dt_photo_wrap .dt_photo a {display:block; width:100%; height:100%; background:url(http://image.club5678.com/imgs/bbjang/img01/photo03.jpg) no-repeat center center; background-size:cover;}
-.dt_photo_wrap .dt_water_mk {position:absolute; top:50%; left:50%; width:80px; height:80px; margin-top:-40px; margin-left:-40px; background:url(http://image.club5678.com/imgs/bbjang/img01/img_water_mk.png) no-repeat center center; background-size:73px 75px; text-indent:-9999px;}
+.dt_photo_wrap .dt_photo a {display:block; width:100%; height:100%; background:url(http://image.bbjang.com/imgs/bbjang/img01/photo03.jpg) no-repeat center center; background-size:cover;}
+.dt_photo_wrap .dt_water_mk {position:absolute; top:50%; left:50%; width:80px; height:80px; margin-top:-40px; margin-left:-40px; background:url(http://image.bbjang.com/imgs/bbjang/img01/img_water_mk.png) no-repeat center center; background-size:73px 75px; text-indent:-9999px;}
 .dt_photo_wrap .dt_photo_frac {position:absolute; top:10px; right:10px; width:50px; height:22px; border-radius:25px; background:rgba(154,154,154,0.7); color:#fff; font-size:13px; text-align:center; line-height:22px;}
-.dt_photo_wrap .dt_buy_photo {background:#dadee2 url(http://image.club5678.com/imgs/bbjang/img01/bg_detail_buy.png) no-repeat center center; background-size:319px 225px; text-indent:-9999px;}
-.dt_photo_wrap .dt_btn_pre {position:absolute; top:95px; left:0; width:35px; height:35px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_photo_pre.png) no-repeat center center; background-size:17px 26px;}
-.dt_photo_wrap .dt_btn_next {position:absolute; top:95px; right:0; width:35px; height:35px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_photo_next.png) no-repeat center center; background-size:17px 26px;}
+.dt_photo_wrap .dt_buy_photo {background:#dadee2 url(http://image.bbjang.com/imgs/bbjang/img01/bg_detail_buy.png) no-repeat center center; background-size:319px 225px; text-indent:-9999px;}
+.dt_photo_wrap .dt_btn_pre {position:absolute; top:95px; left:0; width:35px; height:35px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_photo_pre.png) no-repeat center center; background-size:17px 26px;}
+.dt_photo_wrap .dt_btn_next {position:absolute; top:95px; right:0; width:35px; height:35px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_photo_next.png) no-repeat center center; background-size:17px 26px;}
 .dt_photo_wrap .dt_btn_pre a, .dt_photo_wrap .dt_btn_next a {display:block; width:100%; height:100%; text-indent:-9999px;}
 
 /* 상세페이지 정보 */
 .dt_info_wrap {position:relative; width:100%; height:auto; padding:7px; box-sizing:border-box;}
 .dt_info_wrap .dt_title {width:100%; height:auto; padding-bottom:7px; line-height:25px; font-size:19px;}
-.dt_info_wrap .dt_scrap {float:left; width:30px; height:25px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_scrap_off.png) no-repeat left center; background-size:23px 22px; transform:scale(1);-webkit-transform:scale(1); -o-transform:scale(1); -moz-transform:scale(1); -ms-transform:scale(1);}
+.dt_info_wrap .dt_scrap {float:left; width:30px; height:25px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_scrap_off.png) no-repeat left center; background-size:23px 22px; transform:scale(1);-webkit-transform:scale(1); -o-transform:scale(1); -moz-transform:scale(1); -ms-transform:scale(1);}
 .dt_info_wrap .dt_scrap a {display:block; width:100%; height:100%; text-indent:-9999px;}
 @keyframes push {
 50% {transform:scale(0.6);}
@@ -38,22 +38,22 @@
 50% {-o-transform:scale(0.6);}
 100% {-o-transform:scale(1);}
 }
-.dt_info_wrap .dt_scrap_on {background:url(http://image.club5678.com/imgs/bbjang/img01/btn_scrap_on.png) no-repeat left center; background-size:23px 22px; animation:push 0.2s ease-in-out 1;-webkit-animation:push 0.2s ease-in-out 1; -o-animation:push 0.2s ease-in-out 1; -moz-animation:push 0.2s ease-in-out 1; -ms-animation:push 0.2s ease-in-out 1;}
+.dt_info_wrap .dt_scrap_on {background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_scrap_on.png) no-repeat left center; background-size:23px 22px; animation:push 0.2s ease-in-out 1;-webkit-animation:push 0.2s ease-in-out 1; -o-animation:push 0.2s ease-in-out 1; -moz-animation:push 0.2s ease-in-out 1; -ms-animation:push 0.2s ease-in-out 1;}
 .dt_info_wrap .dt_price {width:100%; height:20px;}
 .dt_info_wrap .dt_price .month_badge, .dt_info_wrap .dt_price .rent_badge, .dt_info_wrap .dt_price .sell_badge, .dt_info_wrap .dt_price .buy_badge {width:40px; height:20px; font-size:15px; line-height:20px;}
 .dt_info_wrap .dt_price .ft_blue {display:inline-block; width:auto; height:20px; margin-left:5px; font-size:19px; line-height:21px;}
 .dt_info_wrap .dt_shar {position:absolute; right:7px; bottom:7px; width:75px; height:auto;}
 .dt_info_wrap .dt_shar:after {display:block; clear:both; content:"";}
 .dt_info_wrap .dt_shar .shar_kko, .dt_info_wrap .dt_shar .shar_sms {width:32px; height:32px; border:1px solid #dadada; border-radius:3px;}
-.dt_info_wrap .dt_shar .shar_kko {float:right; background:#fff url(http://image.club5678.com/imgs/bbjang/img01/ico_kko.png) no-repeat center center; background-size:28px 26px;}
-.dt_info_wrap .dt_shar .shar_sms {float:left; background:#fff url(http://image.club5678.com/imgs/bbjang/img01/ico_sms.png) no-repeat center center; background-size:27px 26px;}
+.dt_info_wrap .dt_shar .shar_kko {float:right; background:#fff url(http://image.bbjang.com/imgs/bbjang/img01/ico_kko.png) no-repeat center center; background-size:28px 26px;}
+.dt_info_wrap .dt_shar .shar_sms {float:left; background:#fff url(http://image.bbjang.com/imgs/bbjang/img01/ico_sms.png) no-repeat center center; background-size:27px 26px;}
 .dt_info_wrap .dt_shar .shar_kko a, .dt_info_wrap .dt_shar .shar_sms a {display:block; width:100%; height:100%; text-indent:-9999px;}
 .dt_info_wrap .dt_shar .shar_kko a:active, .dt_info_wrap .dt_shar .shar_sms a:active {background:rgba(0,0,0,0.05);}
 /*.dt_info_wrap .dt_shar {position:absolute; right:7px; bottom:7px; width:75px; height:auto;}
 .dt_info_wrap .dt_shar:after {display:block; clear:both; content:"";}
 .dt_info_wrap .dt_shar .btn_shar{width:auto; height:auto; float:right; overflow:hidden;}
-.dt_info_wrap .dt_shar .btn_shar a{display:block; width:62px; height:27px; line-height:28px; border:1px solid #bababa; border-radius:5px; padding-left:30px; box-sizing:border-box; font-size:14px; color:#4d5356; background:#fff url(http://image.club5678.com/imgs/bbjang/img01/ico_share.png) no-repeat 7px 3px; background-size:17px 18px;}
-.dt_info_wrap .dt_shar .btn_shar a:active{border:1px solid #87c3f5; color:#0c71ac; background:#e6f3fa url(http://image.club5678.com/imgs/bbjang/img01/ico_share_active.png) no-repeat 7px 3px; background-size:17px 18px;}*/
+.dt_info_wrap .dt_shar .btn_shar a{display:block; width:62px; height:27px; line-height:28px; border:1px solid #bababa; border-radius:5px; padding-left:30px; box-sizing:border-box; font-size:14px; color:#4d5356; background:#fff url(http://image.bbjang.com/imgs/bbjang/img01/ico_share.png) no-repeat 7px 3px; background-size:17px 18px;}
+.dt_info_wrap .dt_shar .btn_shar a:active{border:1px solid #87c3f5; color:#0c71ac; background:#e6f3fa url(http://image.bbjang.com/imgs/bbjang/img01/ico_share_active.png) no-repeat 7px 3px; background-size:17px 18px;}*/
 
 /* 상세페이지 내용 */
 #container ul {position:relative; width:100%; height:auto;}
@@ -68,19 +68,19 @@
 #container .dt_list .dt_option_badge:last-of-type {margin-right:0;}
 
 /* 등록자정보(로그인 전) */
-#container .dt_list .agent_login {position:relative; width:100%; height:auto; padding:20px 0; color:#949494; text-align:center; line-height:30px; box-sizing:border-box;}
+#container .dt_list .agent_login {position:relative; width:100%; height:auto; margin-bottom:3px; padding:16px 0; border-bottom:1px solid #d9d9d9; color:#808080; text-align:center; line-height:30px; box-sizing:border-box;}
 #container .dt_list .agent_login .btn_login {width:80px; height:30px; margin:0 auto; border:1px solid #b8bcbe; background-color:#f8f8f8; box-sizing:border-box;}
-#container .dt_list .agent_login .btn_login a {display:block; width:100%; height:100%; color:#4d5356; text-align:center;}
+#container .dt_list .agent_login .btn_login a {display:block; width:100%; height:100%; color:#1c1e1f; text-align:center;}
 #container .dt_list .agent_login .btn_login a:active {background:rgba(0,0,0,0.05);}
 
 /* 등록자정보(비공개 설정) */
-#container .dt_list .agent_closed {position:relative; width:100%; height:100px; color:#949494; text-align:center; line-height:100px;}
+#container .dt_list .agent_closed {position:relative; width:100%; height:84px; margin-bottom:3px; border-bottom:1px solid #d9d9d9; color:#808080; text-align:center; line-height:84px;}
 
 /* 등록자정보 */
 #container .dt_list .agent_info {position:relative; width:100%; height:auto; margin-bottom:3px; border-bottom:1px solid #d9d9d9; overflow:hidden;}
 #container .dt_list .agent_info:after {display:block; clear:both; content:"";}
 #container .dt_list .agent_photo {float:left; width:auto; height:auto; padding:8px 7px 8px 14px; box-sizing:border-box;}
-#container .dt_list .photo_clip {width:55px; height:55px; overflow:hidden; border:2px solid #e3e5e5; border-radius:100%; background:url(http://image.club5678.com/imgs/bbjang/img01/img_my_default.png) no-repeat center center; background-size:cover;}
+#container .dt_list .photo_clip {width:55px; height:55px; overflow:hidden; border:2px solid #e3e5e5; border-radius:100%; background:url(http://image.bbjang.com/imgs/bbjang/img01/img_my_default.png) no-repeat center center; background-size:cover;}
 #container .dt_list .photo_clip img {width:100%; height:100%;}
 
 #container .dt_list .agent_txt {float:left; width:auto; height:75px; box-sizing:border-box;}
@@ -97,9 +97,9 @@
 #container .dt_list .agent_more .font_b {display:inline-block; border-bottom:1px solid #4d5356;}
 
 #container .dt_list .agent_add {clear:both; width:100%; height:auto; padding:10px; border-top:1px solid #d9d9d9; box-sizing:border-box;}
-#container .dt_list .agent_add .add_title {width:100%; height:18px; color:#858585; line-height:18px;}
+#container .dt_list .agent_add .add_title {width:100%; height:18px; color:#6b6b6b; line-height:18px;}
 #container .dt_list .agent_add .add_num {width:100%; height:auto; color:#b3b3b3; font-size:11px; line-height:18px; vertical-align:middle;}
-#container .dt_list .agent_add .add_num span {display:inline-block; color:#666b6e; font-size:14px;}
+#container .dt_list .agent_add .add_num span {display:inline-block; color:#3d4042; font-size:14px;}
 
 /* 연락 버튼 */
 .dt_bot_wrap {position:fixed; z-index:800; left:0; right:0; bottom:0; width:100%; height:45px; background-color:#0079bf; line-height:45px;}
@@ -119,19 +119,19 @@
 .dt_bot_wrap .dt_my_btn a:active {background:rgba(0,0,0,0.1);}
 
 /* 나갔어요 */
-.dt_sold_out {position:fixed; z-index:900; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.6) url(http://image.club5678.com/imgs/bbjang/img01/dt_sold_out.png) no-repeat center center; background-size:171px 98px;}
+.dt_sold_out {position:fixed; z-index:900; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.6) url(http://image.bbjang.com/imgs/bbjang/img01/dt_sold_out.png) no-repeat center center; background-size:171px 98px;}
 .del_sold_out {position:fixed; z-index:900; bottom:28%; left:50%; width:190px; height:50px; line-height:50px; margin-top:-25px; margin-left:-95px; border-radius:50px; overflow:hidden;}
 .del_sold_out a {display:block; width:100%; height:100%; background:rgba(35,35,35,0.8); color:#999999; text-align:center; font-size:22px;}
 .del_sold_out a:active {background:rgba(35,35,35,1);}
 
 /* 구했어요 */
-.dt_i_got {position:fixed; z-index:900; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.6) url(http://image.club5678.com/imgs/bbjang/img01/dt_i_got.png) no-repeat center center; background-size:171px 98px;}
+.dt_i_got {position:fixed; z-index:900; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.6) url(http://image.bbjang.com/imgs/bbjang/img01/dt_i_got.png) no-repeat center center; background-size:171px 98px;}
 .del_i_got {position:fixed; z-index:900; bottom:28%; left:50%; width:190px; height:50px; line-height:50px; margin-top:-25px; margin-left:-95px; border-radius:50px; overflow:hidden;}
 .del_i_got a {display:block; width:100%; height:100%; background:rgba(35,35,35,0.8); color:#999999; text-align:center; font-size:22px;}
 .del_i_got a:active {background:rgba(35,35,35,1);}
 
 /* 기간완료 */
-.dt_expira {position:fixed; z-index:900; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.6) url(http://image.club5678.com/imgs/bbjang/img01/dt_expira.png) no-repeat center center; background-size:171px 98px;}
+.dt_expira {position:fixed; z-index:900; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.6) url(http://image.bbjang.com/imgs/bbjang/img01/dt_expira.png) no-repeat center center; background-size:171px 98px;}
 .btn_expira {position:fixed; z-index:900; bottom:17.5%; left:50%; width:190px; height:110px; line-height:50px; margin-top:-55px; margin-left:-95px;}
 .re_expira {width:100%; height:50px; border-radius:50px; overflow:hidden;}
 .re_expira  a{display:block; width:100%; height:100%; background:rgba(9,160,248,0.8); color:#fefefe; text-align:center; font-size:22px;}

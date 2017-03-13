@@ -2,10 +2,10 @@
 /* 최근검색 및 추천검색 */
 .srch_bg {position:relative; top:5px; left:10px; width:calc(100% - 20px); height:35px; padding:0 70px 0 35px; border-radius:3px; background-color:#fff; box-sizing:border-box;}
 .srch_bg .srch_btn {position:absolute; top:0; width:35px; height:35px; padding:0; border:0; background-color:transparent; -webkit-appearance:none;}
-.srch_bg .srch_back {left:0; background:url(http://image.club5678.com/imgs/ilheayo_job/img01/ico_srch_back.png) no-repeat center center; background-size:13px 20px;}
-.srch_bg .srch_voice {right:0; background:url(http://image.club5678.com/imgs/ilheayo_job/img01/ico_srch_voice.png) no-repeat center center; background-size:13px 22px;}
-.srch_bg .srch_del {display:none; right:35px; background:url(http://image.club5678.com/imgs/ilheayo_job/img01/img_btn_closed.png) no-repeat center center; background-size:18px 18px;}
-.srch_bg .srch_on {display:none; right:0; background:url(http://image.club5678.com/imgs/ilheayo_job/img01/ico_srch_on.png) no-repeat center center; background-size:23px 18px;}
+.srch_bg .srch_back {left:0; background:url(http://image.bbjang.com/imgs/ilheayo_job/img01/ico_srch_back.png) no-repeat center center; background-size:13px 20px;}
+.srch_bg .srch_voice {right:0; background:url(http://image.bbjang.com/imgs/ilheayo_job/img01/ico_srch_voice.png) no-repeat center center; background-size:13px 22px;}
+.srch_bg .srch_del {display:none; right:35px; background:url(http://image.bbjang.com/imgs/ilheayo_job/img01/img_btn_closed.png) no-repeat center center; background-size:18px 18px;}
+.srch_bg .srch_on {display:none; right:0; background:url(http://image.bbjang.com/imgs/ilheayo_job/img01/ico_srch_on.png) no-repeat center center; background-size:23px 18px;}
 .srch_bg .srch_btn a {display:block; width:100%; height:100%; text-indent:-9999px;}
 .srch_bg input[type="text"] {display:block; width:100%; height:14px; padding:11px 0 10px 0; border:none; outline:none; background-color:#fff; box-shadow:none; font-size:14px; line-height:14px;}
 
@@ -18,18 +18,18 @@
 .srch_history .srch_go:active {background:rgba(0,0,0,0.05)}
 .srch_history .srch_rel {color:#04d464;}
 .srch_history .history_del {position:absolute; top:0; right:0; width:40px; height:40px;}
-.srch_history .history_del a {display:block; width:100%; height:100%; background:url(http://image.club5678.com/imgs/ilheayo_job/img01/img_btn_del.png) no-repeat center center; background-size:12px 12px; text-indent:-9999px;}
+.srch_history .history_del a {display:block; width:100%; height:100%; background:url(http://image.bbjang.com/imgs/ilheayo_job/img01/img_btn_del.png) no-repeat center center; background-size:12px 12px; text-indent:-9999px;}
 .srch_history .history_all_del {display:block; width:100%; height:100%; padding:12px 20px; color:#abb7c5; font-size:14px; text-align:center; line-height:14px; box-sizing:border-box;}
 
 /* 검색 결과 */
 .result_wrap {display:none; position:relative; width:100%; height:auto; background-color:#fff;}
-.result_none {display:none; width:100%; height:auto; padding-top:70px; background:url(http://image.club5678.com/imgs/ilheayo_job/img01/icon_exclam.png) no-repeat center top; background-size:47px 47px; color:#a8b2c2; text-align:center;}
+.result_none {display:none; width:100%; height:auto; padding-top:70px; background:url(http://image.bbjang.com/imgs/ilheayo_job/img01/icon_exclam.png) no-repeat center top; background-size:47px 47px; color:#a8b2c2; text-align:center;}
 .filter_box {position:relative; width:100%; height:40px; padding:5px 10px; box-sizing:border-box;}
 .filter_box select {width:100%; height:30px; border:none; outline:none; background:none; color:#46526c; font-size:13px; font-weight:700; font-family:'NanumSquare'; line-height:30px; appearance:none;-webkit-appearance:none; -o-appearance:none; -moz-appearance:none;}
 .result_filter {float:left; width:80px; height:100%; margin-right:10px;}
-.result_filter select {padding:0 15px 0 7px; border:1px solid #d8deea; border-radius:5px; background:url(http://image.club5678.com/imgs/ilheayo_job/img01/ico_drop01.png) 92% 50% no-repeat; background-size:12px 7px; box-sizing:border-box;}
+.result_filter select {padding:0 15px 0 7px; border:1px solid #d8deea; border-radius:5px; background:url(http://image.bbjang.com/imgs/ilheayo_job/img01/ico_drop01.png) 92% 50% no-repeat; background-size:12px 7px; box-sizing:border-box;}
 .result_align {float:right; width:75px; height:100%;}
-.result_align select {background:url(http://image.club5678.com/imgs/ilheayo_job/img01/ico_drop03.png) 92% 50% no-repeat; background-size:12px 7px;}
+.result_align select {background:url(http://image.bbjang.com/imgs/ilheayo_job/img01/ico_drop03.png) 92% 50% no-repeat; background-size:12px 7px;}
 .result_filter span, .result_align span {display:none;}
 .result_info {position:relative; width:100%; height:30px; padding:0 10px; border-bottom:1px solid #3d4964; background-color:#46526c; color:#fff; font-size:14px; line-height:30px; box-sizing:border-box;letter-spacing:-0.5px;}
 .result_info .result_num {color:#fff844;}

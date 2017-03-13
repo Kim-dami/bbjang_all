@@ -1,0 +1,55 @@
+@charset "utf-8";
+html {background:#fff;}
+input{outline:none;}
+.blackmask {width:100%; height:100%; background:#000;}
+
+/* 제목텍스트 없는 헤더 @탈퇴하기 */
+#header .my_btn_back {position:absolute; z-index:1; top:0; left:0; width:40px; height:100%;}
+#header .my_btn_back a {display:block; width:100%; height:100%; background:url(http://image.club5678.com/imgs/bbjang/img_my/my_btn_back_2.png) no-repeat center center; background-size:17px 14px; text-indent:-9999px;}
+#header .my_btn_back a:active {background:rgba(0,0,0,0.05) url(http://image.club5678.com/imgs/bbjang/img_my/my_btn_back_2.png) no-repeat center center; background-size:17px 14px;}
+
+/* 탈퇴하기 */
+#quit_wrap {width:100%; height:auto; padding-bottom:30px;}
+#quit_wrap .notify {width:100%; height:auto; padding:18px 0 16px 0; background:#fff;}
+#quit_wrap .notify .element-in {margin:45px 23px 0 23px;}
+#quit_wrap .notify .element-in .col1 {position:relative; top:0; left:7px; width:29px; height:29px; border-radius:50%; background:#0b95da url(http://image.club5678.com/imgs/bbjang/img_my/my_quit_mark_exclamation.png) no-repeat 0 0; background-size:29px 29px;}
+#quit_wrap .notify .element-in .col2 {position:relative; top:0; margin:-22px 0 0 45px; width:auto; height:auto; font-size:16px; color:#0881cc; line-height:20px;}
+#quit_wrap .questionbox {width:100%; padding:16px 0; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; background:#fafafa;}
+#quit_wrap .questionbox .question {display:block; font-size:22px; letter-spacing:0; line-height:26px; text-align:center;}
+#quit_wrap .questionbox .question .guide {font-size:15px; color:#757d82; letter-spacing:-0.5px; line-height:15px;}
+#quit_wrap .questionbox .password-in {display:block; margin:14px 44px 0 44px; padding:10px 0; border:1px solid #d3d5d7; -webkit-border-radius:3px; -moz-border-radius:3px; -ms-border-radius:3px; -o-border-radius:3px; border-radius:3px; background:#fff;}
+#quit_wrap .questionbox .password-in .pw_area_wrap {display:block; margin:0 8px; background:#fff;}
+#quit_wrap .questionbox .password-in .pw_area_wrap .pw_area {display:block; width:100%; border:0; outline:0; background:#fff; font-size:18px; color:#4d5356; line-height:18px;}
+#quit_wrap .yes-or-no_area {width:100%; padding:7px 0 18px 0; background:#fff;}
+#quit_wrap .yes-or-no_area a.no {display:block; margin:11px 44px 0 44px; padding:10px 0; border:1px solid #8b8b8b; -webkit-border-radius:4px; -moz-border-radius:4px; -ms-border-radius:4px; -o-border-radius:4px; border-radius:4px; background:#8b8b8b; font-size:17px; color:#fff; line-height:17px; letter-spacing:6px; text-align:center;}
+#quit_wrap .yes-or-no_area a:active.no {border:1px solid #808080; background:#808080;}
+#quit_wrap .yes-or-no_area a.yes {display:block; margin:11px 44px 0 44px; padding:10px 0; border:1px solid #0ca2ed; -webkit-border-radius:4px; -moz-border-radius:4px; -ms-border-radius:4px; -o-border-radius:4px; border-radius:4px; background:#0ca2ed; font-size:17px; color:#fff; line-height:17px; letter-spacing:2px; text-align:center;}
+#quit_wrap .yes-or-no_area a:active.yes {border:1px solid #0b91d4; background:#0b91d4;}
+
+/* 경고 또는 이용정지 통지 */
+#negative-notification_wrap {overflow-y:auto; width:100%; height:100%; background:#fff; -webkit-border-radius:12px; -moz-border-radius:12px; -ms-border-radius:12px; -o-border-radius:12px; border-radius:12px;}
+#negative-notification_wrap .logo-in {position:relative; width:100%; height:103px;}
+#negative-notification_wrap .logo-in .logo {display:inline-block; position:absolute; width:144px; height:57px; margin:23px 0 0 22px; background:url(http://image.club5678.com/imgs/bbjang/img_my/my_logo.png) no-repeat 0 0; background-size:144px 57px;}
+#negative-notification_wrap .headmessage-in {position:relative; width:100%; height:auto; padding:34px 0 14px 0;}
+#negative-notification_wrap .headmessage-in .headmessage {font-size:21px; color:#222; line-height:21px; text-align:center;}
+#negative-notification_wrap .headmessage-in .headmessage .strong {color:#f10000;}
+#negative-notification_wrap .headmessage-in .message {margin-top:18px; font-size:16px; color:#505050; line-height:20px; text-align:center;}
+#negative-notification_wrap .detail {position:relative; width:100%; height:auto; padding-bottom:2px;}
+#negative-notification_wrap .detail .title-in {position:relative; width:100%; height:35px; border-top:1px solid #d5d5d5; border-bottom:1px solid #dedede;}
+#negative-notification_wrap .detail .title-in .line {display:inline-block; position:absolute; width:100%; height:2px; background:#fff;}
+#negative-notification_wrap .detail .title-in .gradation {display:inline-block; position:absolute; width:100%; height:33px; margin-top:2px; background:-webkit-linear-gradient(to bottom,#fafafa,#fff); background:linear-gradient(to bottom,#fafafa,#fff);}
+#negative-notification_wrap .detail .title-in .title {position:absolute; width:100%; height:35px; font-size:18px; color:#637382; text-indent:23px; line-height:35px;}
+#negative-notification_wrap .detail .reason-and-result {position:relative; height:86px; margin:10px 18px 0 18px; border-bottom:1px solid #e5e5e5;}
+#negative-notification_wrap .detail .reason-and-result .categories {position:relative; height:auto;}
+#negative-notification_wrap .detail .reason-and-result .categories .category {display:block; position:relative; width:100%; margin-left:8px; font-size:14px; color:#333; line-height:19px; letter-spacing:0;}
+#negative-notification_wrap .detail .reason-and-result .categories .category .info {display:inline-block; position:absolute; left:0; height:auto; margin:0 8px 0 41px; font-size:15px; color:#ce0000; letter-spacing:-0.5px;}
+#negative-notification_wrap .btn_area {position:relative; height:62px; margin:21px 29px 0 29px;}
+#negative-notification_wrap .btn_area .btn {display:inline-block; position:absolute; height:38px; border:1px solid #7f8487; -webkit-border-radius:15px; -moz-border-radius:15px; -ms-border-radius:15px; -o-border-radius:15px; border-radius:15px; background:#fff; font-size:17px; line-height:38px; letter-spacing:0; text-align:center;}
+#negative-notification_wrap .btn_area .btn:active {border:1px solid #939799; background:#f7f7f7;}
+#negative-notification_wrap .btn_area .size1 {position:absolute; left:0; width:100%; margin-left:-1px;}
+#negative-notification_wrap .btn_area .size2 {position:absolute; left:0; width:54%; margin-left:-1px;}
+#negative-notification_wrap .btn_area .size3 {position:absolute; right:0; width:42%; margin-right:-1px;}
+@media all and (min-width:600px) {
+#negative-notification_wrap .btn_area .size2 {width:54.7%;}
+#negative-notification_wrap .btn_area .size3 {width:42.7%;}
+}

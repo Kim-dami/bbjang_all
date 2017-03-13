@@ -1,6 +1,19 @@
 // JavaScript Document
 $(document).ready(function(){
 	/******************** 공통 ********************/
+	/* 기본 체크박스 */
+	$(".chk_input").click(function(){
+		var pre_label = $(this).prev("label");
+		var next_label = $(this).next("label");
+		if($(this).prop("checked")){
+			$(pre_label).css("background","url(http://image.club5678.com/imgs/bbjang/img01/btn_chk_on.png) no-repeat left center").css("background-size","22px 22px");
+			$(next_label).css("background","url(http://image.club5678.com/imgs/bbjang/img01/btn_chk_on.png) no-repeat left center").css("background-size","22px 22px");
+		} else {
+			$(pre_label).css("background","url(http://image.club5678.com/imgs/bbjang/img01/btn_chk_off.png) no-repeat left center").css("background-size","22px 22px");
+			$(next_label).css("background","url(http://image.club5678.com/imgs/bbjang/img01/btn_chk_off.png) no-repeat left center").css("background-size","22px 22px");
+		}
+	});
+	
 	/* 풀페이지 */
 	function full_page(){
 		var window_height =$(window).height();

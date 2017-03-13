@@ -4,12 +4,12 @@
 /* back btn(login용)*/
 .back_lg{position:absolute; display:block; width:40px; height:40px; top:5px; left:5px; padding:0; border:0; -webkit-appearance:none; text-indent:-9999px;}
 .back_lg a{display:block; width:40px; height:40px;}
-.back_lg a.back_1 {background:url('http://image.club5678.com/imgs/bbjang/img_login/btn_home.png') center center no-repeat; background-size:40px 40px;}
+.back_lg a.back_1 {background:url('http://image.bbjang.com/imgs/bbjang/img_login/btn_home.png') center center no-repeat; background-size:40px 40px;}
 .back_lg a.back_1:active {position:relative; top:1px;}
 .back_lg a.back_1_active {position:relative; top:1px;}
-.back_lg a.back_2 {background:url('http://image.club5678.com/imgs/bbjang/img_login/btn_back_lg.png') center center no-repeat; background-size:17px 14px;}
-.back_lg a.back_2:active {background:rgba(0,0,0,0.05) url('http://image.club5678.com/imgs/bbjang/img_login/btn_back_lg.png') center center no-repeat; background-size:17px 14px;}
-.back_lg a.back_2_active {background:rgba(0,0,0,0.05) url('http://image.club5678.com/imgs/bbjang/img_login/btn_back_lg.png') center center no-repeat; background-size:17px 14px;}
+.back_lg a.back_2 {background:url('http://image.bbjang.com/imgs/bbjang/img_login/btn_back_lg.png') center center no-repeat; background-size:17px 14px;}
+.back_lg a.back_2:active {background:rgba(0,0,0,0.05) url('http://image.bbjang.com/imgs/bbjang/img_login/btn_back_lg.png') center center no-repeat; background-size:17px 14px;}
+.back_lg a.back_2_active {background:rgba(0,0,0,0.05) url('http://image.bbjang.com/imgs/bbjang/img_login/btn_back_lg.png') center center no-repeat; background-size:17px 14px;}
 /* back btn(login용)*/
 
 /* header img */
@@ -39,7 +39,7 @@
 .form_1 input:focus ~ .line{opacity:1;}
 .form_1 input:focus ~ .txt_erase{opacity:1;}
 
-.form_1 .txt_erase{position:absolute; width:40px; height:40px; top:4px; right:0; background:url('http://image.club5678.com/imgs/bbjang/img_login/btn_erase.png') center center no-repeat; background-size:10px 10px; text-indent:-9999px; opacity:0; transition:all 0.5s ease-in-out;}
+.form_1 .txt_erase{position:absolute; width:40px; height:40px; top:4px; right:0; background:url('http://image.bbjang.com/imgs/bbjang/img_login/btn_erase.png') center center no-repeat; background-size:10px 10px; text-indent:-9999px; opacity:0; transition:all 0.5s ease-in-out;}
 .form_1 .txt_erase_on{opacity:1;}
 .form_1 .txt_erase a{display:block; width:40px; height:40px;}
 .form_1 .txt_erase a:active{background:rgba(0,0,0,0.03);}
@@ -220,7 +220,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01a8d5', end
 .content_jn_c .user_info span.user_name{margin-right:5px; font-size:30px; color:#5f676b;}
 .content_jn_c .jn_c_txt{margin:10px 0 26px 0; font-size:20px; color:#5f676b;}
 .content_jn_c .ico_go{position:relative; width:260px; height:auto; margin:0 auto;}
-.content_jn_c .ico_go a{background:url('http://image.club5678.com/imgs/bbjang/img_login/ico_go.png') 90% 50% no-repeat; background-size:17px 14px; border:1px solid #0ca2ed; border-radius:21px; font-size:18px; color:#0ca2ed; line-height:18px; padding:12.5px 0 11.5px 0;}
+.content_jn_c .ico_go a{background:url('http://image.bbjang.com/imgs/bbjang/img_login/ico_go.png') 90% 50% no-repeat; background-size:17px 14px; border:1px solid #0ca2ed; border-radius:21px; font-size:18px; color:#0ca2ed; line-height:18px; padding:12.5px 0 11.5px 0;}
 .content_jn_c .ico_go a:active{position:relative; top:1px;}
 .content_jn_c .ico_go a_active{position:relative; top:1px;}
 
