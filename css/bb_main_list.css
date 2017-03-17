@@ -79,7 +79,7 @@ html { height:100%; }
 
 /* 마이메뉴 상단 */
 .my_top{position:relative; width:100%; height:120px; background:url(http://image.club5678.com/imgs/bbjang/img01/bg_my_menu.png) no-repeat center center; background-size:cover;}
-.my_top h2{position:relative; width:100%; height:60px; text-indent:-9999px; background:url(http://image.club5678.com/imgs/bbjang/img01/img_my_logo.png) no-repeat center center; background-size:74px 27px;}
+.my_top h2{position:relative; width:100%; height:60px; margin-left:-3px; text-indent:-9999px; background:url(http://image.club5678.com/imgs/bbjang/img01/img_my_logo.png) no-repeat center center; background-size:74px 27px;}
 .my_top .info_wrap{position:relative; width:100%; height:60px;}
 .my_top .info_wrap .before_login{width:100%; height:100%;}
 .my_top .info_wrap .before_login .btn_login{width:165px; height:40px; line-height:40px; margin:0 auto; background:rgba(255,255,255,0.58); border:1px solid #fff; border-radius:3px; box-shadow:0px 0px 6px #dfdfdf;}
@@ -93,17 +93,27 @@ html { height:100%; }
 .my_top .info_wrap .after_login .btn_my_set{position:absolute; top:-55px; right:10px; width:25px; height:25px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_my_set.png) no-repeat center center; background-size:20px 20px;}
 .my_top .info_wrap .after_login .btn_my_set a{display:block; width:100%; height:100%; text-indent:-9999px;}
 
+/* 마이메뉴 상단 - 정보수정 버튼  type2  _170314 추가 */
+.my_top .info_wrap .after_login .btn_my_set_type2{position:absolute; top:-52px; right:9px; width:56px; height:24px; background-color:rgba(255,255,255,0);}
+.my_top .info_wrap .after_login .btn_my_set_type2 a{display:inline-block; width:100%; height:100%; border:1px solid #808080; -webkit-border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px; -o-border-radius:2px; border-radius:2px; background-image:-webkit-linear-gradient(linear, left top, left bottom, from(#fff), to(#f1f1f1)); background-image:-moz-linear-gradient(top,#fff,#f1f1f1); background-image:-o-linear-gradient(top,#fff,#f1f1f1); background-image:linear-gradient(to bottom,#fff,#f1f1f1); font-family:'bb-Bold'; font-size:13px; color:#1c1e1f; line-height:24px; letter-spacing:-1px; text-align:center;}
+.my_top .info_wrap .after_login .btn_my_set_type2 a:active{border:1px solid #a1a1a1; background-image:-webkit-linear-gradient(linear, left top, left bottom, from(#f1f1f1), to(#fff)); background-image:-moz-linear-gradient(top,#f1f1f1,#fff); background-image:-o-linear-gradient(top,#f1f1f1,#fff); background-image:linear-gradient(to bottom,#f1f1f1,#fff);}
+
 /* 마이메뉴 리스트 */
 .my_mid{position:relative; width:100%; height:auto; background-color:#fff;}
 .my_mid ul{width:100%; height:auto;}
 .my_mid .my_more{position:relative; width:100%; height:40px; line-height:40px; background:url(http://image.club5678.com/imgs/bbjang/img01/ico_my_more.png) no-repeat 95% center; background-size:5px 8px; border-bottom:1px solid #ededed;}
 .my_mid .my_more:nth-of-type(5){border-bottom:none;}
 .my_mid .my_more a{display:block; width:100%; height:100%; padding-left:10px; box-sizing:border-box;}
-.my_mid .my_more a:active{background:rgba(0,0,0,0.05);}
+.my_mid .my_more a:active{background:#fafdff url(http://image.club5678.com/imgs/bbjang/img01/ico_my_more.png) no-repeat 95% center; background-size:5px 8px;}
 .my_mid .my_more .cue-badge{display:inline-block; position:absolute; top:50%; right:29px; width:26px; height:26px; margin-top:-13px; border:none; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; border-radius:50%; background-color:#ff002a; background:-webkit-linear-gradient(to bottom,#ff3300,#ff002a); background:linear-gradient(to bottom,#ff3300,#ff002a); outline:0; font-size:13px; color:#fff; letter-spacing:-1px; line-height:26px; text-align:center;}
 .my_mid .my_write{position:relative; width:100%; height:40px; line-height:40px; background-color:#129de3;}
 .my_mid .my_write a{width:100%; height:100%; margin:0 auto; padding:0 80px 0 110px; box-sizing:border-box; font-size:15px; text-align:left; color:#fff; background:url(http://image.club5678.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 80px center; background-size:21px 22px;}
 .my_mid .my_write a:active{background:#1195d7 url(http://image.club5678.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 80px center; background-size:21px 22px;}
+
+/* 마이메뉴 리스트 - 등록하기 버튼  type2  _170314 추가 */
+.my_mid .my_write_type2{position:relative; width:100%; height:44px; line-height:44px; border-top:1px solid #dddfdf; border-bottom:1px solid #dddfdf; background-color:#f5f7f7;}
+.my_mid .my_write_type2 a{width:210px; height:34px; margin:5px auto 0 auto; padding:0; box-sizing:border-box; font-size:15px; text-align:center; text-indent:13px; color:#fff; line-height:34px; letter-spacing:0; -webkit-border-radius:7px; -moz-border-radius:7px; -ms-border-radius:7px; -o-border-radius:7px; border-radius:7px; -webkit-box-shadow:inset 0 -1px 1px #108cca; -moz-box-shadow:inset 0 -1px 1px #108cca; -ms-box-shadow:inset 0 -1px 1px #108cca; -o-box-shadow:inset 0 -1px 1px #108cca; box-shadow:inset 0 -1px 1px #108cca; background:#129de3 url(http://image.club5678.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 57px center; background-size:21px 22px;}
+.my_mid .my_write_type2 a:active{background:#1195d7 url(http://image.club5678.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 80px center; border-radius:7px; -webkit-box-shadow:none; -moz-box-shadow:none; -ms-box-shadow:none; -o-box-shadow:none; box-shadow:none; background:#1196d9 url(http://image.club5678.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 57px center; background-size:21px 22px;}
 
 /* 마이메뉴 초대 */
 .my_bot{position:relative; width:100%; height:50px; line-height:50px; background-color:#fff; border-bottom:1px solid #ededed;}
@@ -120,6 +130,18 @@ html { height:100%; }
 .my_bot .btn_sms a:active{background:#0b91d4 url(http://image.club5678.com/imgs/bbjang/img01/txt_sms.png) no-repeat center center; background-size:19px 8px;}
 .my_bot .btn_etc a{background:#616c71 url(http://image.club5678.com/imgs/bbjang/img01/ico_etc.png) no-repeat center center; background-size:14px 3px;}
 .my_bot .btn_etc a:active{background:#565f63 url(http://image.club5678.com/imgs/bbjang/img01/ico_etc.png) no-repeat center center; background-size:14px 3px;}
+
+/* 마이메뉴 초대  type2  _170314 추가 */
+.my_bot_type2{position:relative; width:100%; height:auto; background-color:#f5f7f7; padding:10px; box-sizing:border-box;}
+.my_bot_type2:after{content:""; display:block; clear:both;}
+.my_bot_type2 .btn_kko, .btn_sms{width:110px; height:35px; line-height:35px; border:1px solid #c3c6c7; -webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px; border-radius:5px;}
+.my_bot_type2 .btn_kko{float:left; background:#fff url(http://image.club5678.com/imgs/bbjang/img01/ico_kko.png) no-repeat 7px center; background-size:29px 27px;}
+.my_bot_type2 .btn_sms{float:right; background:#fff url(http://image.club5678.com/imgs/bbjang/img01/ico_sms.png) no-repeat 7px center; background-size:27px 26px;}
+.my_bot_type2 .btn_kko:active, .btn_sms:active{border:1px solid #afb1b2;}
+.my_bot_type2 .btn_kko a, .btn_sms a{display:block; width:100%; height:100%; padding-left:42px; box-sizing:border-box; font-size:15px; color:#4d5356;}
+.my_bot_type2 .btn_kko a:active{-webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px; border-radius:5px; background:#fcfcfc url(http://image.club5678.com/imgs/bbjang/img01/ico_kko.png) no-repeat 7px center; background-size:29px 27px; color:#232627;}
+.my_bot_type2 .btn_sms a:active{-webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px; border-radius:5px; background:#fcfcfc url(http://image.club5678.com/imgs/bbjang/img01/ico_sms.png) no-repeat 7px center; background-size:27px 26px; color:#232627;}
+.my_bot_type2 .small-line{display:inline-block; position:absolute; top:0; left:50%; width:2px; height:15px; margin:21px 0 0 -1px; background-color:#dcdfe0;}
 
 /****************************** 170220 김다미 ******************************/
 /* 위로올리기 */

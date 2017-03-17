@@ -49,6 +49,9 @@
 .wt_num {display:inline-block; height:30px; margin-right:3px; padding:0 5px; border:1px solid #bcc0c2; border-radius:3px; background-color:#f5f7f7; line-height:30px; vertical-align:middle;}
 .wt_num input[type="number"] {display:block; width:100%; height:14px; padding:8px 0; border:none; outline:none; background-color:transparent; font-size:14px; line-height:14px;}
 
+.wt_num_disable {display:inline-block; height:30px; margin-right:3px; padding:0 5px; border:1px solid #b8b8b8; border-radius:3px; background-color:#ccc; line-height:30px; vertical-align:middle;} /* 170314 추가 */
+.wt_num_disable input[type="number"] {display:block; width:100%; height:14px; padding:8px 0; border:none; outline:none; background-color:transparent; font-size:14px; color:#999; line-height:14px;} /* 170314 추가 */
+
 /* 매물명 */
 .wt_build_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_build_title.png) no-repeat 8px 4px; background-size:22px 23px;}
 
@@ -163,9 +166,21 @@
 .wt_info_wrap .wt_rent_price .wt_r {width:100%; height:32px; line-height:32px; padding-left:130px; box-sizing:border-box;}
 .wt_info_wrap .wt_rent_price .wt_r .wt_num {width:calc(100% - 50px);}
 
+.wt_info_wrap .wt_rent_price .wt_l_type2 {position:absolute; top:7px; left:10px; width:120px; height:55px; padding-top:23px; line-height:32px;} /* 170314 추가 */
+.wt_info_wrap .wt_rent_price .wt_l_type2 .chk-in {position:absolute; top:-2px; left:-3px; width:74px; height:20px; border:1px solid #b4b4b4; -webkit-border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px; -o-border-radius:2px; border-radius:2px; background-color:#f6f6f6; font-size:14px; color:#1c1e1f; line-height:20px; letter-spacing:-1px;}
+.wt_info_wrap .wt_rent_price .wt_r_type2 {width:100%; height:55px; line-height:32px; padding-top:23px; padding-left:130px; box-sizing:border-box;} /* 170314 추가 */
+.wt_info_wrap .wt_rent_price .wt_r_type2 .wt_num {width:calc(100% - 50px);} /* 170314 추가 */
+.wt_info_wrap .wt_rent_price .wt_r_type2 .wt_num_disable {width:calc(100% - 50px);} /* 170314 추가 */
+
 .wt_info_wrap .wt_month_price .wt_l {position:absolute; top:7px; left:10px; width:80px; height:32px; line-height:32px;}
 .wt_info_wrap .wt_month_price .wt_r {width:100%; height:32px; line-height:32px; padding-left:90px; box-sizing:border-box;}
 .wt_info_wrap .wt_month_price .wt_r .wt_num {width:calc(50% - 54px);}
+
+.wt_info_wrap .wt_month_price .wt_l_type2 {position:absolute; top:7px; left:10px; width:80px; height:55px; padding-top:23px; line-height:32px;} /* 170314 추가 */
+.wt_info_wrap .wt_month_price .wt_l_type2 .chk-in {position:absolute; top:-2px; left:-3px; width:74px; height:20px; border:1px solid #b4b4b4; -webkit-border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px; -o-border-radius:2px; border-radius:2px; background-color:#f6f6f6; font-size:14px; color:#1c1e1f; line-height:20px; letter-spacing:-1px;}
+.wt_info_wrap .wt_month_price .wt_r_type2 {width:100%; height:55px; line-height:32px; padding-top:23px; padding-left:90px; box-sizing:border-box;} /* 170314 추가 */
+.wt_info_wrap .wt_month_price .wt_r_type2 .wt_num {width:calc(50% - 54px);} /* 170314 추가 */
+.wt_info_wrap .wt_month_price .wt_r_type2 .wt_num_disable {width:calc(50% - 54px);} /* 170314 추가 */
 
 .wt_info_wrap .wt_area .wt_l {position:absolute; top:7px; left:10px; width:80px; height:32px; line-height:32px;}
 .wt_info_wrap .wt_area .wt_r {width:100%; height:32px; line-height:32px; padding-left:90px; box-sizing:border-box;}
