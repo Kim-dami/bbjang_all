@@ -137,16 +137,18 @@ td,th {padding:0;}
 .list_card .list_intro {position:relative; width:100%; height:auto;}
 .list_card .list_intro a {display:block; position:relative; width:100%; height:100%; padding:10px 8px 0 8px; box-sizing:border-box;}
 .list_card .list_intro a:active {background:rgba(0,0,0,0.05);}
-.list_card .list_intro .top_line {width:100%; height:15px; overflow:hidden; text-overflow:ellipsis; line-height:15px; white-space:nowrap;}
+.list_card .list_intro .top_line {width:100%; height:23px; margin-top:-3px; overflow:hidden; text-overflow:ellipsis; line-height:23px; white-space:nowrap;}
+.list_card .list_intro .top_line .intro_title {width:100%; height:23px; overflow:hidden; color:#373b3d; font-size:15px; text-overflow:ellipsis; line-height:23px; white-space:nowrap;} /* 추가_170320 */
 .list_card .list_intro .top_line .intro_price {margin-left:8px; font-size:15px;}
-.list_card .list_intro .top_line .comple_badge {display:inline-block; position:absolute; top:6px; right:-3px; width:60px; height:20px; padding-left:8px; border-bottom:1px solid #66abcd; border-radius:25px 0 0 25px; background-color:#6cb5d9; color:#fff; font-size:12px; line-height:20px; box-sizing:border-box;}
+.list_card .list_intro .top_line .comple_badge {display:inline-block; position:absolute; top:6px; right:-3px; width:60px; height:20px; padding-left:8px; border-bottom:1px solid #66abcd; -webkit-box-shadow:-6px 0 3px #fff; -moz-box-shadow:-6px 0 3px #fff; -ms-box-shadow:-6px 0 3px #fff; -o-box-shadow:-6px 0 3px #fff; box-shadow:-6px 0 3px #fff; -webkit-border-radius:25px 0 0 25px; -moz-border-radius:25px 0 0 25px; -ms-border-radius:25px 0 0 25px; -o-border-radius:25px 0 0 25px; border-radius:25px 0 0 25px; background-color:#6cb5d9; color:#fff; font-size:12px; line-height:20px; box-sizing:border-box;}
 .list_card .list_intro .comple_pr {padding-right:50px; box-sizing:border-box;}
 /* 거래완료뱃지가 있을 경우 top_line에 클래스 추가 */
 .list_card .list_intro .mid_line {width:100%; height:55px;}
 .list_card .list_intro .mid_line .intro_title {width:100%; height:23px; overflow:hidden; color:#373b3d; font-size:15px; text-overflow:ellipsis; line-height:23px; white-space:nowrap;}
-.list_card .list_intro .mid_line .intro_txt {display:-webkit-box; width:100%; height:32px; line-height:16px; overflow:hidden!important; font-size:14px; text-overflow:ellipsis; word-wrap:break-word; -webkit-box-orient:vertical; -webkit-line-clamp:2;}
-.list_card .list_intro .mid_line2 {width:100%; height:44px;}
-.list_card .list_intro .mid_line2 .intro_title {width:82%; height:23px; overflow:hidden; color:#373b3d; font-size:15px; text-overflow:ellipsis; line-height:23px; white-space:nowrap;}
+.list_card .list_intro .mid_line .intro_price {margin-left:8px; font-size:15px; line-height:16px; vertical-align:top;} /* 추가_170320 */
+.list_card .list_intro .mid_line .intro_txt {display:-webkit-box; width:100%; height:32px; line-height:16px; overflow:hidden!important; font-size:14px; color:#53595c; text-overflow:ellipsis; word-wrap:break-word; -webkit-box-orient:vertical; -webkit-line-clamp:2;}
+.list_card .list_intro .mid_line2 {width:100%; height:39px;}
+.list_card .list_intro .mid_line2 .intro_title {width:82%; height:23px; overflow:hidden; color:#53595c; font-size:15px; text-overflow:ellipsis; line-height:23px; white-space:nowrap;}
 @media all and (min-width:412px) {
 .list_card .list_intro .mid_line2 .intro_title {width:85%;}
 }
@@ -159,7 +161,8 @@ td,th {padding:0;}
 @media all and (min-width:1024px) {
 .list_card .list_intro .mid_line2 .intro_title {width:94%;}
 }
-.list_card .list_intro .mid_line2 .intro_txt {display:-webkit-box; width:100%; height:32px; line-height:16px; overflow:hidden!important; font-size:14px; color:#737373; text-overflow:ellipsis; word-wrap:break-word; -webkit-box-orient:vertical; -webkit-line-clamp:2;}
+.list_card .list_intro .mid_line2 .intro_price {margin-left:8px; font-size:15px; line-height:16px; vertical-align:top;} /* 추가_170320 */
+.list_card .list_intro .mid_line2 .intro_txt {display:-webkit-box; width:100%; height:32px; line-height:30px; overflow:hidden!important; font-size:14px; color:#737373; text-overflow:ellipsis; word-wrap:break-word; -webkit-box-orient:vertical; -webkit-line-clamp:2;}
 .list_card .list_intro .photo_pl {padding-left:105px; box-sizing:border-box;}
 /* 사진이 있을 경우 top_line과 mid_line에 클래스 추가 */
 .list_card .list_intro .bot_line {width:100%; height:auto; white-space:nowrap;}
