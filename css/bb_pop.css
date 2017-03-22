@@ -8,6 +8,7 @@
 .wid_280 {width:280px; margin-left:-140px;}
 .wid_290 {width:290px; margin-left:-145px;}
 .wid_300 {width:300px; margin-left:-150px;}
+.wid_98{width:96%; margin-left:-48%;}
 
 .mt_plus6 {margin-top:6px;}
 .mt_plus8 {margin-top:8px;}
@@ -18,6 +19,7 @@
 .mt_160 {margin-top:-160px;}
 .mt_180 {margin-top:-180px;}
 .mt_200 {margin-top:-200px;}
+.mt_260 {margin-top:-260px;}
 
 .rd_2 {border-radius:4px;}
 .shadow {box-shadow:1px 3px 5px #7c7c7c;}
@@ -207,4 +209,103 @@ ul.pop_slct_mtd li.pop_mtd_lst a{border-bottom:none;}
 .pop_msg_con .btn_bad_report{position:absolute; width:50px; height:40px; top:-2px; right:0;}
 .pop_msg_con .btn_bad_report a{width:50px; height:40px; background:url('http://image.bbjang.com/imgs/bbjang/img01/btn_report_n.png') center center no-repeat; background-size:36px 20px; text-indent:-9999px;}
 .pop_msg_con .btn_bad_report a:active{background:url('http://image.bbjang.com/imgs/bbjang/img01/btn_report_p.png') center center no-repeat; background-size:36px 20px;}
+/*----------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------170321 셀렉트 팝업 추가 (김다미)-------------------------*/
+/* 셀렉트 팝업 헤더 */
+.pop_header {position:relative; width:100%; height:auto;}
+.pop_header h2 {width:100%; height:45px; line-height:46px; margin:0; padding:0 15px; border-radius:5px 5px 0 0; color:#fff; font-size:17px; box-sizing:border-box;}
+.pop_header h3 {position:relative; width:100%; height:30px; line-height:30px; margin:0; padding:0 20px; color:#53595c; font-size:14px; font-weight:400; box-sizing:border-box;letter-spacing:-1px;}
+.pop_header h3 .bg_blue {display:block; position:absolute; left:0; right:0; bottom:0; width:100%; height:1px;}
+.pop_header .pop_clse {position:absolute; top:0; right:0; width:60px; height:45px; background:url(http://image.bbjang.com/imgs/ilheayo_job/img01/ico_clse.png) no-repeat 70% center; background-size:18px 18px; text-indent:-9999px;}
+
+/* 셀렉트 팝업 콘텐츠 */
+.pop_content {position:relative; width:100%; height:auto;}
+.pop_content .pop_u {width:100%; height:auto;}
+.pop_content .pop_u:after {display:block; clear:both; content:"";}
+.pop_content .pop_u .pop_l {float:left; width:50%; height:auto; text-align:center;}
+.pop_content .pop_u .pop_l h4 {width:100%; height:33px; line-height:34px; margin:0; padding:0; color:#373b3d; font-size:15px; text-align:center;}
+.pop_content .pop_u .pop_l div {width:100%; height:270px; border-width:1px 1px 1px 0; border-style:solid; border-color:#e7e7e7; box-sizing:border-box;overflow-y:auto; -webkit-overflow-scrolling: touch; -webkit-box-shadow:inset 0 -5px 5px -5px rgba(0,0,0,0.2);} /* 160106 아이폰대응 추가 _ 김다미 */
+@media (max-height:500px) {
+.pop_content .pop_u .pop_l div {height:236px;}
+.mt_260 {margin-top:-240px;}
+}
+.pop_content .pop_u .pop_l .pop_second {border-right:0 none;}
+.pop_content .pop_u .pop_l .pop_second ul {display:none;}
+.pop_content .pop_u .pop_l ul {width:100%; height:auto;}
+.pop_content .pop_u .pop_l ul li {width:100%; height:36px; line-height:36px;}
+.pop_content .pop_u .pop_l ul li a {display:block; width:100%; height:100%; color:#000; font-size:13px; text-align:center; letter-spacing:-0.5px;}
+.pop_content .pop_u .pop_l ul li a:active {background:rgba(0,0,0,.05);}
+.pop_content .pop_u .pop_l .pop_first .slct_checked{color:#0ca2ed; font-weight:bold;}
+.pop_content .pop_u .pop_l .pop_first .slct_active{color:#0ca2ed; font-weight:bold; background:url(http://image.bbjang.com/imgs/bbjang/img01/bg_slct_active.png) center center no-repeat; background-size:90px 36px;}
+.pop_content .pop_u .pop_l .pop_first .slct_active:active{background:rgba(0,0,0,.05) url(http://image.bbjang.com/imgs/bbjang/img01/bg_slct_active.png) center center no-repeat; background-size:90px 36px;}
+.pop_content .pop_u .pop_l .pop_second a{padding-left:10px; box-sizing:border-box; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_off.png) 7% center no-repeat; background-size:18px 18px;}
+.pop_content .pop_u .pop_l .pop_second a:active{background:rgba(0,0,0,0.05) url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_off.png) 7% center no-repeat; background-size:18px 18px;}
+.pop_content .pop_u .pop_l .pop_second .slct_active{background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_on.png) 7% center no-repeat; background-size:18px 18px;}
+.pop_content .pop_u .pop_l .pop_second .slct_active:active{background:rgba(0,0,0,0.05) url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_on.png) 7% center no-repeat; background-size:18px 18px;}
+@media(max-width:350px){
+.pop_content .pop_u .pop_l .pop_second a{padding-left:15px; box-sizing:border-box;}
+}
+
+.pop_content .pop_u .pop_l_full {float:left; width:100%; height:auto; text-align:center;}
+.pop_content .pop_u .slct_table{height:38px; line-height:39px;}
+.pop_content .pop_u .slct_table a{display:block; width:100%; height:100%; color:#000; font-size:15px; padding-left:5px; border-width:0px 1px 1px 0; border-style:solid; border-color:#e7e7e7; box-sizing:border-box; letter-spacing:-0.5px; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_off.png) 7% center no-repeat; background-size:18px 18px;}
+.pop_content .pop_u .slct_table a:active{background:rgba(0,0,0,.05) url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_off.png) 7% center no-repeat; background-size:18px 18px;;}
+.pop_content .pop_u .slct_table .slct_checked{color:#0ca2ed; font-weight:bold;}
+.pop_content .pop_u .slct_table .slct_active{color:#0ca2ed; font-weight:bold; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_on.png) 7% center no-repeat; background-size:18px 18px;}
+.pop_content .pop_u .slct_table .slct_active:active{background:rgba(0,0,0,.05) url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_on.png) 7% center no-repeat; background-size:18px 18px;}
+.pop_content .pop_u .pop_l_full a{background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_off.png) 27% center no-repeat; background-size:18px 18px;}
+.pop_content .pop_u .pop_l_full a:active{background:rgba(0,0,0,0.05) url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_off.png) 27% center no-repeat; background-size:18px 18px;}
+.pop_content .pop_u .slct_table .slct_active_l{background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_on.png) 27% center no-repeat; background-size:18px 18px;}
+.pop_content .pop_u .slct_table .slct_active_l:active{background:rgba(0,0,0,0.05) url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_on.png) 27% center no-repeat; background-size:18px 18px;}
+
+.pop_tab{position:relative; width:100%; height:35px; line-height:35px;}
+.pop_tab h4{width:33.33333%; margin:0; padding:0; color:#373b3d; font-size:15px; text-align:center; float:left;}
+.pop_tab .pop_tab_line{position:absolute; bottom:0; left:0px; width:33.33333%; height:2px; transition:all 0.1s ease-in-out;-webkit-transition:all 0.1s ease-in-out; -o-transition:all 0.1s ease-in-out; -moz-transition:all 0.1s ease-in-out; -ms-transition:all 0.1s ease-in-out;}
+.pop_tab_u{position:relative; width:100%; height:212px; border-width:1px 0px 1px 0; border-style:solid; border-color:#e7e7e7; box-sizing:border-box;overflow-y:auto; -webkit-overflow-scrolling:touch; background:url(http://image.bbjang.com/imgs/bbjang/img01/bg_bar04.png) repeat-y center top;}
+.pop_tab_l{display:none; width:100%; height:auto;}
+.pop_tab_l:first-of-type{display:block;}
+.pop_tab_l:after{content:""; display:block; clear:both;}
+.pop_tab_l .pop_section{width:50%; float:left;}
+.pop_tab_l .pop_section li{width:100%; height:35px; line-height:35px;}
+.pop_tab_l .pop_section li a{display:block; width:100%; height:100%; color:#000; font-size:13px; text-align:center; letter-spacing:-0.5px; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_off.png) 7% center no-repeat; background-size:18px 18px;}
+.pop_tab_l .pop_section li a:active{background:rgba(0,0,0,0.05) url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_off.png) 7% center no-repeat; background-size:18px 18px;}
+.pop_tab_l .pop_section li .slct_active{color:#0ca2ed; font-weight:bold; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_on.png) 7% center no-repeat; background-size:18px 18px;}
+.pop_tab_l .pop_section li .slct_active:active{background:rgba(0,0,0,.05) url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_on.png) 7% center no-repeat; background-size:18px 18px;}
+
+/* 셀렉트 팝업 하단 */
+.pop_dn {position:relative; width:100%; height:auto; border-radius:0 0 5px 5px;}
+.pop_dn .pop_check {position:relative; width:100%; height:auto; padding:3px 2% 6px 2%; box-sizing:border-box;}
+.pop_dn .pop_check_over{height:90px; overflow-y:auto; box-sizing:border-box; -webkit-overflow-scrolling: touch;}
+.pop_dn .pop_check:after {display:block; clear:both; content:"";}
+.pop_dn .pop_check .pop_slct {position:relative; float:left; width:30.33333%; height:30px; margin:3px 1.5% 0 1.5%; padding:0 15px 0 5px; border:1px solid #add4ed; border-radius:5px; background-color:#f7fcff; color:#539fd0; font-size:13px; line-height:30px; box-sizing:border-box; overflow:hidden;}
+.pop_dn .pop_check .pop_slct a {display:block; width:100%; height:100%; font-size:13px; letter-spacing:-0.5px;}
+.pop_dn .pop_check .pop_slct .pop_slct_x{position:absolute; top:0; right:0; width:20%; height:100%; background:url(http://image.ilhaeyo.com/imgs/ilheayo_job/img01/ico_clse02.png) no-repeat 40% center; background-size:9px 9px; text-indent:-9999px;}
+.pop_dn .pop_btn {position:relative; width:100%; height:auto;}
+.pop_dn .pop_btn a {display:block; width:100%; height:45px; background-color:#46526c; color:#fff; font-size:17px; text-align:center; line-height:45px; box-shadow:inset 0px -2px 0px #364057;}
+
+/* 팝업 스크롤 */
+.style_1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2) !important;
+	border-radius: 4px !important;
+	background-color: #F5F5F5 !important;
+}
+
+.style_1::-webkit-scrollbar
+{
+	width: 4px !important;
+	background-color: #F5F5F5 !important;
+	-webkit-appearance: none !important;
+}
+
+.style_1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px !important;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3) !important;
+	background-color: #adadad !important;
+}
+.style_1::-webkit-scrollbar-thumb:window-inactive {
+   background: #41617D !important;
+ }
 /*----------------------------------------------------------------------------------------------------*/

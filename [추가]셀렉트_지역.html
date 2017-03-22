@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>방부장</title>
+<link href="css/bb_font.css" rel="stylesheet" type="text/css">
+<link href="css/bb_default.css" rel="stylesheet" type="text/css">
+<link href="css/bb_pop.css" rel="stylesheet" type="text/css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script async type="text/javascript" src="http://devm-yupitereu.ilhaeyo.com/_global/assets/js/jquery-mobile.event.min.js"></script>
+<script src="js/bb_design.js"></script>
+<script>
+$(document).ready(function(){
+    /******************** 팝업 ********************/	
+	/* 팝업 지역 선택시 */
+	$(".pop_tab_l .pop_section li a").click(function(){
+		$(this).toggleClass("slct_active");
+	});
+    /* 라인 이동 */
+    $(".pop_tab h4").click(function(){
+        var h4_idx = $(this).index();
+        var line_left = 33.3333 * h4_idx + "%"
+		$(".pop_tab .pop_tab_line").css("left",line_left);
+	});
+});
+</script>
+</head>
+<body ontouchstart="">
+<!---------------------------------------- 팝업(지역선택) ---------------------------------------->
+<div class="pop_wrap">
+	<div class="pop_container wid_98 mt_260 shadow">
+		<!-- 팝업 헤더 -->
+		<div class="pop_header">
+			<h2 class="bg_blue">지역 선택</h2>
+			<h3>- 상세지역선택은 최대 10개까지 선택가능합니다.<span class="bg_blue"></span></h3>
+			<a href="#" class="pop_clse">닫기</a>
+		</div>
+		<!-- // 팝업 헤더 -->
+		<!-- 팝업 콘텐츠 -->
+		<div class="pop_content">
+			<!-- 지역 선택 -->
+			<div class="pop_tab">
+                <h4 class="font_b">시/도</h4>
+                <h4 class="font_b">시/군/구</h4>
+                <h4 class="font_b">읍/면/동</h4>
+                <div class="pop_tab_line bg_blue"></div>
+			</div>
+			<ul class="pop_tab_u" id="style-1">
+                <li class="pop_tab_l">
+                    <ul class="pop_section">
+                        <li><a href="#" class="slct_active">전체</a></li>
+                        <li><a href="#">서울</a></li>
+                        <li><a href="#">경기</a></li>
+                        <li><a href="#">부산</a></li>
+                        <li><a href="#">인천</a></li>
+                        <li><a href="#">대구</a></li>
+                        <li><a href="#">광주</a></li>
+                        <li><a href="#">대전</a></li>
+                        <li><a href="#">울산</a></li>
+                    </ul>
+                    <ul class="pop_section">   
+                        <li><a href="#">경남</a></li>
+                        <li><a href="#">경북</a></li>
+                        <li><a href="#">강원</a></li>
+                        <li><a href="#">충남</a></li>
+                        <li><a href="#">충북</a></li>
+                        <li><a href="#">전남</a></li>
+                        <li><a href="#">전북</a></li>
+                        <li><a href="#">세종</a></li>
+                        <li><a href="#">제주</a></li>
+                    </ul>        
+			    </li>
+			    <li class="pop_tab_l">
+			        <ul class="pop_section">
+                        <li><a href="#">서울전체</a></li>
+                        <li><a href="#">강남구</a></li>
+                        <li><a href="#">강동구</a></li>
+                        <li><a href="#">강서구</a></li>
+                        <li><a href="#">관악구</a></li>
+                        <li><a href="#">광진구</a></li>
+                        <li><a href="#">구로구</a></li>
+                        <li><a href="#">금천구</a></li>
+                        <li><a href="#">노원구</a></li>
+                    </ul>
+                    <ul class="pop_section">   
+                        <li><a href="#">도봉구</a></li>
+                        <li><a href="#">동대문구</a></li>
+                        <li><a href="#">동작구</a></li>
+                        <li><a href="#">마포구</a></li>
+                        <li><a href="#">서대문구</a></li>
+                        <li><a href="#">서초구</a></li>
+                        <li><a href="#">송파구</a></li>
+                        <li><a href="#">양천구</a></li>
+                        <li><a href="#">영등포구</a></li>
+                    </ul>    
+			    </li>
+			    <li class="pop_tab_l">
+			        <ul class="pop_section">
+                        <li><a href="#">강남구전체</a></li>
+                        <li><a href="#">개포동</a></li>
+                        <li><a href="#">논현동</a></li>
+                        <li><a href="#">대치동</a></li>
+                        <li><a href="#">도곡동</a></li>
+                        <li><a href="#">삼성동</a></li>
+                        <li><a href="#">세곡동</a></li>
+                        <li><a href="#">수서동</a></li>
+                    </ul>
+                    <ul class="pop_section">
+                        <li><a href="#">신사동</a></li>      
+                        <li><a href="#">압구정동</a></li>
+                        <li><a href="#">역삼동</a></li>
+                        <li><a href="#">율현동</a></li>
+                        <li><a href="#">일원동</a></li>
+                        <li><a href="#">자곡동</a></li>
+                        <li><a href="#">청담동</a></li>
+                    </ul>    
+			    </li>
+			</ul>
+			<!-- // 지역 선택 -->
+		</div>
+		<!-- // 팝업 콘텐츠 -->
+		<!--  팝업 하단 -->
+		<div class="pop_dn">
+			<div class="pop_check pop_check_over" id="style-1">
+				<div class="pop_slct">
+				    <a href="#">
+					개포동
+                    <div class="pop_slct_x">선택삭제</div>
+                    </a>
+				</div>
+				<div class="pop_slct">
+				    <a href="#">
+					논현동
+                    <div class="pop_slct_x">선택삭제</div>
+                    </a>
+				</div>
+				<div class="pop_slct">
+				    <a href="#">
+					대치동
+                    <div class="pop_slct_x">선택삭제</div>
+                    </a>
+				</div>
+				<div class="pop_slct">
+				    <a href="#">
+					도곡동
+                    <div class="pop_slct_x">선택삭제</div>
+                    </a>
+				</div>
+				<div class="pop_slct">
+				    <a href="#">
+					삼성동
+                    <div class="pop_slct_x">선택삭제</div>
+                    </a>
+				</div>
+				<div class="pop_slct">
+				    <a href="#">
+					세곡동
+                    <div class="pop_slct_x">선택삭제</div>
+                    </a>
+				</div>
+				<div class="pop_slct">
+				    <a href="#">
+					수서동
+                    <div class="pop_slct_x">선택삭제</div>
+                    </a>
+				</div>
+			</div>
+			<div class="pop_btn">
+				<a href="#" class="font_b">선택완료</a>
+			</div>
+		</div>
+		<!-- // 팝업 하단 -->
+	</div>
+</div>
+</body>
+</html>

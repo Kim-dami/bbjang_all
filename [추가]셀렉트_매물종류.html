@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>방부장</title>
+<link href="css/bb_font.css" rel="stylesheet" type="text/css">
+<link href="css/bb_default.css" rel="stylesheet" type="text/css">
+<link href="css/bb_pop.css" rel="stylesheet" type="text/css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script async type="text/javascript" src="http://devm-yupitereu.ilhaeyo.com/_global/assets/js/jquery-mobile.event.min.js"></script>
+<script src="js/bb_design.js"></script>
+<script>
+$(document).ready(function(){
+    /******************** 팝업 ********************/	
+	/* 팝업 대분류 선택시 */
+	$(".pop_u .pop_first ul li").click(function(){
+		$(".pop_u .pop_first ul li a").removeClass("slct_active");
+		$(".pop_u .pop_second ul").css("display","none")
+		var first_idx = $(this).index();
+		if(first_idx == 0){
+			$(this).find("a").addClass("slct_active");
+			return;
+		}
+		var first_idx = first_idx - 1;
+		$(this).find("a").addClass("slct_active");
+		$(".pop_u .pop_second ul").eq(first_idx).css("display","block")
+	});
+	
+	/* 팝업 상세 선택시 */
+	$(".pop_second ul li").click(function(){
+		$(this).find("a").addClass("slct_active");
+	});
+});
+</script>
+</head>
+<body ontouchstart="">
+<!---------------------------------------- 팝업(매물종류선택) ---------------------------------------->
+<div class="pop_wrap">
+	<div class="pop_container wid_98 mt_260 shadow">
+		<!-- 팝업 헤더 -->
+		<div class="pop_header">
+			<h2 class="bg_blue">매물 종류 선택</h2>
+			<h3>- 매물종류는 최대 10개까지 선택가능합니다.<span class="bg_blue"></span></h3>
+			<a href="#" class="pop_clse">닫기</a>
+		</div>
+		<!-- // 팝업 헤더 -->
+		<!-- 팝업 콘텐츠 -->
+		<div class="pop_content">
+			<!-- 매물 종류 선택 -->
+			<ul class="pop_u">
+				<li class="pop_l">
+				<h4 class="font_b">매물대분류</h4>
+				<div class="pop_first" id="style-1">
+					<ul>
+						<li><a href="#" class="slct_active">전체</a></li>
+						<li><a href="#">아파트</a></li>
+						<li><a href="#">원룸/오피스텔</a></li>
+						<li><a href="#">상가점포</a></li>
+						<li><a href="#" class="slct_checked">사무실/공장창고/건물</a></li>
+						<li><a href="#">주택</a></li>
+						<li><a href="#">토지</a></li>
+					</ul>
+				</div>
+				</li>
+				<li class="pop_l">
+				<h4 class="font_b">상세분류</h4>
+				<div class="pop_second" id="style-1">
+					<ul>
+						<li><a href="#" class="slct_active">아파트</a></li>
+					</ul>
+					<ul>
+						<li><a href="#" class="slct_active">일반원룸</a></li>
+						<li><a href="#">주거용 오피스텔</a></li>
+						<li><a href="#">하숙/고시원</a></li>
+						<li><a href="#">기타</a></li>
+					</ul>
+					<ul>
+						<li><a href="#" class="slct_active">건물/빌딩</a></li>
+						<li><a href="#">한식/일식/횟집</a></li>
+						<li><a href="#">중식당/치킨/닭강정</a></li>
+						<li><a href="#">김밥/분식/간이음식</a></li>
+						<li><a href="#">피자/패스트푸드</a></li>
+						<li><a href="#">카페/커피</a></li>
+						<li><a href="#">레스토랑</a></li>
+						<li><a href="#">꼬치구이</a></li>
+						<li><a href="#" >호프/일반주점</a></li>
+						<li><a href="#">바/재즈바</a></li>
+						<li><a href="#">룸소주방/단란주점</a></li>
+						<li><a href="#">고기전문점</a></li>
+						<li><a href="#">반찬/농축수산물</a></li>
+						<li><a href="#">가구/의류/제화</a></li>
+						<li><a href="#">PC방</a></li>
+						<li><a href="#">노래방</a></li>
+					</ul>
+					<ul>
+						<li><a href="#" class="slct_active">일반사무실</a></li>
+						<li><a href="#">업무용 오피스텔</a></li>
+						<li><a href="#">공장</a></li>
+						<li><a href="#">창고</a></li>
+						<li><a href="#">일반건물</a></li>
+						<li><a href="#">상가건물</a></li>
+						<li><a href="#">숙박/콘도</a></li>
+						<li><a href="#">기타</a></li>
+					</ul>
+					<ul>
+						<li><a href="#" class="slct_active">단독주택</a></li>
+						<li><a href="#">연립빌라</a></li>
+						<li><a href="#">다가구 주택</a></li>
+						<li><a href="#">상가주택</a></li>
+						<li><a href="#">콘도/전원주택</a></li>
+						<li><a href="#">다세대주택</a></li>
+						<li><a href="#">기타</a></li>
+					</ul>
+					<ul>
+						<li><a href="#" class="slct_active">전/답/대지</a></li>
+						<li><a href="#">아파트 대지</a></li>
+						<li><a href="#">공장/창고</a></li>
+						<li><a href="#">임야/과수원/잡종지</a></li>
+						<li><a href="#">주차장/주유소용지</a></li>
+						<li><a href="#">도로/철도용지</a></li>
+						<li><a href="#">체육/공원/학교용지</a></li>
+						<li><a href="#">목장용지/종교용지</a></li>
+						<li><a href="#">하천/제방/수도용지</a></li>
+						<li><a href="#">사적지/묘지</a></li>
+						<li><a href="#">염전/양어장</a></li>
+						<li><a href="#">기타</a></li>
+					</ul>
+				</div>
+				</li>
+			</ul>
+			<!-- // 매물 종류 선택 -->
+		</div>
+		<!-- // 팝업 콘텐츠 -->
+		<!--  팝업 하단 -->
+		<div class="pop_dn">
+			<div class="pop_check" id="style-1">
+				<div class="pop_slct">
+				    <a href="#">
+					아파트
+                    <div class="pop_slct_x">선택삭제</div>
+                    </a>
+				</div>
+				<div class="pop_slct">
+				    <a href="#">
+					주거용 오피스텔
+                    <div class="pop_slct_x">선택삭제</div>
+                    </a>
+				</div>
+				<div class="pop_slct">
+				    <a href="#">
+					중식당/치킨/닭강정
+                    <div class="pop_slct_x">선택삭제</div>
+                    </a>
+				</div>
+				<div class="pop_slct">
+				    <a href="#">
+					PC방
+                    <div class="pop_slct_x">선택삭제</div>
+                    </a>
+				</div>
+				<div class="pop_slct">
+				    <a href="#">
+					업무용 오피스텔
+                    <div class="pop_slct_x">선택삭제</div>
+                    </a>
+				</div>
+			</div>
+			<div class="pop_btn">
+				<a href="#" class="font_b">선택완료</a>
+			</div>
+		</div>
+		<!-- // 팝업 하단 -->
+	</div>
+</div>
+</body>
+</html>
