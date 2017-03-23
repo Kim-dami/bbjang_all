@@ -42,7 +42,67 @@
 		<!-- 내놓기 -->
 		<div class="content_wrap">
 			<ul>
-			    <!-- 기본정보 -->
+				<!-- 사진등록 -->
+				<li class="wt_list">
+				<p class="wt_photo_title font_b">
+					사진등록 <span class="font_r">(최대 20장)</span>
+				</p>
+				<div class="wt_plus">
+					<a href="#">올리기</a>
+				</div>
+				<div class="wt_photo_default hidden">
+					 올리기 버튼을 터치해주세요.
+				</div>
+				<div class="wt_photo_wrap">
+					<div class="wt_photo">
+						<a href="#"></a>
+					</div>
+					<div class="wt_photo_frac">
+						 1 / 20
+					</div>
+					<div class="wt_btn_pre">
+						<a href="#">이전 사진</a>
+					</div>
+					<div class="wt_btn_next">
+						<a href="#">다음 사진</a>
+					</div>
+					<div class="wt_main_photo">
+						 대표사진
+					</div>
+					<div class="wt_clear_photo">
+					    <a href="#" class="font_b">대표사진 해제</a>
+					</div>
+					<div class="wt_del_photo">
+					    <a href="#" class="font_b">삭제하기</a>
+					</div>
+				</div>
+				</li>
+				<!-- // 사진등록 -->
+				<!-- 매물명 -->
+				<li class="wt_list">
+				<p class="wt_build_title font_b">
+					매물명 <span class="font_r">(최대 20자)</span>
+				</p>
+				<ul class="wt_build_wrap">
+					<li class="wt_build pr_70">
+					<input type="text" placeholder="예)용봉동 어울림 아파트, 용봉동 꿈이룸 원룸" />
+					<div class="wt_build_del">
+						<a href="#">삭제</a>
+					</div>
+					</li>
+					<li class="wt_build pr_70">
+					<input type="text" placeholder="예)용봉동 어울림 아파트, 용봉동 꿈이룸 원룸"/>
+					<div class="wt_build_del">
+						<a href="#">삭제</a>
+					</div>
+					</li>
+				</ul>
+				<div class="wt_build_plus">
+					<a href="#">추가하기</a>
+				</div>
+				</li>
+				<!-- // 매물명 -->
+				<!-- 기본정보 -->
 				<li class="wt_list">
 				<p class="wt_info_title font_b">
 					기본정보
@@ -117,30 +177,6 @@
 				</ul>
 				</li>
 				<!-- // 기본정보 -->
-				<!-- 매물명 -->
-				<li class="wt_list">
-				<p class="wt_build_title font_b">
-					매물명 <span class="font_r">(최대 20자)</span>
-				</p>
-				<ul class="wt_build_wrap">
-					<li class="wt_build pr_70">
-					<input type="text" placeholder="예)용봉동 어울림 아파트, 용봉동 꿈이룸 원룸" />
-					<div class="wt_build_del">
-						<a href="#">삭제</a>
-					</div>
-					</li>
-					<li class="wt_build pr_70">
-					<input type="text" placeholder="예)용봉동 어울림 아파트, 용봉동 꿈이룸 원룸"/>
-					<div class="wt_build_del">
-						<a href="#">삭제</a>
-					</div>
-					</li>
-				</ul>
-				<div class="wt_build_plus">
-					<a href="#">추가하기</a>
-				</div>
-				</li>
-				<!-- // 매물명 -->
 				<!-- 위치입력 -->
 				<li class="wt_list">
 				<p class="wt_loca_title font_b">
@@ -185,71 +221,6 @@
 				</ul>
 				</li>
 				<!-- // 위치입력 -->
-				<!-- 면적 -->
-				<li class="wt_list">
-				<p class="wt_build_title font_b">
-					면적
-				</p>
-				<div style="padding:7px 0;">
-                    <div class="wt_num">
-                        <input type="number"/>
-                    </div> 평 = 　
-                    <div class="wt_num">
-                        <input type="number"/>
-                    </div> m<sup>2</sup>
-                </div>
-				</li>
-				<!-- // 면적 -->
-				<!-- 상세설명 -->
-				<li class="wt_list">
-				<p class="wt_expl_title font_b">
-					상세설명 <span class="font_r">(<span class="ft_blue font_b">0</span>/500자)</span>
-				</p>
-				<div class="wt_expl_txt">
-					<label for="area_expl">
-					가장 많이 보이는 리스트에 보여지는 내용입니다.<br/>
-					매물의 장점, 특징 등을 자세히 작성하시면 도움이 됩니다.<br/>
-					※ 해당 매물과 관계없는 내용은 자동 비공개 처리됩니다. </label>
-					<textarea name="text" cols="50" rows="4" id="area_expl"></textarea>
-				</div>
-				</li>
-				<!-- // 상세설명 -->
-				<!-- 사진등록 -->
-				<li class="wt_list">
-				<p class="wt_photo_title font_b">
-					사진등록 <span class="font_r">(최대 20장)</span>
-				</p>
-				<div class="wt_plus">
-					<a href="#">올리기</a>
-				</div>
-				<div class="wt_photo_default hidden">
-					 올리기 버튼을 터치해주세요.
-				</div>
-				<div class="wt_photo_wrap">
-					<div class="wt_photo">
-						<a href="#"></a>
-					</div>
-					<div class="wt_photo_frac">
-						 1 / 20
-					</div>
-					<div class="wt_btn_pre">
-						<a href="#">이전 사진</a>
-					</div>
-					<div class="wt_btn_next">
-						<a href="#">다음 사진</a>
-					</div>
-					<div class="wt_main_photo">
-						 대표사진
-					</div>
-					<div class="wt_clear_photo">
-					    <a href="#" class="font_b">대표사진 해제</a>
-					</div>
-					<div class="wt_del_photo">
-					    <a href="#" class="font_b">삭제하기</a>
-					</div>
-				</div>
-				</li>
-				<!-- // 사진등록 -->
 				<!-- 옵션정보 -->
 				<li class="wt_list">
 				<p class="wt_opc_title font_b">
@@ -266,6 +237,20 @@
 				</div>
 				</li>
 				<!-- // 옵션정보 -->
+				<!-- 상세설명 -->
+				<li class="wt_list">
+				<p class="wt_expl_title font_b">
+					상세설명 <span class="font_r">(<span class="ft_blue font_b">0</span>/500자)</span>
+				</p>
+				<div class="wt_expl_txt">
+					<label for="area_expl">
+					가장 많이 보이는 리스트에 보여지는 내용입니다.<br/>
+					매물의 장점, 특징 등을 자세히 작성하시면 도움이 됩니다.<br/>
+					※ 해당 매물과 관계없는 내용은 자동 비공개 처리됩니다. </label>
+					<textarea name="text" cols="50" rows="4" id="area_expl"></textarea>
+				</div>
+				</li>
+				<!-- // 상세설명 -->
 				<!-- 등록자정보 -->
 				<li class="wt_list">
 				<p class="wt_agent_title font_b">
@@ -376,7 +361,19 @@
 		<!-- 구하기 -->
 		<div class="content_wrap hidden">
 			<ul>
-			    <!-- 기본정보 -->
+				<!-- 희망 매물명 -->
+				<li class="wt_list">
+				<p class="wt_build_title font_b">
+					희망매물명 <span class="font_r">(최대 20자)</span>
+				</p>
+				<ul class="wt_build_wrap">
+					<li class="wt_buy_build">
+					<input type="text" placeholder="예)용봉동 어울림 아파트, 용봉동 꿈이룸 원룸" class="wt_wid_10"/>
+					</li>
+				</ul>
+				</li>
+				<!-- // 희망 매물명 -->
+				<!-- 기본정보 -->
 				<li class="wt_list">
 				<p class="wt_info_title font_b">
 					기본정보
@@ -494,18 +491,6 @@
 				</ul>
 				</li>
 				<!-- // 기본정보 -->
-				<!-- 희망 매물명 -->
-				<li class="wt_list">
-				<p class="wt_build_title font_b">
-					희망매물명 <span class="font_r">(최대 20자)</span>
-				</p>
-				<ul class="wt_build_wrap">
-					<li class="wt_buy_build">
-					<input type="text" placeholder="예)용봉동 어울림 아파트, 용봉동 꿈이룸 원룸" class="wt_wid_10"/>
-					</li>
-				</ul>
-				</li>
-				<!-- // 희망 매물명 -->
 				<!-- 상세설명 -->
 				<li class="wt_list">
 				<p class="wt_expl_title font_b">

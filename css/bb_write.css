@@ -23,102 +23,6 @@
 #header .btn_note a {display:block; width:100%; height:100%; text-align:center;}
 #header .btn_note a:active {background:rgba(0,0,0,0.05);}
 
-/* 등록 구분 */
-.nav_wrap {position:relative; width:100%; height:40px; padding-bottom:10px; margin-top:45px;}
-.nav_wrap ul {position:relative; width:100%; height:100%;}
-.nav_wrap ul:after {display:block; clear:both; content:"";}
-.nav_wrap li {float:left; width:50%; height:100%; border-bottom:1px solid #dee0e0; background-color:#f5f7f7; box-sizing:border-box;}
-.nav_wrap li:last-of-type {border-left:1px solid #dee0e0;}
-.nav_wrap li a {display:block; width:100%; height:100%; color:#555a5c; font-size:13px; text-align:center; line-height:40px;}
-.nav_wrap li a:active {background:rgba(0,0,0,0.05);}
-.nav_wrap li .font_b {font-size:15px;}
-.nav_wrap .wt_nav_active {border-bottom:none; background-color:#fff;}
-.nav_wrap .wt_nav_active a {color:#373b3d;}
-
-/* 등록 */
-.content_wrap {position:relative; width:100%; height:auto;}
-.content_wrap ul {position:relative; width:100%; height:auto;}
-.content_wrap .wt_list {position:relative; width:100%; height:auto;}
-.content_wrap .wt_list p {width:100%; height:32px; padding-left:35px; border-top:1px solid #868686; border-bottom:1px solid #868686; background-color:#d9dddd; font-size:14px; line-height:32px; box-sizing:border-box;}
-.content_wrap .wt_list p .font_r {font-size:13px;}
-
-.wt_plus {position:absolute; top:0; right:0; width:65px; height:32px; border:1px solid #404547; background-color:#494f52; line-height:32px; box-sizing:border-box;}
-.wt_plus a {display:block; width:100%; height:100%; color:#fff; text-align:center;}
-.wt_plus:active {animation:push 0.2s ease-in-out 1;-webkit-animation:push 0.2s ease-in-out 1; -o-animation:push 0.2s ease-in-out 1; -moz-animation:push 0.2s ease-in-out 1; -ms-animation:push 0.2s ease-in-out 1;}
-.wt_default {position:relative; width:100%; height:45px; color:#86898a; text-align:center; line-height:45px;}
-.wt_num {display:inline-block; height:30px; margin-right:3px; padding:0 5px; border:1px solid #bcc0c2; border-radius:3px; background-color:#f5f7f7; line-height:30px; vertical-align:middle;}
-.wt_num input[type="number"] {display:block; width:100%; height:14px; padding:8px 0; border:none; outline:none; background-color:transparent; font-size:14px; line-height:14px;}
-
-.wt_num_disable {display:inline-block; height:30px; margin-right:3px; padding:0 5px; border:1px solid #b8b8b8; border-radius:3px; background-color:#ccc; line-height:30px; vertical-align:middle;} /* 170314 추가 */
-.wt_num_disable input[type="number"] {display:block; width:100%; height:14px; padding:8px 0; border:none; outline:none; background-color:transparent; font-size:14px; color:#999; line-height:14px;} /* 170314 추가 */
-
-/* 매물명 */
-.wt_build_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_build_title.png) no-repeat 8px 4px; background-size:22px 23px;}
-
-.wt_build_plus {width:100%; height:30px; line-height:30px; margin:0 0 7px 0; padding:0 7px; box-sizing:border-box;}
-.wt_build_plus a {display:block; border-radius:3px; background-color:#0ca2ed; color:#fff; font-size:15px; text-align:center;}
-.wt_build_plus a:active {position:relative; top:1px; background:#0b91d4;}
-
-.wt_build_wrap {position:relative; width:100%; height:auto; padding:7px; box-sizing:border-box;}
-.wt_build_wrap .wt_build {position:relative; width:100%; height:auto; margin-bottom:7px; padding-right:70px; box-sizing:border-box;}
-.wt_build_wrap .wt_build:last-of-type {margin-bottom:0;}
-.wt_build_wrap .wt_buy_build {position:relative; width:100%; height:auto; padding-right:10px; box-sizing:border-box;}
-.wt_build_wrap input[type="text"] {display:block; width:100%; height:14px; padding:8px 5px; border:1px solid #9ea1a3; border-radius:3px; outline:none; background-color:#fff; font-size:14px; line-height:14px;}
-.wt_build_wrap .wt_build .wt_build_del {position:absolute; top:0; right:0; width:50px; height:30px; border:1px solid #0ca2ed; border-radius:3px; line-height:30px; overflow: hidden;}
-.wt_build_wrap .wt_build .wt_build_del a {display:block; background-color:#fff; font-size:13px; text-align:center;}
-.wt_build_wrap .wt_build .wt_build_del a:active {background-color:#0ca2ed; color:#fff;}
-
-/* 위치입력 */
-.wt_loca_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_loca_title.png) no-repeat 8px 4px; background-size:22px 23px;}
-
-.wt_address {position:relative; width:100%; height:auto; padding:10px 7px; box-sizing:border-box;}
-.wt_address li {position:relative; width:100%; height:auto; padding:0 7px 7px 7px; box-sizing:border-box;}
-.wt_address li:last-of-type {padding:0;}
-.wt_address li .wt_l {position:absolute; top:0px; left:10px; width:45px; height:20px; background-color:#e1e1e1; font-size:13px; text-align:center; line-height:20px;}
-.wt_address li .wt_r {width:100%; height:auto; font-size:15px; line-height:21px; padding-left:53px; box-sizing:border-box;}
-.wt_address li .wt_address_add {width:100%; height:32px; padding:0 5px; border:1px solid #c6cacc; border-radius:3px; box-sizing:border-box; background-color:#fff;}
-.wt_address li .wt_address_add input[type="text"] {display:block; width:100%; height:14px; padding:8px 0; border:none; outline:none; background-color:transparent; color:#0b7fd0; font-size:14px; line-height:14px;}
-.wt_address li .wt_map_wrap {position:relative; width:100%; height:170px; border:1px solid #a8acae;}
-.wt_address li .wt_map_wrap #map {width:100%; height:100%;}
-
-/* 옵션정보 */
-.wt_opc_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_opc_title.png) no-repeat 8px 4px; background-size:22px 23px;}
-
-.wt_opc {position:relative; width:100%; height:auto; padding:7px 17px; color:#0b7fd0; font-size:15px; text-align:left; line-height:20px; box-sizing:border-box;}
-
-/* 상세설명 */
-.wt_expl_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_expl_title.png) no-repeat 8px 4px; background-size:22px 23px;}
-
-.wt_expl_txt {position:relative; width:100%; height:auto; padding:7px 17px; box-sizing:border-box;}
-.wt_expl_txt label {position:absolute; z-index:5; top:10px; left:0px; width:100%; height:auto; color:#86898a; font-size:13px; line-height:18px; padding:0 17px; box-sizing:border-box;}
-.wt_expl_txt textarea {display:block; position:relative; width:100%; height:auto!important; border:none; outline:none; background-color:#fff; font-size:14px; font-family:'bb-Regular'; line-height:20px; box-sizing:border-box;resize:none!important;}
-
-/* 등록자정보 */
-.wt_agent_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_agent_title.png) no-repeat 8px 4px; background-size:22px 23px;}
-
-.wt_chk {position:absolute; top:0; right:0; width:65px; height:32px; padding:9px 0; box-sizing:border-box;}
-
-.wt_agent_num {position:relative; width:100%; height:auto; padding:0 7px; box-sizing:border-box;}
-.wt_agent_num .wt_agent_line{position:relative; width:100%; height:100%; padding:7px 0; border-bottom:1px solid #d7d7d7;}
-.wt_agent_num .wt_l {position:absolute; top:7px; left:10px; width:75px; height:32px; line-height:32px;}
-.wt_agent_num .wt_r {width:100%; height:32px; color:#0b7fd0; line-height:32px; padding-left:90px; padding-right:57px; box-sizing:border-box; letter-spacing:0;}
-
-.wt_agent_btn {position:absolute; top:7px; right:0px; width:50px; height:30px; border:1px solid #0ca2ed; border-radius:3px; line-height:30px;}
-.wt_agent_btn a {display:block; width:100%; height:100%; font-size:13px; color:#494f52; text-align:center}
-.wt_agent_btn a:active {background-color:#0ca2ed; color:#fff;}
-
-.wt_add {position:relative; width:100%; height:auto; padding:7px; box-sizing:border-box;}
-.wt_add .wt_l {position:absolute; top:7px; left:17px; width:75px; height:32px; line-height:32px;}
-.wt_add .wt_r {width:100%; height:32px; line-height:32px; padding-left:85px; box-sizing:border-box;}
-.wt_add .wt_r a {display:block; width:100%; height:100%; border-radius:3px; background-color:#0ca2ed; color:#fff; font-size:15px; text-align:center;}
-.wt_add .wt_r a:active {position:relative; top:1px; background:#0b91d4;}
-.wt_add .wt_add_u {position:relative; clear:both; width:100%; height:auto;}
-.wt_add .wt_add_l {position:relative; width:100%; height:auto; padding-top:7px;}
-.wt_add .wt_add_l:after {display:block; clear:both; content:"";}
-.wt_add .wt_add_l .wt_add_num {display:inline-block; width:calc(30% - 35px); height:30px; margin:0 3px; padding:0 5px; border:1px solid #bcc0c2; border-radius:3px; background-color:#f5f7f7; line-height:30px; vertical-align:middle;}
-.wt_add .wt_add_l .wt_add_num select {display:block; width:100%; height:100%; line-height:30px; border:none; outline:none; background:#f5f7f7 url(http://image.bbjang.com/imgs/bbjang/img01/ico_slct_drop03.png) no-repeat right center; background-size:7px 4px; font-size:14px; line-height:14px;}
-.wt_add .wt_add_l .wt_add_num input[type="number"] {display:block; width:100%; padding:8px 0; border:none; outline:none; background-color:transparent; font-size:14px; line-height:14px;}
-
 /* 하단 버튼 */
 .wt_bot_wrap {position:fixed; z-index:800; left:0; right:0; bottom:0; width:100%; height:45px; background-color:#0079bf; line-height:45px;}
 
@@ -141,75 +45,6 @@
 .wt_bot_wrap .dt_btn_on a {display:block; width:100%; height:100%; color:#f3f3f3; font-size:16px; text-align:center;}
 .wt_bot_wrap .dt_btn_on a:active {background:rgba(0,0,0,0.1);}
 .wt_bot_wrap .wt_disable {background-color:#bdbdbd; color:#fff;}
-
-/****************************** 170206 김다미 ******************************/
-/* 기본정보 */
-.wt_info_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_info_title.png) no-repeat 8px 4px; background-size:22px 23px;}
-
-.wt_info_wrap {position:relative; width:100%; height:auto; padding:0 7px; box-sizing:border-box;}
-.wt_info_wrap li {position:relative; width:100%; height:auto; padding:7px 0; border-top:1px solid #d7d7d7;}
-.wt_info_wrap li:after {display:block; clear:both; content:"";}
-.wt_info_wrap li:first-of-type {border-top:none;}
-
-.wt_info_wrap .wt_hope_loca .wt_l {position:absolute; top:7px; left:10px; width:70px; height:32px; line-height:32px;}
-.wt_info_wrap .wt_hope_loca .wt_r {width:100%; height:32px; line-height:32px; padding-left:80px; box-sizing:border-box;}
-.wt_info_wrap .wt_hope_loca .wt_r .wt_slct_30 {float:left; width:32.333333%; height:32px; margin-left:1%; border:1px solid #bcc0c2; border-radius:3px; box-sizing:border-box; background:#f5f7f7 url(http://image.bbjang.com/imgs/bbjang/img01/ico_slct_drop03.png) no-repeat 97% center; background-size:7px 4px; line-height:30px;}
-.wt_info_wrap .wt_hope_loca .wt_r .wt_slct_30 select {display:block; width:90%; padding:8px 2%; box-sizing:border-box; border:none; outline:none; background-color:transparent; color:#1c1e1f; font-size:14px; line-height:14px; overflow:hidden;}
-
-.wt_info_wrap .wt_slct_50 {width:45%; height:30px; padding:0 5px; border:1px solid #bcc0c2; border-radius:3px; background:#f5f7f7 url(http://image.bbjang.com/imgs/bbjang/img01/ico_slct_drop03.png) no-repeat 96% center; background-size:7px 4px; line-height:30px;}
-.wt_info_wrap .wt_slct_50:first-of-type {float:left;}
-.wt_info_wrap .wt_slct_50:last-of-type {float:right;}
-.wt_info_wrap .wt_slct_50 a {display:block; width:100%; height:100%; font-size:14px; line-height:30px;}
-.wt_info_wrap .wt_slct_50 select {display:block; width:100%; padding:8px 0; border:none; outline:none; background-color:transparent; color:#1c1e1f; font-size:14px; line-height:14px;}
-
-.wt_info_wrap .wt_rent_price .wt_l {position:absolute; top:7px; left:10px; width:120px; height:32px; line-height:32px;}
-.wt_info_wrap .wt_rent_price .wt_r {width:100%; height:32px; line-height:32px; padding-left:130px; box-sizing:border-box;}
-.wt_info_wrap .wt_rent_price .wt_r .wt_num {width:calc(100% - 50px);}
-
-.wt_info_wrap .wt_rent_price .wt_l_type2 {position:absolute; top:7px; left:10px; width:120px; height:55px; padding-top:23px; line-height:32px;} /* 170314 추가 */
-.wt_info_wrap .wt_rent_price .wt_l_type2 .chk-in {position:absolute; top:-2px; left:-3px; width:74px; height:20px; border:1px solid #b4b4b4; -webkit-border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px; -o-border-radius:2px; border-radius:2px; background-color:#f6f6f6; font-size:14px; color:#1c1e1f; line-height:20px; letter-spacing:-1px;}
-.wt_info_wrap .wt_rent_price .wt_r_type2 {width:100%; height:55px; line-height:32px; padding-top:23px; padding-left:130px; box-sizing:border-box;} /* 170314 추가 */
-.wt_info_wrap .wt_rent_price .wt_r_type2 .wt_num {width:calc(100% - 50px);} /* 170314 추가 */
-.wt_info_wrap .wt_rent_price .wt_r_type2 .wt_num_disable {width:calc(100% - 50px);} /* 170314 추가 */
-
-.wt_info_wrap .wt_month_price .wt_l {position:absolute; top:7px; left:10px; width:80px; height:32px; line-height:32px;}
-.wt_info_wrap .wt_month_price .wt_r {width:100%; height:32px; line-height:32px; padding-left:90px; box-sizing:border-box;}
-.wt_info_wrap .wt_month_price .wt_r .wt_num {width:calc(50% - 54px);}
-
-.wt_info_wrap .wt_month_price .wt_l_type2 {position:absolute; top:7px; left:10px; width:80px; height:55px; padding-top:23px; line-height:32px;} /* 170314 추가 */
-.wt_info_wrap .wt_month_price .wt_l_type2 .chk-in {position:absolute; top:-2px; left:-3px; width:74px; height:20px; border:1px solid #b4b4b4; -webkit-border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px; -o-border-radius:2px; border-radius:2px; background-color:#f6f6f6; font-size:14px; color:#1c1e1f; line-height:20px; letter-spacing:-1px;}
-.wt_info_wrap .wt_month_price .wt_r_type2 {width:100%; height:55px; line-height:32px; padding-top:23px; padding-left:90px; box-sizing:border-box;} /* 170314 추가 */
-.wt_info_wrap .wt_month_price .wt_r_type2 .wt_num {width:calc(50% - 54px);} /* 170314 추가 */
-.wt_info_wrap .wt_month_price .wt_r_type2 .wt_num_disable {width:calc(50% - 54px);} /* 170314 추가 */
-
-.wt_info_wrap .wt_area .wt_l {position:absolute; top:7px; left:10px; width:80px; height:32px; line-height:32px;}
-.wt_info_wrap .wt_area .wt_r {width:100%; height:32px; line-height:32px; padding-left:90px; box-sizing:border-box;}
-.wt_info_wrap .wt_area .wt_r .wt_num {width:calc(50% - 54px);}
-
-/****************************** 170207 김다미 ******************************/
-/* 사진등록 */
-.wt_photo_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_photo_title.png) no-repeat 8px 4px; background-size:22px 23px;}
-
-.wt_photo_default {width:100%; height:80px; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_photo_plus.png) no-repeat center center; background-size:41px 42px;}
-.wt_photo_default a{display:block; width: 100%; height: 100%; text-indent:-9999px;}
-
-.wt_photo_wrap {position:relative; width:100%; height:225px;}
-.wt_photo_wrap .wt_photo {position:relative; width:100%; height:100%;}
-.wt_photo_wrap .wt_photo a {display:block; width:100%; height:100%; background:url(http://image.bbjang.com/imgs/bbjang/img01/photo04.jpg) no-repeat center center; background-size:cover;}
-.wt_photo_wrap .wt_photo_frac {position:absolute; left:50%; bottom:12px; width:50px; height:22px; margin-left:-25px; border-radius:25px; background:rgba(154,154,154,0.7); color:#fff; font-size:13px; text-align:center; line-height:22px;}
-.wt_photo_wrap .wt_buy_photo {background:#dadee2 url(http://image.bbjang.com/imgs/bbjang/img01/bg_detail_buy.png) no-repeat center center; background-size:319px 225px; text-indent:-9999px;}
-.wt_photo_wrap .wt_btn_pre {position:absolute; top:95px; left:0; width:35px; height:35px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_photo_pre.png) no-repeat center center; background-size:17px 26px;}
-.wt_photo_wrap .wt_btn_next {position:absolute; top:95px; right:0; width:35px; height:35px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_photo_next.png) no-repeat center center; background-size:17px 26px;}
-.wt_photo_wrap .wt_btn_pre a, .wt_photo_wrap .wt_btn_next a {display:block; width:100%; height:100%; text-indent:-9999px;}
-.wt_photo_wrap .wt_main_photo {position:absolute; top:10px; left:10px; width:60px; height:20px; border:1px solid rgba(0,0,0,.15); background-color:#fff; font-size:13px; text-align:center; line-height:20px;}
-.wt_photo_wrap .wt_clear_photo, .wt_photo_wrap .wt_del_photo{position:absolute; bottom:10px; width:80px; height:25px; line-height:25px; border:1px solid rgba(60,63,64,.7); border-radius:3px; overflow:hidden;}
-.wt_photo_wrap .wt_clear_photo{left:10px;}
-.wt_photo_wrap .wt_del_photo{right:10px;}
-.wt_photo_wrap .wt_clear_photo a, .wt_photo_wrap .wt_del_photo a{display:block; width:100%; height:100%; text-align:center; font-size:13px;}
-.wt_photo_wrap .wt_clear_photo a{background-color:#fff; color:#4d5356;}
-.wt_photo_wrap .wt_clear_photo a:active{background-color:#f7f9fa;}
-.wt_photo_wrap .wt_del_photo a{background-color:#888c8f; color:#fff;}
-.wt_photo_wrap .wt_del_photo a:active{background-color:#83878a}
 
 /*--------------------------------------------------- 상세 등록사진창 ---------------------------------------------------*/
 .bg_clear {background:-moz-linear-gradient(top, rgba(0,0,0,0.47) 0%, rgba(0,0,0,0) 100%); background:-webkit-linear-gradient(top, rgba(0,0,0,0.47) 0%,rgba(0,0,0,0) 100%); background:linear-gradient(to bottom, rgba(0,0,0,0.47) 0%,rgba(0,0,0,0) 100%); /* Permalink - use to edit and share this gradient:http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.5+0,0+100 */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#00000000',GradientType=0 );/* IE6-9 */}
@@ -353,3 +188,189 @@
 .bottom_option .btn_confirm a_active {position:relative; top:1px; background:#0b91d4;}
 /* 하단버튼 */
 /*--------------------------------------------------- 등록하기_옵션정보선택 ---------------------------------------------------*/
+
+/*--------------------------------------------------- 등록페이지 변경 ---------------------------------------------------*/
+.pd_45{padding-bottom:45px;}
+
+/* 등록 구분 */
+.nav_wrap {position:relative; width:100%; height:40px; line-height:40px; margin-top:45px; text-align:center; color:#ededed; font-size:21px;  background:#07184a; background:-moz-linear-gradient(left,  #07184a 0%, #361105 100%); background:-webkit-linear-gradient(left,  #07184a 0%,#361105 100%); background:linear-gradient(to right,  #07184a 0%,#361105 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07184a', endColorstr='#361105',GradientType=1 );}
+.nav_wrap .nav_sub{color:#d1d1d1; font-size:15px;}
+
+/* 등록 */
+.content_wrap {position:relative; width:100%; height:auto; background-color:#b6b9ba;}
+.content_wrap > ul {position:relative; width:100%; height:auto; padding-top:7px;}
+.content_wrap .wt_list {position:relative; width:100%; height:auto; margin-top:7px; background-color:#fff; border-top:1px solid #969899; box-shadow:0 2px 2px #888b8b;}
+.content_wrap .wt_list:first-of-type{margin-top:0px;}
+.content_wrap .wt_list:last-of-type{box-shadow:none;}
+.content_wrap .wt_list p {width:100%; height:33px; line-height:35px; padding-left:35px; font-size:16px; box-sizing:border-box;}
+.content_wrap .wt_list p .font_r {font-size:13px;}
+
+.content_wrap input{font-family:"bb-Regular";}
+
+.wt_default {position:relative; width:100%; height:50px; color:#86898a; text-align:center; line-height:50px;}
+.wt_num {display:block; height:32px; padding:0 7px; border:1px solid #bcc0c2; border-radius:3px; box-sizing:border-box; background-color:#f5f7f7; line-height:30px; vertical-align:middle;}
+.wt_num input[type="number"] {display:block; width:100%; height:14px; padding:8px 0; border:none; outline:none; background-color:transparent; font-size:14px; line-height:14px;}
+.wt_num_disable {border:1px solid #b8b8b8; background-color:#ccc;}
+
+.wt_plus {position:absolute; top:5px; right:7px; width:60px; height:30px; line-height:30px;}
+.wt_plus a {display:block; width:100%; height:100%; border-radius:7px; border:1px solid #404547; background-color:#494f52; box-sizing:border-box; color:#fff; text-align:center;}
+.wt_plus a:active {border:1px solid #292d2e; background-color:#323638;}
+
+/* 기본정보 */
+.wt_info_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_info_title.png) no-repeat 8px 5px; background-size:22px 23px;}
+
+.wt_info_wrap {position:relative; width:100%; height:auto; padding:0 7px; box-sizing:border-box;}
+.wt_info_wrap > li {position:relative; width:100%; height:auto; padding:7px 0; border-top:1px solid #d7d7d7;}
+.wt_info_wrap > li:after {display:block; clear:both; content:"";}
+.wt_info_wrap > li:first-of-type {border-top:none;}
+
+.wt_info_wrap .wt_slct_50 {width:45%; height:30px; padding:0 5px; border:1px solid #bcc0c2; border-radius:3px; background:#f5f7f7 url(http://image.bbjang.com/imgs/bbjang/img01/ico_slct_drop03.png) no-repeat 96% center; background-size:7px 4px; line-height:30px;}
+.wt_info_wrap .wt_slct_50:first-of-type {float:left;}
+.wt_info_wrap .wt_slct_50:last-of-type {float:right;}
+.wt_info_wrap .wt_slct_50 a {display:block; width:100%; height:100%; font-size:14px; line-height:30px;}
+.wt_info_wrap .wt_slct_50 select {display:block; width:100%; padding:8px 0; border:none; outline:none; background-color:transparent; color:#1c1e1f; font-size:14px; line-height:14px;}
+
+.wt_info_wrap .wt_rent_price .wt_l {position:absolute; top:7px; left:0px; width:65px; height:32px; line-height:32px; text-align:right;}
+.wt_info_wrap .wt_rent_price .wt_r {width:100%; height:auto; line-height:32px; padding-left:80px; box-sizing:border-box;}
+.wt_info_wrap .wt_rent_price .wt_r:after {content:""; display:block; clear:both;}
+.wt_info_wrap .wt_rent_price .wt_num {width:85%; float:left; padding-bottom:6px;}
+.wt_info_wrap .wt_rent_price .wt_input_txt {width:15%; float:left; text-align:right; padding-bottom:6px;}
+.wt_info_wrap .wt_rent_price .chk-in{clear:both; width:100%; height:auto; padding-top:6px; border-top:1px solid #d7d7d7;}
+.wt_info_wrap .wt_rent_price .chk_wrap02 {width:74px; height:20px; border:1px solid #b4b4b4; -webkit-border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px; -o-border-radius:2px; border-radius:2px; background-color:#f6f6f6; font-size:14px; color:#1c1e1f; line-height:20px; letter-spacing:-1px;}
+.wt_info_wrap .wt_rent_price .chk-in label{margin:3px 0 0 3px; font-size:14px; color:#1c1e1f; text-indent:-2px; letter-spacing:-1px;}
+
+.wt_info_wrap .wt_rent_price .wt_l_type2 {position:absolute; top:7px; left:10px; width:120px; height:32px; padding-bottom:23px; line-height:32px;} /* 170314 추가 */
+.wt_info_wrap .wt_rent_price .wt_l_type2 .chk-in {position:absolute; top:32px; left:-3px; width:74px; height:20px; border:1px solid #b4b4b4; -webkit-border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px; -o-border-radius:2px; border-radius:2px; background-color:#f6f6f6; font-size:14px; color:#1c1e1f; line-height:20px; letter-spacing:-1px;}
+.wt_info_wrap .wt_rent_price .wt_r_type2 {width:100%; height:55px; line-height:32px; padding-bottom:23px; padding-left:130px; box-sizing:border-box;} /* 170314 추가 */
+.wt_info_wrap .wt_rent_price .wt_r_type2 .wt_num {width:calc(100% - 50px);} /* 170314 추가 */
+.wt_info_wrap .wt_rent_price .wt_r_type2 .wt_num_disable {width:calc(100% - 50px);} /* 170314 추가 */
+
+.wt_info_wrap .wt_month_price .wt_l {position:absolute; top:7px; left:0px; width:65px; height:32px; line-height:32px; text-align:right;}
+.wt_info_wrap .wt_month_price .wt_r {width:100%; height:auto; line-height:32px; padding-left:80px; box-sizing:border-box;}
+.wt_info_wrap .wt_month_price .wt_month_u {width:100%; height:auto; padding-bottom:6px;}
+.wt_info_wrap .wt_month_price .wt_month_u:after {content:""; display:block; clear:both;}
+.wt_info_wrap .wt_month_price .wt_month_u li{width:50%; height:auto; float:left;}
+.wt_info_wrap .wt_month_price .wt_month_u li:after {content:""; display:block; clear:both;}
+.wt_info_wrap .wt_month_price .wt_month_1 .wt_num {width:60%; float:left;}
+.wt_info_wrap .wt_month_price .wt_month_1 .wt_input_txt {width:28%; float:left; text-align:right;}
+.wt_info_wrap .wt_month_price .wt_month_2 .wt_month_txt {width:30%; float:left;}
+.wt_info_wrap .wt_month_price .wt_month_2 .wt_num {width:42%; float:left;}
+.wt_info_wrap .wt_month_price .wt_month_2 .wt_input_txt {width:28%; float:left; text-align:right;}
+.wt_info_wrap .wt_month_price .chk-in{clear:both; width:100%; height:auto; padding-top:6px; border-top:1px solid #d7d7d7;}
+.wt_info_wrap .wt_month_price .chk_wrap02 {width:74px; height:20px; border:1px solid #b4b4b4; -webkit-border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px; -o-border-radius:2px; border-radius:2px; background-color:#f6f6f6; font-size:14px; color:#1c1e1f; line-height:20px; letter-spacing:-1px;}
+.wt_info_wrap .wt_month_price .chk-in label{margin:3px 0 0 3px; font-size:14px; color:#1c1e1f; text-indent:-2px; letter-spacing:-1px;}
+
+.wt_info_wrap .wt_month_price .wt_l_type2 {position:absolute; top:7px; left:10px; width:80px; height:55px; padding-top:23px; line-height:32px;} /* 170314 추가 */
+.wt_info_wrap .wt_month_price .wt_l_type2 .chk-in {position:absolute; top:-2px; left:-3px; width:74px; height:20px; border:1px solid #b4b4b4; -webkit-border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px; -o-border-radius:2px; border-radius:2px; background-color:#f6f6f6; font-size:14px; color:#1c1e1f; line-height:20px; letter-spacing:-1px;}
+.wt_info_wrap .wt_month_price .wt_r_type2 {width:100%; height:55px; line-height:32px; padding-top:23px; padding-left:90px; box-sizing:border-box;} /* 170314 추가 */
+.wt_info_wrap .wt_month_price .wt_r_type2 .wt_num {width:calc(50% - 54px);} /* 170314 추가 */
+.wt_info_wrap .wt_month_price .wt_r_type2 .wt_num_disable {width:calc(50% - 54px);} /* 170314 추가 */
+
+/* 매물명 */
+.wt_build_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_build_title.png) no-repeat 8px 5px; background-size:22px 23px;}
+
+.wt_build_wrap {position:relative; width:100%; height:auto; padding:7px; box-sizing:border-box;}
+.wt_build_wrap .wt_build {position:relative; width:100%; height:auto; line-height:30px; padding:7px 58px 0 0; box-sizing:border-box;}
+.wt_build_wrap .wt_build:first-of-type {padding:0 74px 0 0;}
+.wt_build_wrap input[type="text"] {display:block; width:100%; height:14px; line-height:14px; font-size:14px; padding:8px 7px; border:1px solid #9ea1a3; border-radius:3px; outline:none; background-color:#fff;}
+.wt_build_wrap .wt_build_txt{width:100%; height:auto; border-bottom:1px solid #ccdbe3; padding-left:7px; box-sizing:border-box; color:#2479b5; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.wt_build_wrap .wt_build .wt_build_plus {position:absolute; top:0px; right:0; width:50px; height:30px; border:1px solid #004269; border-radius:3px; line-height:30px; overflow:hidden;}
+.wt_build_wrap .wt_build .wt_build_plus a {display:block; background-color:#00598c; color:#fff; font-size:14px; text-align:center;}
+.wt_build_wrap .wt_build .wt_build_plus a:active {background-color:#003f63; font-size:13px;}
+.wt_build_wrap .wt_build .wt_build_del {position:absolute; top:7px; right:0; width:50px; height:30px; border:1px solid #0ca2ed; border-radius:3px; line-height:30px; overflow: hidden;}
+.wt_build_wrap .wt_build .wt_build_del a {display:block; background-color:#fff; font-size:13px; text-align:center;}
+.wt_build_wrap .wt_build .wt_build_del a:active {background-color:#0ca2ed; color:#fff;}
+.wt_build_wrap .wt_buy_build{position:relative; width:100%; height:auto; line-height:30px; padding-right:14px; box-sizing:border-box;} 
+
+/* 위치입력 */
+.wt_loca_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_loca_title.png) no-repeat 8px 5px; background-size:22px 23px;}
+
+.wt_address {position:relative; width:100%; height:auto; padding:7px; box-sizing:border-box;}
+.wt_address li {position:relative; width:100%; height:auto; padding:0 7px 7px 7px; box-sizing:border-box;}
+.wt_address li:last-of-type {padding:0;}
+.wt_address li .chk_wrap02 {width:115px; height:20px; margin-left:3px; border:1px solid #b4b4b4; -webkit-border-radius:2px; -moz-border-radius:2px; -ms-border-radius:2px; -o-border-radius:2px; border-radius:2px; background-color:#f6f6f6; font-size:14px; color:#1c1e1f; line-height:20px; letter-spacing:-1px;}
+.wt_address li label{margin:3px 0 0 3px; font-size:14px; color:#1c1e1f; text-indent:-2px; letter-spacing:-1px;}
+.wt_address li .wt_l {position:absolute; top:0px; left:10px; width:45px; height:20px; background-color:#e1e1e1; font-size:13px; text-align:center; line-height:20px;}
+.wt_address li .wt_r {width:100%; height:auto; font-size:15px; line-height:21px; padding-left:53px; box-sizing:border-box; color:#0b7fd0;}
+.wt_address li .wt_map_wrap {position:relative; width:100%; height:170px; border:1px solid #a8acae; box-sizing:border-box;}
+.wt_address li .wt_map_wrap #map {width:100%; height:100%;}
+
+.wt_hope_l {position:absolute; top:40px; left:7px; width:65px; height:32px; line-height:32px; text-align:right;}
+.wt_hope_r {width:100%; height:auto; line-height:32px; padding:7px 7px 7px 80px; box-sizing:border-box;}
+.wt_hope_r:after{content:""; display:block; clear:both;}
+.wt_hope_r .wt_slct_30 {float:left; width:32.333333%; height:32px; margin-left:1%; border:1px solid #bcc0c2; border-radius:3px; box-sizing:border-box; background:#f5f7f7 url(http://image.bbjang.com/imgs/bbjang/img01/ico_slct_drop03.png) no-repeat 97% center; background-size:7px 4px; line-height:30px;}
+.wt_hope_r .wt_slct_30 select {display:block; width:90%; padding:8px 2%; box-sizing:border-box; border:none; outline:none; background-color:transparent; color:#1c1e1f; font-size:14px; line-height:14px; overflow:hidden;}
+
+/* 면적 */
+.wt_area_title {position:absolute; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_area_title.png) no-repeat 8px 5px; background-size:22px 23px;}
+
+.wt_area_input{position:relative; width:100%; height:auto; line-height:32px; padding:7px 7px 7px 75px; box-sizing:border-box;}
+.wt_area_input:after{content:""; display:block; clear:both;}
+.wt_area_input .wt_num{width:36%; float:left;}
+.wt_area_input .wt_input_txt{width:14%; float:left; text-align:center;}
+
+/* 상세설명 */
+.wt_expl_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_expl_title.png) no-repeat 8px 5px; background-size:22px 23px;}
+
+.wt_expl_txt {position:relative; width:100%; height:auto; padding:7px; box-sizing:border-box;}
+.wt_expl_txt label {position:absolute; z-index:5; top:14px; left:0px; width:100%; height:auto; color:#86898a; font-size:13px; line-height:18px; padding:0 14px; box-sizing:border-box;}
+.wt_expl_txt textarea {display:block; position:relative; width:100%; height:auto!important; padding:7px; border:1px solid #9ea1a3; border-radius:7px; box-sizing:border-box; outline:none; background-color:#fff; font-size:14px; font-family:'bb-Regular'; line-height:20px; box-sizing:border-box;resize:none!important;}
+
+/* 사진등록 */
+.wt_photo_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_photo_title.png) no-repeat 8px 5px; background-size:22px 23px;}
+
+.wt_photo_default {width:100%; height:120px; padding:10px 7px 0px 7px; box-sizing:border-box; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_photo_plus.png) no-repeat center 70px; background-size:41px 42px; cursor:pointer;}
+.wt_photo_default .wt_photo_txt{width: 100%; height:50px; line-height:20px; padding:5px 0; box-sizing:border-box; background-color:#f2fbff; border:1px solid #c7d4d9; color:#363636; text-align:center;}
+
+.wt_photo_wrap {position:relative; width:100%; height:225px; padding-top:7px;}
+.wt_photo_wrap .wt_photo {position:relative; width:100%; height:100%;}
+.wt_photo_wrap .wt_photo a {display:block; width:100%; height:100%; background:url(http://image.bbjang.com/imgs/bbjang/img01/photo04.jpg) no-repeat center center; background-size:cover;}
+.wt_photo_wrap .wt_photo_frac {position:absolute; left:50%; bottom:12px; width:50px; height:22px; margin-left:-25px; border-radius:25px; background:rgba(154,154,154,0.7); color:#fff; font-size:13px; text-align:center; line-height:22px;}
+.wt_photo_wrap .wt_buy_photo {background:#dadee2 url(http://image.bbjang.com/imgs/bbjang/img01/bg_detail_buy.png) no-repeat center center; background-size:319px 225px; text-indent:-9999px;}
+.wt_photo_wrap .wt_btn_pre {position:absolute; top:95px; left:0; width:35px; height:35px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_photo_pre.png) no-repeat center center; background-size:17px 26px;}
+.wt_photo_wrap .wt_btn_next {position:absolute; top:95px; right:0; width:35px; height:35px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_photo_next.png) no-repeat center center; background-size:17px 26px;}
+.wt_photo_wrap .wt_btn_pre a, .wt_photo_wrap .wt_btn_next a {display:block; width:100%; height:100%; text-indent:-9999px;}
+.wt_photo_wrap .wt_main_photo {position:absolute; top:10px; left:10px; width:60px; height:20px; border:1px solid rgba(0,0,0,.15); background-color:#fff; font-size:13px; text-align:center; line-height:20px;}
+.wt_photo_wrap .wt_clear_photo, .wt_photo_wrap .wt_del_photo{position:absolute; bottom:10px; width:80px; height:25px; line-height:25px; border:1px solid rgba(60,63,64,.7); border-radius:3px; overflow:hidden;}
+.wt_photo_wrap .wt_clear_photo{left:10px;}
+.wt_photo_wrap .wt_del_photo{right:10px;}
+.wt_photo_wrap .wt_clear_photo a, .wt_photo_wrap .wt_del_photo a{display:block; width:100%; height:100%; text-align:center; font-size:13px;}
+.wt_photo_wrap .wt_clear_photo a{background-color:#fff; color:#4d5356;}
+.wt_photo_wrap .wt_clear_photo a:active{background-color:#f7f9fa;}
+.wt_photo_wrap .wt_del_photo a{background-color:#888c8f; color:#fff;}
+.wt_photo_wrap .wt_del_photo a:active{background-color:#83878a}
+
+/* 옵션정보 */
+.wt_opc_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_opc_title.png) no-repeat 8px 5px; background-size:22px 23px;}
+
+.wt_opc {position:relative; width:100%; height:auto; padding:10px 17px; color:#0b7fd0; font-size:15px; text-align:left; line-height:20px; box-sizing:border-box;}
+
+/* 등록자정보 */
+.wt_agent_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_agent_title.png) no-repeat 8px 5px; background-size:22px 23px;}
+
+.wt_chk {position:absolute; top:0; right:0; width:65px; height:32px; padding:9px 0; box-sizing:border-box;}
+
+.wt_agent_num {position:relative; width:100%; height:auto; padding:0 7px; box-sizing:border-box;}
+.wt_agent_num .wt_agent_line{position:relative; width:100%; height:100%; padding:7px 0; border-bottom:1px solid #d7d7d7;}
+.wt_agent_num .wt_l {position:absolute; top:7px; left:10px; width:75px; height:32px; line-height:32px;}
+.wt_agent_num .wt_r {width:100%; height:32px; color:#0b7fd0; line-height:32px; padding-left:90px; padding-right:57px; box-sizing:border-box; letter-spacing:0;}
+
+.wt_agent_btn {position:absolute; top:7px; right:0px; width:50px; height:30px; border:1px solid #0ca2ed; border-radius:3px; line-height:30px;}
+.wt_agent_btn a {display:block; width:100%; height:100%; font-size:13px; color:#494f52; text-align:center}
+.wt_agent_btn a:active {background-color:#0ca2ed; color:#fff;}
+
+.wt_add {position:relative; width:100%; height:auto; padding:5px 7px 7px 7px; box-sizing:border-box;}
+.wt_add .wt_add_title {width:100%; height:32px; line-height:32px; padding:0 10px; box-sizing:border-box;}
+.wt_add .wt_add_u {position:relative; width:100%; height:auto; line-height:32px;}
+.wt_add .wt_add_l {position:relative; width:100%; height:auto; padding:0 57px 0 10px; box-sizing:border-box;}
+.wt_add .wt_add_l:after {display:block; clear:both; content:"";}
+.wt_add .wt_add_l .wt_num {width:30%; float:left;}
+.wt_add .wt_add_l .wt_num select {display:block; width:100%; height:100%; border:none; outline:none; font-size:14px; line-height:14px; background:#f5f7f7 url(http://image.bbjang.com/imgs/bbjang/img01/ico_slct_drop03.png) no-repeat right center; background-size:7px 4px;}
+.wt_add .wt_add_l .wt_input_txt{width:5%; float:left; text-align:center;}
+.wt_add .wt_add_l .wt_add_num{width:100%; height:32px; border-bottom:1px solid #ccdbe3; box-sizing:border-box; color:#2479b5;}
+.wt_add .wt_add_l .wt_agent_btn{top:0px;}
+
+.wt_add_btn {position:absolute; top:0px; right:0; width:50px; height:30px; border:1px solid #004269; border-radius:3px; line-height:30px; overflow:hidden;}
+.wt_add_btn a {display:block; background-color:#00598c; color:#fff; font-size:14px; text-align:center;}
+.wt_add_btn a:active {background-color:#003f63; font-size:13px;}
+/*--------------------------------------------------- 등록페이지 변경 ---------------------------------------------------*/

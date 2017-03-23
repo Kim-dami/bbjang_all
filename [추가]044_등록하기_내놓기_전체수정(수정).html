@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>방부장</title>
+<link href="css/bb_font.css" rel="stylesheet" type="text/css">
+<link href="css/bb_default.css" rel="stylesheet" type="text/css">
+<link href="css/bb_write.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script async type="text/javascript" src="http://devm-yupitereu.ilhaeyo.com/_global/assets/js/jquery-mobile.event.min.js"></script>
+</head>
+<body ontouchstart="">
+<!---------------------------------------- 매물등록페이지 ---------------------------------------->
+<div id="wrap">
+	<!-- 메인 헤더 -->
+	<div id="header" class="ht_45 bg_blue header_f">
+		<div class="btn_back">
+			<a href="#">뒤로</a>
+		</div>
+		<h1 class="header_txt font_b">등록하기</h1>
+		<div class="btn_note">
+			<a href="#">등록유의사항</a>
+		</div>
+	</div>
+	<!-- // 메인 헤더 -->
+	<!-- 등록 구분 -->
+	<div class="nav_wrap font_b">
+        내놓기 <span class="nav_sub font_r">부동산 매물 판매시</span>    
+	</div>
+	<!-- // 등록 구분 -->
+	<div id="container" class="pd_45">
+		<div class="content_wrap">
+			<ul>
+				<!-- 기본정보 -->
+				<li class="wt_list">
+				<p class="wt_info_title font_b">
+					기본정보
+				</p>
+				<ul class="wt_info_wrap">
+					<li>
+					<div class="wt_slct_50">
+						<a href="#">매물종류</a>
+					</div>
+					<div class="wt_slct_50">
+						<select>
+							<option>거래형태</option>
+							<option>매매</option>
+							<option>전세</option>
+							<option>월세</option>
+						</select>
+					</div>
+					</li>
+					<li class="wt_rent_price">
+					<div class="wt_l font_b">
+						 매매가격
+					</div>
+					<div class="wt_r">
+						<div class="wt_num"> <!-- 170314_추가_ " 체크시 입력비활성 " -->
+							<input type="number"/>
+						</div>
+				        <div class="wt_input_txt">만원</div>
+				        <div class="chk-in font_r">
+                            <div class="chk_wrap02">
+                                <input type="checkbox" class="chk_input02" id="chk_inquiry_price_1">
+                                <label for="chk_inquiriy_price_1" class="chk_lb02">상담요망</label>
+                            </div>
+                        </div>
+					</div>
+					</li>
+					<li class="wt_month_price">
+					<div class="wt_l font_b">
+						 보증금
+					</div>
+					<div class="wt_r">
+					    <ul class="wt_month_u">
+					        <li class="wt_month_1">
+					            <div class="wt_num wt_num_disable"> <!-- 170314_추가_ " 체크시 입력비활성 " -->
+                                    <input type="number"/>
+                                </div>
+                                <div class="wt_input_txt">만원</div> 
+					        </li>
+					        <li class="wt_month_2">
+                                <div class="wt_month_txt font_b">월세</div>
+					            <div class="wt_num wt_num_disable"> <!-- 170314_추가_ " 체크시 입력비활성 " -->
+                                    <input type="number"/>
+                                </div>
+                                <div class="wt_input_txt">만원</div>  
+					        </li>
+					    </ul>
+				        <div class="chk-in font_r">
+                            <div class="chk_wrap02">
+                                <input type="checkbox" class="chk_input02" id="chk_inquiry_price_2" checked>
+                                <label for="chk_inquiriy_price_2" class="chk_lb02">상담요망</label>
+                            </div>
+                        </div>
+					</div>
+				</ul>
+				</li>
+				<!-- // 기본정보 -->
+				<!-- 매물명 -->
+				<li class="wt_list">
+				<p class="wt_build_title font_b">
+					매물명 <span class="font_r">(최대 20자, 최대 5개까지 추가 가능합니다.)</span>
+				</p>
+				<ul class="wt_build_wrap">
+					<li class="wt_build">
+					<input type="text" placeholder="※ 동이름과 매물명을 함께 입력해주세요" />
+					<div class="wt_build_plus">
+						<a href="#">추가</a>
+					</div>
+					</li>
+					<li class="wt_build">
+					<div class="wt_build_txt">
+					    용봉아이파크 아파트 로얄층    
+					</div>
+					<div class="wt_build_del">
+						<a href="#">삭제</a>
+					</div>
+					</li><li class="wt_build">
+					<div class="wt_build_txt">
+					    용봉아이파크 아파트 지층 2~5층   
+					</div>
+					<div class="wt_build_del">
+						<a href="#">삭제</a>
+					</div>
+					</li>
+				</ul>
+				</li>
+				<!-- // 매물명 -->
+				<!-- 위치입력 -->
+				<li class="wt_list">
+				<p class="wt_loca_title font_b">
+					위치입력 <span class="font_r">(등록하신 매물 주소입니다)</span>
+				</p>
+				<div class="wt_plus">
+					<a href="#">주소검색</a>
+				</div>
+				<div class="wt_default hidden">
+					 주소검색 버튼을 터치해주세요.
+				</div>
+				<ul class="wt_address">
+				    <li>
+				        <div class="chk_wrap02">
+                            <input type="checkbox" class="chk_input02" id="chk_secret_address">
+                            <label for="chk_secret_address" class="chk_lb02">상세주소 비공개</label>
+                        </div>    
+				    </li>
+					<li>
+					<div class="wt_l">
+						도로명
+					</div>
+					<div class="wt_r">
+						광주광역시 북구 비엔날레로 82번길41
+					</div>
+					</li>
+					<li>
+					<div class="wt_l">
+						지번
+					</div>
+					<div class="wt_r">
+						광주광역시 북구 용봉동 1465번지
+					</div>
+					</li>
+					<li>
+					<!-- 다음 지도 -->
+					<div class="wt_map_wrap">
+						<div id="map">
+						</div>
+					</div>
+					<!-- // 다음 지도 -->
+					</li>
+				</ul>
+				</li>
+				<!-- // 위치입력 -->
+				<!-- 면적 -->
+				<li class="wt_list">
+				<p class="wt_area_title font_b">
+					면적 
+				</p>
+				<div class="wt_area_input">
+				    <div class="wt_num">
+                        <input type="number"/>
+                    </div>
+                    <div class="wt_input_txt">평 =</div>
+                    <div class="wt_num">
+                        <input type="number"/>
+                    </div>
+                    <div class="wt_input_txt">m<sup>2</sup></div> 
+				</div>
+				</li>
+				<!-- // 면적 -->
+				<!-- 상세설명 -->
+				<li class="wt_list">
+				<p class="wt_expl_title font_b">
+					상세설명 <span class="font_r">(<span class="ft_blue font_b">0</span>/500자)</span>
+				</p>
+				<div class="wt_expl_txt">
+					<label for="area_expl">
+					가장 많이 보이는 리스트에 보여지는 내용입니다.<br/>
+					매물의 장점, 특징 등을 자세히 작성하시면 도움이 됩니다.<br/>
+					※ 해당 매물과 관계없는 내용은 자동 비공개 처리됩니다. </label>
+					<textarea name="text" cols="50" rows="4" id="area_expl"></textarea>
+				</div>
+				</li>
+				<!-- // 상세설명 -->
+				<!-- 사진등록 -->
+				<li class="wt_list">
+				<p class="wt_photo_title font_b">
+					사진등록 <span class="font_r">(최대 20장)</span>
+				</p>
+				<div class="wt_plus">
+					<a href="#">올리기</a>
+				</div>
+				<div class="wt_photo_default hidden">
+					 <div class="wt_photo_txt">
+					 ※ 매물사진을 자세하게 촬영하여 등록하시면<br />빠른 매물거래가 가능합니다.</div>
+				</div>
+				<div class="wt_photo_wrap">
+					<div class="wt_photo">
+						<a href="#"></a>
+					</div>
+					<div class="wt_photo_frac">
+						 1 / 20
+					</div>
+					<div class="wt_btn_pre">
+						<a href="#">이전 사진</a>
+					</div>
+					<div class="wt_btn_next">
+						<a href="#">다음 사진</a>
+					</div>
+					<div class="wt_main_photo">
+						 대표사진
+					</div>
+					<div class="wt_clear_photo">
+					    <a href="#" class="font_b">대표사진 해제</a>
+					</div>
+					<div class="wt_del_photo">
+					    <a href="#" class="font_b">삭제하기</a>
+					</div>
+				</div>
+				</li>
+				<!-- // 사진등록 -->
+				<!-- 옵션정보 -->
+				<li class="wt_list">
+				<p class="wt_opc_title font_b">
+					옵션정보
+				</p>
+				<div class="wt_plus">
+					<a href="#">옵션선택</a>
+				</div>
+				<div class="wt_default hidden">
+					 옵션선택 버튼을 터치해주세요
+				</div>
+				<div class="wt_opc">
+					<span>냉장고</span>, <span>에어컨</span>, <span>세탁기</span>, <span>옷장</span>, <span>TV</span>, <span>침대</span>, <span>가스레인지</span>, <span>전자레인지</span>, <span>전자도어락</span>, <span>인덕션</span>
+				</div>
+				</li>
+				<!-- // 옵션정보 -->
+				<!-- 등록자정보 -->
+				<li class="wt_list">
+				<p class="wt_agent_title font_b">
+					등록자정보
+				</p>
+				<div class="wt_chk">
+					<div class="chk_wrap02">
+						<input type="checkbox" class="chk_input02" id="chk_sell_closed">
+						<label for="chk_sell_closed" class="chk_lb02">비공개</label>
+					</div>
+				</div>
+				<div class="wt_agent_num">
+				    <div class="wt_agent_line">
+				        <div class="wt_l font_b">
+                            휴대폰번호
+                        </div>
+                        <div class="wt_r font_b">
+                            010-1234-5678
+                        </div>
+                        <div class="wt_agent_btn">
+                            <a href="#">변경</a>
+                        </div>
+				    </div>
+				</div>
+				<div class="wt_add">
+					<div class="wt_add_title font_b">
+						추가연락처 <span class="font_r">(선택)</span>
+					</div>
+					<ul class="wt_add_u">
+						<li class="wt_add_l hidden">
+						<div class="wt_num">
+							<select>
+								<option>010</option>
+								<option>02</option>
+								<option>031</option>
+								<option>032</option>
+								<option>033</option>
+								<option>041</option>
+								<option>042</option>
+								<option>043</option>
+								<option>051</option>
+								<option>052</option>
+								<option>053</option>
+								<option>054</option>
+								<option>055</option>
+								<option>061</option>
+								<option>062</option>
+								<option>063</option>
+								<option>064</option>
+							</select>
+						</div>
+						<div class="wt_input_txt">-</div>
+						<div class="wt_num">
+							<input type="number"/>
+						</div>
+				        <div class="wt_input_txt">-</div>
+						<div class="wt_num">
+							<input type="number"/>
+						</div>
+						<div class="wt_add_btn">
+							<a href="#">등록</a>
+						</div>
+						</li>
+						<li class="wt_add_l">
+				            <div class="wt_add_num">
+				                062-1234-3456    
+				            </div>
+				            <div class="wt_agent_btn">
+                                <a href="#">변경</a>
+                            </div>
+						</li>
+					</ul>
+				</div>
+				</li>
+				<!-- // 등록자정보 -->
+			</ul>
+		</div>
+		<!-- // 내놓기 -->
+	</div>
+	<!-- 하단 버튼 -->
+	<div class="wt_bot_wrap">
+		<!-- 수정시 버튼 -->
+		<div class="wt_bot_btn">
+			<a href="#" class="font_t">취소</a>
+		</div>
+		<div class="wt_bot_btn wt_wid_50">
+			<a href="#">수정</a>
+		</div>
+		<div class="wt_bot_btn">
+			<a href="#" class="font_t">삭제</a>
+		</div>
+		<div class="wt_bot_btn hidden">
+			<a href="#" class="font_t">연장</a>
+			<!-- 마감 카운터 -->
+			<div class="wt_date_counter">
+				<div class="wt_rect">
+					<a href="#">
+					마감 <span class="font_b">D-3</span>
+					</a>
+				</div>
+				<div class="wt_tri">
+				</div>
+			</div>
+			<!-- // 마감 카운터 -->
+		</div>
+		<!-- // 수정시 버튼 -->
+		<!-- 작성시 버튼 -->
+		<div class="dt_btn_on wt_disable hidden">
+			<a href="#">등록하기</a>
+		</div>
+		<!-- // 작성시 버튼 -->
+	</div>
+	<!-- // 하단 버튼 -->
+</div>
+</body>
+<script type="text/javascript" src="http://apis.daum.net/maps/maps3.js?apikey=2bf10f5aceee592c1dad1bef13a9655e"></script><!-- 임시API 키번호 -->
+<script type="text/javascript">
+var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+    mapOption = { 
+        center: new daum.maps.LatLng(37.54699, 127.09598), // 지도의 중심좌표
+        level: 4 // 지도의 확대 레벨
+    };
+
+var map = new daum.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+// 마우스 드래그로 지도 이동 막음
+map.setDraggable(false);    
+
+var imageSrc = 'http://image.club5678.com/imgs/bbjang/img01/ico_location.png', // 마커이미지의 주소입니다    
+    imageSize = new daum.maps.Size(27, 43), // 마커이미지의 크기입니다
+    imageOption = {offset: new daum.maps.Point(43, 45)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+      
+// 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
+var markerImage = new daum.maps.MarkerImage(imageSrc, imageSize, imageOption),
+    markerPosition = new daum.maps.LatLng(37.54699, 127.09598); // 마커가 표시될 위치입니다
+
+// 마커를 생성합니다
+var marker = new daum.maps.Marker({
+    position: markerPosition, 
+    image: markerImage // 마커이미지 설정 
+});
+
+// 마커가 지도 위에 표시되도록 설정합니다
+marker.setMap(map);  
+</script>
+</html>
