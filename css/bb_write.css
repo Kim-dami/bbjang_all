@@ -24,7 +24,7 @@
 #header .btn_note a:active {background:rgba(0,0,0,0.05);}
 
 /* 하단 버튼 */
-.wt_bot_wrap {position:fixed; z-index:800; left:0; right:0; bottom:0; width:100%; height:45px; background-color:#0079bf; line-height:45px;}
+.wt_bot_wrap {position:relative; z-index:800; left:0; right:0; bottom:0; width:100%; height:45px; background-color:#0079bf; line-height:45px;}
 
 /* 수정시 버튼 */
 .wt_bot_wrap .wt_bot_btn {position:relative; float:left; width:25%; height:100%; background:url(http://image.bbjang.com/imgs/bbjang/img01/bg_bar.png) no-repeat left center; background-size:2px 25px;}

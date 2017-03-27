@@ -14,16 +14,8 @@ html { height:100%; }
 .srch_drop ul .history_del a{position:relative; width:100%; height:100%; text-indent:-9999px;}
 .srch_drop ul .srch_go{position:relative; width:100%; height:100%; padding:0 10px; box-sizing:border-box; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
 
-/* 상단 필터 */
-.filter_wrap{position:absolute; z-index:900; width:100%; height:35px; border-top:1px solid #17191a; border-bottom:1px solid #17191a; background-color:#323638;}
-.filter_wrap ul{position:relative; width:100%; height:100%;}
-.filter_wrap ul:after{content:""; display:block; clear:both;}
-.filter_wrap ul li{position:relative; width:20%; height:100%; float:left; border-right:1px solid #4d5153; box-sizing:border-box; background:#323638 url(http://image.club5678.com/imgs/bbjang/img01/ico_slct_drop.png) no-repeat 95% center; background-size:7px 4px;}
-.filter_wrap ul li:last-of-type{border-right:none;}
-.filter_wrap ul .main_select{position:relative; display:block; width:85%; height:100%; line-height:35px; padding-left:7px; box-sizing:border-box; font-size:13px; color:#ebeff2; border:none; outline:none; background-color:#323638; overflow:hidden; cursor:pointer;}
-
 /* 상단 결과 */
-.result_wrap{position:relative; z-index:800; padding-top:37px; width:100%; height:30px; border-bottom:1px solid #c9c9c9; background-color:#f5f5f5}
+.result_wrap{position:relative; width:100%; height:30px; border-bottom:1px solid #c9c9c9; background-color:#f5f5f5}
 .result_wrap:after{content:""; display:block; clear:both;}
 
 .result_wrap .align_wrap{position:relative; float:left; width:90px; height:22px; margin:3px 0 3px 5px; background-color:#fff; border-radius:3px; border:1px solid #9a9fa1; overflow:hidden;}
@@ -50,18 +42,6 @@ html { height:100%; }
 .result_wrap .result_container .result_rfsh_on .circle_svg{animation:loading 0.6s ease-in-out 1; -webkit-animation:loading 0.6s ease-in-out 1; -ms-animation:loading 0.6s ease-in-out 1; -moz-animation:loading 0.6s ease-in-out 1; -o-animation:loading 0.6s ease-in-out 1;}
 .result_wrap .result_container .result_rfsh_on .circle_inner{animation:loading-circle 0.6s ease-in-out 1; -webkit-animation:loading-circle 0.6s ease-in-out 1; -ms-animation:loading-circle 0.6s ease-in-out 1; -moz-animation:loading-circle 0.6s ease-in-out 1; -o-animation:loading-circle 0.6s ease-in-out 1;}
 .result_wrap .result_container .result_rfsh .arrow_span_on{transform:rotate(45deg) scale(0.0); -webkit-transform:rotate(45deg) scale(0.0); -ms-transform:rotate(45deg) scale(0.0); -moz-transform:rotate(45deg) scale(0.0); -o-transform:rotate(45deg) scale(0.0);}
-
-/****************************** 170206 김다미 ******************************/
-/* 글쓰기 */
-.btn_write{position:fixed; z-index:800; right:10px; bottom:20px; width:55px; height:55px; background:#13a8f2 url(http://image.club5678.com/imgs/bbjang/img01/ico_main_pencil.png) no-repeat center center; background-size:37px 33px; border-radius:100%; box-shadow:3px 4px 5px rgba(0,0,0,0.15);}
-.btn_write a{position:relative; display:block; width:100%; height:100%; text-indent:-9999px;}
-.btn_write a .ripple{position:absolute; top:0; left:0; width:55px; height:55px; border:1px solid #89d3f8; border-radius:100%; box-sizing:border-box; background: transparent; opacity:0;}
-@keyframes rippling {
-    25% {transform: scale(1.2); opacity: 1;}
-    100% {transform: scale(1.4); opacity: 0;}
-}
-.btn_write a:active .ripple{animation:rippling 0.25s linear 1; -webkit-animation:rippling 0.25s linear 1; -ms-animation:rippling 0.25s linear 1; -moz-animation:rippling 0.25s linear 1; -o-animation:rippling 0.25s linear 1;}
-.btn_write a .ripple_active{animation:rippling 0.25s linear 1; -webkit-animation:rippling 0.25s linear 1; -ms-animation:rippling 0.25s linear 1; -moz-animation:rippling 0.25s linear 1; -o-animation:rippling 0.25s linear 1;}
 
 /*--------------------------------------------------- 검색 ---------------------------------------------------*/
 .srch_result{position:relative; float:right; width:auto; height:100%; line-height:31px; font-size:15px; margin-right:7px;}
@@ -145,7 +125,7 @@ html { height:100%; }
 
 /****************************** 170220 김다미 ******************************/
 /* 위로올리기 */
-.btn_go_up{position:fixed; z-index:800; right:15px; bottom:80px; width:46px; height:46px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_go_up.png) no-repeat center center; background-size:46px 46px;}
+.btn_go_up{position:fixed; z-index:800; right:15px; bottom:85px; width:46px; height:46px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_go_up.png) no-repeat center center; background-size:46px 46px;}
 .btn_go_up a{position:relative; display:block; width:100%; height:100%; text-indent:-9999px;}
 
 /****************************** 170302 김다미 ******************************/
@@ -176,3 +156,50 @@ html { height:100%; }
 #header .btn_map a{background:url(http://image.club5678.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-map-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
 #header .btn_map a:active{background:#30b0f0 url(http://image.club5678.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-map-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
 #header .cue-badge{display:inline-block; position:absolute; top:0; left:0; width:26px; height:26px; margin:2px 0 0 22px; border:1px solid #fff; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; border-radius:50%; -webkit-box-shadow:1px 1px 2px rgba(0,0,0,.23); -moz-box-shadow:1px 1px 2px rgba(0,0,0,.23); -ms-box-shadow:1px 1px 2px rgba(0,0,0,.23); -o-box-shadow:1px 1px 2px rgba(0,0,0,.23); box-shadow:1px 1px 2px rgba(0,0,0,.23); background-color:#ff0c08; background:-webkit-linear-gradient(to bottom,#ff5b45,#ff0c08); background:linear-gradient(to bottom,#ff5b45,#ff0c08); outline:0; font-size:13px; color:#fff; letter-spacing:-1px; line-height:26px; text-align:center;}
+
+/****************************** 170327 김다미 ******************************/
+/* 고정 영역 */
+.fix_wrap{position:absolute; top:50px; z-index:1000; width:100%; height:auto;}
+.mt_93{margin-top:93px;}
+
+/* 상단 필터 */
+.filter_wrap{position:relative; width:100%; height:35px; border-top:1px solid #17191a; border-bottom:1px solid #17191a; background-color:#323638;}
+.filter_wrap ul{position:relative; width:100%; height:100%;}
+.filter_wrap ul:after{content:""; display:block; clear:both;}
+.filter_wrap ul .main_select{position:relative; width:25%; height:100%; line-height:35px; padding-left:7px; float:left; border-right:1px solid #4d5153; box-sizing:border-box; background:#323638 url(http://image.bbjang.com/imgs/bbjang/img01/ico_slct_drop.png) no-repeat 95% center; background-size:7px 4px; font-size:13px; color:#ebeff2; cursor:pointer;}
+.top_btn{position:relative; width:25%; height:100%; padding:4px; box-sizing:border-box; float:left;}
+.top_btn .top_write_btn{width:100%; height:100%;}
+.top_btn .top_write_btn a{display:block; width:100%; height:100%; line-height:26px; text-align:center; color:#111; font-size:13px; border:1px solid #fff; border-radius:6px; box-sizing:border-box; background: #ffffff; background: -moz-linear-gradient(top, #ffffff 0%, #e8e8e8 100%); background: -webkit-linear-gradient(top, #ffffff 0%,#e8e8e8 100%); background: linear-gradient(to bottom, #ffffff 0%,#e8e8e8 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8e8e8',GradientType=0 );; box-shadow:0 2px 0px #000; letter-spacing:-0.5px;}
+.top_btn .top_write_btn a:active{border:1px solid #f2f2f2;background: #dbdbdb; background: -moz-linear-gradient(top, #dbdbdb 0%, #f2f2f2 100%); background: -webkit-linear-gradient(top, #dbdbdb 0%,#f2f2f2 100%); background: linear-gradient(to bottom, #dbdbdb 0%,#f2f2f2 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#f2f2f2',GradientType=0 );}
+
+/* 안내 문구 */
+.notice_wrap{position:relative; width:100%; height:25px; line-height:26px; padding-left:25px; box-sizing:border-box; color:#fffde8; font-size:13px; background:#827b77 url(http://image.bbjang.com/imgs/bbjang/img01/ico_smile.png) no-repeat 5px center; background-size:16px 16px;}
+@media(max-width:350px) {
+.notice_wrap{font-size:12px;}
+}
+
+/* 글쓰기 */
+.float_wrap{position:fixed; z-index:1000; right:10px; bottom:20px; width:57px; height:auto;}
+
+.float_bg_modal{display:none; position:fixed; top:0; bottom:0; left:0; right:0; background:rgba(0,0,0,0.75);}
+.float_btn {position:relative; z-index:100; width:57px; height:57px; border-radius:100%; text-indent:-9999px; background:#13a8f2 url(http://image.club5678.com/imgs/bbjang/img01/btn_float.png) no-repeat 12px 12px; background-size:39px 30px; box-shadow:0px 2px 4px rgba(0,0,0,0.3); cursor:pointer; -webkit-tap-highlight-color:rgba(255, 255, 255, 0);}
+.float_btn .ripple{position:absolute; top:0; left:0; width:57px; height:57px; border:1px solid #89d3f8; border-radius:100%; box-sizing:border-box; background: transparent; opacity:0;}
+@keyframes rippling {
+    25% {transform: scale(1.2); opacity: 1;}
+    100% {transform: scale(1.4); opacity: 0;}
+}
+.float_btn:active .ripple{animation:rippling 0.25s linear 1; -webkit-animation:rippling 0.25s linear 1; -ms-animation:rippling 0.25s linear 1; -moz-animation:rippling 0.25s linear 1; -o-animation:rippling 0.25s linear 1;}
+
+.float_write{position:absolute; top:0px; right:0px; width:400%; height:57px; line-height:57px; transform:scale(0); transform-origin:87.5% center; opacity:0; transition:0.3s all cubic-bezier(0.68, -0.55, 0.44, 1);}
+.float_write a{display:block; width:25%; height:100%; border-radius:100%;  background:#fff url(http://image.club5678.com/imgs/bbjang/img01/btn_float_write.png) no-repeat center center; background-size:25px 25px; box-shadow:2px 0px 4px rgba(0,0,0,0.3); float:left;}
+.float_write a:active{background:#d1d1d1 url(http://image.club5678.com/imgs/bbjang/img01/btn_float_write.png) no-repeat center center; background-size:25px 25px;}
+
+.float_map{position:absolute; top:0px; right:0px; width:400%; height:57px; line-height:57px; transform:scale(0); transform-origin:87.5% center; opacity:0; transition:0.3s all cubic-bezier(0.68, -0.55, 0.44, 1);}
+.float_map a{display:block; width:25%; height:100%; border-radius:100%;  background:#fff url(http://image.club5678.com/imgs/bbjang/img01/btn_float_map.png) no-repeat center center; background-size:24px 30px; box-shadow:2px 0px 4px rgba(0,0,0,0.3); float:left;}
+.float_map a:active{background:#d1d1d1 url(http://image.club5678.com/imgs/bbjang/img01/btn_float_map.png) no-repeat center center; background-size:24px 30px;}
+.float_txt{width:75%; height:100%; padding-right:12px; box-sizing:border-box; font-size:17px; color:#fff; font-weight:700px; text-align:right; float:left;}
+
+.float_wrap_on .float_bg_modal{display:block;}
+.float_wrap_on .float_btn{background:#13a8f2 url(http://image.club5678.com/imgs/bbjang/img01/btn_float_x.png) no-repeat center center; background-size:18px 18px;}
+.float_wrap_on .float_write{right:0px; top:-70px; transform:scale(1); opacity:1;}
+.float_wrap_on .float_map{right:0px; top:-140px; transform:scale(1); opacity:1;}

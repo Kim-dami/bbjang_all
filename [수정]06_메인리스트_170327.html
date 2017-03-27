@@ -6,10 +6,18 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <title>방부장</title>
 <link href="css/bb_font.css" rel="stylesheet" type="text/css">
-<link href="css/bb_default.css" rel="stylesheet" type="text/css">
-<link href="css/bb_main_list.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/bb_default.css" type="text/css">
+<link rel="stylesheet" href="css/bb_main_list.css" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script async type="text/javascript" src="http://devm-yupitereu.ilhaeyo.com/_global/assets/js/jquery-mobile.event.min.js"></script>
+<script>
+$(document).ready(function(){
+    /* 플로팅버튼 */
+	$(".float_wrap").click(function(){
+        $(this).toggleClass("float_wrap_on");
+    });
+});
+</script>
 </head>
 <body ontouchstart="">
 <!---------------------------------------- 메인리스트 ---------------------------------------->
@@ -38,6 +46,7 @@
         </div>
 	    <div class="header_btn btn_my">
 	        <a href="#">
+				<button type="button" class="cue-badge font_b">99+</button> <!-- 170308_뱃지표기 추가 -->
 	            마이메뉴
 	        </a>
 	    </div>
@@ -133,102 +142,56 @@
 		</ul>
 	</div>
 	<!-- // 최근검색 및 추천검색 -->
-	<!-- 상단 필터 -->
-	<div class="filter_wrap">
-		<ul>
-			<li>
-			<div class="main_select">종류</div>
-			</li>
-			<li>
-			<select class="main_select">
-				<option>유형</option>
-				<option>매매</option>
-				<option>전세</option>
-				<option>월세</option>
-				<option>구해요</option>
-			</select>
-			</li>
-			<li>
-			<select class="main_select">
-				<option>시/도</option>
-				<option>전체</option>
-				<option>서울</option>
-				<option>경기</option>
-				<option>인천</option>
-				<option>대전</option>
-				<option>대구</option>
-				<option>부산</option>
-				<option>광주</option>
-				<option>세종</option>
-				<option>울산</option>
-				<option>충북</option>
-				<option>충남</option>
-				<option>전북</option>
-				<option>전남</option>
-				<option>경북</option>
-				<option>경남</option>
-				<option>강원</option>
-				<option>제주</option>
-				<option>해외</option>
-			</select>
-			</li>
-			<li>
-			<select class="main_select">
-				<option>시/군/구</option>
-				<option>광산구</option>
-				<option>남구</option>
-				<option>동구</option>
-				<option>북구</option>
-				<option>서구</option>
-			</select>
-			</li>
-			<li>
-			<select class="main_select">
-				<option>읍/면/동</option>
-				<option>각화동</option>
-				<option>금곡동</option>
-				<option>누문동</option>
-				<option>대촌동대촌동</option>
-				<option>덕의동</option>
-				<option>동림동</option>
-				<option>두암동</option>
-				<option>망월동</option>
-				<option>매곡동</option>
-				<option>문흥동</option>
-			</select>
-			</li>
-		</ul>
-	</div>
-	<!-- // 상단 필터 -->
-	<!-- 상단 결과 -->
-	<div class="result_wrap">
-		<div class="align_wrap">
-			<select>
-				<option>최신등록순</option>
-				<option>가격높은순</option>
-				<option>가격낮은순</option>
-				<option>면적넓은순</option>
-				<option>면적좁은순</option>
-			</select>
-		</div>
-		<div class="result_container">
-			<div class="result_txt">
-				총 <span class="ft_blue font_b">10,000</span> 건
-			</div>
-			<div class="result_rfsh">
-				<a href="#">
-				<svg class="circle_svg" x="0px" y="0px" viewbox="0 0 150 150">
-				<circle class="circle_inner" cx="75" cy="75" r="35"/>
-				</svg>
-				<span class="arrow_span"></span>
-				</a>
-			</div>
-		</div>
-        <div class="srch_result hidden">
-        	<span class="ft_blue font_small">검색결과</span> 총 <span class="ft_blue font_b">100</span> 건
+	<div id="gnbWrap" class="fix_wrap">
+        <!-- 상단 필터 -->
+        <div class="filter_wrap">
+            <ul>
+                <li class="main_select">매물종류</li>
+                <li class="main_select">거래유형</li>
+                <li class="main_select">지역선택</li>
+                <li class="top_btn">
+                    <div class="top_write_btn">
+                        <a href="#">무료매물등록</a>    
+                    </div>
+                </li>
+            </ul>
         </div>
-	</div>
-	<!-- // 상단 결과 -->
+        <!-- // 상단 필터 -->
+        <!-- 안내 문구 -->
+        <div class="notice_wrap">
+            방부장은 전국 부동산 매물등록비가 누구나 모두 무료입니다!    
+        </div>
+        <!-- // 안내 문구 -->
+        <!-- 상단 결과 -->
+        <div class="result_wrap">
+            <div class="align_wrap">
+                <select>
+                    <option>최신등록순</option>
+                    <option>가격높은순</option>
+                    <option>가격낮은순</option>
+                    <option>면적넓은순</option>
+                    <option>면적좁은순</option>
+                </select>
+            </div>
+            <div class="result_container">
+                <div class="result_txt">
+                    총 <span class="ft_blue font_b">10,000</span> 건
+                </div>
+                <div class="result_rfsh">
+                    <a href="#">
+                    <svg class="circle_svg" x="0px" y="0px" viewbox="0 0 150 150">
+                    <circle class="circle_inner" cx="75" cy="75" r="35"/>
+                    </svg>
+                    <span class="arrow_span"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="srch_result hidden">
+                <span class="ft_blue font_small">검색결과</span> 총 <span class="ft_blue font_b">100</span> 건
+            </div>
+        </div>
+        <!-- // 상단 결과 -->
+    </div>
     <!-- 검색 결과 없음 -->
     <div class="list_none">
         <p class="list_none_row1">
@@ -240,7 +203,7 @@
     </div>
     <!-- // 검색 결과 없음 -->
 	<!-- 메인리스트 -->
-	<div id="container">
+	<div id="container" class="mt_93">
 		<ul class="content_list">
 			<li class="list_card">
 			<!-- 사진터치 구분 영역 -->
@@ -252,16 +215,16 @@
 			<!-- // 사진터치 구분 영역 -->
 			<div class="list_intro">
 				<a href="#">
-				<!-- 종류 및 가격 -->
+				<!-- 매물명 -->
 				<div class="top_line photo_pl">
-					<span class="month_badge">월세</span><span class="intro_price font_b ft_navy">5000만 / 50만</span>
+					<p class="intro_title font_b">
+						용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린
+					</p>
 				</div>
-				<!-- // 종류 및 가격 -->
+				<!-- // 매물명 -->
 				<!-- 내용 -->
 				<div class="mid_line photo_pl">
-					<p class="intro_title font_b">
-						용봉동 꿈에그린
-					</p>
+					<span class="month_badge">월세</span><span class="intro_price ft_navy">5000만 / 50만</span>
 					<p class="intro_txt">
 						베란다 확장형이며, 깨끗이 수리 완료하였습니다. 보시고 결정하세요
 					</p>
@@ -297,17 +260,17 @@
 			<!-- // 사진터치 구분 영역 -->
 			<div class="list_intro">
 				<a href="#">
-				<!-- 종류 및 가격 -->
-				<div class="top_line photo_pl comple_pr">
-					<span class="sell_badge">매매</span><span class="intro_price font_b ft_navy">5000만 / 50만</span>
+				<!-- 매물명 -->
+				<div class="top_line photo_pl">
+					<p class="intro_title font_b">
+						용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린
+					</p>
 					<span class="comple_badge">거래완료!</span>
 				</div>
-				<!-- // 종류 및 가격 -->
+				<!-- // 매물명 -->
 				<!-- 내용 -->
 				<div class="mid_line photo_pl">
-					<p class="intro_title font_b">
-						용봉동 꿈에그린
-					</p>
+					<span class="sell_badge">매매</span><span class="intro_price ft_navy">5000만 / 50만</span>
 					<p class="intro_txt">
 						베란다 확장형이며, 깨끗이 수리 완료하였습니다. 보시고 결정하세요 보시고 결정하세요
 					</p>
@@ -368,17 +331,17 @@
 			<!-- // 사진터치 구분 영역 -->
 			<div class="list_intro">
 				<a href="#">
-				<!-- 종류 및 가격 -->
-				<div class="top_line photo_pl comple_pr">
-					<span class="sell_badge">매매</span><span class="intro_price font_b ft_navy">5000만 / 50만</span>
+				<!-- 매물명 -->
+				<div class="top_line photo_pl">
+					<p class="intro_title font_b">
+						용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린
+					</p>
 					<span class="comple_badge">거래완료!</span>
 				</div>
-				<!-- // 종류 및 가격 -->
+				<!-- // 매물명 -->
 				<!-- 내용 -->
 				<div class="mid_line photo_pl">
-					<p class="intro_title font_b">
-						용봉동 꿈에그린
-					</p>
+					<span class="sell_badge">매매</span><span class="intro_price font_b ft_navy">5000만 / 50만</span>
 					<p class="intro_txt">
 						베란다 확장형이며, 깨끗이 수리 완료하였습니다. 보시고 결정하세요 보시고 결정하세요
 					</p>
@@ -419,17 +382,17 @@
 			<li class="list_card">
 			<div class="list_intro">
 				<a href="#">
-				<!-- 종류 및 가격 -->
-				<div class="top_line comple_pr">
-					<span class="buy_badge">구해요-전세</span><span class="intro_price font_b ft_navy">5000만</span>
-					<span class="comple_badge">거래완료!</span>
+				<!-- 매물명 -->
+				<div class="top_line">
+					<p class="intro_title font_b">
+						용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린용봉동 꿈에그린 용봉동 꿈에그린용봉동 꿈에그린
+					</p>
+					<!--<span class="comple_badge">거래완료!</span>-->
 				</div>
-				<!-- // 종류 및 가격 -->
+				<!-- //  매물명 -->
 				<!-- 내용 -->
 				<div class="mid_line">
-					<p class="intro_title font_b">
-						용봉동 꿈에그린
-					</p>
+					<span class="buy_badge">구해요-전세</span><span class="intro_price ft_navy">5000만</span>
 					<p class="intro_txt">
 						베란다 확장형이며, 깨끗이 수리 완료하였습니다. 보시고 결정하세요 보시고 결정하세요
 					</p>
@@ -472,17 +435,23 @@
 	</div>
 	<!-- // 위로올리기 -->
 	<!-- 글쓰기 -->
-	<div class="btn_write">
-		<a href="#">
-		글쓰기
-		<div class="ripple">
-		</div>
-		</a>
+	<div class="float_wrap">
+	    <div class="float_bg_modal"></div>
+		<div class="float_btn">
+		    플로팅버튼
+           <div class="ripple"></div>
+        </div>
+		<div class="float_write">
+            <div class="float_txt">무료등록/위로올리기</div>
+            <a href="#"></a>        
+        </div>
+        <div class="float_map">
+            <div class="float_txt">지도보기</div>
+            <a href="#"></a>        
+        </div>
 	</div>
 	<!-- // 글쓰기 -->
-	<div class="full_bg_modal" style="display:none;">
-	</div>
-	<!-- 마이메뉴 배경 -->
+	<div class="full_bg_modal hidden"></div><!-- 마이메뉴 배경 -->
 	<!-- 마이메뉴 -->
 	<div id="my_wrap" class="full_page" style="display:none;">
 		<!-- 마이메뉴 상단 -->
