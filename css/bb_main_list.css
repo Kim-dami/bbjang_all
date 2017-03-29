@@ -179,7 +179,7 @@ html { height:100%; }
 }
 
 /* 글쓰기 */
-.float_wrap{position:fixed; z-index:1000; right:10px; bottom:20px; width:57px; height:auto;}
+.float_wrap{position:fixed; z-index:999; right:10px; bottom:20px; width:57px; height:auto;}
 
 .float_bg_modal{display:none; position:fixed; top:0; bottom:0; left:0; right:0; background:rgba(0,0,0,0.75);}
 .float_btn {position:relative; z-index:100; width:57px; height:57px; border-radius:100%; text-indent:-9999px; background:#13a8f2 url(http://image.club5678.com/imgs/bbjang/img01/btn_float.png) no-repeat 12px 12px; background-size:39px 30px; box-shadow:0px 2px 4px rgba(0,0,0,0.3); cursor:pointer; -webkit-tap-highlight-color:rgba(255, 255, 255, 0);}

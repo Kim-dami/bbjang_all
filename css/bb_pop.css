@@ -169,7 +169,7 @@ ul.pop_slct_mtd li.pop_mtd_lst a{border-bottom:none;}
 
 
 /* ================================= 방부장 개발팀 추가 css ================================= */
-.alarm_nobtn {display:none; position:fixed; z-index:999; left:50%; bottom:20px; width:80%; height:auto; overflow:hidden; border-radius:20px; background:rgba(0,0,0,.85); margin-left:-40%; }
+.alarm_nobtn {display:none; position:fixed; z-index:9999; left:50%; bottom:20px; width:80%; height:auto; overflow:hidden; border-radius:20px; background:rgba(0,0,0,.85); margin-left:-40%; }
 .alarm_nobtn p {padding:15px; color:#fff; font-size:14px; line-height:18px; word-wrap:break-word; text-align:center;}
 
 /* 매물종류 / 매물옵션 팝업창으로 띄우기 */
@@ -262,16 +262,20 @@ ul.pop_slct_mtd li.pop_mtd_lst a{border-bottom:none;}
 .pop_tab{position:relative; width:100%; height:35px; line-height:35px;}
 .pop_tab h4{width:33.33333%; margin:0; padding:0; color:#373b3d; font-size:15px; text-align:center; float:left;}
 .pop_tab .pop_tab_line{position:absolute; bottom:0; left:0px; width:33.33333%; height:2px; transition:all 0.1s ease-in-out;-webkit-transition:all 0.1s ease-in-out; -o-transition:all 0.1s ease-in-out; -moz-transition:all 0.1s ease-in-out; -ms-transition:all 0.1s ease-in-out;}
-.pop_tab_u{position:relative; width:100%; height:212px; border-width:1px 0px 1px 0; border-style:solid; border-color:#e7e7e7; box-sizing:border-box;overflow-y:auto; -webkit-overflow-scrolling:touch; background:url(http://image.bbjang.com/imgs/bbjang/img01/bg_bar04.png) repeat-y center top;}
+.pop_tab_u{position:relative; width:100%; height:230px; border-width:1px 0px 1px 0; border-style:solid; border-color:#e7e7e7; box-sizing:border-box;overflow-y:auto; -webkit-overflow-scrolling:touch; background:url(http://image.bbjang.com/imgs/bbjang/img01/bg_bar04.png) repeat-y center top;}
 .pop_tab_l{display:none; width:100%; height:auto;}
 .pop_tab_l:first-of-type{display:block;}
 .pop_tab_l:after{content:""; display:block; clear:both;}
-.pop_tab_l .pop_section{width:50%; float:left;}
-.pop_tab_l .pop_section li{width:100%; height:35px; line-height:35px;}
+.pop_tab_l ul{width:50%; float:left;}
+.pop_tab_l ul li{width:100%; height:35px; line-height:35px;}
 .pop_tab_l .pop_section li a{display:block; width:100%; height:100%; color:#000; font-size:13px; text-align:center; letter-spacing:-0.5px; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_off.png) 7% center no-repeat; background-size:18px 18px;}
 .pop_tab_l .pop_section li a:active{background:rgba(0,0,0,0.05) url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_off.png) 7% center no-repeat; background-size:18px 18px;}
 .pop_tab_l .pop_section li .slct_active{color:#0ca2ed; font-weight:bold; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_on.png) 7% center no-repeat; background-size:18px 18px;}
 .pop_tab_l .pop_section li .slct_active:active{background:rgba(0,0,0,.05) url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_on.png) 7% center no-repeat; background-size:18px 18px;}
+.pop_tab_l .pop_bar_section li a{display:block; width:100%; height:100%; color:#000; font-size:13px; text-align:center; letter-spacing:-0.5px;}
+.pop_tab_l .pop_bar_section li a:active{background:rgba(0,0,0,0.05);}
+.pop_tab_l .pop_bar_section li .slct_active{color:#0ca2ed; font-weight:bold; background:url(http://image.bbjang.com/imgs/bbjang/img01/bg_slct_active.png) center center no-repeat; background-size:50px 36px;}
+.pop_tab_l .pop_bar_section li .slct_active:active{background:rgba(0,0,0,.05) url(http://image.bbjang.com/imgs/bbjang/img01/bg_slct_active.png) center center no-repeat; background-size:50px 36px;}
 
 /* 셀렉트 팝업 하단 */
 .pop_dn {position:relative; width:100%; height:auto; border-radius:0 0 5px 5px;}
