@@ -7,10 +7,10 @@ html { height:100%; }
 .srch_drop_on{display:block; padding:0 5px;}
 .srch_drop ul{position:relative; width:100%; height:auto; background-color:#fff; border-radius:0 0 3px 3px; box-shadow:1px 3px 5px #d7d7d7; overflow:hidden;}
 .srch_drop ul li{position:relative; width:100%; height:40px; line-height:40px; font-size:14px;}
-.srch_drop ul .srch_history{background:url(http://image.club5678.com/imgs/bbjang/img01/ico_srch_history.png) no-repeat 10px center; background-size:18px 18px;}
+.srch_drop ul .srch_history{background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_srch_history.png) no-repeat 10px center; background-size:18px 18px;}
 .srch_drop ul .history_go:active, .srch_drop ul .srch_go:active{background:rgba(0,0,0,0.05);}
 .srch_drop ul .history_go{position:relative; width:100%; height:100%; padding:0 40px; box-sizing:border-box; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
-.srch_drop ul .history_del{position:absolute; top:0; right:0; width:40px; height:40px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_history_del.png) no-repeat center center; background-size:17px 17px;}
+.srch_drop ul .history_del{position:absolute; top:0; right:0; width:40px; height:40px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_history_del.png) no-repeat center center; background-size:17px 17px;}
 .srch_drop ul .history_del a{position:relative; width:100%; height:100%; text-indent:-9999px;}
 .srch_drop ul .srch_go{position:relative; width:100%; height:100%; padding:0 10px; box-sizing:border-box; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
 
@@ -19,7 +19,7 @@ html { height:100%; }
 .result_wrap:after{content:""; display:block; clear:both;}
 
 .result_wrap .align_wrap{position:relative; float:left; width:90px; height:22px; margin:3px 0 3px 5px; background-color:#fff; border-radius:3px; border:1px solid #9a9fa1; overflow:hidden;}
-.result_wrap .align_wrap select{position:relative; display:block; width:100%; height:22px; padding-left:5px; box-sizing:border-box; font-size:14px; color:#4d5356; border:none; outline:none; background:#fff url(http://image.club5678.com/imgs/bbjang/img01/ico_slct_drop02.png) no-repeat 95% center; background-size:10px 6px;}
+.result_wrap .align_wrap select{position:relative; display:block; width:100%; height:22px; padding-left:5px; box-sizing:border-box; font-size:14px; color:#4d5356; border:none; outline:none; background:#fff url(http://image.bbjang.com/imgs/bbjang/img01/ico_slct_drop02.png) no-repeat 95% center; background-size:10px 6px;}
 
 .result_wrap .result_container{position:relative; float:right; width:auto; height:100%;}
 .result_wrap .result_container:after{content:""; display:block; clear:both;}
@@ -58,8 +58,8 @@ html { height:100%; }
 #my_wrap{position:fixed; top:0; left:0; z-index:1200; width:260px; height:100%; background-color:#f5f7f7; overflow-y:auto;-webkit-overflow-scrolling:touch; -webkit-overflow-scrolling:touch;}
 
 /* 마이메뉴 상단 */
-.my_top{position:relative; width:100%; height:120px; background:url(http://image.club5678.com/imgs/bbjang/img01/bg_my_menu.png) no-repeat center center; background-size:cover;}
-.my_top h2{position:relative; width:100%; height:60px; margin-left:-3px; text-indent:-9999px; background:url(http://image.club5678.com/imgs/bbjang/img01/img_my_logo.png) no-repeat center center; background-size:74px 27px;}
+.my_top{position:relative; width:100%; height:120px; background:url(http://image.bbjang.com/imgs/bbjang/img01/bg_my_menu.png) no-repeat center center; background-size:cover;}
+.my_top h2{position:relative; width:100%; height:60px; margin-left:-3px; text-indent:-9999px; background:url(http://image.bbjang.com/imgs/bbjang/img01/img_my_logo.png) no-repeat center center; background-size:74px 27px;}
 .my_top .info_wrap{position:relative; width:100%; height:60px;}
 .my_top .info_wrap .before_login{width:100%; height:100%;}
 .my_top .info_wrap .before_login .btn_login{width:165px; height:40px; line-height:40px; margin:0 auto; background:rgba(255,255,255,0.58); border:1px solid #fff; border-radius:3px; box-shadow:0px 0px 6px #dfdfdf;}
@@ -68,9 +68,13 @@ html { height:100%; }
 .my_top .info_wrap .after_login .login_name{width:100%; height:22px; line-height:22px; text-align:left; font-size:17px;}
 .my_top .info_wrap .after_login .agent_name{color:#7e8386; font-size:14px;}
 .my_top .info_wrap .after_login .login_num{width:100%; height:22px; line-height:22px; text-align:left; font-size:15px; color:#129de3}
-.my_top .info_wrap .after_login .photo_clip{position:absolute; top:-15px; right:10px; width:65px; height:65px; border:2px solid #fff; border-radius:100%; box-shadow:1px 3px 5px #dfdfdf; background:url(http://image.club5678.com/imgs/bbjang/img01/img_my_default.png) no-repeat center center; background-size:cover; overflow:hidden;}
+.my_top .info_wrap .after_login .photo_clip{position:absolute; top:-15px; right:10px; width:65px; height:65px; border:2px solid #fff; border-radius:100%; box-shadow:1px 3px 5px #dfdfdf; background:url(http://image.bbjang.com/imgs/bbjang/img01/img_my_default.png) no-repeat center center; background-size:cover; overflow:hidden;}
+/*.my_top .info_wrap .after_login .photo_clip_m{position:absolute; top:-15px; right:10px; width:65px; height:65px; border:2px solid #fff; border-radius:100%; box-shadow:1px 3px 5px #dfdfdf; background:url(http://image.bbjang.com/imgs/bbjang/img01/img_my_default_m.png) no-repeat center center; background-size:cover; overflow:hidden;}
+.my_top .info_wrap .after_login .photo_clip_f{position:absolute; top:-15px; right:10px; width:65px; height:65px; border:2px solid #fff; border-radius:100%; box-shadow:1px 3px 5px #dfdfdf; background:url(http://image.bbjang.com/imgs/bbjang/img01/img_my_default_f.png) no-repeat center center; background-size:cover; overflow:hidden;}*/
 .my_top .info_wrap .after_login .photo_clip img{width:100%; height:100%;}
-.my_top .info_wrap .after_login .btn_my_set{position:absolute; top:-55px; right:10px; width:25px; height:25px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_my_set.png) no-repeat center center; background-size:20px 20px;}
+/*.my_top .info_wrap .after_login .photo_clip_m img{width:100%; height:100%;}
+.my_top .info_wrap .after_login .photo_clip_f img{width:100%; height:100%;}*/
+.my_top .info_wrap .after_login .btn_my_set{position:absolute; top:-55px; right:10px; width:25px; height:25px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_my_set.png) no-repeat center center; background-size:20px 20px;}
 .my_top .info_wrap .after_login .btn_my_set a{display:block; width:100%; height:100%; text-indent:-9999px;}
 
 /* 마이메뉴 상단 - 정보수정 버튼  type2  _170314 추가 */
@@ -81,19 +85,19 @@ html { height:100%; }
 /* 마이메뉴 리스트 */
 .my_mid{position:relative; width:100%; height:auto; background-color:#fff;}
 .my_mid ul{width:100%; height:auto;}
-.my_mid .my_more{position:relative; width:100%; height:40px; line-height:40px; background:url(http://image.club5678.com/imgs/bbjang/img01/ico_my_more.png) no-repeat 95% center; background-size:5px 8px; border-bottom:1px solid #ededed;}
+.my_mid .my_more{position:relative; width:100%; height:40px; line-height:40px; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_my_more.png) no-repeat 95% center; background-size:5px 8px; border-bottom:1px solid #ededed;}
 .my_mid .my_more:nth-of-type(5){border-bottom:none;}
 .my_mid .my_more a{display:block; width:100%; height:100%; padding-left:10px; box-sizing:border-box;}
-.my_mid .my_more a:active{background:#fafdff url(http://image.club5678.com/imgs/bbjang/img01/ico_my_more.png) no-repeat 95% center; background-size:5px 8px;}
+.my_mid .my_more a:active{background:#fafdff url(http://image.bbjang.com/imgs/bbjang/img01/ico_my_more.png) no-repeat 95% center; background-size:5px 8px;}
 .my_mid .my_more .cue-badge{display:inline-block; position:absolute; top:50%; right:29px; width:26px; height:26px; margin-top:-13px; border:none; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; border-radius:50%; background-color:#ff002a; background:-webkit-linear-gradient(to bottom,#ff3300,#ff002a); background:linear-gradient(to bottom,#ff3300,#ff002a); outline:0; font-size:13px; color:#fff; letter-spacing:-1px; line-height:26px; text-align:center;}
 .my_mid .my_write{position:relative; width:100%; height:40px; line-height:40px; background-color:#129de3;}
-.my_mid .my_write a{width:100%; height:100%; margin:0 auto; padding:0 80px 0 110px; box-sizing:border-box; font-size:15px; text-align:left; color:#fff; background:url(http://image.club5678.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 80px center; background-size:21px 22px;}
-.my_mid .my_write a:active{background:#1195d7 url(http://image.club5678.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 80px center; background-size:21px 22px;}
+.my_mid .my_write a{width:100%; height:100%; margin:0 auto; padding:0 80px 0 110px; box-sizing:border-box; font-size:15px; text-align:left; color:#fff; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 80px center; background-size:21px 22px;}
+.my_mid .my_write a:active{background:#1195d7 url(http://image.bbjang.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 80px center; background-size:21px 22px;}
 
 /* 마이메뉴 리스트 - 등록하기 버튼  type2  _170314 추가 */
 .my_mid .my_write_type2{position:relative; width:100%; height:44px; line-height:44px; border-top:1px solid #dddfdf; border-bottom:1px solid #dddfdf; background-color:#f5f7f7;}
-.my_mid .my_write_type2 a{width:210px; height:34px; margin:5px auto 0 auto; padding:0; box-sizing:border-box; font-size:15px; text-align:center; text-indent:13px; color:#fff; line-height:34px; letter-spacing:0; -webkit-border-radius:7px; -moz-border-radius:7px; -ms-border-radius:7px; -o-border-radius:7px; border-radius:7px; -webkit-box-shadow:inset 0 -1px 1px #108cca; -moz-box-shadow:inset 0 -1px 1px #108cca; -ms-box-shadow:inset 0 -1px 1px #108cca; -o-box-shadow:inset 0 -1px 1px #108cca; box-shadow:inset 0 -1px 1px #108cca; background:#129de3 url(http://image.club5678.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 57px center; background-size:21px 22px;}
-.my_mid .my_write_type2 a:active{background:#1195d7 url(http://image.club5678.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 80px center; border-radius:7px; -webkit-box-shadow:none; -moz-box-shadow:none; -ms-box-shadow:none; -o-box-shadow:none; box-shadow:none; background:#1196d9 url(http://image.club5678.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 57px center; background-size:21px 22px;}
+.my_mid .my_write_type2 a{width:210px; height:34px; margin:5px auto 0 auto; padding:0; box-sizing:border-box; font-size:15px; text-align:center; text-indent:13px; color:#fff; line-height:34px; letter-spacing:0; -webkit-border-radius:7px; -moz-border-radius:7px; -ms-border-radius:7px; -o-border-radius:7px; border-radius:7px; -webkit-box-shadow:inset 0 -1px 1px #108cca; -moz-box-shadow:inset 0 -1px 1px #108cca; -ms-box-shadow:inset 0 -1px 1px #108cca; -o-box-shadow:inset 0 -1px 1px #108cca; box-shadow:inset 0 -1px 1px #108cca; background:#129de3 url(http://image.bbjang.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 57px center; background-size:21px 22px;}
+.my_mid .my_write_type2 a:active{background:#1195d7 url(http://image.bbjang.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 80px center; border-radius:7px; -webkit-box-shadow:none; -moz-box-shadow:none; -ms-box-shadow:none; -o-box-shadow:none; box-shadow:none; background:#1196d9 url(http://image.bbjang.com/imgs/bbjang/img01/ico_pencil.png) no-repeat 57px center; background-size:21px 22px;}
 
 /* 마이메뉴 초대 */
 .my_bot{position:relative; width:100%; height:50px; line-height:50px; background-color:#fff; border-bottom:1px solid #ededed;}
@@ -101,31 +105,31 @@ html { height:100%; }
 .my_bot .bot_txt{width:auto; height:100%; padding-left:10px; float:left; font-size:14px; color:#6c7275;}
 .my_bot .bot_list{width:auto; height:100%; padding-right:5px; float:right;}
 .my_bot .bot_list:after{content:""; display:block; clear:both;}
-.my_bot .bot_list li{width:28px; height:28px; padding:11px 7px; float:left; background:url(http://image.club5678.com/imgs/bbjang/img01/bg_bar02.png) no-repeat right center; background-size:1px 18px;}
+.my_bot .bot_list li{width:28px; height:28px; padding:11px 7px; float:left; background:url(http://image.bbjang.com/imgs/bbjang/img01/bg_bar02.png) no-repeat right center; background-size:1px 18px;}
 .my_bot .bot_list li:last-of-type{background:none;}
 .my_bot .bot_list li a{display:block; width:100%; height:100%; border-radius:100%; text-indent:-9999px;}
-.my_bot .btn_kko a{background:#3b1d1d url(http://image.club5678.com/imgs/bbjang/img01/txt_kko.png) no-repeat center center; background-size:22px 7px;}
-.my_bot .btn_kko a:active{background:#2e1616 url(http://image.club5678.com/imgs/bbjang/img01/txt_kko.png) no-repeat center center; background-size:22px 7px;}
-.my_bot .btn_sms a{background:#0b99e0 url(http://image.club5678.com/imgs/bbjang/img01/txt_sms.png) no-repeat center center; background-size:19px 8px;}
-.my_bot .btn_sms a:active{background:#0b91d4 url(http://image.club5678.com/imgs/bbjang/img01/txt_sms.png) no-repeat center center; background-size:19px 8px;}
-.my_bot .btn_etc a{background:#616c71 url(http://image.club5678.com/imgs/bbjang/img01/ico_etc.png) no-repeat center center; background-size:14px 3px;}
-.my_bot .btn_etc a:active{background:#565f63 url(http://image.club5678.com/imgs/bbjang/img01/ico_etc.png) no-repeat center center; background-size:14px 3px;}
+.my_bot .btn_kko a{background:#3b1d1d url(http://image.bbjang.com/imgs/bbjang/img01/txt_kko.png) no-repeat center center; background-size:22px 7px;}
+.my_bot .btn_kko a:active{background:#2e1616 url(http://image.bbjang.com/imgs/bbjang/img01/txt_kko.png) no-repeat center center; background-size:22px 7px;}
+.my_bot .btn_sms a{background:#0b99e0 url(http://image.bbjang.com/imgs/bbjang/img01/txt_sms.png) no-repeat center center; background-size:19px 8px;}
+.my_bot .btn_sms a:active{background:#0b91d4 url(http://image.bbjang.com/imgs/bbjang/img01/txt_sms.png) no-repeat center center; background-size:19px 8px;}
+.my_bot .btn_etc a{background:#616c71 url(http://image.bbjang.com/imgs/bbjang/img01/ico_etc.png) no-repeat center center; background-size:14px 3px;}
+.my_bot .btn_etc a:active{background:#565f63 url(http://image.bbjang.com/imgs/bbjang/img01/ico_etc.png) no-repeat center center; background-size:14px 3px;}
 
 /* 마이메뉴 초대  type2  _170314 추가 */
 .my_bot_type2{position:relative; width:100%; height:auto; background-color:#f5f7f7; padding:10px; box-sizing:border-box;}
 .my_bot_type2:after{content:""; display:block; clear:both;}
 .my_bot_type2 .btn_kko, .btn_sms{width:110px; height:35px; line-height:35px; border:1px solid #c3c6c7; -webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px; border-radius:5px;}
-.my_bot_type2 .btn_kko{float:left; background:#fff url(http://image.club5678.com/imgs/bbjang/img01/ico_kko.png) no-repeat 7px center; background-size:29px 27px;}
-.my_bot_type2 .btn_sms{float:right; background:#fff url(http://image.club5678.com/imgs/bbjang/img01/ico_sms.png) no-repeat 7px center; background-size:27px 26px;}
+.my_bot_type2 .btn_kko{float:left; background:#fff url(http://image.bbjang.com/imgs/bbjang/img01/ico_kko.png) no-repeat 7px center; background-size:29px 27px;}
+.my_bot_type2 .btn_sms{float:right; background:#fff url(http://image.bbjang.com/imgs/bbjang/img01/ico_sms.png) no-repeat 7px center; background-size:27px 26px;}
 .my_bot_type2 .btn_kko:active, .btn_sms:active{border:1px solid #afb1b2;}
 .my_bot_type2 .btn_kko a, .btn_sms a{display:block; width:100%; height:100%; padding-left:42px; box-sizing:border-box; font-size:15px; color:#4d5356;}
-.my_bot_type2 .btn_kko a:active{-webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px; border-radius:5px; background:#fcfcfc url(http://image.club5678.com/imgs/bbjang/img01/ico_kko.png) no-repeat 7px center; background-size:29px 27px; color:#232627;}
-.my_bot_type2 .btn_sms a:active{-webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px; border-radius:5px; background:#fcfcfc url(http://image.club5678.com/imgs/bbjang/img01/ico_sms.png) no-repeat 7px center; background-size:27px 26px; color:#232627;}
+.my_bot_type2 .btn_kko a:active{-webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px; border-radius:5px; background:#fcfcfc url(http://image.bbjang.com/imgs/bbjang/img01/ico_kko.png) no-repeat 7px center; background-size:29px 27px; color:#232627;}
+.my_bot_type2 .btn_sms a:active{-webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px; border-radius:5px; background:#fcfcfc url(http://image.bbjang.com/imgs/bbjang/img01/ico_sms.png) no-repeat 7px center; background-size:27px 26px; color:#232627;}
 .my_bot_type2 .small-line{display:inline-block; position:absolute; top:0; left:50%; width:2px; height:15px; margin:21px 0 0 -1px; background-color:#dcdfe0;}
 
 /****************************** 170220 김다미 ******************************/
 /* 위로올리기 */
-.btn_go_up{position:fixed; z-index:800; right:15px; bottom:85px; width:46px; height:46px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_go_up.png) no-repeat center center; background-size:46px 46px;}
+.btn_go_up{position:fixed; z-index:800; right:15px; bottom:85px; width:46px; height:46px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_go_up.png) no-repeat center center; background-size:46px 46px;}
 .btn_go_up a{position:relative; display:block; width:100%; height:100%; text-indent:-9999px;}
 
 /****************************** 170302 김다미 ******************************/
@@ -139,22 +143,22 @@ html { height:100%; }
 .header_srch .srch_btn a{display:block; width:100%; height:100%; text-indent:-9999px;}
 .header_srch  input[type="text"]{position:relative; display:block; width:100%; height:100%; line-height:16px; font-size:16px; border:none; outline:none; background-color:transparent;}
 .header_srch label{display:none; position:absolute; left:41px; top:13px; width:200%; line-height:16px; font-size:16px; color:#9d9fa2;}
-.header_srch .btn_reset{opacity:0; left:0; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_reset.png) no-repeat center center; background-size:17px 14px; transition:all 0.2s ease-in-out; -webkit-transition:all 0.2s ease-in-out; -ms-transition:all 0.2s ease-in-out; -o-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out;}
+.header_srch .btn_reset{opacity:0; left:0; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_reset.png) no-repeat center center; background-size:17px 14px; transition:all 0.2s ease-in-out; -webkit-transition:all 0.2s ease-in-out; -ms-transition:all 0.2s ease-in-out; -o-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out;}
 .header_bar_on .btn_reset{opacity:1;}
-.header_srch .btn_srch_del{display:none; right:40px; width:30px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_srch_del.png) no-repeat right center; background-size:12px 12px;}
-.header_srch .btn_srch_on{display:none; right:0; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_srch_on.png) no-repeat center center; background-size:19px 21px;}
-.header_srch .btn_voice{right:0; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_srch_voice.png) no-repeat center center; background-size:13px 17px;}
+.header_srch .btn_srch_del{display:none; right:40px; width:30px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_srch_del.png) no-repeat right center; background-size:12px 12px;}
+.header_srch .btn_srch_on{display:none; right:0; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_srch_on.png) no-repeat center center; background-size:19px 21px;}
+.header_srch .btn_voice{right:0; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_srch_voice.png) no-repeat center center; background-size:13px 17px;}
 
 #header .header_btn{position:absolute; top:0;}
 #header .header_btn a{display:block; width:100%; height:100%; text-indent:-9999px;}
 #header .btn_my{left:0; width:50px; height:50px;}
-#header .btn_my a{background:url(http://image.club5678.com/imgs/bbjang/img01/btn_aside.png) no-repeat center center; background-size:22px 16px;}
-#header .btn_my a:active{background:rgba(0,0,0,0.05) url(http://image.club5678.com/imgs/bbjang/img01/btn_aside.png) no-repeat center center; background-size:22px 16px;}
-#header .btn_logo_home{left:50px; width:95px; height:50px; padding-left:2px; box-sizing:border-box; background:url(http://image.club5678.com/imgs/bbjang/img01/bg_bar03.png) no-repeat left center; background-size:2px 38px;}
-#header .btn_logo_home a{background:url(http://image.club5678.com/imgs/bbjang/img01/img_srch_logo02.png) no-repeat center 10px; background-size:74px 26px;}
+#header .btn_my a{background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_aside.png) no-repeat center center; background-size:22px 16px;}
+#header .btn_my a:active{background:rgba(0,0,0,0.05) url(http://image.bbjang.com/imgs/bbjang/img01/btn_aside.png) no-repeat center center; background-size:22px 16px;}
+#header .btn_logo_home{left:50px; width:95px; height:50px; padding-left:2px; box-sizing:border-box; background:url(http://image.bbjang.com/imgs/bbjang/img01/bg_bar03.png) no-repeat left center; background-size:2px 38px;}
+#header .btn_logo_home a{background:url(http://image.bbjang.com/imgs/bbjang/img01/img_srch_logo02.png) no-repeat center 10px; background-size:74px 26px;}
 #header .btn_map{right:5px; top:5px; width:40px; height:40px; border:1px solid #86d1f6; border-radius:3px; box-sizing:border-box;}
-#header .btn_map a{background:url(http://image.club5678.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-map-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
-#header .btn_map a:active{background:#30b0f0 url(http://image.club5678.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-map-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
+#header .btn_map a{background:url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-map-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
+#header .btn_map a:active{background:#30b0f0 url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-map-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
 #header .cue-badge{display:inline-block; position:absolute; top:0; left:0; width:26px; height:26px; margin:2px 0 0 22px; border:1px solid #fff; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; border-radius:50%; -webkit-box-shadow:1px 1px 2px rgba(0,0,0,.23); -moz-box-shadow:1px 1px 2px rgba(0,0,0,.23); -ms-box-shadow:1px 1px 2px rgba(0,0,0,.23); -o-box-shadow:1px 1px 2px rgba(0,0,0,.23); box-shadow:1px 1px 2px rgba(0,0,0,.23); background-color:#ff0c08; background:-webkit-linear-gradient(to bottom,#ff5b45,#ff0c08); background:linear-gradient(to bottom,#ff5b45,#ff0c08); outline:0; font-size:13px; color:#fff; letter-spacing:-1px; line-height:26px; text-align:center;}
 
 /****************************** 170327 김다미 ******************************/
@@ -182,7 +186,7 @@ html { height:100%; }
 .float_wrap{position:fixed; z-index:999; right:10px; bottom:20px; width:57px; height:auto;}
 
 .float_bg_modal{display:none; position:fixed; top:0; bottom:0; left:0; right:0; background:rgba(0,0,0,0.75);}
-.float_btn {position:relative; z-index:100; width:57px; height:57px; border-radius:100%; text-indent:-9999px; background:#13a8f2 url(http://image.club5678.com/imgs/bbjang/img01/btn_float.png) no-repeat 12px 12px; background-size:39px 30px; box-shadow:0px 2px 4px rgba(0,0,0,0.3); cursor:pointer; -webkit-tap-highlight-color:rgba(255, 255, 255, 0);}
+.float_btn {position:relative; z-index:100; width:57px; height:57px; border-radius:100%; text-indent:-9999px; background:#13a8f2 url(http://image.bbjang.com/imgs/bbjang/img01/btn_float.png) no-repeat 12px 12px; background-size:39px 30px; box-shadow:0px 2px 4px rgba(0,0,0,0.3); cursor:pointer; -webkit-tap-highlight-color:rgba(255, 255, 255, 0);}
 .float_btn .ripple{position:absolute; top:0; left:0; width:57px; height:57px; border:1px solid #89d3f8; border-radius:100%; box-sizing:border-box; background: transparent; opacity:0;}
 @keyframes rippling {
     25% {transform: scale(1.2); opacity: 1;}
@@ -190,16 +194,55 @@ html { height:100%; }
 }
 .float_btn:active .ripple{animation:rippling 0.25s linear 1; -webkit-animation:rippling 0.25s linear 1; -ms-animation:rippling 0.25s linear 1; -moz-animation:rippling 0.25s linear 1; -o-animation:rippling 0.25s linear 1;}
 
-.float_write{position:absolute; top:0px; right:0px; width:400%; height:57px; line-height:57px; transform:scale(0); transform-origin:87.5% center; opacity:0; transition:0.3s all cubic-bezier(0.68, -0.55, 0.44, 1);}
-.float_write a{display:block; width:25%; height:100%; border-radius:100%;  background:#fff url(http://image.club5678.com/imgs/bbjang/img01/btn_float_write.png) no-repeat center center; background-size:25px 25px; box-shadow:2px 0px 4px rgba(0,0,0,0.3); float:left;}
-.float_write a:active{background:#d1d1d1 url(http://image.club5678.com/imgs/bbjang/img01/btn_float_write.png) no-repeat center center; background-size:25px 25px;}
+.float_write{position:absolute; top:-25px; right:0px; width:400%; height:57px; line-height:57px; transform:scale(0); transform-origin:87.5% center; opacity:0;}
+.float_write a{display:block; width:25%; height:100%; border-radius:100%;  background:#fff url(http://image.bbjang.com/imgs/bbjang/img01/btn_float_write.png) no-repeat center center; background-size:25px 25px; box-shadow:2px 0px 4px rgba(0,0,0,0.3); float:left;}
+.float_write a:active{background:#d1d1d1 url(http://image.bbjang.com/imgs/bbjang/img01/btn_float_write.png) no-repeat center center; background-size:25px 25px;}
 
-.float_map{position:absolute; top:0px; right:0px; width:400%; height:57px; line-height:57px; transform:scale(0); transform-origin:87.5% center; opacity:0; transition:0.3s all cubic-bezier(0.68, -0.55, 0.44, 1);}
-.float_map a{display:block; width:25%; height:100%; border-radius:100%;  background:#fff url(http://image.club5678.com/imgs/bbjang/img01/btn_float_map.png) no-repeat center center; background-size:24px 30px; box-shadow:2px 0px 4px rgba(0,0,0,0.3); float:left;}
-.float_map a:active{background:#d1d1d1 url(http://image.club5678.com/imgs/bbjang/img01/btn_float_map.png) no-repeat center center; background-size:24px 30px;}
+.float_map{position:absolute; top:-25px; right:0px; width:400%; height:57px; line-height:57px; transform:scale(0); transform-origin:87.5% center; opacity:0;}
+.float_map a{display:block; width:25%; height:100%; border-radius:100%;  background:#fff url(http://image.bbjang.com/imgs/bbjang/img01/btn_float_map.png) no-repeat center center; background-size:24px 30px; box-shadow:2px 0px 4px rgba(0,0,0,0.3); float:left;}
+.float_map a:active{background:#d1d1d1 url(http://image.bbjang.com/imgs/bbjang/img01/btn_float_map.png) no-repeat center center; background-size:24px 30px;}
 .float_txt{width:75%; height:100%; padding-right:12px; box-sizing:border-box; font-size:17px; color:#fff; font-weight:700px; text-align:right; float:left;}
-
+@keyframes up01 {
+0% {top:-25px; transform:scale(0); opacity:0;}
+100% {top:-70px; transform:scale(1); opacity:1;}
+}
+@-webkit-keyframes up01 {
+0% {top:-25px; transform:scale(0); opacity:0;}
+100% {top:-70px; transform:scale(1); opacity:1;}
+}
+@-ms-keyframes up01 {
+0% {top:-25px; transform:scale(0); opacity:0;}
+100% {top:-70px; transform:scale(1); opacity:1;}
+}
+@-moz-keyframes up01 {
+0% {top:-25px; transform:scale(0); opacity:0;}
+100% {top:-70px; transform:scale(1); opacity:1;}
+}
+@-o-keyframes up01 {
+0% {top:-25px; transform:scale(0); opacity:0;}
+100% {top:-70px; transform:scale(1); opacity:1;}
+}
+@keyframes up02 {
+0% {top:-25px; transform:scale(0); opacity:0;}
+100% {top:-140px; transform:scale(1); opacity:1;}
+}
+@-webkit-keyframes up02 {
+0% {top:-25px; transform:scale(0); opacity:0;}
+100% {top:-140px; transform:scale(1); opacity:1;}
+}
+@-ms-keyframes up02 {
+0% {top:-25px; transform:scale(0); opacity:0;}
+100% {top:-140px; transform:scale(1); opacity:1;}
+}
+@-moz-keyframes up02 {
+0% {top:-25px; transform:scale(0); opacity:0;}
+100% {top:-140px; transform:scale(1); opacity:1;}
+}
+@-o-keyframes up02 {
+0% {top:-25px; transform:scale(0); opacity:0;}
+100% {top:-140px; transform:scale(1); opacity:1;}
+}
 .float_wrap_on .float_bg_modal{display:block;}
-.float_wrap_on .float_btn{background:#13a8f2 url(http://image.club5678.com/imgs/bbjang/img01/btn_float_x.png) no-repeat center center; background-size:18px 18px;}
-.float_wrap_on .float_write{right:0px; top:-70px; transform:scale(1); opacity:1;}
-.float_wrap_on .float_map{right:0px; top:-140px; transform:scale(1); opacity:1;}
+.float_wrap_on .float_btn{background:#13a8f2 url(http://image.bbjang.com/imgs/bbjang/img01/btn_float_x.png) no-repeat center center; background-size:18px 18px;}
+.float_wrap_on .float_write{top:-70px; transform:scale(1); opacity:1; animation:up01 0.2s ease-in-out 1;-webkit-animation:up01 0.2s ease-in-out 1; -o-animation:up01 0.2s ease-in-out 1; -moz-animation:up01 0.2s ease-in-out 1; -ms-animation:up01 0.2s ease-in-out 1;}
+.float_wrap_on .float_map{top:-140px; transform:scale(1); opacity:1; animation:up02 0.2s ease-in-out 1;-webkit-animation:up02 0.2s ease-in-out 1; -o-animation:up02 0.2s ease-in-out 1; -moz-animation:up02 0.2s ease-in-out 1; -ms-animation:up02 0.2s ease-in-out 1;}

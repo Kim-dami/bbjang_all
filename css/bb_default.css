@@ -84,20 +84,20 @@ td,th {padding:0;}
 /* 기본 체크박스(회색배경 > 파란배경 하얀체크) */
 .chk_wrap {position:relative;}
 .chk_wrap .chk_input {display:block; position:absolute; z-index:1; top:0; left:0; width:100%; height:100%; opacity:0; cursor:pointer;}
-.chk_wrap .chk_lb {display:inline-block; position:relative; width:auto; height:22px; padding-left:30px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_chk_off.png) no-repeat left center; background-size:22px 22px; line-height:23px; vertical-align:middle;}
-.chk_wrap .chk_input:checked ~ .chk_lb {background:url(http://image.club5678.com/imgs/bbjang/img01/btn_chk_on.png) no-repeat left center; background-size:22px 22px;}
+.chk_wrap .chk_lb {display:inline-block; position:relative; width:auto; height:22px; padding-left:30px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_chk_off.png) no-repeat left center; background-size:22px 22px; line-height:23px; vertical-align:middle;}
+.chk_wrap .chk_input:checked ~ .chk_lb {background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_chk_on.png) no-repeat left center; background-size:22px 22px;}
 
 /* 기본 체크박스(하얀배경 > 파란배경 하얀체크) */
 .chk_wrap02 {position:relative;}
 .chk_wrap02 .chk_input02 {display:block; position:absolute; z-index:1; top:0; left:0; width:100%; height:100%; opacity:0; cursor:pointer;}
-.chk_wrap02 .chk_lb02 {display:block; position:relative; width:auto; height:14px; padding-left:20px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_chk02_off.png) no-repeat left center; background-size:14px 14px; line-height:15px; vertical-align:middle;}
-.chk_wrap02 .chk_input02:checked ~ .chk_lb02 {background:url(http://image.club5678.com/imgs/bbjang/img01/btn_chk02_on.png) no-repeat left center; background-size:14px 14px;}
+.chk_wrap02 .chk_lb02 {display:block; position:relative; width:auto; height:14px; padding-left:20px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_chk02_off.png) no-repeat left center; background-size:14px 14px; line-height:15px; vertical-align:middle;}
+.chk_wrap02 .chk_input02:checked ~ .chk_lb02 {background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_chk02_on.png) no-repeat left center; background-size:14px 14px;}
 
 /* 기본 라디오버튼(회색배경 > 흰배경 파란원) */
 .rdo_wrap {position:relative;}
 .rdo_wrap .rdo_input {display:block; position:absolute; z-index:1; top:0; left:0; width:100%; height:100%; opacity:0; cursor:pointer;}
-.rdo_wrap .rdo_lb {display:inline-block; position:relative; width:auto; height:23px; padding-left:30px; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_rdo_off.png) no-repeat left center; background-size:23px 23px; line-height:24px; vertical-align:middle;}
-.rdo_wrap .rdo_input:checked ~ .rdo_lb {background:url(http://image.club5678.com/imgs/bbjang/img01/btn_rdo_on.png) no-repeat left center; background-size:23px 23px;}
+.rdo_wrap .rdo_lb {display:inline-block; position:relative; width:auto; height:23px; padding-left:30px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_rdo_off.png) no-repeat left center; background-size:23px 23px; line-height:24px; vertical-align:middle;}
+.rdo_wrap .rdo_input:checked ~ .rdo_lb {background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_rdo_on.png) no-repeat left center; background-size:23px 23px;}
 
 /*
  ** 방부장 기본 css **
@@ -112,8 +112,8 @@ td,th {padding:0;}
 .ht_50 {height:50px;}
 .ht_45 {height:45px;}
 #header .btn_back {position:absolute; z-index:1; top:0; left:0; width:40px; height:100%;}
-#header .btn_back a {display:block; width:100%; height:100%; background:url(http://image.club5678.com/imgs/bbjang/img01/btn_back.png) no-repeat center center; background-size:17px 14px; text-indent:-9999px;}
-#header .btn_back a:active {background:rgba(0,0,0,0.05) url(http://image.club5678.com/imgs/bbjang/img01/btn_back.png) no-repeat center center; background-size:17px 14px;}
+#header .btn_back a {display:block; width:100%; height:100%; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_back.png) no-repeat center center; background-size:17px 14px; text-indent:-9999px;}
+#header .btn_back a:active {background:rgba(0,0,0,0.05) url(http://image.bbjang.com/imgs/bbjang/img01/btn_back.png) no-repeat center center; background-size:17px 14px;}
 #header .header_txt {position:relative; width:100%; height:100%; padding-left:45px; color:#fff; font-size:19px; line-height:45px; box-sizing:border-box;}
 
 #container {position:relative; z-index:700; top:0; left:0; right:0; width:100%; height:auto;}
@@ -130,8 +130,8 @@ td,th {padding:0;}
 /* 사진터치 구분 영역 */
 .list_card .list_photo_wrap {position:absolute; top:10px; left:8px; z-index:10; width:95px; height:70px; overflow:hidden;}
 .list_card .list_photo_wrap a {display:block; position:relative; width:100%; height:100%; overflow:hidden;}
-.list_card .list_photo_wrap .sold_out {background:url(http://image.club5678.com/imgs/bbjang/img01/list_sold_out.png) no-repeat center center; background-size:cover;}
-.list_card .list_photo_wrap .expira{background:url(http://image.club5678.com/imgs/bbjang/img01/list_expira.png) no-repeat center center; background-size:cover;}
+.list_card .list_photo_wrap .sold_out {background:url(http://image.bbjang.com/imgs/bbjang/img01/list_sold_out.png) no-repeat center center; background-size:cover;}
+.list_card .list_photo_wrap .expira{background:url(http://image.bbjang.com/imgs/bbjang/img01/list_expira.png) no-repeat center center; background-size:cover;}
 .list_card .list_photo_wrap img {position:relative; z-index:-1; width:100%; height:100%;}
 
 /* 리스트 정보 */
@@ -172,9 +172,9 @@ td,th {padding:0;}
 .list_card .list_intro .bot_line .option_list {display:inline-block; width:auto; height:15px; overflow: hidden;}
 .list_card .list_intro .bot_line .pr_15{width:100%; padding-right:15px; box-sizing:border-box;}
 .list_card .list_intro .bot_line .option_badge {display:inline-block; width:auto; height:15px; padding:0 5px; margin-right:3px; border-radius:1px; background-color:#8abbd3; color:#fff; font-size:12px; text-align:center; line-height:16px; vertical-align:top; float:left;}
-.list_card .list_intro .bot_line .option_dot{position:absolute; top:0; right:0; width:15px; height:100%; background:url(http://image.club5678.com/imgs/bbjang/img01/ico_ellipsis.png) no-repeat 5px center; background-size:10px 2px;}
+.list_card .list_intro .bot_line .option_dot{position:absolute; top:0; right:0; width:15px; height:100%; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_ellipsis.png) no-repeat 5px center; background-size:10px 2px;}
 .list_card .list_intro .bot_line .intro_time {float:left; width:60px; height:27px; color:#3d4348; font-size:13px; text-align:center; line-height:27px;}
-.list_card .list_intro .bot_line .intro_roca {float:left; width:auto; height:21px; padding-left:20px; background:url(http://image.club5678.com/imgs/bbjang/img01/ico_rocation.png) no-repeat 5px 6px; background-size:9px 11px; color:#3d4348; font-size:13px; line-height:26px;}
+.list_card .list_intro .bot_line .intro_roca {float:left; width:auto; height:21px; padding-left:20px; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_rocation.png) no-repeat 5px 6px; background-size:9px 11px; color:#3d4348; font-size:13px; line-height:26px;}
 
 /* 관리 버튼 */
 .list_card .list_intro .admin {position:absolute; right:5px; bottom:5px; width:auto; height:auto;}
@@ -274,10 +274,10 @@ ul.type_list li:nth-child(odd) {border-right:1px solid #d8d8d8;}
 /*--------------------------------------------------- 사진업로드 로딩중 ---------------------------------------------------*/
 /****************************** 170327 김다미 ******************************/
 /* 찾을 수 없는 페이지 */
-.nopg_logo{position:relative; width:100%; height:100%; background:url(http://image.club5678.com/imgs/bbjang/img01/img_srch_logo02.png) no-repeat center center; background-size:86px 30px; text-indent:-9999px; }
+.nopg_logo{position:relative; width:100%; height:100%; background:url(http://image.bbjang.com/imgs/bbjang/img01/img_srch_logo02.png) no-repeat center center; background-size:86px 30px; text-indent:-9999px; }
 .nopg_wrap{position:relative; width:315px; height:auto; margin:100px auto 0 auto;}
 .nopg_txt{position:relative; width:100%; height:auto;}
-.nopg_txt .nopg_title{width:100%; height:18px; line-height:18px; font-size:18px; padding-top:100px; text-align:center; color:#373b3d; background:#fff url(http://image.club5678.com/imgs/bbjang/img_my/my_list_empty_sign1.png) no-repeat center top; background-size:75px 82px; letter-spacing:-0.5px;}
+.nopg_txt .nopg_title{width:100%; height:18px; line-height:18px; font-size:18px; padding-top:100px; text-align:center; color:#373b3d; background:#fff url(http://image.bbjang.com/imgs/bbjang/img_my/my_list_empty_sign1.png) no-repeat center top; background-size:75px 82px; letter-spacing:-0.5px;}
 .nopg_txt .nopg_notice{width:100%; height:auto; line-height:24px; padding:22px 0 25px 0; font-size:15px; text-align:center; color:#53595c; letter-spacing:-1px; border-bottom:1px solid #d1d8e0;}
 .nopg_btn{position:relative; width:265px; height:auto; padding-top:25px; margin:0 auto;}
 .nopg_btn:after{content:""; display:block; clear:both;}
@@ -293,3 +293,47 @@ ul.type_list li:nth-child(odd) {border-right:1px solid #d8d8d8;}
 .ta_justify{text-align:justify!important;}
 .fc_red{color:#ff1e00; font-weight:700;}
 .fc_yel{color:#ffbb37; font-weight:700;}
+
+/****************************** 170331 김다미 ******************************/
+/*
+ ** 방부장 리스트 변경
+          */
+.card_u{position:relative; width:100%; height:auto; background-color:#e1e7ea;}
+.card_l{position:relative; width:100%; height:auto; border-top:1px solid #cad1d4; border-bottom:1px solid #cad1d4; margin-top:3px; background-color:#fff;}
+.card_l:first-of-type{border-top:0 none; margin-top:0px;}
+
+/* 사진 영역 */
+.card_photo{position:absolute; top:0; left:0; width:110px; height:90px;}
+.card_photo a{display:block; width:100%; height:100%;}
+.card_photo a img{width:100%; height:100%;}
+
+/* 내용 영역 */
+.card_content{position:relative; width:100%; height:90px; padding:4px 10px 4px 120px; box-sizing:border-box;}
+
+.card_title{width:100%; height:16px; line-height:17px; font-size:15px; color:#000; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.card_title .main_badge_month, .card_title .main_badge_rent, .card_title .main_badge_sale{display:inline-block; width:31px; height:16px; text-indent:-9999px; vertical-align:top; margin-right:2px;}
+.card_title .main_badge_short{display:inline-block; width:51px; height:16px; text-indent:-9999px; vertical-align:top; margin-right:3px;}
+.card_title .main_badge_month{background:url(http://image.bbjang.com/imgs/bbjang/img01/main_badge_month.png) no-repeat center center; background-size:31px 16px;}
+.card_title .main_badge_rent{background:url(http://image.bbjang.com/imgs/bbjang/img01/main_badge_rent.png) no-repeat center center; background-size:31px 16px;}
+.card_title .main_badge_sale{background:url(http://image.bbjang.com/imgs/bbjang/img01/main_badge_sale.png) no-repeat center center; background-size:31px 16px;}
+.card_title .main_badge_short{background:url(http://image.bbjang.com/imgs/bbjang/img01/main_badge_short.png) no-repeat center center; background-size:51px 16px;}
+
+.card_info{width:100%; height:15px; line-height:16px; font-size:12px; color:#4c5456; padding-top:1px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.card_info .area_span{padding-left:12px; background:url(http://image.bbjang.com/imgs/bbjang/img01/bg_bar05.png) no-repeat 5px 2px; background-size:1px 10px;}
+
+.card_price{width:100%; height:17px; line-height:18px; font-size:15px; color:#004c80; padding-top:2px; font-weight:400; font-family:"bb-Bold"; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+
+.card_txt{width:100%; height:32px; line-height:16px; font-size:13px; padding-top:1px; display:-webkit-box; overflow:hidden; text-overflow:ellipsis; word-wrap:break-word; -webkit-box-orient:vertical; -webkit-line-clamp:2;}
+
+/* 내글 버튼 영역 */
+.card_my_btn{position:relative; width:100%; height:27px; line-height:27px;}
+.card_my_btn:after{content:""; display:block; clear:both;}
+.card_my_btn .my_btn_sky{width:33.33333%; height:100%; float:left; border-top:1px solid #d1e2ea; box-sizing:border-box; background-color:#f5fcff; color:#646b6e; font-size:12px; font-weight:400; font-family:"bb-Bold"; text-align:center;}
+.card_my_btn .my_btn_sky:first-of-type{border-right:1px solid #d1e2ea;}
+.card_my_btn .my_btn_blue{width:33.33333%; height:100%; float:left; background-color:#0ca2ed; color:#fff; font-size:12px; font-weight:400; font-family:"bb-Bold"; text-align:center;}
+
+/* 어드민 영역 */
+.card_admin{position:relative; width:100%; height:auto;}
+.card_admin:after{content:""; display:block; clear:both;}
+.card_admin .admin_right{float:right; padding-bottom:3px;}
+.card_admin .admin_right a{display: inline-block; margin-right:7px; font-size:13px;}

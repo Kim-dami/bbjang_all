@@ -22,7 +22,7 @@
 .mt_260 {margin-top:-260px;}
 
 .rd_2 {border-radius:4px;}
-.shadow {box-shadow:1px 3px 5px #7c7c7c;}
+.shadow {box-shadow:1px 3px 5px rgba(0,0,0,0.3);}
 
 /*--------------------------------- 공통알림창 ---------------------------------*/
 /* 알림창 헤더 */
@@ -172,8 +172,11 @@ ul.pop_slct_mtd li.pop_mtd_lst a{border-bottom:none;}
 .alarm_nobtn {display:none; position:fixed; z-index:9999; left:50%; bottom:20px; width:80%; height:auto; overflow:hidden; border-radius:20px; background:rgba(0,0,0,.85); margin-left:-40%; }
 .alarm_nobtn p {padding:15px; color:#fff; font-size:14px; line-height:18px; word-wrap:break-word; text-align:center;}
 
+.alarm_nobtn_mid {display:none; position:absolute; z-index:9999; left:50%; bottom:0; top:0; margin-top:auto; margin-bottom:auto; width:80%; height:auto; overflow:hidden; border-radius:20px; background:rgba(0,0,0,.85); margin-left:-40%; display:inline-table; }
+.alarm_nobtn_mid p {padding:15px; color:#fff; font-size:14px; line-height:18px; word-wrap:break-word; text-align:center;}
+
 /* 매물종류 / 매물옵션 팝업창으로 띄우기 */
-#popDealClass, #popSlctOption, #popDealNote { position:fixed; z-index:9999; top:0; left:0; width:100%; height:100%; }
+#popDealClass, #popSlctOption, #popDealNote, #popDealType { position:fixed; z-index:1000; top:0; left:0; width:100%; height:100%; }
 /* 모달류 bg */
 #main_bg_modal02 {position:fixed; z-index:999; top:0; left:0; right:0; bottom:0; width:100%; height:100%; background:rgba(0,0,0,.4);}
 
@@ -225,7 +228,7 @@ ul.pop_slct_mtd li.pop_mtd_lst a{border-bottom:none;}
 .pop_content .pop_u:after {display:block; clear:both; content:"";}
 .pop_content .pop_u .pop_l {float:left; width:50%; height:auto; text-align:center;}
 .pop_content .pop_u .pop_l h4 {width:100%; height:33px; line-height:34px; margin:0; padding:0; color:#373b3d; font-size:15px; text-align:center;}
-.pop_content .pop_u .pop_l div {width:100%; height:270px; border-width:1px 1px 1px 0; border-style:solid; border-color:#e7e7e7; box-sizing:border-box;overflow-y:auto; -webkit-overflow-scrolling: touch; -webkit-box-shadow:inset 0 -5px 5px -5px rgba(0,0,0,0.2);} /* 160106 아이폰대응 추가 _ 김다미 */
+.pop_content .pop_u .pop_l div {width:100%; height:270px; border-width:1px 1px 1px 0; border-style:solid; border-color:#e7e7e7; box-sizing:border-box;overflow-y:auto; -webkit-overflow-scrolling: touch;}
 @media (max-height:500px) {
 .pop_content .pop_u .pop_l div {height:236px;}
 .mt_260 {margin-top:-240px;}
@@ -262,13 +265,16 @@ ul.pop_slct_mtd li.pop_mtd_lst a{border-bottom:none;}
 .pop_tab{position:relative; width:100%; height:35px; line-height:35px;}
 .pop_tab h4{width:33.33333%; margin:0; padding:0; color:#373b3d; font-size:15px; text-align:center; float:left;}
 .pop_tab .pop_tab_line{position:absolute; bottom:0; left:0px; width:33.33333%; height:2px; transition:all 0.1s ease-in-out;-webkit-transition:all 0.1s ease-in-out; -o-transition:all 0.1s ease-in-out; -moz-transition:all 0.1s ease-in-out; -ms-transition:all 0.1s ease-in-out;}
-.pop_tab_u{position:relative; width:100%; height:230px; border-width:1px 0px 1px 0; border-style:solid; border-color:#e7e7e7; box-sizing:border-box;overflow-y:auto; -webkit-overflow-scrolling:touch; background:url(http://image.bbjang.com/imgs/bbjang/img01/bg_bar04.png) repeat-y center top;}
+.pop_tab_u{position:relative; width:100%; height:265px; border-width:1px 0px 1px 0; border-style:solid; border-color:#e7e7e7; box-sizing:border-box;overflow-y:auto; -webkit-overflow-scrolling:touch; background:url(http://image.bbjang.com/imgs/bbjang/img01/bg_bar04.png) repeat-y center top;}
 .pop_tab_l{display:none; width:100%; height:auto;}
 .pop_tab_l:first-of-type{display:block;}
 .pop_tab_l:after{content:""; display:block; clear:both;}
 .pop_tab_l ul{width:50%; float:left;}
 .pop_tab_l ul li{width:100%; height:35px; line-height:35px;}
-.pop_tab_l .pop_section li a{display:block; width:100%; height:100%; color:#000; font-size:13px; text-align:center; letter-spacing:-0.5px; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_off.png) 7% center no-repeat; background-size:18px 18px;}
+.pop_tab_l .pop_section li a{display:block; width:100%; height:100%; padding-left:10px; box-sizing:border-box; color:#000; font-size:14px; text-align:center; letter-spacing:-0.5px; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_off.png) 7% center no-repeat; background-size:18px 18px;}
+@media (max-width:350px) {
+    .pop_tab_l .pop_section li a{font-size:13px;}
+}
 .pop_tab_l .pop_section li a:active{background:rgba(0,0,0,0.05) url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_off.png) 7% center no-repeat; background-size:18px 18px;}
 .pop_tab_l .pop_section li .slct_active{color:#0ca2ed; font-weight:bold; background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_on.png) 7% center no-repeat; background-size:18px 18px;}
 .pop_tab_l .pop_section li .slct_active:active{background:rgba(0,0,0,.05) url(http://image.bbjang.com/imgs/bbjang/img01/ico_chk_on.png) 7% center no-repeat; background-size:18px 18px;}
