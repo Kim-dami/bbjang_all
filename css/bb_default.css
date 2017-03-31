@@ -303,12 +303,14 @@ ul.type_list li:nth-child(odd) {border-right:1px solid #d8d8d8;}
 .card_l:first-of-type{border-top:0 none; margin-top:0px;}
 
 /* 사진 영역 */
-.card_photo{position:absolute; top:0; left:0; width:110px; height:90px;}
+.card_photo{position:absolute; top:0; left:0; z-index:10;  width:110px; height:90px;}
 .card_photo a{display:block; width:100%; height:100%;}
 .card_photo a img{width:100%; height:100%;}
 
 /* 내용 영역 */
 .card_content{position:relative; width:100%; height:90px; padding:4px 10px 4px 120px; box-sizing:border-box;}
+.card_content:active{background:rgba(0,0,0,0.05);}
+.card_content a{display:block; width:100%; height:100%;}
 
 .card_title{width:100%; height:16px; line-height:17px; font-size:15px; color:#000; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
 .card_title .main_badge_month, .card_title .main_badge_rent, .card_title .main_badge_sale{display:inline-block; width:31px; height:16px; text-indent:-9999px; vertical-align:top; margin-right:2px;}
@@ -330,7 +332,11 @@ ul.type_list li:nth-child(odd) {border-right:1px solid #d8d8d8;}
 .card_my_btn:after{content:""; display:block; clear:both;}
 .card_my_btn .my_btn_sky{width:33.33333%; height:100%; float:left; border-top:1px solid #d1e2ea; box-sizing:border-box; background-color:#f5fcff; color:#646b6e; font-size:12px; font-weight:400; font-family:"bb-Bold"; text-align:center;}
 .card_my_btn .my_btn_sky:first-of-type{border-right:1px solid #d1e2ea;}
+.card_my_btn .my_btn_sky a{display:block; width:100%; height:100%;}
+.card_my_btn .my_btn_sky a:active{background:rgba(0,0,0,0.05);}
 .card_my_btn .my_btn_blue{width:33.33333%; height:100%; float:left; background-color:#0ca2ed; color:#fff; font-size:12px; font-weight:400; font-family:"bb-Bold"; text-align:center;}
+.card_my_btn .my_btn_blue a{display:block; width:100%; height:100%;}
+.card_my_btn .my_btn_blue a:active{background:rgba(0,0,0,0.05);}
 
 /* 어드민 영역 */
 .card_admin{position:relative; width:100%; height:auto;}
