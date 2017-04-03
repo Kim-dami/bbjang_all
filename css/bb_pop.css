@@ -318,4 +318,16 @@ ul.pop_slct_mtd li.pop_mtd_lst a{border-bottom:none;}
 .style_1::-webkit-scrollbar-thumb:window-inactive {
    background: #41617D !important;
  }
+
+/* 엔딩팝업 관련 170403 주철만 */
+.ending_pop_bg {position:fixed; width:100%; height:100%; background-color:rgba(0,0,0,0.7);}
+.ending_pop {display:block; position:fixed; top:50%; left:50%; margin-top:-200px; margin-left:-137px; width:275px; height:390px; padding:0; overflow:none; background-color:#fff;}
+.ending_pop img {display:block; position:relative; top:0; left:0; width:275px; height:295px; background-color:#bea2da; margin:0; padding:0;}
+.txt_section {display:block; position:relative; top:0; left:0; padding:14px 13px; background-color:#fff;}
+.txt_section p {display:block; position:relative; text-align:center; font-size:16px; font-weight:bold; color:#737373; letter-spacing:-0.5px; margin-bottom:13px;}
+.btn:after{content:""; display:block; clear:both;}
+.btn a {width:118px; height:37px; border:1px solid #bcbcbc; box-sizing:border-box; text-align:center; font-size:16px; font-weight:bold; color:#737373; letter-spacing:-0.5px; line-height:36px;}
+.btn .btn_cancel {float:left;}
+.btn .btn_confirm {float:right;}
+
 /*----------------------------------------------------------------------------------------------------*/
