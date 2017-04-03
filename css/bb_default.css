@@ -328,7 +328,7 @@ ul.type_list li:nth-child(odd) {border-right:1px solid #d8d8d8;}
 .card_title .main_badge_sale{background:url(http://image.bbjang.com/imgs/bbjang/img01/main_badge_sale.png) no-repeat center center; background-size:31px 16px;}
 .card_title .main_badge_short{background:url(http://image.bbjang.com/imgs/bbjang/img01/main_badge_short.png) no-repeat center center; background-size:51px 16px;}*/
 
-.card_info{width:100%; height:15px; line-height:16px; font-size:12px; color:#4c5456; padding-top:1px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.card_info{width:100%; height:15px; line-height:16px; font-size:12px; color:#707677; padding-top:1px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
 .card_info .area_span{padding-left:12px; background:url(http://image.bbjang.com/imgs/bbjang/img01/bg_bar05.png) no-repeat 5px 2px; background-size:1px 10px;}
 
 .card_price{width:100%; height:17px; line-height:18px; font-size:15px; color:#004c80; padding-top:2px; font-weight:400; font-family:"bb-Bold"; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
@@ -351,3 +351,7 @@ ul.type_list li:nth-child(odd) {border-right:1px solid #d8d8d8;}
 .card_admin:after{content:""; display:block; clear:both;}
 .card_admin .admin_right{float:right; padding-bottom:3px;}
 .card_admin .admin_right a{display: inline-block; margin-right:7px; font-size:13px;}
+
+/* 배너 */
+.promote_banner{width:100%; height:66px; margin-top:3px;}
+.promote_banner a{display:block; width:100%; height:100%;}

@@ -396,30 +396,35 @@ $(document).ready(function(){
         </div>
 	</div>
 	<!-- // 글쓰기 -->
-	<div class="full_bg_modal hidden"></div><!-- 마이메뉴 배경 -->
+	<div class="full_bg_modal">
+	</div>
+	<!-- 마이메뉴 배경 -->
 	<!-- 마이메뉴 -->
-	<div id="my_wrap" class="full_page" style="display:none;">
+	<div id="my_wrap" class="full_page">
 		<!-- 마이메뉴 상단 -->
 		<div class="my_top">
 			<h2>방부장</h2>
 			<div class="info_wrap">
-				<div class="before_login">
+				<div class="before_login hidden">
 					<div class="btn_login">
 						<a href="#">회원가입 및 로그인</a>
 					</div>
 				</div>
 				<div class="after_login">
 					<p class="login_name">
-						<span>방사장</span><span class="agent_name">(베스트공인중개사)</span>
+						<span>방사장</span>
+						<span class="btn_logout">
+						    <a href="#">로그아웃</a>
+						</span>
 					</p>
-					<p class="login_num font_t">
+					<p class="login_num">
 						070-1234-5678
 					</p>
 					<div class="photo_clip">
 						<img src="http://image.club5678.com/imgs/bbjang/img01/photo02.jpg" alt="방사장">
 					</div>
-					<div class="btn_my_set">
-						<a href="#">내정보 설정</a>
+					<div class="btn_my_set_type2"> <!-- 170314_수정_ " class명-  btn_my_set 에서  btn_my_set_type2 로 변경 " -->
+						<a href="#">정보수정</a> <!-- 170314_수정_ " '정보수정'으로 텍스트 변경 " -->
 					</div>
 				</div>
 			</div>
@@ -429,7 +434,7 @@ $(document).ready(function(){
 		<div class="my_mid">
 			<ul>
 				<li class="my_more">
-				<a href="#" class="font_b">채팅상담함</a>
+				<a href="#" class="font_b">채팅상담함<button type="button" class="cue-badge font_b">99+</button></a>
 				</li>
 				<li class="my_more">
 				<a href="#" class="font_b">등록중인 매물</a>
@@ -443,7 +448,7 @@ $(document).ready(function(){
 				<li class="my_more">
 				<a href="#" class="font_b">설정</a>
 				</li>
-				<li class="my_write">
+				<li class="my_write_type2"> <!-- 170314_수정_ " class명-  my_write 에서  my_write_type2 로 변경 " -->
 				<a href="#">등록하기</a>
 				</li>
 				<li class="my_more">
@@ -461,20 +466,15 @@ $(document).ready(function(){
 			</ul>
 		</div>
 		<!-- // 마이메뉴 리스트 -->
-		<!-- 마이메뉴 초대 -->
-		<div class="my_bot">
-		    <div class="bot_txt">초대하기</div>
-		    <ul class="bot_list">
-		        <li class="btn_kko">
-                    <a href="#">카톡초대</a>
-		        </li>
-		        <li class="btn_sms">
-                    <a href="#">문자초대</a>
-		        </li>
-		        <li class="btn_etc">
-                    <a href="#">기타</a>
-		        </li>
-		    </ul>
+		<!-- 마이메뉴 초대 --> <!-- 170314_수정_ " class명-  my_bot 에서  my_bot_type2 로 변경 " -->
+		<div class="my_bot_type2">
+			<div class="btn_kko">
+				<a href="#" class="font_r">카톡초대</a>
+			</div>
+			<div class="btn_sms">
+				<a href="#" class="font_r">문자초대</a>
+			</div>
+			<span class="small-line"></span>
 		</div>
 		<!-- // 마이메뉴 초대 -->
 	</div>
