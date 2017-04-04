@@ -3,17 +3,6 @@
 #header .btn_report a {display:block; width:100%; height:100%; text-align:center;}
 #header .btn_report a:active {background:rgba(0,0,0,0.05);}
 
-/* 상세페이지 사진 */
-.dt_photo_wrap {position:relative; width:100%; height:225px; background-color:#ccc; margin-top:45px;}
-.dt_photo_wrap .dt_photo {position:relative; width:100%; height:100%;}
-.dt_photo_wrap .dt_photo a {display:block; width:100%; height:100%; background:url(http://image.bbjang.com/imgs/bbjang/img01/photo03.jpg) no-repeat center center; background-size:cover;}
-.dt_photo_wrap .dt_water_mk {position:absolute; top:50%; left:50%; width:80px; height:80px; margin-top:-40px; margin-left:-40px; background:url(http://image.bbjang.com/imgs/bbjang/img01/img_water_mk.png) no-repeat center center; background-size:73px 75px; text-indent:-9999px;}
-.dt_photo_wrap .dt_photo_frac {position:absolute; top:10px; right:10px; width:50px; height:22px; border-radius:25px; background:rgba(154,154,154,0.7); color:#fff; font-size:13px; text-align:center; line-height:22px;}
-.dt_photo_wrap .dt_buy_photo {background:#dadee2 url(http://image.bbjang.com/imgs/bbjang/img01/bg_detail_buy.png) no-repeat center center; background-size:319px 225px; text-indent:-9999px;}
-.dt_photo_wrap .dt_btn_pre {position:absolute; top:95px; left:0; width:35px; height:35px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_photo_pre.png) no-repeat center center; background-size:17px 26px;}
-.dt_photo_wrap .dt_btn_next {position:absolute; top:95px; right:0; width:35px; height:35px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_photo_next.png) no-repeat center center; background-size:17px 26px;}
-.dt_photo_wrap .dt_btn_pre a, .dt_photo_wrap .dt_btn_next a {display:block; width:100%; height:100%; text-indent:-9999px;}
-
 /* 상세페이지 정보 */
 .dt_info_wrap {position:relative; width:100%; height:auto; padding:7px; box-sizing:border-box;}
 .dt_info_wrap .dt_title {width:100%; height:auto; padding-bottom:7px; line-height:25px; font-size:19px;}
@@ -83,7 +72,11 @@
 #container .dt_list .agent_info:after {display:block; clear:both; content:"";}
 #container .dt_list .agent_photo {float:left; width:auto; height:auto; padding:8px 7px 8px 14px; box-sizing:border-box;}
 #container .dt_list .photo_clip {width:55px; height:55px; overflow:hidden; border:2px solid #e3e5e5; border-radius:100%; background:url(http://image.bbjang.com/imgs/bbjang/img01/img_my_default.png) no-repeat center center; background-size:cover;}
+#container .dt_list .photo_clip_m {width:55px; height:55px; overflow:hidden; border:2px solid #e3e5e5; border-radius:100%; background:url(http://image.bbjang.com/imgs/bbjang/img01/img_my_default_m.png) no-repeat center center; background-size:cover;}
+#container .dt_list .photo_clip_f {width:55px; height:55px; overflow:hidden; border:2px solid #e3e5e5; border-radius:100%; background:url(http://image.bbjang.com/imgs/bbjang/img01/img_my_default_f.png) no-repeat center center; background-size:cover;}
 #container .dt_list .photo_clip img {width:100%; height:100%;}
+#container .dt_list .photo_clip_m img {width:100%; height:100%;}
+#container .dt_list .photo_clip_f img {width:100%; height:100%;}
 
 #container .dt_list .agent_txt {float:left; width:auto; height:75px; box-sizing:border-box;}
 #container .dt_list .txt_2line {padding:17.5px 0;}
@@ -175,3 +168,17 @@
 
 /****************************** 170302 김다미 ******************************/
 #wrap{overflow-x:hidden;}
+
+/* 상세페이지 사진 */
+.dt_photo_wrap {position:relative; width:100%; height:225px; background-color:#ccc; margin-top:45px;}
+.dt_photo_wrap .dt_photo {position:relative; width:100%; height:100%;}
+.dt_photo_wrap .dt_photo a {display:block; width:100%; height:100%; background:url(http://image.bbjang.com/imgs/bbjang/img01/photo03.jpg) no-repeat center center; background-size:cover;}
+.dt_photo_wrap .dt_water_mk {position:absolute; top:50%; left:50%; width:80px; height:80px; margin-top:-40px; margin-left:-40px; background:url(http://image.bbjang.com/imgs/bbjang/img01/img_water_mk.png) no-repeat center center; background-size:73px 75px; text-indent:-9999px;}
+.dt_photo_wrap .dt_photo_frac {position:absolute; top:10px; right:10px; width:50px; height:22px; border-radius:25px; background:rgba(154,154,154,0.7); color:#fff; font-size:13px; text-align:center; line-height:22px;}
+.dt_photo_wrap .dt_buy_photo {background:#dadee2 url(http://image.bbjang.com/imgs/bbjang/img01/bg_detail_buy.png) no-repeat center center; background-size:319px 225px; text-indent:-9999px;}
+.dt_photo_wrap .dt_sale_photo {background:#dadee2 url(http://image.bbjang.com/imgs/bbjang/img01/bg_detail_sale.png) no-repeat center center; background-size:319px 225px; text-indent:-9999px;}
+.dt_photo_wrap .dt_rent_photo {background:#dadee2 url(http://image.bbjang.com/imgs/bbjang/img01/bg_detail_rent.png) no-repeat center center; background-size:319px 225px; text-indent:-9999px;}
+.dt_photo_wrap .dt_month_photo {background:#dadee2 url(http://image.bbjang.com/imgs/bbjang/img01/bg_detail_month.png) no-repeat center center; background-size:319px 225px; text-indent:-9999px;}
+.dt_photo_wrap .dt_btn_pre {position:absolute; top:95px; left:0; width:35px; height:35px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_photo_pre.png) no-repeat center center; background-size:17px 26px;}
+.dt_photo_wrap .dt_btn_next {position:absolute; top:95px; right:0; width:35px; height:35px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_photo_next.png) no-repeat center center; background-size:17px 26px;}
+.dt_photo_wrap .dt_btn_pre a, .dt_photo_wrap .dt_btn_next a {display:block; width:100%; height:100%; text-indent:-9999px;}
