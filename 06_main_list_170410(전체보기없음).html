@@ -16,6 +16,18 @@ $(document).ready(function(){
 	$(".float_wrap").click(function(){
         $(this).toggleClass("float_wrap_on");
     });
+    /* 롤링 색 */
+    $(".rolling_wrap .rolling_div").click(function(){
+        $(".rolling_wrap").toggleClass("rolling_wrap_on");
+    });
+    /* 롤링 펼치기 */
+    $(".rolling_wrap .btn_open").click(function(){
+        $(".rolling_on").slideDown();
+    });
+    /* 롤링 접기 */
+    $(".rolling_on .btn_clse").click(function(){
+        $(".rolling_on").slideUp();
+    });
 });
 </script>
 </head>
@@ -142,16 +154,22 @@ $(document).ready(function(){
 		</ul>
 	</div>
 	<!-- // 최근검색 및 추천검색 -->
-	<div id="gnbWrap" class="fix_wrap">
+	<div class="fix_wrap">
         <!-- 상단 필터 -->
         <div class="filter_wrap">
             <ul>
-                <li class="main_select">매물종류</li>
-                <li class="main_select">거래유형</li>
-                <li class="main_select">지역선택</li>
+                <li class="main_select">
+                    매물종류
+                </li>
+                <li class="main_select">
+                    거래유형
+                </li>
+                <li class="main_select">
+                    지역선택
+                </li>
                 <li class="top_btn">
                     <div class="top_write_btn">
-                        <a href="#">무료매물등록</a>    
+                        <a href="#">무료매물등록</a>
                     </div>
                 </li>
             </ul>
@@ -159,7 +177,7 @@ $(document).ready(function(){
         <!-- // 상단 필터 -->
         <!-- 안내 문구 -->
         <div class="notice_wrap">
-            방부장은 전국 부동산 매물등록비가 누구나 모두 무료입니다!    
+           방부장은 전국 부동산 매물등록비가 누구나 모두 무료입니다!         
         </div>
         <!-- // 안내 문구 -->
         <!-- 상단 결과 -->
@@ -208,7 +226,7 @@ $(document).ready(function(){
             <li class="card_l">
                 <!-- 사진 영역 -->   
                 <div class="card_photo">
-                    <a href="#">
+                    <a href="#" class="sold_out02">
                     <img src="img/img_main01.png" alt="용봉동 꿈에 그린">
                     </a>   
                 </div>
@@ -217,15 +235,15 @@ $(document).ready(function(){
                 <div class="card_content">
                     <a href="#">
                     <div class="card_title">
-                        <span class="main_badge_month">월세</span>
-                        용봉동 꿈에 그린
-                    </div>
-                    <div class="card_info">
-                        <span>강남구 신사동</span>
-                        <span class="area_span">112m<sup>2</sup></span>
+                        <span class="main_badge_month"><span>중식당/치킨/닭강정</span> - <span>월세</span></span>
+                        학교용지 팝니다. 대지 넓고 주변 시절 좋습니다. 문의는 언제든 환영
                     </div>
                     <div class="card_price">
-                        5,000만 / 50만    
+                        5,000만 / 500만    
+                        
+                    </div>
+                   <div class="card_info">
+                        <span class="area_span">1,120,000&nbsp;m<sup>2</sup></span>
                     </div>
                     <div class="card_txt">
                         베란다 확장형이며, 깨끗이 수리완료 하였습니다. 보고 결정하세요.
@@ -242,11 +260,24 @@ $(document).ready(function(){
                     </div>
                 </div>
                 <!-- // 어드민 영역 -->
+                <!-- 내글 버튼 영역 -->
+                <div class="card_my_btn">
+                    <div class="my_btn_sky">
+                        <a href="#">삭제</a>
+                    </div>
+                    <div class="my_btn_sky">
+                        <a href="#">수정</a>
+                    </div>
+                    <div class="my_btn_blue">
+                        <a href="#">위로올리기</a>
+                    </div>
+                </div>
+                <!-- // 내글 버튼 영역 -->
             </li>
             <li class="card_l">
                 <!-- 사진 영역 -->   
                 <div class="card_photo">
-                    <a href="#">
+                    <a href="#" class="expira02">
                     <img src="img/img_main02.png" alt="용봉동 꿈에 그린">
                     </a>   
                 </div>
@@ -255,12 +286,11 @@ $(document).ready(function(){
                 <div class="card_content">
                     <a href="#">
                     <div class="card_title">
-                        <span class="main_badge_rent">전세</span>
+                        <span class="main_badge_rent">아파트 - 전세</span>
                         용봉동 꿈에 그린
                     </div>
                     <div class="card_info">
-                        <span>강남구 신사동</span>
-                        <span class="area_span">112m<sup>2</sup></span>
+                        <span class="area_span">112&nbsp;m<sup>2</sup></span>
                     </div>
                     <div class="card_price">
                         5,000만 / 50만    
@@ -293,15 +323,51 @@ $(document).ready(function(){
                 <div class="card_content">
                     <a href="#">
                     <div class="card_title">
-                        <span class="main_badge_sale">매매</span>
-                        용봉동 꿈에 그린
+                        <span class="main_badge_sale">원룸/오피스텔 - 매매</span>
+                        오피스텔 매매 합니다. 대략 월수 500정도는 나옵니다.
                     </div>
                     <div class="card_info">
-                        <span>강남구 신사동</span>
-                        <span class="area_span">112m<sup>2</sup></span>
+                        <span class="area_span">112&nbsp;m<sup>2</sup></span>
                     </div>
                     <div class="card_price">
                         5,000만 / 50만    
+                    </div>
+                    <div class="card_txt">
+                        베란다 확장형이며, 깨끗이 수리완료 하였습니다. 보고 결정하세요.
+                    </div>
+                    </a>
+                </div>
+                <!-- // 내용 영역 -->
+                <!-- 어드민 영역 -->
+                <div class="card_admin">
+                    <div class="admin_right">
+                        <a href="#">[X]</a>
+                        <a href="#">[관리]</a>
+                        <a href="#">[수정]</a>
+                    </div>
+                </div>
+                <!-- // 어드민 영역 -->
+            </li>
+            <li class="card_l">
+                <!-- 사진 영역 -->   
+                <div class="card_photo">
+                    <a href="#">
+                    <img src="img/img_main03.png" alt="용봉동 꿈에 그린">
+                    </a>   
+                </div>
+                <!-- // 사진 영역 -->
+                <!-- 내용 영역 -->
+                <div class="card_content">
+                    <a href="#">
+                    <div class="card_title">
+                        <span class="main_badge_short">체육/공원/유원지/학교용지 - 단기임대</span>
+                        중국집 단기로 임대 합니다. 대략 6개월정도 사용 후에 매매 하셔도 되고 다시 임대하셔 됩니다.
+                    </div>
+                    <div class="card_info">
+                        <span class="area_span">112,000&nbsp;m<sup>2</sup></span>
+                    </div>
+                    <div class="card_price">
+                        400만 / 50만    
                     </div>
                     <div class="card_txt">
                         베란다 확장형이며, 깨끗이 수리완료 하였습니다. 보고 결정하세요.
@@ -331,12 +397,11 @@ $(document).ready(function(){
                 <div class="card_content">
                     <a href="#">
                     <div class="card_title">
-                        <span class="main_badge_short">단기임대</span>
+                        <span class="main_badge_buy">구해요-전세</span>
                         용봉동 꿈에 그린
                     </div>
-                    <div class="card_info">
-                        <span>강남구 신사동</span>
-                        <span class="area_span">112m<sup>2</sup></span>
+                    <div class="card_info_buy">
+                        <span>일반사무실-전세</span>
                     </div>
                     <div class="card_price">
                         5,000만 / 50만    
@@ -390,30 +455,35 @@ $(document).ready(function(){
         </div>
 	</div>
 	<!-- // 글쓰기 -->
-	<div class="full_bg_modal hidden"></div><!-- 마이메뉴 배경 -->
+	<div class="full_bg_modal hidden">
+	</div>
+	<!-- 마이메뉴 배경 -->
 	<!-- 마이메뉴 -->
-	<div id="my_wrap" class="full_page" style="display:none;">
+	<div id="my_wrap" class="full_page hidden">
 		<!-- 마이메뉴 상단 -->
 		<div class="my_top">
 			<h2>방부장</h2>
 			<div class="info_wrap">
-				<div class="before_login">
+				<div class="before_login hidden">
 					<div class="btn_login">
 						<a href="#">회원가입 및 로그인</a>
 					</div>
 				</div>
 				<div class="after_login">
 					<p class="login_name">
-						<span>방사장</span><span class="agent_name">(베스트공인중개사)</span>
+						<span>방사장</span>
+						<span class="btn_logout">
+						    <a href="#">로그아웃</a>
+						</span>
 					</p>
-					<p class="login_num font_t">
+					<p class="login_num">
 						070-1234-5678
 					</p>
 					<div class="photo_clip">
 						<img src="http://image.club5678.com/imgs/bbjang/img01/photo02.jpg" alt="방사장">
 					</div>
-					<div class="btn_my_set">
-						<a href="#">내정보 설정</a>
+					<div class="btn_my_set_type2"> <!-- 170314_수정_ " class명-  btn_my_set 에서  btn_my_set_type2 로 변경 " -->
+						<a href="#">정보수정</a> <!-- 170314_수정_ " '정보수정'으로 텍스트 변경 " -->
 					</div>
 				</div>
 			</div>
@@ -423,7 +493,7 @@ $(document).ready(function(){
 		<div class="my_mid">
 			<ul>
 				<li class="my_more">
-				<a href="#" class="font_b">채팅상담함</a>
+				<a href="#" class="font_b">채팅상담함<button type="button" class="cue-badge font_b">99+</button></a>
 				</li>
 				<li class="my_more">
 				<a href="#" class="font_b">등록중인 매물</a>
@@ -437,7 +507,7 @@ $(document).ready(function(){
 				<li class="my_more">
 				<a href="#" class="font_b">설정</a>
 				</li>
-				<li class="my_write">
+				<li class="my_write_type2"> <!-- 170314_수정_ " class명-  my_write 에서  my_write_type2 로 변경 " -->
 				<a href="#">등록하기</a>
 				</li>
 				<li class="my_more">
@@ -455,20 +525,15 @@ $(document).ready(function(){
 			</ul>
 		</div>
 		<!-- // 마이메뉴 리스트 -->
-		<!-- 마이메뉴 초대 -->
-		<div class="my_bot">
-		    <div class="bot_txt">초대하기</div>
-		    <ul class="bot_list">
-		        <li class="btn_kko">
-                    <a href="#">카톡초대</a>
-		        </li>
-		        <li class="btn_sms">
-                    <a href="#">문자초대</a>
-		        </li>
-		        <li class="btn_etc">
-                    <a href="#">기타</a>
-		        </li>
-		    </ul>
+		<!-- 마이메뉴 초대 --> <!-- 170314_수정_ " class명-  my_bot 에서  my_bot_type2 로 변경 " -->
+		<div class="my_bot_type2">
+			<div class="btn_kko">
+				<a href="#" class="font_r">카톡초대</a>
+			</div>
+			<div class="btn_sms">
+				<a href="#" class="font_r">문자초대</a>
+			</div>
+			<span class="small-line"></span>
 		</div>
 		<!-- // 마이메뉴 초대 -->
 	</div>

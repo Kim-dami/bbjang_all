@@ -315,12 +315,12 @@ ul.type_list li:nth-child(odd) {border-right:1px solid #d8d8d8;}
 .card_content a{display:block; width:100%; height:100%;}
 
 .card_title{width:100%; height:auto; line-height:17px; font-size:15px; color:#000;display:block;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis; }
-.card_title .main_badge_month, .card_title .main_badge_rent, .card_title .main_badge_sale{display:inline-block; width:auto; padding:0 5px; height:16px; line-height:17px; border-radius:2px; font-weight:400; font-family:"bb-Bold"; font-size:12px; color:#fff; text-align:center; vertical-align:top; margin-right:2px;}
-.main_badge_month{background-color:#33a381;}
+.card_title .main_badge_month, .card_title .main_badge_rent, .card_title .main_badge_sale, .card_title .main_badge_short, .card_title .main_badge_buy{display:inline-block; width:auto; padding:0 5px; height:16px; line-height:17px; border-radius:2px; font-weight:400; font-family:"bb-Bold"; font-size:12px; color:#fff; text-align:center; vertical-align:top; margin-right:2px;}
+.card_title .main_badge_month{background-color:#33a381;}
 .card_title .main_badge_rent{background-color:#92982a;}
 .card_title .main_badge_sale{background-color:#267ba2;}
-.card_title .main_badge_short{display:inline-block; width:auto; padding:0 5px; height:16px; line-height:17px; border-radius:2px; font-weight:400; font-family:"bb-Bold"; font-size:12px; color:#fff; text-align:center; vertical-align:top; margin-right:2px; background-color:#d77327;}
-.card_title .main_badge_buy{display:inline-block; width:62px; height:16px; line-height:17px; border-radius:2px; font-weight:400; font-family:"bb-Bold"; font-size:12px; color:#fff; text-align:center; vertical-align:top; margin-right:2px; background-color:#70369d;}
+.card_title .main_badge_short{background-color:#d77327;}
+.card_title .main_badge_buy{background-color:#70369d;}
 .card_title .area_span{padding-left:12px; background:url(http://image.bbjang.com/imgs/bbjang/img01/bg_bar05.png) no-repeat 5px 2px; background-size:1px 10px;}
 /*.card_title .main_badge_short{display:inline-block; width:51px; height:16px; text-indent:-9999px; vertical-align:top; margin-right:3px;}
 .card_title .main_badge_month{background:url(http://image.bbjang.com/imgs/bbjang/img01/main_badge_month.png) no-repeat center center; background-size:31px 16px;}
@@ -330,6 +330,7 @@ ul.type_list li:nth-child(odd) {border-right:1px solid #d8d8d8;}
 
 .card_info{float:right; height:15px; line-height:16px; font-size:12px; color:#1c1e1f; padding-top:1px; overflow:hidden; padding-right:8px;}
 .card_info .area_span{padding-left:12px; }
+.card_info_buy{width:100%; height:15px; line-height:16px; font-size:12px; color:#1c1e1f; padding-top:1px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
 
 .card_price{ display:inline;width:100%; height:17px; line-height:18px; font-size:15px; color:#004c80; padding-top:2px; font-weight:400; font-family:"bb-Bold"; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
 
