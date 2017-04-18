@@ -1,0 +1,30 @@
+@charset "utf-8";
+body { overflow-y:hidden; }
+#editor_intro{ position:fixed; top:45px; width:100%; height:100%; z-index:1000; background-color:#ecf6ff;}
+#editor_intro .area {position:relative; width:100%; height:auto; padding-bottom:26px; background:#ecf6ff;}
+#editor_intro .area .head {position:relative; width:100%; height:70px; background:#174473 url('http://image.bbjang.com/imgs/bbjang/img_editor-intro/editor-intro_head-image.jpg') no-repeat center; background-size:320px 70px;}
+#editor_intro .area .edit_categories {position:relative; width:100%; height:154px; background:#fff; border-bottom:1px solid #cad2da;}
+#editor_intro .area .edit_categories .sell {position:absolute; top:50%; left:50%; width:128px; height:128px; margin:-64px 0 0 -139px; background:#fff;}
+#editor_intro .area .edit_categories .sell .enter {position:relative; width:126px; height:126px; border:1px solid #c4e5ff; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; border-radius:50%; background-color:#fff; background-image:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#ebfaff)); background-image:-moz-linear-gradient(top,#fff,#ebfaff); background-image:-o-linear-gradient(top,#fff,#ebfaff); background-image:linear-gradient(to bottom,#fff,#ebfaff);}
+#editor_intro .area .edit_categories .sell .enter .name {position:absolute; top:0; left:0; width:100%; height:auto; margin-top:27px; text-align:center; font-family:'SpoqaHanSans-Bold'; font-size:20px; color:#0f4f71; letter-spacing:0; line-height:27px;}
+#editor_intro .area .edit_categories .sell .enter .arrow {position:absolute; top:50%; left:50%; width:12px; height:19px; margin:27px 0 0 -6px; background:url('http://image.bbjang.com/imgs/bbjang/img_editor-intro/editor-intro_arrow_next.png') no-repeat 0 0; background-size:12px 19px;}
+#editor_intro .area .edit_categories .wish {position:absolute; top:50%; left:50%; width:128px; height:128px; margin:-64px 0 0 11px; background:#fff;}
+#editor_intro .area .edit_categories .wish .enter {position:relative; width:126px; height:126px; border:1px solid #c4e5ff; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; border-radius:50%; background-color:#fff; background-image:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#ebfaff)); background-image:-moz-linear-gradient(top,#fff,#ebfaff); background-image:-o-linear-gradient(top,#fff,#ebfaff); background-image:linear-gradient(to bottom,#fff,#ebfaff);}
+#editor_intro .area .edit_categories .wish .enter .name {position:absolute; top:0; left:0; width:100%; height:auto; margin-top:27px; text-align:center; font-family:'SpoqaHanSans-Bold'; font-size:20px; color:#0f4f71; letter-spacing:0; line-height:27px;}
+#editor_intro .area .edit_categories .wish .enter .arrow {position:absolute; top:50%; left:50%; width:12px; height:19px; margin:27px 0 0 -6px; background:url('http://image.bbjang.com/imgs/bbjang/img_editor-intro/editor-intro_arrow_next.png') no-repeat 0 0; background-size:12px 19px;}
+#editor_intro .area .edit_categories .sell .enter:active, #editor_intro .area .edit_categories .wish .enter:active {background-color:#f8f8f8; background-image:none; border:1px solid #a3b8c8;}
+#editor_intro .area .my-goods {position:relative; overflow:hidden; width:100%; height:134px; margin:0 auto;}
+#editor_intro .area .my-goods .img_card-up {position:absolute; width:24px; height:24px; top:0; left:50%; margin:14px 0 0 -138px; background:url('http://image.bbjang.com/imgs/bbjang/img_editor-intro/editor-intro_img_card-up.png') no-repeat 0 0; background-size:24px 24px;}
+#editor_intro .area .my-goods .guide {position:absolute; top:0; left:50%; margin:11px 0 0 -105px; font-size:13px; color:#454545; line-height:16px;}
+@media all and (max-width:359px) {
+#editor_intro .area .my-goods .guide {font-size:12px; line-height:16px;}
+}
+#editor_intro .area .my-goods .guide .title {font-size:15px; color:#0f318a; line-height:24px;}
+@media all and (max-width:359px) {
+#editor_intro .area .my-goods .guide .title {font-size:14px; line-height:22px;}
+}
+#editor_intro .area .my-goods .enter-in {position:absolute; top:74px; width:100%; height:49px;}
+#editor_intro .area .my-goods .enter-in .enter {position:relative; top:0; left:50%; width:230px; height:45px; margin:0 0 0 -116px; border:2px solid #66a8db; -webkit-border-radius:24px; -moz-border-radius:24px; -ms-border-radius:24px; -o-border-radius:24px; border-radius:24px; background-color:#fff; font-size:17px; color:#0f4f71; line-height:46px; letter-spacing:-1px; text-align:center;}
+#editor_intro .area .my-goods .enter-in .enter:active {border:2px solid #6a96b8; background-color:#fdfdfd;}
+#editor_intro .area .divider_line1 {display:block; margin:0 21px; height:1px; background-color:#b0c8de;}
+#editor_intro .area .divider_line2 {display:block; margin:0 21px; height:1px; background-color:#fff;}

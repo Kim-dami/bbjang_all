@@ -44,7 +44,7 @@ input{outline:none;}
 #settings_my_wrap .area2 .element_style1 {position:relative; width:100%; height:25px; margin-top:7px; border-bottom:1px solid #ebeced;}
 #settings_my_wrap .area2 .element_style1 .my-name {color:#373b3d; font-size:19px; line-height:25px; letter-spacing:0;text-indent:90px;}
 #settings_my_wrap .area2 .element_style1 .my-name .name-in{width:210px; height:22px; border:0; outline:0; background:#fff; color:#373b3d; font-size:19px; line-height:25px; letter-spacing:0;}
-#settings_my_wrap .area2 .element_style1 .my-name .name-in::-webkit-input-placeholder {font-family:'bb-Regular'; font-size:16px; color:#9ea2a3; letter-spacing:-0.5px;}
+#settings_my_wrap .area2 .element_style1 .my-name .name-in::-webkit-input-placeholder {font-family:'SpoqaHanSans-Regular '; font-size:16px; color:#9ea2a3; letter-spacing:-0.5px;}
 #settings_my_wrap .area2 .element_style1 .label-in {position:absolute; width:80px; height:25px; border-bottom:1px solid #fff;}
 #settings_my_wrap .area2 .element_style1 .label-in .label {color:#7a7e7f; line-height:25px; text-indent:32px;}
 #settings_my_wrap .area2 .element_style2 {position:relative; width:100%; height:25px; margin-top:7px; border-bottom:1px solid #fff;}

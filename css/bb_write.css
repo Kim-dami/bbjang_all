@@ -205,7 +205,7 @@
 .content_wrap .wt_list p {width:100%; height:33px; line-height:35px; padding-left:35px; font-size:16px; box-sizing:border-box;}
 .content_wrap .wt_list p .font_r {font-size:13px;}
 
-.content_wrap input{font-family:"bb-Regular";}
+.content_wrap input{font-family:"SpoqaHanSans-Regular";}
 
 .wt_default {position:relative; width:100%; height:50px; color:#86898a; text-align:center; line-height:50px;}
 .wt_num {display:block; height:32px; padding:0 7px; border:1px solid #bcc0c2; border-radius:3px; box-sizing:border-box; background-color:#f5f7f7; line-height:30px; vertical-align:middle;}
@@ -312,9 +312,12 @@
 /* 상세설명 */
 .wt_expl_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_expl_title.png) no-repeat 8px 5px; background-size:22px 23px;}
 
+.wt_list .mse {position:absolute; top:0; right:0; width:110px; height:26px; margin:6px 7px 0 0; border:0; border-bottom:1px solid #13334a; -webkit-border-radius:3px; -moz-border-radius:3px; -ms-border-radius:3px; -o-border-radius:3px; border-radius:3px; outline:0; background:#1a4767 url(http://image.bbjang.com/imgs/bbjang/img01/ico_slct_mse.png) no-repeat 94.5% 50%; background-size:5px 4px; font-family:'SpoqaHanSans-Regular'; font-size:13px; color:#fff; line-height:26px; text-align:left; text-indent:5px;} /* 170331 추가 */
+.wt_list .mse:active {border-bottom:1px solid #13344c; background:#13344c url(http://image.bbjang.com/imgs/bbjang/img01/ico_slct_mse.png) no-repeat 94.5% 50%; background-size:5px 4px;} /* 170331 추가 */
+
 .wt_expl_txt {position:relative; width:100%; height:auto; padding:7px; box-sizing:border-box;}
 .wt_expl_txt label {position:absolute; z-index:5; top:14px; left:0px; width:100%; height:auto; color:#86898a; font-size:13px; line-height:18px; padding:0 14px; box-sizing:border-box;}
-.wt_expl_txt textarea {display:block; position:relative; width:100%; height:auto!important; padding:7px; border:1px solid #9ea1a3; border-radius:7px; box-sizing:border-box; outline:none; background-color:#fff; font-size:14px; font-family:'bb-Regular'; line-height:20px; box-sizing:border-box;resize:none!important;}
+.wt_expl_txt textarea {display:block; position:relative; width:100%; height:auto!important; padding:7px; border:1px solid #9ea1a3; border-radius:7px; box-sizing:border-box; outline:none; background-color:#fff; font-size:14px; font-family:'SpoqaHanSans-Regular'; line-height:20px; box-sizing:border-box;resize:none!important;}
 
 /* 사진등록 */
 .wt_photo_title {background:url(http://image.bbjang.com/imgs/bbjang/img01/ico_photo_title.png) no-repeat 8px 5px; background-size:22px 23px;}

@@ -1,37 +1,110 @@
 @charset "utf-8";
 input, button {outline:none;}
-#wrap {position:relative; top:0; left:0; right:0; width:100%; height:100%; overflow-y:auto;}
-#wrap .calc1 {width:-webkit-calc(100% - 50px); width:-moz-calc(100% - 50px); width:calc(100% - 50px);}
+#wrap {position:relative; top:0; left:0; right:0; width:100%; height:100%; overflow:hidden;}
 
-#wrap #header .transfer-mode {position:absolute; top:0; right:0; width:39px; height:36px; margin:5px 9px 0 0;}
-#wrap #header .transfer-mode .list {width:43px; height:40px; border:1px solid #86d1f6; -webkit-border-radius:3px; -moz-border-radius:3px; -ms-border-radius:3px; border-radius:3px; background:#0ca2ed url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-list-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
-#wrap #header .transfer-mode .list:active {background:#30b0f0 url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-map-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
-#wrap #header .transfer-mode .map {width:43px; height:40px; border:1px solid #86d1f6; -webkit-border-radius:3px; -moz-border-radius:3px; -ms-border-radius:3px; border-radius:3px; background:#0ca2ed url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-map-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
-#wrap #header .transfer-mode .map:active {background:#30b0f0 url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-list-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
+#header .map_header_txt {position:relative;height:100%; padding:0 50px; background-color:#0ca2ed; color:#fff; font-size:19px; line-height:50px; box-sizing:border-box; text-align:center;}
+#header .map_header_txt span{padding-right:14px; background:url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/bullet_map_header.png) no-repeat 100% center; background-size:7px 4px;}
+#header .transfer-mode {position:absolute; top:0; right:0; width:39px; height:36px; margin:5px 9px 0 0;}
+#header .transfer-mode .list {width:43px; height:40px; border:1px solid #86d1f6; -webkit-border-radius:3px; -moz-border-radius:3px; -ms-border-radius:3px; border-radius:3px; background:#0ca2ed url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-list-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
+#header .transfer-mode .list:active {background:#30b0f0 url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-map-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
+#header .transfer-mode .map {width:43px; height:40px; border:1px solid #86d1f6; -webkit-border-radius:3px; -moz-border-radius:3px; -ms-border-radius:3px; border-radius:3px; background:#0ca2ed url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-map-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
+#header .transfer-mode .map:active {background:#30b0f0 url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/lb-finder_transfer-list-mode_btn_icon.png) no-repeat center; background-size:39px 36px;}
 
-#lb-finder_wrap {position:absolute; overflow-y:show; top:-87px; left:0; width:100%; height:100%; background-color:#fff;}
-#lb-finder_wrap #lb-finder {position:relative; overflow-y:auto; top:0; left:0; width:100%; height:100%; margin-top:87px; background-color:#eee;}
-#lb-finder_wrap #lb-finder .near-my-location {position:absolute; top:87px; left:0; width:29px; height:29px; margin:15px 0 0 12px; border:1px solid #808080; -webkit-border-radius:9px; -moz-border-radius:9px; -ms-border-radius:9px; -o-border-radius:9px; border-radius:9px; -webkit-box-shadow:0 0 4px rgba(0,0,0,.4); -moz-box-shadow:0 0 4px rgba(0,0,0,.4); -ms-box-shadow:0 0 4px rgba(0,0,0,.4); -o-box-shadow:0 0 4px rgba(0,0,0,.4); box-shadow:0 0 4px rgba(0,0,0,.4); background:rgba(255,255,255,.9) url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/lb-finder_btn_myLocation_icon-normal.png) no-repeat center; background-size:29px 29px;}
-#lb-finder_wrap #lb-finder .near-my-location:active {background:rgba(255,255,255,.9) url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/lb-finder_btn_myLocation_icon-press.png) no-repeat center; background-size:29px 29px;}
-#lb-finder_wrap #lb-finder .bundle-sign-in {position:relative; width:46px; height:46px; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; border-radius:50%; background-color:rgba(0,101,242,0);}
-#lb-finder_wrap #lb-finder .bundle-sign-in .sign {position:absolute; top:0; left:0; width:38px; height:38px; margin:4px 0 0 4px; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; border-radius:50%; background-color:rgba(0,101,242,1); font-family:"bb-Bold"; font-size:17px; color:#fff; line-height:38px; text-align:center;}
-#lb-finder_wrap #lb-finder .bundle-sign-in:active {background-color:rgba(255,255,255,.75);}
-#lb-finder_wrap #lb-finder .bundle-sign-in .sign:active {background-color:rgba(255,255,255,1); color:#0057d1;}
-#lb-finder_wrap #lb-finder .display-goods {position:absolute; overflow-y:auto; bottom:0; background:#fff; width:100%; height:auto; min-height:50px; max-height:320px; border-top:1px solid #d9d9d9;}
+.map_srch_bar{position:relative; padding:1px 5px 5px 5px; background-color:#0ca2ed; box-sizing:border-box; z-index:10;}
+.map_srch_bar input{width:100%; padding:10px; background:#fff; border:none; border-radius:3px; font-size:14px; color:#313131; line-height:14px; box-sizing:border-box;}
+.map_srch_bar .btn_map_srch{position:absolute; top:1px; right:5px; width:36px; height:36px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_srch_on.png) no-repeat center center; background-size:19px 21px; text-indent:-9999px;}
+.map_srch_bar .btn_map_srch a{display:block; width:100%; height:100%;}
+.map_srch_bar .btn_map_erase{position:absolute; top:1px; right:41px; width:36px; height:36px; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_srch_del.png) no-repeat right center; background-size:12px 12px; text-indent:-9999px;}
+.map_srch_bar .btn_map_erase a{display:block; width:100%; height:100%;}
+
+.lb-finder_wrap {position:absolute; top:92px; left:0; width:100%; height:100%; background-color:#fff;}
+
+.lb-finder_wrap .btn_my_loca{position:absolute; width:32px; height:32px; top:10px; left:10px; border:1px solid #b2b2b2; border-radius:3px; z-index:10; box-sizing:border-box; text-indent:-9999px;}
+.lb-finder_wrap .btn_my_loca a{display:block; width:100%; height:100%; background:#fff url(http://image.club5678.com/imgs/bbjang/img_lb-finder/btn_my_loca_off.png) no-repeat center center; background-size:17px 17px; border-radius:3px;}
+.lb-finder_wrap .btn_my_loca a:active{background:#fff url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/btn_my_loca_on.png) no-repeat center center; background-size:17px 17px; border-radius:3px;}
+
+.lb-finder_wrap .zoom_control{position:absolute; top:50px; left:10px; width:32px; height:64px; overflow:hidden; background-color:#fff; border:1px solid #b2b2b2; border-radius:3px; box-sizing:border-box; z-index:10; -webkit-tap-highlight-color:rgba(255,255,255,.0); tap-highlight-color:rgba(255,255,255,.0);}
+.lb-finder_wrap .zoom_control span{display:block; width:30px; height:30px; cursor:pointer; text-indent:-9999px;}
+.lb-finder_wrap .zoom_control span:first-child{border-bottom:1px solid #b2b2b2; background:url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/btn_zoom_in.png) no-repeat center center; background-size:17px 17px;}
+.lb-finder_wrap .zoom_control span:last-child{background:url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/btn_zoom_out.png) no-repeat center center; background-size:17px 3px;}
+
+.lb-finder_wrap .btn_slct_goods{position:absolute; width:54px; height:32px; top:10px; right:10px; background-size:17px 17px; border:1px solid #b2b2b2; border-radius:3px; font-size:14px; font-weight:bold; color:#384955; line-height:32px;  z-index:10; box-sizing:border-box;}
+.lb-finder_wrap .btn_slct_goods a{display:block; width:100%; height:100%; padding:0 8px; box-sizing:border-box; background:#fff url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/bullet_slct.png) no-repeat 83% 50%; background-size:7px 4px; border-radius:3px;}
+.lb-finder_wrap .btn_slct_goods a:active{background-color:#f1f1f1;}
+.lb-finder_wrap .btn_slct_type{position:absolute; width:54px; height:32px; top:50px; right:10px; background-size:17px 17px; border:1px solid #b2b2b2; border-radius:3px; font-size:14px; font-weight:bold; color:#384955; line-height:32px;  z-index:10; box-sizing:border-box;}
+.lb-finder_wrap .btn_slct_type a{display:block; width:100%; height:100%; padding:0 8px; box-sizing:border-box; background:#fff url(http://image.club5678.com/imgs/bbjang/img_lb-finder/bullet_slct.png) no-repeat 83% 50%; background-size:7px 4px; border-radius:3px;}
+.lb-finder_wrap .btn_slct_type a:active{background-color:#f1f1f1;}
+
+/* 마커예시 */
+.lb-finder_wrap .bundle-sign-in {position:relative; width:46px; height:46px; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; border-radius:50%; background-color:rgba(0,101,242,0);}
+.lb-finder_wrap .bundle-sign-in .sign {position:absolute; top:0; left:0; width:38px; height:38px; margin:4px 0 0 4px; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%; border-radius:50%; background-color:rgba(0,101,242,1); font-family:"SpoqaHanSans-Bold"; font-size:17px; color:#fff; line-height:38px; text-align:center;}
+.lb-finder_wrap .bundle-sign-in:active {background-color:rgba(255,255,255,.75);}
+.lb-finder_wrap .bundle-sign-in .sign:active {background-color:rgba(255,255,255,1); color:#0057d1;}
+/* 마커예시 */
+
+.display-goods {position:absolute; overflow-y:auto; bottom:0; background:#fff; width:100%; height:auto; min-height:50px; max-height:320px; border-top:1px solid #d9d9d9; z-index:10;}
 @media all and (max-height:480px) {
-#lb-finder_wrap #lb-finder .display-goods {max-height:284px;}
+.display-goods {max-height:284px;}
 }
 @media all and (min-height:732px) {
-#lb-finder_wrap #lb-finder .display-goods {max-height:360px;}
+.display-goods {max-height:360px;}
 }
 @media all and (min-height:1024px) {
-#lb-finder_wrap #lb-finder .display-goods {max-height:500px;}
+.display-goods {max-height:500px;}
 }
-#lb-finder_wrap #lb-finder .display-goods .number-of-goods {position:relative; width:100%; height:50px; margin-bottom:-2px; border-bottom:2px solid #85d0f6; background-color:#fff;}
-#lb-finder_wrap #lb-finder .display-goods .number-of-goods .info {display:inline-block; position:absolute; width:-webkit-calc(55% - 12px); width:-moz-calc(55% - 12px); width:calc(55% - 12px); height:auto; margin:7px 12px 0 12px; font-size:14px; color:#222; line-height:18px; letter-spacing:0;}
-#lb-finder_wrap #lb-finder .display-goods .number-of-goods .info .tit {color:#5da3c9; letter-spacing:-0.5px;}
-#lb-finder_wrap #lb-finder .display-goods .number-of-goods .info .bigger {font-size:18px; margin-right:2px;}
-#lb-finder_wrap #lb-finder .display-goods .number-of-goods .list-all {display:inline-block; position:absolute; right:0; width:-webkit-calc(45% - 10px); width:-moz-calc(45% - 10px); width:calc(45% - 10px); height:34px; margin:7px 10px 0 0; border:1px solid #0b9de5; border-radius:17px; background:#0ca2ed url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/lb-finder_display_btn_list-all_arrow.png) no-repeat 100% 50%; background-size:36px 36px; font-size:18px; color:#fff; line-height:34px; letter-spacing:1px;}
-#lb-finder_wrap #lb-finder .display-goods .number-of-goods .list-all:active {border:1px solid #0b9be3; background-color:#0b9be3;}
-#lb-finder_wrap #lb-finder .display-goods .number-of-goods .list-all .ml_minus8 {margin-left:-8px;}
-#lb-finder_wrap #lb-finder .display-goods .bundle {display:block; width:100%; height:auto; margin-top:2px; background-color:#fff;}
+.display-goods .number-of-goods {position:relative; width:100%; height:50px; background-color:#fff;}
+.display-goods .number-of-goods .info {position:absolute; float:left; height:auto; padding:7px 0 7px 12px; font-size:14px; color:#222; line-height:18px; letter-spacing:0;}
+.display-goods .number-of-goods .info .tit {color:#5da3c9; letter-spacing:-0.5px;}
+.display-goods .number-of-goods .info .bigger {font-size:18px; margin-right:2px;}
+.display-goods .number-of-goods .list_all {display:inline-block; position:absolute; right:0; width:43%; height:34px; margin:7px 10px 0 0; border:1px solid #0b9de5; border-radius:17px; background:#0ca2ed url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/lb-finder_display_btn_list-all_arrow.png) no-repeat 100% 50%; background-size:36px 36px; font-size:18px; color:#fff; line-height:34px; letter-spacing:1px;}
+.display-goods .number-of-goods .list_all:active {border:1px solid #0b9be3; background-color:#0b9be3;}
+.display-goods .number-of-goods .list_all .ml_minus8 {margin-left:-8px;}
+.display-goods .bundle {display:block; width:100%; height:auto; border-top:2px solid #85d0f6; background-color:#fff;}
+.display-goods .bundle li.btn_list_more{width:100%; height:54px; font-size:14px; font-weight:bold; line-height:14px; color:#626c73; text-align:center;}
+.display-goods .bundle li.btn_list_more a{display:block; width:100%; padding:20px 0;}
+.display-goods .bundle li.btn_list_more a span{padding-right:14px; background:url(http://image.bbjang.com/imgs/bbjang/img_lb-finder/bullet_list_more.png) no-repeat 100% 40%; background-size:8px 10px;}
+
+/* 검색결과레이어창 */
+#srch_loca2{display:none; position:fixed; width:100%; top:92px; bottom:0; left:0; right:0; overflow-y:scroll; background:#fff; z-index:100;}
+#srch_loca2 .srch_top{position:fixed; width:100%; height:30px; background:#f4f4f4; border-bottom:1px solid #d8deea; overflow:auto; z-index:100;}
+#srch_loca2 .srch_top p.srch_tit{float:left; padding-left:14px; font-size:14px; font-weight:bold; color:#7c7c7c; line-height:30px;}
+#srch_loca2 .srch_close{float:right; margin-right:6px; padding:8px}
+#srch_loca2 .srch_close:active{position:relative; background:rgba(0,0,0,0.05);}
+#srch_loca2 .srch_close_active{position:relative; background:rgba(0,0,0,0.05);}
+
+#srch_loca2 .srch_content{position:fixed; height:auto; top:122px; bottom:40px; left:0; right:0; overflow-y:scroll; -webkit-overflow-scrolling: touch;}
+#srch_loca2 .srch_content span.srch_keyword{color:#0ca2ed;}
+#srch_loca2 .srch_content ul.srch_list1{position:relative; height:auto; padding:12px 14px 10px 14px; border-bottom:1px solid #d8deea; overflow:auto;}
+#srch_loca2 .srch_content ul.srch_list1:active{background:rgba(0,0,0,0.03);}
+#srch_loca2 .srch_content ul.srch_list1_active{background:rgba(0,0,0,0.03);}
+#srch_loca2 .srch_content li.list_loca{float:left; width:calc(100% - 64px);}
+#srch_loca2 .srch_content li.list_loca p.list_loca_1{font-size:15px; font-weight:bold; line-height:15px; color:#414141;}
+#srch_loca2 .srch_content li.list_loca p.list_loca_2{font-size:13px; line-height:17px; margin-top:6px; color:#616161;}
+#srch_loca2 .srch_content li.list_btn{position:absolute; width:54px; height:auto; top:50%; right:14px; margin-top:-16px;}
+#srch_loca2 .srch_content li.list_btn .loca_slct{width:50px; height:auto; font-size:13px; line-height:13px; color:#69b9e2; text-align:center;}
+#srch_loca2 .srch_content li.list_btn .loca_slct a{display:block; width:100%; height:100%; padding:9px 0; border:1px solid #76c1e7; border-radius:16px;}
+#srch_loca2 .srch_content li.list_btn .loca_slct a:active{position:relative; top:1px;}
+
+#srch_loca2 .srch_list_more{position:fixed; width:100%; bottom:0px; background:#e6e9ed; text-align:center;}
+#srch_loca2 .srch_list_more a{display:block; width:100%; height:auto; padding:13px 0; font-size:14px; font-weight:bold; color:#626c73; line-height:14px;}
+#srch_loca2 .srch_list_more a:active{background:#dde0e2;}
+#srch_loca2 .srch_list_more a_active{background:#dde0e2;}
+#srch_loca2 .more_dsiable a{display:none; background:#f0f0f0; color:#fff;}
+/* 검색결과레이어창 */
+
+/* 선택지역 n개 매물보기 */
+#header_lb-finder_all {display:block; position:fixed; z-index:999; top:0; left:0; width:100%;}
+#header_lb-finder_all .tit {display:inline-block; position:absolute; top:0; left:0; width:100%; font-size:19px; color:#fff; line-height:50px; text-align:center;}
+#header_lb-finder_all .tit .num {color:#fdff68; letter-spacing:0;}
+#header_lb-finder_all .btn_back {position:absolute; z-index:1; top:0; left:0; width:40px; height:100%;}
+#header_lb-finder_all .btn_back a {display:block; width:100%; height:100%; background:url(http://image.bbjang.com/imgs/bbjang/img01/btn_back.png) no-repeat center center; background-size:17px 14px; text-indent:-9999px;}
+#header_lb-finder_all .btn_back a:active {background:rgba(0,0,0,0.05) url(http://image.club5678.com/imgs/bbjang/img01/btn_back.png) no-repeat center center; background-size:17px 14px;}
+#lb_sorting-tab {position:fixed; z-index:999; top:50px; width:100%; height:36px; background-color:#fff; border-bottom:1px solid #2c3a45;}
+#lb_sorting-tab .tab1ea {display:inline-block; position:absolute; width:20%; height:36px; background-color:#fff; font-size:13px; color:#26323b; line-height:36px; letter-spacing:-1px; text-align:center;}
+#lb_sorting-tab .tab1ea:active {background-color:#384a58; font-family:'SpoqaHanSans-Bold'; font-size:14px; color:#fff; line-height:36px;}
+#lb_sorting-tab .l-0per {left:0;}
+#lb_sorting-tab .l-20per {left:20%;}
+#lb_sorting-tab .l-40per {left:40%;}
+#lb_sorting-tab .l-60per {left:60%;}
+#lb_sorting-tab .l-80per {left:80%;}
+#lb_sorting-tab .on {display:inline-block; position:absolute; width:20%; height:36px; background:#384a58; font-family:'SpoqaHanSans-Bold'; font-size:14px; color:#fff; line-height:36px; letter-spacing:-1px; text-align:center;}

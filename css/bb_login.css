@@ -76,11 +76,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01a8d5', end
 .content_lg .lg_social .sc_txt{position:relative; font-size:12px; letter-spacing:-1px;}
 .content_lg .lg_social .sc_line{float:left; padding:7px 0; box-sizing:border-box; color:#888;}
 .content_lg .lg_social .nv_lg{float:left; width:50%; height:auto;}
-.content_lg .lg_social .nv_lg a{margin-left:7px; padding-left:11px; font-size:14px; color:#565656; line-height:30px; vertical-align:middle; background:url('http://image.club5678.com/imgs/bbjang/img_login/ico_nv_lg.png') 0% 40% no-repeat; background-size:20px 17px;}
+.content_lg .lg_social .nv_lg a{margin-left:7px; padding-left:11px; font-size:14px; color:#565656; line-height:30px; vertical-align:middle; background:url('http://image.bbjang.com/imgs/bbjang/img_login/ico_nv_lg.png') 0% 40% no-repeat; background-size:20px 17px;}
 .content_lg .lg_social .nv_lg:active{position:relative; background-color:rgba(0,0,0,0.05);}
 .content_lg .lg_social .nv_lg_active{position:relative; background-color:rgba(0,0,0,0.05);}
 .content_lg .lg_social .ko_lg{float:right; width:50%; height:30px; margin-left:-4px; text-align:center;}
-.content_lg .lg_social .ko_lg a{margin-left:18px; padding-left:24px; font-size:14px; color:#565656; line-height:30px; background:url('http://image.club5678.com/imgs/bbjang/img_login/ico_ko_lg.png') center left no-repeat; background-size:22px 20px;}
+.content_lg .lg_social .ko_lg a{margin-left:18px; padding-left:24px; font-size:14px; color:#565656; line-height:30px; background:url('http://image.bbjang.com/imgs/bbjang/img_login/ico_ko_lg.png') center left no-repeat; background-size:22px 20px;}
 .content_lg .lg_social .ko_lg:active{position:relative; background-color:rgba(0,0,0,0.05);}
 .content_lg .lg_social .ko_lg_active{position:relative; background-color:rgba(0,0,0,0.05);}
 

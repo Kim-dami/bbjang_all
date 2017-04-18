@@ -5,14 +5,14 @@ input{outline:none;}
 
 /* 제목텍스트 없는 헤더 @탈퇴하기 */
 #header .my_btn_back {position:absolute; z-index:1; top:0; left:0; width:40px; height:100%;}
-#header .my_btn_back a {display:block; width:100%; height:100%; background:url(http://image.club5678.com/imgs/bbjang/img_my/my_btn_back_2.png) no-repeat center center; background-size:17px 14px; text-indent:-9999px;}
-#header .my_btn_back a:active {background:rgba(0,0,0,0.05) url(http://image.club5678.com/imgs/bbjang/img_my/my_btn_back_2.png) no-repeat center center; background-size:17px 14px;}
+#header .my_btn_back a {display:block; width:100%; height:100%; background:url(http://image.bbjang.com/imgs/bbjang/img_my/my_btn_back_2.png) no-repeat center center; background-size:17px 14px; text-indent:-9999px;}
+#header .my_btn_back a:active {background:rgba(0,0,0,0.05) url(http://image.bbjang.com/imgs/bbjang/img_my/my_btn_back_2.png) no-repeat center center; background-size:17px 14px;}
 
 /* 탈퇴하기 */
 #quit_wrap {width:100%; height:auto; padding-bottom:30px;}
 #quit_wrap .notify {width:100%; height:auto; padding:18px 0 16px 0; background:#fff;}
 #quit_wrap .notify .element-in {margin:45px 23px 0 23px;}
-#quit_wrap .notify .element-in .col1 {position:relative; top:0; left:7px; width:29px; height:29px; border-radius:50%; background:#0b95da url(http://image.club5678.com/imgs/bbjang/img_my/my_quit_mark_exclamation.png) no-repeat 0 0; background-size:29px 29px;}
+#quit_wrap .notify .element-in .col1 {position:relative; top:0; left:7px; width:29px; height:29px; border-radius:50%; background:#0b95da url(http://image.bbjang.com/imgs/bbjang/img_my/my_quit_mark_exclamation.png) no-repeat 0 0; background-size:29px 29px;}
 #quit_wrap .notify .element-in .col2 {position:relative; top:0; margin:-22px 0 0 45px; width:auto; height:auto; font-size:16px; color:#0881cc; line-height:20px;}
 #quit_wrap .questionbox {width:100%; padding:16px 0; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; background:#fafafa;}
 #quit_wrap .questionbox .question {display:block; font-size:22px; letter-spacing:0; line-height:26px; text-align:center;}
@@ -25,11 +25,52 @@ input{outline:none;}
 #quit_wrap .yes-or-no_area a:active.no {border:1px solid #808080; background:#808080;}
 #quit_wrap .yes-or-no_area a.yes {display:block; margin:11px 44px 0 44px; padding:10px 0; border:1px solid #0ca2ed; -webkit-border-radius:4px; -moz-border-radius:4px; -ms-border-radius:4px; -o-border-radius:4px; border-radius:4px; background:#0ca2ed; font-size:17px; color:#fff; line-height:17px; letter-spacing:2px; text-align:center;}
 #quit_wrap .yes-or-no_area a:active.yes {border:1px solid #0b91d4; background:#0b91d4;}
+#quit_wrap .yes-or-no_area_type2 {position:relative; width:100%; height:78px; background:#fff;}
+#quit_wrap .yes-or-no_area_type2 a.no {position:absolute; display:inline-block; left:0; width:35.7%; margin:18px 0 0 44px; padding:10px 0; border:1px solid #8b8b8b; -webkit-border-radius:4px; -moz-border-radius:4px; -ms-border-radius:4px; -o-border-radius:4px; border-radius:4px; background:#8b8b8b; font-size:17px; color:#fff; line-height:17px; letter-spacing:2px; text-align:center;}
+@media all and (max-width:359px) {
+#quit_wrap .yes-or-no_area_type2 a.no {width:34%;}
+}
+@media all and (min-width:412px) {
+#quit_wrap .yes-or-no_area_type2 a.no {width:37.2%;}
+}
+@media all and (min-width:480px) {
+#quit_wrap .yes-or-no_area_type2 a.no {width:39%;}
+}
+@media all and (min-width:600px) {
+#quit_wrap .yes-or-no_area_type2 a.no {width:41.2%;}
+}
+@media all and (min-width:768px) {
+#quit_wrap .yes-or-no_area_type2 a.no {width:43.1%;}
+}
+@media all and (min-width:1024px) {
+#quit_wrap .yes-or-no_area_type2 a.no {width:44.8%;}
+}
+#quit_wrap .yes-or-no_area_type2 a:active.no {border:1px solid #808080; background:#808080;}
+#quit_wrap .yes-or-no_area_type2 a.yes {position:absolute; display:inline-block; right:0; width:35.7%; margin:18px 44px 0 0; padding:10px 0; border:1px solid #0ca2ed; -webkit-border-radius:4px; -moz-border-radius:4px; -ms-border-radius:4px; -o-border-radius:4px; border-radius:4px; background:#0ca2ed; font-size:17px; color:#fff; line-height:17px; letter-spacing:0; text-align:center;}
+@media all and (max-width:359px) {
+#quit_wrap .yes-or-no_area_type2 a.yes {width:34%;}
+}
+@media all and (min-width:412px) {
+#quit_wrap .yes-or-no_area_type2 a.yes {width:37.2%;}
+}
+@media all and (min-width:480px) {
+#quit_wrap .yes-or-no_area_type2 a.yes {width:39%;}
+}
+@media all and (min-width:600px) {
+#quit_wrap .yes-or-no_area_type2 a.yes {width:41.2%;}
+}
+@media all and (min-width:768px) {
+#quit_wrap .yes-or-no_area_type2 a.yes {width:43.1%;}
+}
+@media all and (min-width:1024px) {
+#quit_wrap .yes-or-no_area_type2 a.yes {width:44.8%;}
+}
+#quit_wrap .yes-or-no_area_type2 a:active.yes {border:1px solid #0b91d4; background:#0b91d4;}
 
 /* 경고 또는 이용정지 통지 */
 #negative-notification_wrap {overflow-y:auto; width:100%; height:100%; background:#fff; -webkit-border-radius:12px; -moz-border-radius:12px; -ms-border-radius:12px; -o-border-radius:12px; border-radius:12px;}
 #negative-notification_wrap .logo-in {position:relative; width:100%; height:103px;}
-#negative-notification_wrap .logo-in .logo {display:inline-block; position:absolute; width:144px; height:57px; margin:23px 0 0 22px; background:url(http://image.club5678.com/imgs/bbjang/img_my/my_logo.png) no-repeat 0 0; background-size:144px 57px;}
+#negative-notification_wrap .logo-in .logo {display:inline-block; position:absolute; width:144px; height:57px; margin:23px 0 0 22px; background:url(http://image.bbjang.com/imgs/bbjang/img_my/my_logo.png) no-repeat 0 0; background-size:144px 57px;}
 #negative-notification_wrap .headmessage-in {position:relative; width:100%; height:auto; padding:34px 0 14px 0;}
 #negative-notification_wrap .headmessage-in .headmessage {font-size:21px; color:#222; line-height:21px; text-align:center;}
 #negative-notification_wrap .headmessage-in .headmessage .strong {color:#f10000;}

@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'SpoqaHanSans-Regular';
+  src: url(file:///android_asset/fonts/bb-Regular.eot);
+  src: url(file:///android_asset/fonts/bb-Regular.eot?#iefix) format('embedded-opentype'),
+       url(file:///android_asset/fonts/bb-Regular.woff) format('woff'),
+       url(file:///android_asset/fonts/bb-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SpoqaHanSans-Bold';
+  src: url(file:///android_asset/fonts/bb-Bold.eot);
+  src: url(file:///android_asset/fonts/bb-Bold.eot?#iefix) format('embedded-opentype'),
+       url(file:///android_asset/fonts/bb-Bold.woff) format('woff'),
+       url(file:///android_asset/fonts/bb-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SpoqaHanSans-Thin';
+  src: url(file:///android_asset/fonts/bb-Thin.eot);
+  src: url(file:///android_asset/fonts/bb-Thin.eot?#iefix) format('embedded-opentype'),
+       url(file:///android_asset/fonts/bb-Thin.woff) format('woff'),
+       url(file:///android_asset/fonts/bb-Thin.ttf) format('truetype');
+}

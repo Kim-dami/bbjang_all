@@ -11,11 +11,11 @@ html {background:#fff;}
 @media all and (min-width:768px) {
 #app-intro {margin-top:-68px;}
 }
-#app-intro .full-image1 {position:absolute; width:100%; height:100%; background:url('http://image.club5678.com/imgs/bbjang/img_intro/intro_full-image1.jpg') no-repeat 0 0; background-size:100% auto;}
-#app-intro .full-image2 {position:absolute; width:100%; height:100%; background:url('http://image.club5678.com/imgs/bbjang/img_intro/intro_full-image2.jpg') no-repeat 0 0; background-size:100% auto;}
-#app-intro .full-image3 {position:absolute; width:100%; height:100%; background:url('http://image.club5678.com/imgs/bbjang/img_intro/intro_full-image3.jpg') no-repeat 0 0; background-size:100% auto;}
-#app-intro .full-image4 {position:absolute; width:100%; height:100%; background:url('http://image.club5678.com/imgs/bbjang/img_intro/intro_full-image4.jpg') no-repeat 0 0; background-size:100% auto;}
-#app-intro .full-image5 {position:absolute; width:100%; height:100%; background:url('http://image.club5678.com/imgs/bbjang/img_intro/intro_full-image5.jpg') no-repeat 0 0; background-size:100% auto;}
+#app-intro .full-image1 {position:absolute; width:100%; height:100%; background:url('http://image.bbjang.com/imgs/bbjang/img_intro/intro_full-image1.jpg') no-repeat 0 0; background-size:100% auto;}
+#app-intro .full-image2 {position:absolute; width:100%; height:100%; background:url('http://image.bbjang.com/imgs/bbjang/img_intro/intro_full-image2.jpg') no-repeat 0 0; background-size:100% auto;}
+#app-intro .full-image3 {position:absolute; width:100%; height:100%; background:url('http://image.bbjang.com/imgs/bbjang/img_intro/intro_full-image3.jpg') no-repeat 0 0; background-size:100% auto;}
+#app-intro .full-image4 {position:absolute; width:100%; height:100%; background:url('http://image.bbjang.com/imgs/bbjang/img_intro/intro_full-image4.jpg') no-repeat 0 0; background-size:100% auto;}
+#app-intro .full-image5 {position:absolute; width:100%; height:100%; background:url('http://image.bbjang.com/imgs/bbjang/img_intro/intro_full-image5.jpg') no-repeat 0 0; background-size:100% auto;}
 @media all and (min-width:768px) {
 #app-intro .full-image1, #app-intro .full-image2, #app-intro .full-image3, #app-intro .full-image4, #app-intro .full-image5 {margin-top:-46px; padding-bottom:46px;}
 }
@@ -29,30 +29,30 @@ html {background:#fff;}
 @media all and (min-width:900px) {
 #movement-bar {height:84px;}
 }
-#movement-bar .btn_1 {position:absolute; top:50%; left:0; width:22%; height:30px; margin:-15px 0 0 10px; border:1px solid #fff; outline:0; background:#2f2f2f url('http://image.club5678.com/imgs/bbjang/img_intro/intro_textimg-in-btn_1.png') no-repeat center; background-size:auto 56%;}
+#movement-bar .btn_1 {position:absolute; top:50%; left:0; width:22%; height:30px; margin:-15px 0 0 10px; border:1px solid #fff; outline:0; background:#2f2f2f url('http://image.bbjang.com/imgs/bbjang/img_intro/intro_textimg-in-btn_1.png') no-repeat center; background-size:auto 56%;}
 @media all and (min-width:600px) {
 #movement-bar .btn_1 {height:44px; margin:-22px 0 0 16px;}
 }
 @media all and (min-width:900px) {
 #movement-bar .btn_1 {height:52px; margin:-26px 0 0 16px;}
 }
-#movement-bar .btn_1:active {background:#141414 url('http://image.club5678.com/imgs/bbjang/img_intro/intro_textimg-in-btn_1.png') no-repeat center; background-size:auto 56%;}
-#movement-bar .btn_2 {position:absolute; top:50%; right:0; width:22%; height:30px; margin:-15px 10px 0 0; border:1px solid #fff; outline:0; background:#2f2f2f url('http://image.club5678.com/imgs/bbjang/img_intro/intro_textimg-in-btn_2.png') no-repeat center; background-size:auto 56%;}
+#movement-bar .btn_1:active {background:#141414 url('http://image.bbjang.com/imgs/bbjang/img_intro/intro_textimg-in-btn_1.png') no-repeat center; background-size:auto 56%;}
+#movement-bar .btn_2 {position:absolute; top:50%; right:0; width:22%; height:30px; margin:-15px 10px 0 0; border:1px solid #fff; outline:0; background:#2f2f2f url('http://image.bbjang.com/imgs/bbjang/img_intro/intro_textimg-in-btn_2.png') no-repeat center; background-size:auto 56%;}
 @media all and (min-width:600px) {
 #movement-bar .btn_2 {height:44px; margin:-22px 16px 0 0;}
 }
 @media all and (min-width:900px) {
 #movement-bar .btn_2 {height:52px; margin:-26px 16px 0 0;}
 }
-#movement-bar .btn_2:active {background:#141414 url('http://image.club5678.com/imgs/bbjang/img_intro/intro_textimg-in-btn_2.png') no-repeat center; background-size:auto 56%;}
-#movement-bar .btn_3 {position:absolute; top:50%; right:0; width:22%; height:30px; margin:-15px 10px 0 0; border:1px solid #fff; outline:0; background:#0292c8 url('http://image.club5678.com/imgs/bbjang/img_intro/intro_textimg-in-btn_3.png') no-repeat center; background-size:auto 56%;}
+#movement-bar .btn_2:active {background:#141414 url('http://image.bbjang.com/imgs/bbjang/img_intro/intro_textimg-in-btn_2.png') no-repeat center; background-size:auto 56%;}
+#movement-bar .btn_3 {position:absolute; top:50%; right:0; width:22%; height:30px; margin:-15px 10px 0 0; border:1px solid #fff; outline:0; background:#0292c8 url('http://image.bbjang.com/imgs/bbjang/img_intro/intro_textimg-in-btn_3.png') no-repeat center; background-size:auto 56%;}
 @media all and (min-width:600px) {
 #movement-bar .btn_3 {height:44px; margin:-22px 16px 0 0;}
 }
 @media all and (min-width:900px) {
 #movement-bar .btn_3 {height:52px; margin:-26px 16px 0 0;}
 }
-#movement-bar .btn_3:active {background:#0280ad url('http://image.club5678.com/imgs/bbjang/img_intro/intro_textimg-in-btn_3.png') no-repeat center; background-size:auto 56%;}
+#movement-bar .btn_3:active {background:#0280ad url('http://image.bbjang.com/imgs/bbjang/img_intro/intro_textimg-in-btn_3.png') no-repeat center; background-size:auto 56%;}
 #movement-bar .cue_sliding {display:inline-block; position:absolute; width:46%; height:12px; top:50%; left:50%; margin:-6px 0 0 -23%; color:#fff; text-align:center;}
 #movement-bar .cue_sliding .dot {display:inline-block; width:8px; height:8px; margin:2px 4px 0 4px; border-radius:50%; background:#c8c8c8;}
 #movement-bar .cue_sliding .dot_on {display:inline-block; width:8px; height:8px; margin:2px 4px 0 4px; border-radius:50%; background:#0292c8;}
